@@ -54,14 +54,19 @@ button {
 }
 
 button.option {
-    width: 100%;
-    margin: 0.5rem 0;
-    padding: 0.8rem;
-    border: none;
-    border-radius: 8px;
-    background: #eee;
-    font-size: 1rem;
+  display: block;        /* forza ogni pulsante su linea separata */
+  width: 100%;           /* occupa tutta la larghezza */
+  padding: 1rem;         /* più grande per touch */
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  font-size: 1rem;
+  text-align: left;      /* più leggibile */
+  cursor: pointer;
+  touch-action: manipulation; /* aiuta su iOS */
 }
+
 
 button.option.correct {
     background: #c8e6c9;
@@ -110,3 +115,4 @@ textarea {
     margin-top: 0.5rem;
 
 }
+
