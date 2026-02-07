@@ -42,6 +42,17 @@ button {
     transition: width 0.3s;
 }
 
+#progress-text {
+ position: absolute;      /* sopra la barra */
+  top: 0;
+  right: 5px;
+  height: 100%;
+  line-height: 20px;       /* centra verticalmente */
+  color: #000;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
 button.option {
     width: 100%;
     margin: 0.5rem 0;
@@ -97,4 +108,5 @@ textarea {
     min-height: 80px;
     padding: 0.5rem;
     margin-top: 0.5rem;
+
 }
