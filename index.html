@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="app" class="container">
+    <h1>Quiz</h1>
+
+    <!-- Scelta materia -->
+    <div id="subject-box">
+      <p>Seleziona la materia:</p>
+      <button class="subject-btn" data-file="quiz-calcolatori.json">Calcolatori Elettronici e Sistemi Operativi</button>
+      <button class="subject-btn" data-file="quiz_automatica.json">Fondamenti di Automatica</button>
+      <button class="subject-btn" data-file="quiz_security.json">Security Operation Center Specialist</button>
+    </div>
+
+    <!-- Progress bar e quiz -->
+    <div class="progress-container hidden">
+      <div id="progress-bar"></div>
+    </div>
+
+    <div class="progress-container hidden">
+      <div id="progress-bar"></div>
+      <div id="progress-text" style="text-align:right; font-size:0.9rem; margin-top:0.2rem;"></div>
+    </div>
+
+    <div id="question-box"></div>
+    <div id="answers-box"></div>
+    <div id="feedback"></div>
+
+    <button id="next-btn" class="hidden">Prossima</button>
+    <button id="stop-btn" class="hidden">Ferma Quiz</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
