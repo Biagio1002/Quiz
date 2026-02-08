@@ -42,10 +42,11 @@
       "question": "Quale delle seguenti affermazioni e' vera?",
       "options": [
         "Da punto di vista funzionale, una rete logica è caratterizzata da stati di ingresso e stati interni",
+        "Da punto di vista funzionale, una rete logica è caratterizzata da stati di ingresso, stati di uscita e una legge di evoluzione nel tempo",
         "Da punto di vista funzionale, una rete logica è caratterizzata da stati di ingresso e una legge di evoluzione nel tempo",
         "Da punto di vista funzionale, una rete logica è caratterizzata da stati di interni e stati di uscita"
       ],
-      "answer": null
+      "answer": "Da punto di vista funzionale, una rete logica è caratterizzata da stati di ingresso, stati di uscita e una legge di evoluzione nel tempo"
     },
     {
       "id": 5,
@@ -122,56 +123,17 @@
     {
       "id": 11,
       "type": "multiple",
-      "question": "Quale delle seguenti opzioni non e' una rete combinatoria a un ingresso?",
+      "question": "Cosa significa sintesi in forma SP in forma canonica?",
       "options": [
-        "Porta NAND",
-        "Generatore di costanti",
-        "Elemento neutro",
-        "Inverter"
+        "L'uscita della rete combinatoria è ottenuta come somma di prodotti e ogni prodotto contiene tutti gli ingressi diretti o negati",
+        "L'uscita della rete combinatoria è ottenuta come somma di prodotti e ogni somma contiene tutti gli ingressi diretti o negati",
+        "L'uscita della rete combinatoria è ottenuta come somma di prodotti e ogni somma contiene tutti gli ingressi",
+        "L'uscita della rete combinatoria è ottenuta come somma di prodotti e ogni prodotto contiene tutti gli ingressi"
       ],
-      "answer": "Porta NAND"
+      "answer": "L'uscita della rete combinatoria è ottenuta come somma di prodotti e ogni prodotto contiene tutti gli ingressi diretti o negati"
     },
     {
       "id": 12,
-      "type": "multiple",
-      "question": "L'immagine in figura mostra la sintesi circuitale",
-      "options": [
-        "di un:",
-        "Decoder",
-        "Nessuna delle altre opzioni",
-        "Demultiplexer",
-        "Multiplexer"
-      ],
-      "answer": "Decoder"
-    },
-    {
-      "id": 13,
-      "type": "multiple",
-      "question": "L'immagine in figura mostra la",
-      "options": [
-        "sintesi circuitale di un:",
-        "Decoder",
-        "Demultiplexed",
-        "Nessuna delle altre opzioni",
-        "Multiplexer"
-      ],
-      "answer": "Decoder"
-    },
-    {
-      "id": 14,
-      "type": "multiple",
-      "question": "L'immagine in",
-      "options": [
-        "figura mostra la sintesi circuitale di un:",
-        "Decoder",
-        "Decoder con enabler",
-        "Demultiplexer",
-        "Nessuna delle altre opzioni"
-      ],
-      "answer": "Nessuna delle altre opzioni"
-    },
-    {
-      "id": 15,
       "type": "multiple",
       "question": "Esiste differenza fra mintermini, implicanti e implicanti principali?",
       "options": [
@@ -183,18 +145,19 @@
       "answer": "Si, le differenze sono sostanziali"
     },
     {
-      "id": 16,
+      "id": 13,
       "type": "multiple",
       "question": "A cosa servono le mappe di Karnaugh?",
       "options": [
         "Servono per rappresentare le leggi combinatorie e per la sintesi di reti combinatorie",
         "Servono per rappresentare le leggi combinatorie e solo per la sintesi di reti combinatorie solo a porte AND",
-        "Servono per rappresentare le leggi combinatorie e solo per la sintesi di reti combinatorie solo a porte OR"
+        "Servono per rappresentare le leggi combinatorie e solo per la sintesi di reti combinatorie solo a porte OR",
+        "Non sono presenti nel programma del corso"
       ],
       "answer": "Servono per rappresentare le leggi combinatorie e per la sintesi di reti combinatorie"
     },
     {
-      "id": 17,
+      "id": 14,
       "type": "multiple",
       "question": "E' possible realizzare una porta NOT con le porte universali?",
       "options": [
@@ -206,7 +169,7 @@
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 18,
+      "id": 15,
       "type": "multiple",
       "question": "Perché le porte NAND e NOR sono dette universali?",
       "options": [
@@ -218,7 +181,7 @@
       "answer": "Perché ogni porta logica può essere fatta usando esclusivamente porte NAND (o usando esclusivamente porte NOR)."
     },
     {
-      "id": 19,
+      "id": 16,
       "type": "multiple",
       "question": "Nella sintesi a porte NOR di una rete combinatoria:",
       "options": [
@@ -230,7 +193,7 @@
       "answer": "Si suppone di avere una rete logica combinatoria già sintetizzata come Prodotto di Somme"
     },
     {
-      "id": 20,
+      "id": 17,
       "type": "multiple",
       "question": "Nella sintesi a porte NAND di una rete combinatoria:",
       "options": [
@@ -242,38 +205,31 @@
       "answer": "Si suppone di avere una rete logica combinatoria già sintetizzata come Somma di Prodotti"
     },
     {
-      "id": 21,
+      "id": 18,
       "type": "multiple",
       "question": "Quali sono le differenza fra le reti sequenziali asincrone e le reti combinatorie?",
       "options": [
         "Nessuna delle altre opzioni",
         "Nessuna, entrambe hanno degli elementi di memoria per marcare lo stato interno",
-        "Nessuna, in entrambi lo stato di uscita dipende dallo stato di ingresso"
+        "Nessuna, in entrambi lo stato di uscita dipende dallo stato di ingresso",
+        "Nelle reti sequenziali asincrone estitono elementi di memoria per marcare gli stati interni, nelle reti combinatorie no"
       ],
-      "answer": null
+      "answer": "Nelle reti sequenziali asincrone estitono elementi di memoria per marcare gli stati interni, nelle reti combinatorie no"
     },
     {
-      "id": 22,
+      "id": 19,
       "type": "multiple",
       "question": "Quale è la corretta descrizione a parole del Flip-Flop SR?",
       "options": [
-        "Il FF-SR si comporta nel seguente modo:",
-        "l se la variabile s è alta (vale \\) e la variabile r è bassa (vale 0), l'uscita viene posta al livello basso (reset),",
-        "l se la variabile s è bassa e la variabile r è alta, l'uscita viene posta al livello alto (set);",
-        "Il FF-SR si comporta nel seguente modo:",
-        "l se la variabile s è bassa (vale 0) e la variabile r è bassa (vale 0), l'uscita viene posta al livello alto (set),",
-        "l se la variabile s è bassa e la variabile r è alta, l'uscita viene posta al livello basso (reset);",
-        "Il FF-SR si comporta nel seguente modo:",
-        "l se la variabile s è alta (vale 1) e la variabile r è bassa (vale 0), l'uscita viene posta al livello alto (set),",
-        "l se la variabile s è bassa e la variabile r è alta, l'uscita viene posta al livello basso (reset);",
-        "Il FF-SR si comporta nel seguente modo:",
-        "l se la variabile s è alta (vale 1) e la variabile r è alta (vale 1), l'uscita viene posta al livello alto (set),",
-        "l se la variabile s è bassa e la variabile r è alta, l'uscita viene posta al livello basso (reset);"
+        "Il FF-SR si comporta nel seguente modo: l se la variabile s è alta (vale \\) e la variabile r è bassa (vale 0), l'uscita viene posta al livello basso (reset), l se la variabile s è bassa e la variabile r è alta, l'uscita viene posta al livello alto (set); l se entrambi gli ingressi sono bassi, l'uscita mantiene il valore precedente Il comportamento della rete non è definito se entrambi gli ingressi sono alti",
+        "Il FF-SR si comporta nel seguente modo: l se la variabile s è bassa (vale 0) e la variabile r è bassa (vale 0), l'uscita viene posta al livello alto (set), l se la variabile s è bassa e la variabile r è alta, l'uscita viene posta al livello basso (reset); l se entrambi gli ingressi sono bassi, l'uscita mantiene il valore precedente Il comportamento della rete non è definito se entrambi gli ingressi sono alti",
+        "Il FF-SR si comporta nel seguente modo: l se la variabile s è alta (vale 1) e la variabile r è bassa (vale 0), l'uscita viene posta al livello alto (set), l se la variabile s è bassa e la variabile r è alta, l'uscita viene posta al livello basso (reset); l se entrambi gli ingressi sono bassi, l'uscita mantiene il valore precedente Il comportamento della rete non è definito se entrambi gli ingressi sono alti",
+        "Il FF-SR si comporta nel seguente modo: l se la variabile s è alta (vale 1) e la variabile r è alta (vale 1), l'uscita viene posta al livello alto (set), l se la variabile s è bassa e la variabile r è alta, l'uscita viene posta al livello basso (reset); l se entrambi gli ingressi sono bassi, l'uscita mantiene il valore precedente Il comportamento della rete non è definito se entrambi gli ingressi sono alti"
       ],
       "answer": "Il FF-SR si comporta nel seguente modo:"
     },
     {
-      "id": 23,
+      "id": 20,
       "type": "multiple",
       "question": "Una rete sequenziale asincrona viene pilotata in maniera fondamentale se:",
       "options": [
@@ -285,7 +241,7 @@
       "answer": "Se gli stati di ingresso successivi sono adiacenti"
     },
     {
-      "id": 24,
+      "id": 21,
       "type": "multiple",
       "question": "Cosa è una rete sequenziale asincrona?",
       "options": [
@@ -297,98 +253,67 @@
       "answer": "E' una rete sempre in evoluzione il cui stato di uscita dipende dallo stao interno marcato e dallo stato di ingresso"
     },
     {
-      "id": 25,
+      "id": 22,
+      "type": "multiple",
+      "question": "Il modello strutturale per la sintesi di reti sequenziali asincrone prevede:",
+      "options": [
+        "La presenza di: i) una rete combinatoria A per la generazione dello stato interno successivo, ii) una seconda rete combinatoria B per generale lo stato di uscita in base allo stato interno attuale",
+        "La presenza di: i) una rete combinatoria A per la generazione dello stato interno successivo, ii) un meccanismo di retroazione per riportare lo stato interno attuale in ingresso alla rete A, iii) una seconda rete combinatoria B per generale lo stato di uscita in base allo stato interno attuale",
+        "La presenza di: i) una rete combinatoria A per la generazione dello stato interno successivo, ii) un elemento di ritardo, iii) una seconda rete combinatoria B per generale lo stato di uscita in base allo stato interno attuale",
+        "La presenza di: i) una rete combinatoria A per la generazione dello stato interno successivo, ii) un elemento di ritardo, iii) un meccanismo di retroazione per riportare lo stato interno attuale in ingresso alla rete A, iv) una seconda rete combinatoria B per generale lo stato di uscita in base allo stato interno attuale"
+      ],
+      "answer": "La presenza di: i) una rete combinatoria A per la generazione dello stato interno successivo, ii) un elemento di ritardo, iii) un meccanismo di retroazione per riportare lo"
+    },
+    {
+      "id": 23,
+      "type": "multiple",
+      "question": "Quando una tabella di flusso si dice normale?",
+      "options": [
+        "Quando partendo da ogni stato interno al variare dell'ingresso, o si rimante in tale stato, oppure si va a finire in un nuovo stato stabile",
+        "Nessuna delle altre opzioni",
+        "Quando partendo da ogni stato interno stabile, al variare dell'ingresso, o si rimante in tale stato, oppure si va a finire in un nuovo stato",
+        "Quando partendo da ogni stato interno stabile, al variare dell'ingresso, o si rimante in tale stato, oppure si va a finire in un nuovo stato stabile"
+      ],
+      "answer": "Quando partendo da ogni stato interno stabile, al variare dell'ingresso, o si rimante in tale stato, oppure si va a finire in un nuovo stato stabile"
+    },
+    {
+      "id": 24,
       "type": "multiple",
       "question": "Quando una rete sequenziale asincrona è priva di alee essenziali?",
       "options": [
-        "stabile X è lo stesso nel quale si finisce variando un'altra volta lo stesso bit di ingresso",
-        "stabile X è diverso da quello in cui si finisce variando altre due volte lo stesso bit di ingresso",
-        "stabile X è lo stesso nel quale si finisce variando altre due volte lo stesso bit di ingresso",
+        "Si analizza la tabella di flusso che deve essere normale. Se partendo da uno stato stabile e variando di un bit lo stato di ingresso, si finisce in uno stato stabile X, e tale stato stabile X è lo stesso nel quale si finisce variando un'altra volta lo stesso bit di ingresso",
+        "Si analizza la tabella di flusso che deve essere normale. Se partendo da uno stato stabile e variando di un bit lo stato di ingresso, si finisce in uno stato stabile X, e tale stato stabile X è diverso da quello in cui si finisce variando altre due volte lo stesso bit di ingresso",
+        "Si analizza la tabella di flusso che deve essere normale. Se partendo da uno stato stabile e variando di un bit lo stato di ingresso, si finisce in uno stato stabile X, e tale stato stabile X è lo stesso nel quale si finisce variando altre due volte lo stesso bit di ingresso",
         "Nessuna delle altre opzioni"
       ],
-      "answer": null
+      "answer": "Si analizza la tabella di flusso che deve essere normale. Se partendo da uno stato stabile e variando di un bit lo stato di ingresso, si finisce in uno stato stabile X, e tale stato"
     },
     {
-      "id": 26,
+      "id": 25,
       "type": "multiple",
       "question": "Quando si deve utilizzare una stato ponte nella sintesi di reti sequenziali asincrone?",
       "options": [
         "Quando non bastano i bit per le codifiche degli stati interni",
         "Quando ci sono pochi stati interni",
         "Quando esistono delle transizioni fra stati interni identificati le cui codifiche non sono adiacenti",
-        "Nessuna delle altre opzioni"
+        "Nessuna delle altre opzioni 05. Descrivere il modello strutturale con ritardo per la sintesi delle reti sequenziali asincrone (Schema grafico e discussione di ciascun componente) 06. Riportare la sintesi completa di un riconoscitore di sequenza 01, 11, 10"
       ],
       "answer": "Quando esistono delle transizioni fra stati interni identificati le cui codifiche non sono adiacenti"
     },
     {
-      "id": 27,
-      "type": "multiple",
-      "question": "Quanti stati interni si utilizzano nella sintesi di un flip-flop SR commerciale?",
-      "options": [
-        "2",
-        "1",
-        "4",
-        "3"
-      ],
-      "answer": "2"
-    },
-    {
-      "id": 28,
-      "type": "multiple",
-      "question": "Quale è la corretta descrizione a parole del Flip-Flop D-Latch?",
-      "options": [
-        "l Il flip flop D-latch è dotato di due ingressi (p e d) ed una uscita q.",
-        "l Memorizza il valore dello stato di ingresso d (quindi, memorizza un bit) sul fronte in salita di p (trasparenza).",
-        "l Quando p vale 0, invece, è in conservazione, cioè mantiene in uscita (memorizza) l'ultimo valore che d ha assunto.",
-        "l Il flip flop D-latch è dotato di due ingressi (p e d) ed una uscita q.",
-        "l Memorizza il valore dello stato di ingresso d (quindi, memorizza un bit) quando l'ingresso p vale 0 (trasparenza).",
-        "l Quando p vale 1, invece, è in conservazione, cioè mantiene in uscita (memorizza) l'ultimo valore che d ha assunto.",
-        "l Il flip flop D-latch è dotato di due ingressi (p e d) ed una uscita q.",
-        "l Memorizza il valore dello stato di ingresso d (quindi, memorizza un bit) sul fronte in discesa di p (trasparenza).",
-        "l Quando p vale 1, invece, è in conservazione, cioè mantiene in uscita (memorizza) l'ultimo valore che d ha assunto.",
-        "x",
-        "l Il flip flop D-latch è dotato di due ingressi (p e d) ed una uscita q.",
-        "l Memorizza il valore dello stato di ingresso d (quindi, memorizza un bit) quando l'ingresso p vale 1 (trasparenza).",
-        "l Quando p vale 0, invece, è in conservazione, cioè mantiene in uscita (memorizza) l'ultimo valore che d ha assunto."
-      ],
-      "answer": null
-    },
-    {
-      "id": 29,
+      "id": 26,
       "type": "multiple",
       "question": "Si possono eliminare i ritardi di marcatura per gli stati interni nella sintesi a porte NAND di un flip-flop SR commerciale?",
       "options": [
         "Si, perché basta il ritardo introdotto dalle porte NAND",
         "Nessuna delle altre opzioni",
         "Si, perché basta il ritardo introdotto dalle porte NOT",
-        "No, è necessario inserire un livello di logica di ritardo"
+        "No, è necessario inserire un livello di logica di ritardo 04. Sintetizzare un FF-SR considerando il modello strutturale ad elementi di ritardo (considerare la presenza dell'uscita affermata e negata)."
       ],
       "answer": "Si, perché basta il ritardo introdotto dalle porte NAND"
     },
     {
-      "id": 30,
-      "type": "multiple",
-      "question": "Quale è la corretta descrizione a parole del Flip-Flop D-positive edge triggered?",
-      "options": [
-        "Nessuna delle altre opzioni",
-        "l Flip-Flop D-positive edge triggered è dotato di due ingressi (p e d) ed una uscita q.",
-        "l E' sensibile a d soltanto a cavallo del fronte in salita di p, per un tempo breve .",
-        "l L'ingresso d viene campionato sul fronte di salita di p.",
-        "l L'uscita q viene adeguata al valore campionato di d mentre la rete è sensibile al valore di d",
-        "x",
-        "l Flip-Flop D-positive edge triggered è dotato di due ingressi (p e d) ed una uscita q.",
-        "l E' sensibile a d soltanto a cavallo del fronte in salita di p, per un tempo breve .",
-        "l L'ingresso d viene campionato sul fronte di salita di p.",
-        "l L'uscita q viene adeguata al valore campionato di d dopo che la rete ha smesso di essere sensibile al valore di d",
-        "l Flip-Flop D-positive edge triggered è dotato di due ingressi (p e d) ed una uscita q.",
-        "l E' sensibile a d soltanto a cavallo del fronte di cambio di p, per un tempo breve .",
-        "l L'ingresso d viene campionato sul fronte di cambio di p.",
-        "l L'uscita q viene adeguata al valore campionato di d dopo che la rete ha smesso di essere sensibile al valore di d"
-      ],
-      "answer": null
-    },
-    {
-      "id": 31,
+      "id": 27,
       "type": "multiple",
       "question": "Quale è il principale problema legato al fatto che il FF D-latch è trasparente quando l'ingresso p è a 1?",
       "options": [
@@ -400,31 +325,43 @@
       "answer": "Non si può memorizzare in un FF D-Latch niente che sia funzione dell'uscita q"
     },
     {
-      "id": 32,
+      "id": 28,
       "type": "multiple",
       "question": "Quali sono i vantaggi sella sintesi per reti sequenziali asincrone con modello strutturale con Flip-Flop SR?",
       "options": [
         "Permette di utilizzare meno stati di interni per risolvere lo stesso problema",
         "Nessuna delle altre opzioni",
-        "classico con elementi di ritardo",
+        "Potrebbe non essere necessario inserire elementi di ritardo per la propagazione del nuovo stato interno e spesso il costo della sintesi finale risulta inferiore al modello classico con elementi di ritardo",
         "Nessuno, è solo una modalità diversa per marcare gli stati interni"
       ],
-      "answer": null
+      "answer": "Potrebbe non essere necessario inserire elementi di ritardo per la propagazione del nuovo stato interno e spesso il costo della sintesi finale risulta inferiore al modello"
     },
     {
-      "id": 33,
+      "id": 29,
       "type": "multiple",
       "question": "Cosa si intende per modello strutturale con Flip-flop SR per la sintersi di reti sequenziali asincrone?",
       "options": [
         "Si tratta di un modello in cui si utilizzano i flip-flop SR come supporto agli stati di uscita",
         "Si tratta di un modello in cui si utilizzano i flip-flop SR come elemento di ritardo.",
         "Si tratta di un modello in cui si utilizzano i flip-flop SR come supporto agli stati di ingresso",
-        "Nessuna delle altre opzioni"
+        "Nessuna delle altre opzioni 05. Riportare la Sintesi del FF D-latch usando il modello strutturale con FF-SR. 06. Riportare la sintesi del Flip Flop D-positive-edge-triggered (FF-DET) usando il modello strutturale con FF-SR 07. Riportare la sintesi del riconoscitore di sequenza 01 11 10 usando il modello strutturale con FF-SR."
       ],
       "answer": "Si tratta di un modello in cui si utilizzano i flip-flop SR come elemento di ritardo."
     },
     {
-      "id": 34,
+      "id": 30,
+      "type": "multiple",
+      "question": "I piedini di una memoria RAM statica sono:",
+      "options": [
+        "Indirizzi (in ingresso), Dati (bidirezionali), Selezione del Banco (in ingresso), Selezione per la lettura (in ingresso), Selezione per la Scrittura (in ingresso)",
+        "Indirizzi (bidirezionali), Dati (bidirezionali), Selezione del Banco (in ingresso), Selezione per la lettura (in ingresso), Selezione per la Scrittura (in ingresso)",
+        "Indirizzi (in ingresso), Dati (in uscita), Selezione del Banco (in ingresso), Selezione per la lettura (in ingresso), Selezione per la Scrittura (in ingresso)",
+        "Indirizzi (in ingresso), Dati (bidirezionali), Selezione del Banco (in ingresso), Selezione per la lettura (in uscita) Selezione per la Scrittura (in ingresso)"
+      ],
+      "answer": "Indirizzi (in ingresso), Dati (bidirezionali), Selezione del Banco (in ingresso), Selezione per la lettura (in ingresso), Selezione per la Scrittura (in ingresso)"
+    },
+    {
+      "id": 31,
       "type": "multiple",
       "question": "Le memorie RAM statiche sono:",
       "options": [
@@ -436,7 +373,7 @@
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 35,
+      "id": 32,
       "type": "multiple",
       "question": "Le memorie RAM statiche sono:",
       "options": [
@@ -448,7 +385,7 @@
       "answer": "Reti sequenziali sincronizzate"
     },
     {
-      "id": 36,
+      "id": 33,
       "type": "multiple",
       "question": "Le memorie ROM sono:",
       "options": [
@@ -460,7 +397,7 @@
       "answer": "Reti combinatorie"
     },
     {
-      "id": 37,
+      "id": 34,
       "type": "multiple",
       "question": "Le memorie ROM sono:",
       "options": [
@@ -472,137 +409,19 @@
       "answer": "Nessuna delle precedenti"
     },
     {
-      "id": 38,
+      "id": 35,
       "type": "multiple",
-      "question": "Indicare quali sono le corrette regole di pilotaggio dei registri:",
+      "question": "Che cosa è un registro?",
       "options": [
-        "Nessuna delle altre opzioni",
-        "Dato che i registri sono reti sequenziali sincronizzate non esistono regole di pilotaggio",
-        "Stati di ingresso successivi devono essere adiacenti (non possono variare per più di un bit)"
-      ],
-      "answer": null
-    },
-    {
-      "id": 39,
-      "type": "multiple",
-      "question": "Il fatto che due stati di ingresso ai registri, presentati su istanti di clock (fronti di salita) consecutivi, siano identici, adiacenti o non adiacenti non riveste",
-      "options": [
-        "alcuna importanza.",
-        "Nessuna delle altre opzioni",
-        "E' vero solo se il registro è pilotato da una rete combinatoria a regime",
-        "E' falso",
-        "E' sempre vero"
-      ],
-      "answer": "E' sempre vero"
-    },
-    {
-      "id": 40,
-      "type": "multiple",
-      "question": "Indicare quale delle seguenti descrizioni è quella corretta",
-      "options": [
-        "Nessuna delle altre opzioni",
-        "problema, invece, anelli che abbiano registri al loro interno, in quanto questo non crea alcun problema.",
-        "problema, invece, anelli che abbiano registri al loro interno, in quanto questo non crea alcun problema."
-      ],
-      "answer": null
-    },
-    {
-      "id": 41,
-      "type": "multiple",
-      "question": "Le specifiche di un registro contatore debbono quindi includere:",
-      "options": [
-        "La base b in cui il numero verrà espresso e il numero N delle sue cifre",
-        "(numero naturale o numero intero con o senza virgola ).",
-        "Il numero di bit su cui rappresentare il valore che viene incrementato o decrementato"
-      ],
-      "answer": null
-    },
-    {
-      "id": 42,
-      "type": "multiple",
-      "question": "L'immagine mostrata è lo schema",
-      "options": [
-        "circuitale di:",
-        "Un multiplexer",
-        "Un demultiplexer",
-        "Un registro funzionale",
-        "Nessuna delle altre opzioni"
-      ],
-      "answer": "Un registro funzionale"
-    },
-    {
-      "id": 43,
-      "type": "multiple",
-      "question": "Che cosa è un registro contatore?",
-      "options": [
-        "l incrementato (contatore up) o",
-        "l decrementato (contatore down) o",
-        "l incrementato o decrementato in dipendenza del valore di un'opportuna variabile di comando (contatore up/down )",
-        "l incrementato (contatore up) o",
-        "l decrementato (contatore down) o",
-        "l incrementato o decrementato in dipendenza del valore di un'opportuna variabile di comando (contatore up/down )",
-        "viene:",
-        "l incrementato (contatore up) o",
-        "l decrementato (contatore down) o",
-        "l incrementato o decrementato in dipendenza del valore di un'opportuna variabile di comando (contatore up/down )",
-        "Nessuna delle altre opzioni"
-      ],
-      "answer": null
-    },
-    {
-      "id": 44,
-      "type": "multiple",
-      "question": "L'immagine mostrata è lo schema",
-      "options": [
-        "circuitale di:",
-        "Un decoder",
-        "Un demultiplexer",
-        "Nessuna delle altre opzioni",
-        "Un multiplexer"
-      ],
-      "answer": "Nessuna delle altre opzioni"
-    },
-    {
-      "id": 45,
-      "type": "multiple",
-      "question": "L'immagine mostrata è il modello",
-      "options": [
-        "strutturale di:",
-        "Una rete sequenziale asincrona con elementi di ritardo",
-        "Una rete sequenziale sincronizzata di Mealy",
-        "Una rete sequenziale asincrona di Mealy Ritardato",
+        "Una collezione di flip-flop D Latch in cui tutti gli ingressi p sono collegati ad un segnale clock, quindi una rete sequenziale sincronizzata",
+        "Una collezione di flip-flop D Latch, quindi una rete sequenziale asincrona",
+        "Una collezione di flip-flop D positive edge triggered, quindi una rete sequenziale asincrona",
         "Nessuna delle altre opzioni"
       ],
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 46,
-      "type": "multiple",
-      "question": "L'immagine",
-      "options": [
-        "mostrata è il modello strutturale di:",
-        "Nessuna delle altre opzioni",
-        "Una rete sequenziale sincronizzata di Mealy",
-        "Una rete sequenziale asincrona con elementi di ritardo",
-        "Una rete sequenziale asincrona di Moore"
-      ],
-      "answer": "Una rete sequenziale sincronizzata di Mealy"
-    },
-    {
-      "id": 47,
-      "type": "multiple",
-      "question": "L'immagine mostrata è",
-      "options": [
-        "il modello strutturale di:",
-        "Nessuna delle altre opzioni",
-        "Una rete sequenziale sincronizzata di Mealy",
-        "Una rete sequenziale asincrona con elementi di ritardo",
-        "Una rete sequenziale asincrona di Moore"
-      ],
-      "answer": "Nessuna delle altre opzioni"
-    },
-    {
-      "id": 48,
+      "id": 36,
       "type": "multiple",
       "question": "Che tipo di circuito logico è il processore?",
       "options": [
@@ -614,7 +433,7 @@
       "answer": "Una rete sequenziale sincronizzata complessa"
     },
     {
-      "id": 49,
+      "id": 37,
       "type": "multiple",
       "question": "Una rete sequenziale sincronizzata complessa si può scomporre in:",
       "options": [
@@ -626,7 +445,7 @@
       "answer": "Parte Operativa e Parte Controllo"
     },
     {
-      "id": 50,
+      "id": 38,
       "type": "multiple",
       "question": "Nelle reti sequenziali sincronizzate complesse le miscro istruzioni:",
       "options": [
@@ -638,7 +457,7 @@
       "answer": "In un linguaggio di trasferimento fra registri sono assegnamenti a registri operativi"
     },
     {
-      "id": 51,
+      "id": 39,
       "type": "multiple",
       "question": "Nelle reti sequenziali sincronizzate complesse i micro salti:",
       "options": [
@@ -650,19 +469,19 @@
       "answer": "In un linguaggio di trasferimento fra registri sono assegnamenti al registro di stato"
     },
     {
-      "id": 52,
+      "id": 40,
       "type": "multiple",
       "question": "Una rete sequenziale sincronizzata complessa si può scomporre in:",
       "options": [
         "Nessuna delle altre opzioni",
         "Parte Operativa e Parte Esecutiva",
         "Parte Operativa e Parte Istruttiva",
-        "Parte Esecutiva e Parte Controllo"
+        "Parte Esecutiva e Parte Controllo 06. Riportare la descrizione generale con pseudo-linguaggio di trasferimento fra registri di una rete sequenziale sincronizzata complessa 07. Disegnare e discutere la struttura di una rete sequenziale sincronizzata complessa 08. Disegnare lo schema generale del modello di rete sequenziale sincronizzata complessa scomposta in Parte Operativa e Parte Controllo"
       ],
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 53,
+      "id": 41,
       "type": "multiple",
       "question": "Come si possono rappresentare i numeri interi all'interno della ALU?",
       "options": [
@@ -674,7 +493,7 @@
       "answer": "Modulo e segno, Complemento a due"
     },
     {
-      "id": 54,
+      "id": 42,
       "type": "multiple",
       "question": "Identificare l'affermazione corretta relativa al linguaggio Assembly:",
       "options": [
@@ -686,114 +505,103 @@
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 55,
+      "id": 43,
       "type": "multiple",
       "question": "Identificare l'affermazione corretta:",
       "options": [
-        "base 2, o come numeri irrazionali rappresentati in complemento a 2.",
-        "numeri con un numero finito di cifre, che sono appunto razionali).",
-        "base 2, o come numeri interi rappresentati in complemento a 2.",
-        "base 2, o come numeri interi rappresentati in complemento a 2."
+        "La ALU è in grado di eseguire operazioni logiche (AND, OR, NOT, etc.) ed operazioni aritmetiche, interpretando le stringhe di bit che maneggia come numeri reali in base 2, o come numeri irrazionali rappresentati in complemento a 2.",
+        "La ALU esegue operazioni sui numeri reali (o, per essere precisi, su un sottoinsieme di numeri razionali, visto che su un calcolatore si possono rappresentare soltanto numeri con un numero finito di cifre, che sono appunto razionali).",
+        "La FPU è in grado di eseguire operazioni logiche (AND, OR, NOT, etc.) ed operazioni aritmetiche, interpretando le stringhe di bit che maneggia come numeri naturali in base 2, o come numeri interi rappresentati in complemento a 2.",
+        "La ALU è in grado di eseguire operazioni logiche (AND, OR, NOT, etc.) ed operazioni aritmetiche, interpretando le stringhe di bit che maneggia come numeri naturali in base 2, o come numeri interi rappresentati in complemento a 2."
       ],
-      "answer": null
+      "answer": "La ALU è in grado di eseguire operazioni logiche (AND, OR, NOT, etc.) ed operazioni aritmetiche, interpretando le stringhe di bit che maneggia come numeri naturali in"
     },
     {
-      "id": 56,
+      "id": 44,
+      "type": "multiple",
+      "question": "Identificare l'affermazione corretta:",
+      "options": [
+        "Nessuna delle altre opzioni",
+        "Nella programmazione in Assembly, il programmatore deve specificare solo quali sono le istruzioni che devono essere eseguite dalla ALU",
+        "Nella programmazione in Assembly, il programmatore deve specificare quali sono le istruzioni che devono essere eseguite dalla ALU e quali sono quelle che devono essere eseguite dalla FPU",
+        "Nella programmazione in Assembly, il programmatore deve specificare solo quali sono le istruzioni che devono essere eseguite dalla FPU"
+      ],
+      "answer": "Nessuna delle altre opzioni"
+    },
+    {
+      "id": 45,
       "type": "multiple",
       "question": "Perché il linguaggio Assembly è di basso livello?",
       "options": [
         "Perché non ci sono i cicli for e while",
         "Perché le istruzioni scritte vengono direttamente eseguite dal processore",
         "Nessuna delle altre opzioni",
-        "Perché è difficile da utilizzare"
+        "Perché è difficile da utilizzare 06. Discutere vantaggi e svantaggi del linguaggio Assembly 07. Discutere il sottosistema di ingresso e uscita di un calcolatore. Specificare a cosa servono le interfacce. 08. Discutere le differenze fra ALU ed FPU"
       ],
       "answer": "Perché le istruzioni scritte vengono direttamente eseguite dal processore"
     },
     {
-      "id": 57,
-      "type": "multiple",
-      "question": "Il registro EIP (Instruction Pointer register, a volte anche chiamato program counter) contiene:",
-      "options": [
-        "Nessuna delle altre opzioni",
-        "L'indirizzo della locazione dell'istruzione che il processore sta eseguendo",
-        "L'indirizzo della locazione a partire dalla quale sarà prelevata la prossima istruzione da eseguire",
-        "L'indirizzo della locazione dell'istruzione la cui esecuzione si è appena conclusa"
-      ],
-      "answer": "L'indirizzo della locazione a partire dalla quale sarà prelevata la prossima istruzione da eseguire"
-    },
-    {
-      "id": 58,
-      "type": "multiple",
-      "question": "I registri generali di un processore PC sono",
-      "options": [
-        "EAX, EBX, ECX, EDX, EBP, ESI, EDI e ESP ed hanno una capacità di 32 bit.",
-        "EAX, EBX, ECX, EDX, EBP, ESI, EDI e ESP ed hanno una capacità di 8 bit.",
-        "Nessuna delle altre opzioni",
-        "EAX, EBX, ECX, EDX, EBP, ESI, EDI e ESP ed hanno una capacità di 16 bit."
-      ],
-      "answer": "EAX, EBX, ECX, EDX, EBP, ESI, EDI e ESP ed hanno una capacità di 32 bit."
-    },
-    {
-      "id": 59,
+      "id": 46,
       "type": "multiple",
       "question": "Con riferimento all'organizzazione funzionale di un calcolatore basato su architetture Intel x86, indicare l'affermazione corretta:",
       "options": [
-        "di indirizzo più grande che contiene gli 8 bit più significativi",
-        "indirizzo più grande che contiene gli 8 bit meno significativi",
+        "Se una doppia o quadrupla locazione contiene un numero, la locazione di indirizzo più piccolo contiene gli 8 bit meno significativi del numero e così via fino alla locazione di indirizzo più grande che contiene gli 8 bit più significativi",
+        "Se una doppia o quadrupla locazione contiene un numero, la locazione di indirizzo più piccolo contiene gli 8 bit più significativi del numero e così via fino alla locazione di indirizzo più grande che contiene gli 8 bit meno significativi",
         "Nessuna delle altre opzioni",
-        "di indirizzo più piccolo che contiene gli 8 bit più significativi"
+        "Se una doppia o quadrupla locazione contiene un numero, la locazione di indirizzo più grande contiene gli 8 bit meno significativi del numero e così via fino alla locazione di indirizzo più piccolo che contiene gli 8 bit più significativi"
       ],
-      "answer": null
+      "answer": "Se una doppia o quadrupla locazione contiene un numero, la locazione di indirizzo più piccolo contiene gli 8 bit meno significativi del numero e così via fino alla locazione"
     },
     {
-      "id": 60,
+      "id": 47,
       "type": "multiple",
       "question": "Con riferimento all'organizzazione funzionale di un calcolatore basato su architetture Intel x86, indicare l'affermazione corretta:",
       "options": [
-        "o porta",
-        "lo sono",
-        "cui le porte di I/O non lo sono",
-        "Nessuna delle altre opzioni"
-      ],
-      "answer": null
-    },
-    {
-      "id": 61,
-      "type": "multiple",
-      "question": "La seguente istruzione: MOV %EAX, pippo",
-      "options": [
-        "E' scritta in linguaggio assembly",
+        "Se il processore accede ad una locazione doppia o quadrupla, allora esso utilizzerà come indirizzo quello della prima delle locazioni interessate",
         "Nessuna delle altre opzioni",
-        "E' scritta in linguaggio macchina",
-        "E' scritta in linguaggio mnemonico"
+        "Se il processore accede ad una locazione doppia o quadrupla, allora esso utilizzerà come indirizzo quello della prima e dell'ultima delle locazioni interessate, in modo da specificare un intervallo valido",
+        "Se il processore accede ad una locazione doppia o quadrupla, allora esso utilizzerà come indirizzo quello dell'ultima delle locazioni interessate"
       ],
-      "answer": "E' scritta in linguaggio assembly"
+      "answer": "Se il processore accede ad una locazione doppia o quadrupla, allora esso utilizzerà come indirizzo quello della prima delle locazioni interessate"
     },
     {
-      "id": 62,
+      "id": 48,
       "type": "multiple",
-      "question": "La seguente istruzione: MOV %EAX, 0x01F4E39A",
+      "question": "Con riferimento all'organizzazione funzionale di un calcolatore basato su architetture Intel x86, indicare l'affermazione corretta:",
       "options": [
-        "Nessuna delle altre opzioni",
-        "E' scritta in linguaggio macchina",
-        "E' scritta in linguaggio assembly",
-        "E' scritta in linguaggio mnemonico"
+        "Le locazioni di memoria e le porte di I/O sono strutturalmente identiche l'una all'altra, cioè posso scegliere se scrivere o leggere un dato in una qualunque cella di memoria o porta",
+        "Mentre le locazioni di memoria sono strutturalmente identiche l'una all'altra, cioè posso scegliere se mettere un dato in una qualunque cella di memoria, le porte di I/O non lo sono",
+        "Mentre le locazioni di memoria sono strutturalmente identiche l'una all'altra, cioè posso scegliere se mettere un dato in una qualunque cella di memoria, esistono dei casi in cui le porte di I/O non lo sono",
+        "Nessuna delle altre opzioni 06. Disegnare lo schema funzionale di un semplice ma completo calcolatore basato su architettura x86-32."
       ],
-      "answer": "E' scritta in linguaggio mnemonico"
+      "answer": "Mentre le locazioni di memoria sono strutturalmente identiche l'una all'altra, cioè posso scegliere se mettere un dato in una qualunque cella di memoria, le porte di I/O non"
     },
     {
-      "id": 63,
+      "id": 49,
       "type": "multiple",
       "question": "La seguente istruzione in linguaggio mnemonico MOV $0x2000,(%EDI):",
       "options": [
+        "Sposta il contenuto della locazione di memoria con indirizzo 0x2000 nella locazione di memoria puntata dal contenuto di EDI",
         "Sposta il contenuto della locazione di memoria con indirizzo 0x2000 nel registro EDI",
         "Sposta il valore 0x2000 nel registro EDI",
         "Sposta il valore 0x2000 nella locazione di memoria puntata dal contenuto di EDI"
       ],
-      "answer": null
+      "answer": "Sposta il contenuto della locazione di memoria con indirizzo 0x2000 nella locazione di memoria puntata dal contenuto di EDI"
     },
     {
-      "id": 64,
+      "id": 50,
+      "type": "multiple",
+      "question": "Quale delle seguenti affermazioni è vera?",
+      "options": [
+        "Nel linguaggio mnemonico, uno o entrambi gli operandi, possono trovarsi in memoria. In tal caso, per riferirli bisogna specificarne l'indirizzo a 8 bit",
+        "Nel linguaggio mnemonico, uno o entrambi gli operandi, possono trovarsi in memoria. In tal caso, per riferirli bisogna specificarne l'indirizzo a 32 bit",
+        "Nel linguaggio mnemonico, uno degli operandi, sia esso sorgente o destinatario, ma mai entrambi, può trovarsi in memoria. In tal caso, per riferirlo bisogna specificarne l'indirizzo a 32 bit",
+        "Nel linguaggio mnemonico, uno degli operandi, sia esso sorgente o destinatario, ma mai entrambi, può trovarsi in memoria. In tal caso, per riferirlo bisogna specificarne l'indirizzo a 8 bit"
+      ],
+      "answer": "Nel linguaggio mnemonico, uno degli operandi, sia esso sorgente o destinatario, ma mai entrambi, può trovarsi in memoria. In tal caso, per riferirlo bisogna specificarne"
+    },
+    {
+      "id": 51,
       "type": "multiple",
       "question": "La seguente pseudo istruzione in linguaggio mnemonico OPCODE $0x5683A20B,%ECX rappresenta:",
       "options": [
@@ -805,61 +613,43 @@
       "answer": "Un esempio di indirizzamento immediato per l'operando sorgente"
     },
     {
-      "id": 65,
+      "id": 52,
       "type": "multiple",
       "question": "Quali sono i campi di una tipica istruzione in linguaggio mnemonico (quello presentato durante il corso)?",
       "options": [
         "Nessuna delle altre opzioni",
         "OPCODEsize destination, source",
         "OPCODEsize source, destination, address",
-        "OPCODEsize source, destination, value"
+        "OPCODEsize source, destination, value 05. Fornire un esempio di indirizzamento delle porte di I/O."
       ],
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 66,
+      "id": 53,
       "type": "multiple",
       "question": "Con riferimento al linguaggio Assembly, cosa sono le istruzioni di controllo?",
       "options": [
-        "Sono istruzioni che si occupano di:",
-        "l gestione di sotto programmi",
-        "l salti",
+        "Sono istruzioni che si occupano di: l gestione di sotto programmi l salti",
         "Nessuna delle altre opzioni",
-        "Sono istruzioni che si occupano di:",
-        ">> l trasferimento dati",
-        "l operazioni aritmetiche",
-        "l operazioni di traslazione/rotazione",
-        "l operazioni logiche",
-        "Sono istruzioni che si occupano di:",
-        "l gestione di sotto programmi",
-        "l salti",
-        "l trasferimento dati"
+        "Sono istruzioni che si occupano di: >> l trasferimento dati l operazioni aritmetiche l operazioni di traslazione/rotazione l operazioni logiche",
+        "Sono istruzioni che si occupano di: l gestione di sotto programmi l salti l trasferimento dati"
       ],
       "answer": "Sono istruzioni che si occupano di:"
     },
     {
-      "id": 67,
+      "id": 54,
       "type": "multiple",
       "question": "Con riferimento al linguaggio Assembly, cosa sono le istruzioni operative?",
       "options": [
-        "Sono istruzioni che si occupano di:",
-        "l trasferimento dati",
-        "l operazioni aritmetiche",
-        "l operazioni di traslazione/rotazione",
-        "l operazioni logiche",
-        "Sono istruzioni che si occupano di:",
-        ">> l gestione di sotto programmi",
-        "l salti",
+        "Sono istruzioni che si occupano di: l trasferimento dati l operazioni aritmetiche l operazioni di traslazione/rotazione l operazioni logiche",
+        "Sono istruzioni che si occupano di: >> l gestione di sotto programmi l salti",
         "Nessuna delle altre opzioni",
-        "Sono istruzioni che si occupano di:",
-        "l gestione di sotto programmi",
-        "l salti",
-        "l trasferimento dati"
+        "Sono istruzioni che si occupano di: l gestione di sotto programmi l salti l trasferimento dati"
       ],
       "answer": "Sono istruzioni che si occupano di:"
     },
     {
-      "id": 68,
+      "id": 55,
       "type": "multiple",
       "question": "Quali sono i registri utilizzati per la gestione della pila in linguaggio Assembly?",
       "options": [
@@ -871,78 +661,7 @@
       "answer": "I registri ESP ed EBP"
     },
     {
-      "id": 69,
-      "type": "multiple",
-      "question": "Quali delle seguenti affermazioni relative alla gestione della pila in Assembly è vera?",
-      "options": [
-        "l il registro ESP va inizializzato con l'indirizzo della locazione immediatamente successiva a quella di testa;",
-        "come indirizzo per un'operazione di scrittura in memoria;",
-        "memoria e poi incrementando tale indirizzo.",
-        "Nessuna delle altre opzioni",
-        "l il registro ESP va inizializzato con l'indirizzo della locazione immediatamente successiva a quella di fondo;",
-        "come indirizzo per un'operazione di scrittura in memoria;",
-        "memoria e poi decrementando tale indirizzo.",
-        "x",
-        "l il registro ESP va inizializzato con l'indirizzo della locazione immediatamente successiva a quella di fondo;",
-        "come indirizzo per un'operazione di scrittura in memoria;",
-        "memoria e poi incrementando tale indirizzo."
-      ],
-      "answer": null
-    },
-    {
-      "id": 70,
-      "type": "multiple",
-      "question": "L'istruzione",
-      "options": [
-        "l ADD source, destination",
-        "Modifica tutti i flag",
-        "Modifica solo il Carry Flag (CF)",
-        "Modifica solo l'overflow flag (OF)",
-        "Non modifica nessun flag"
-      ],
-      "answer": "Modifica tutti i flag"
-    },
-    {
-      "id": 71,
-      "type": "multiple",
-      "question": "L'istruzione",
-      "options": [
-        "l CMP source, destination",
-        "Non modifica nessun flag",
-        "Modifica solo l'overflow flag (OF)",
-        "Modifica solo il Carry Flag (CF)",
-        "Modifica tutti i flag"
-      ],
-      "answer": "Modifica tutti i flag"
-    },
-    {
-      "id": 72,
-      "type": "multiple",
-      "question": "L'istruzione",
-      "options": [
-        "l SHR destination",
-        "posto a uno",
-        "posto a uno",
-        "posto a zero",
-        "posto a zero"
-      ],
-      "answer": null
-    },
-    {
-      "id": 73,
-      "type": "multiple",
-      "question": "L'istruzione",
-      "options": [
-        "l SAL destination",
-        "posto a zero",
-        "posto a uno",
-        "posto a zero",
-        "posto a uno"
-      ],
-      "answer": null
-    },
-    {
-      "id": 74,
+      "id": 56,
       "type": "multiple",
       "question": "Cosa fa l'istruzione Assembly HLT?",
       "options": [
@@ -954,71 +673,19 @@
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 75,
-      "type": "multiple",
-      "question": "Quale delle seguenti affermazioni è vera?",
-      "options": [
-        "l Le istruzioni con codice operativo CALL salvano nella pila l'indirizzo dell'istruzione di rientro.",
-        "x",
-        "l Le istruzioni con codice operativo CALL salvano nella pila l'indirizzo dell'istruzione di rientro."
-      ],
-      "answer": null
-    },
-    {
-      "id": 76,
-      "type": "multiple",
-      "question": "Con riferimento alle istruzioni di Salto del linguaggio Assembly, indicare quale delle seguenti affermazioni è quella vera (si consideri che la condizione di",
-      "options": [
-        "salto sia verificata):",
-        "Esse non modificano il valore di alcun registro",
-        "Esse aggiornano il valore di ESP",
-        "Nessuna delle altre opzioni",
-        "Esse aggiornano il valore di EIP"
-      ],
-      "answer": "Esse aggiornano il valore di EIP"
-    },
-    {
-      "id": 77,
+      "id": 57,
       "type": "multiple",
       "question": "Con riferimento alle istruzioni di Salto Condizionato del linguaggio Assembly, indicare quale delle seguenti affermazioni è quella vera:",
       "options": [
         "Le condizioni non dipendono dal valore dei flag e i flag vengono modificati",
         "Le condizioni dipendono dal valore dei flag e i flag vengono modificati",
         "Le condizioni non dipendono dal valore dei flag e i flag non vengono modificati",
-        "Le condizioni dipendono dal valore dei flag e i flag non vengono modificati"
+        "Le condizioni dipendono dal valore dei flag e i flag non vengono modificati 01. Dato il programma mostrato in figura, il contenuto (in decimale) del registro CL alla fine dell'esecuzione è: 8 2 x 10 4"
       ],
       "answer": "Le condizioni dipendono dal valore dei flag e i flag non vengono modificati"
     },
     {
-      "id": 78,
-      "type": "multiple",
-      "question": "Dato il programma mostrato in figura, il contenuto (in",
-      "options": [
-        "decimale) del registro CL alla fine dell'esecuzione è:",
-        "8",
-        "2",
-        "10",
-        "4"
-      ],
-      "answer": "10"
-    },
-    {
-      "id": 79,
-      "type": "multiple",
-      "question": "In Assembly GAS le seguenti stringe:",
-      "options": [
-        "l .GLOBAL _main;",
-        "l .data;",
-        "l .text sono:",
-        "Delle specificazioni",
-        "Delle istruzioni",
-        "Nessuna delle altre opzioni",
-        "Delle indicazioni"
-      ],
-      "answer": "Nessuna delle altre opzioni"
-    },
-    {
-      "id": 80,
+      "id": 58,
       "type": "multiple",
       "question": "In assembly GAS le righe di un programma sono:",
       "options": [
@@ -1030,123 +697,7 @@
       "answer": "Direttive ed istruzioni"
     },
     {
-      "id": 81,
-      "type": "multiple",
-      "question": "Il programma mostrato in figura:",
-      "options": [
-        "Conta il numero di occorrenze a zero in una doppia parola",
-        "Conta il numero di occorrenze a uno in una parola",
-        "Conta il numero di occorrenze a zero in una parola",
-        "Conta il numero di occorrenze a uno in una doppia parola"
-      ],
-      "answer": "Conta il numero di occorrenze a uno in una doppia parola"
-    },
-    {
-      "id": 82,
-      "type": "multiple",
-      "question": "Dato il programma mostrato in figura, il contenuto (in decimale) del registro CL alla fine",
-      "options": [
-        "dell'esecuzione è:",
-        "Nessuna delle altre opzioni",
-        "7",
-        "9",
-        "8"
-      ],
-      "answer": "7"
-    },
-    {
-      "id": 83,
-      "type": "multiple",
-      "question": "Dato il programma mostrato in figura, il contenuto (in decimale) del registro CL alla fine",
-      "options": [
-        "dell'esecuzione è:",
-        "9",
-        "7",
-        "Nessuna delle altre opzioni",
-        "8"
-      ],
-      "answer": "7"
-    },
-    {
-      "id": 84,
-      "type": "multiple",
-      "question": "Il programma mostrato in",
-      "options": [
-        "figura:",
-        "Conta il numero di occorrenze della lettera e come iniziale",
-        "Nessuna delle altre opzioni",
-        "Conta il numero di occorrenze delle lettere che non sono la e",
-        "Conta il numero di occorrenze della lettera è"
-      ],
-      "answer": "Nessuna delle altre opzioni"
-    },
-    {
-      "id": 85,
-      "type": "multiple",
-      "question": "Il programma mostrato in",
-      "options": [
-        "figura:",
-        "Conta il numero di occorrenze della lettera e",
-        "Conta il numero di occorrenze della lettera e come iniziale",
-        "Conta il numero di occorrenze delle lettere che non sono la e",
-        "Nessuna delle altre opzioni"
-      ],
-      "answer": "Conta il numero di occorrenze della lettera e"
-    },
-    {
-      "id": 86,
-      "type": "multiple",
-      "question": "Dato il programma",
-      "options": [
-        "mostrato in figura, il contenuto (in decimale) della variabile risultato alla fine dell'esecuzione è:",
-        "27",
-        "362880",
-        "81",
-        "54231231"
-      ],
-      "answer": "362880"
-    },
-    {
-      "id": 87,
-      "type": "multiple",
-      "question": "Dato il programma",
-      "options": [
-        "mostrato in figura, il contenuto (in decimale) della variabile risultato alla fine dell'esecuzione è:",
-        "25",
-        "1000",
-        "120",
-        "125"
-      ],
-      "answer": "120"
-    },
-    {
-      "id": 88,
-      "type": "multiple",
-      "question": "Dato il programma mostrato in figura, il",
-      "options": [
-        "contenuto (in decimale) della variabile risultato alla fine dell'esecuzione è:",
-        "2",
-        "4",
-        "1",
-        "0"
-      ],
-      "answer": "1"
-    },
-    {
-      "id": 89,
-      "type": "multiple",
-      "question": "Dato il programma mostrato in figura, il contenuto (in",
-      "options": [
-        "decimale) della variabile risultato alla fine dell'esecuzione è:",
-        "0",
-        "1",
-        "4",
-        "2"
-      ],
-      "answer": "0"
-    },
-    {
-      "id": 90,
+      "id": 59,
       "type": "multiple",
       "question": "Con riferimento al linguaggio Assembly GAS, quali delle seguenti affermazioni è falsa?",
       "options": [
@@ -1158,19 +709,19 @@
       "answer": "La memoria non è accessibile da qualunque sottoprogramma, in qualunque punto."
     },
     {
-      "id": 91,
+      "id": 60,
       "type": "multiple",
       "question": "Il programmatore che utilizza Assembly GAS, per gestire l'I/O:",
       "options": [
         "Può usare nel programma Assembly direttamente le funzioni di I/O del C/C++",
         "Deve utilizzare dei sottoprogrammi di utilità",
         "Può utilizzare le istruzioni IN e OUT",
-        "Non può fare niente"
+        "Non può fare niente 02. Scrivere un programma che accetta in ingresso una stringa di caratteri esclusivamente minuscoli terminata da ritorno carrello e li stampa in maiuscolo a video"
       ],
       "answer": "Deve utilizzare dei sottoprogrammi di utilità"
     },
     {
-      "id": 92,
+      "id": 61,
       "type": "multiple",
       "question": "I pedini di comando di un semplice processore (/MRD, /MWR, /IOR,/IOWR) sono:",
       "options": [
@@ -1182,7 +733,7 @@
       "answer": "In uscita dal processore"
     },
     {
-      "id": 93,
+      "id": 62,
       "type": "multiple",
       "question": "Il piedino di reset di un semplice processore:",
       "options": [
@@ -1194,7 +745,7 @@
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 94,
+      "id": 63,
       "type": "multiple",
       "question": "I piedini per il trasferimento dati di un semplice processore sono:",
       "options": [
@@ -1206,7 +757,7 @@
       "answer": "Bidirezionali"
     },
     {
-      "id": 95,
+      "id": 64,
       "type": "multiple",
       "question": "I piedini di indirizzo di un semplice processore sono:",
       "options": [
@@ -1218,19 +769,31 @@
       "answer": "In uscita dal processore"
     },
     {
-      "id": 96,
+      "id": 65,
       "type": "multiple",
       "question": "I piedini dei blocchi funzionali che costituiscono un calcolatore elettronico servono per:",
       "options": [
         "Per comunicare con il mondo esterno",
         "Per alimentare i blocchi",
         "Comandare il calcolatore",
-        "Nessuna delle altre opzioni"
+        "Nessuna delle altre opzioni 06. Disegnare e discutere il diagramma temporale di un ciclo di scrittura in memoria (oppure in I/O) di un semplice processore a 8 bit. 07. Disegnare e discutere il diagramma temporale di un ciclo di lettura in memoria (oppure in I/O) di un semplice processore a 8 bit."
       ],
       "answer": "Per comunicare con il mondo esterno"
     },
     {
-      "id": 97,
+      "id": 66,
+      "type": "multiple",
+      "question": "Si consideri un semplice processore a 8 bit, spazio di memoria da 1GB e spazio di I/O da 64 KB. Indicare la descrizione corretta:",
+      "options": [
+        "Esso utilizza 8 piedini per i dati, 30 piedini per gli indirizzi di cui i 16 meno significativi si utilizzano quando viene indirizzato lo spazio di I/O",
+        "Esso utilizza 8 piedini per i dati, 32 piedini per gli indirizzi e 16 piedini per lo spazio di I/O",
+        "Esso utilizza 8 piedini di indirizzo e 32 piedini per i dati",
+        "Esso utilizza 8 piedini per i dati, 32 piedini per gli indirizzi di cui i 16 meno significativi si utilizzano quando viene indirizzato lo spazio di I/O"
+      ],
+      "answer": "Esso utilizza 8 piedini per i dati, 32 piedini per gli indirizzi di cui i 16 meno significativi si utilizzano quando viene indirizzato lo spazio di I/O"
+    },
+    {
+      "id": 67,
       "type": "multiple",
       "question": "Con riferimento ad una semplice architettura di calcolatore, Indicare quale delle seguenti affermazioni è quella corretta:",
       "options": [
@@ -1242,7 +805,7 @@
       "answer": "Il bus di comunicazione è costituito dai fili per la trasmissione degli indirizzi e lo scambio dei dati"
     },
     {
-      "id": 98,
+      "id": 68,
       "type": "multiple",
       "question": "Il processore PC è a 32 bit in quanto:",
       "options": [
@@ -1254,7 +817,19 @@
       "answer": "E' in grado di trasferire, in un unico ciclo di bus, fino a 4 byte"
     },
     {
-      "id": 99,
+      "id": 69,
+      "type": "multiple",
+      "question": "In un calcolatore basato su processore PC a 32 bit:",
+      "options": [
+        "Il processore comanda i piedini /re e ready per l'inizio e la fine del ciclo di bus",
+        "Il piedino /re è comandato dal processore per cominciare un ciclo di bus. Il piedino ready viene comandato dall'esterno per notificare che il ciclo di bus si può concludere",
+        "Il piedino ready è comandato dal processore per cominciare un ciclo di bus. Il piedino /re viene comandato dall'esterno per notificare che il ciclo di bus si può concludere",
+        "Nessuna delle altre opzioni"
+      ],
+      "answer": "Il piedino /re è comandato dal processore per cominciare un ciclo di bus. Il piedino ready viene comandato dall'esterno per notificare che il ciclo di bus si può concludere"
+    },
+    {
+      "id": 70,
       "type": "multiple",
       "question": "Nel Processore PC a 32 bit, i piedini byte enable (/BE3-/BE0) servono per:",
       "options": [
@@ -1266,117 +841,55 @@
       "answer": "Selezionare i byte da trasferire nella linea indirizzata"
     },
     {
-      "id": 100,
+      "id": 71,
       "type": "multiple",
-      "question": "In un calcolatore con spazio di memoria di 4 GB organizzato in linee, il numero di piedini di indirizzo è pari a:",
+      "question": "Il processore PC è costituito dalla seguenti unità fondamentali:",
       "options": [
-        "30",
-        "32",
-        "31",
-        "29"
-      ],
-      "answer": "32"
-    },
-    {
-      "id": 101,
-      "type": "multiple",
-      "question": "Si consideri l'immagine in",
-      "options": [
-        "figura:",
-        "Mostra il montaggio di una RAM da 1 GB organizzata per linee",
-        "Mostra il montaggio di una RAM da 1 MB organizzata per linee",
-        "Mostra il montaggio di una RAM da 1 MB organizzata per colonne",
-        "Mostra il montaggio di una RAM da 1 GB organizzata per colonne"
-      ],
-      "answer": "Mostra il montaggio di una RAM da 1 MB organizzata per linee"
-    },
-    {
-      "id": 102,
-      "type": "multiple",
-      "question": "Si consideri l'immagine in",
-      "options": [
-        "figura:",
+        "Local Bus Unit (LU), Control Bus Unit (CU), Arithmetic and Logic Unit (ALU), Floating point Unit (FPU), Memory Management Unit (MMU)",
+        "Local Bus Unit (LU), Control Bus Unit (CU), Prefetch Unit (PU), Arithmetic and Logic Unit (ALU), Floating point Unit (FPU)",
         "Nessuna delle altre opzioni",
-        "Mostra un transceiver utilizzato per il pilotaggio del bus dati",
-        "Mostra un transceiver utilizzato per il pilotaggio del bus indirizzi",
-        "Mostra un latch utilizzato per il pilotaggio del bus indirizzi"
+        "Bus Unit (BU), Prefetch Unit (PU), Arithmetic and Logic Unit (ALU), Floating point Unit (FPU), Memory Management Unit (MMU)"
       ],
-      "answer": "Nessuna delle altre opzioni"
+      "answer": "Bus Unit (BU), Prefetch Unit (PU), Arithmetic and Logic Unit (ALU), Floating point Unit (FPU), Memory Management Unit (MMU)"
     },
     {
-      "id": 103,
+      "id": 72,
       "type": "multiple",
-      "question": "Si",
+      "question": "Il processore PC vede il suo spazio esterno:",
       "options": [
-        "consideri l'immagine in figura:",
-        "Mostra un transceiver utilizzato per il pilotaggio del bus indirizzi",
-        "Mostra un latch utilizzato per il pilotaggio del bus indirizzi",
-        "Mostra un transceiver utilizzato per il pilotaggio del bus dati",
-        "Mostra un latch utilizzato per il pilotaggio del bus dati"
+        "Come un insieme contiguo di linee da 4 byte consecutivi, il primo dei quali ha indirizzo multiplo di 4. Tale indirizzo prende il nome di indirizzo di linea.",
+        "Come un insieme contiguo di linee da 32 byte consecutivi, il primo dei quali ha indirizzo multiplo di 4. Tale indirizzo prende il nome di indirizzo di linea",
+        "Come un insieme contiguo di linee da 4 byte, il primo dei quali ha indirizzo multiplo di 4. Tale indirizzo prende il nome di indirizzo di linea",
+        "Nessuna delle altre opzioni"
       ],
-      "answer": "Mostra un transceiver utilizzato per il pilotaggio del bus dati"
+      "answer": "Come un insieme contiguo di linee da 4 byte consecutivi, il primo dei quali ha indirizzo multiplo di 4. Tale indirizzo prende il nome di indirizzo di linea."
     },
     {
-      "id": 104,
-      "type": "multiple",
-      "question": "Si",
-      "options": [
-        "consideri l'immagine in figura:",
-        "Mostra un transceiver utilizzato per il pilotaggio del bus indirizzi",
-        "Mostra un latch utilizzato per il pilotaggio del bus indirizzi",
-        "Mostra un latch utilizzato per il pilotaggio del bus dati",
-        "Mostra un transceiver utilizzato per il pilotaggio del bus dati"
-      ],
-      "answer": "Mostra un latch utilizzato per il pilotaggio del bus indirizzi"
-    },
-    {
-      "id": 105,
+      "id": 73,
       "type": "multiple",
       "question": "In un calcolatore basato su processore PC a 32 bit in grado di gestire uno spazio di memoria a 32 bit e uno spazio di I/O con interfacce a 32, 16 e 8 bit:",
       "options": [
         "Il bus dati potrebbe essere unico, mentre il bus indirizzi potrebbe essere unico o formato da 3 bus fisicamente distinti",
         "Il bus indirizzi, cosi come il bus dati, deve essere unico",
-        "Nessuna delle altre opzioni"
+        "Nessuna delle altre opzioni",
+        "Il bus indirizzi potrebbe essere unico, mentre il bus dati potrebbe essere unico o formato da 3 bus fisicamente distinti"
       ],
-      "answer": null
+      "answer": "Il bus indirizzi potrebbe essere unico, mentre il bus dati potrebbe essere unico o formato da 3 bus fisicamente distinti"
     },
     {
-      "id": 106,
-      "type": "multiple",
-      "question": "Si consideri l'immagine in figura:",
-      "options": [
-        "Mostra uno spazio esterno visto dal processore organizzato in linee da 2 byte",
-        "Mostra uno spazio esterno visto dal processore organizzato in byte da 2 linee",
-        "Mostra uno spazio esterno visto dal processore organizzato in linee da 4 byte",
-        "Nessuna delle altre opzioni"
-      ],
-      "answer": "Mostra uno spazio esterno visto dal processore organizzato in linee da 2 byte"
-    },
-    {
-      "id": 107,
+      "id": 74,
       "type": "multiple",
       "question": "Come viene distrutto il record di attivazione alla fine dell'istanza di un sottoprogramma?",
       "options": [
-        "pila lo spazio per i parametri attuali",
-        "rimuove dalla pila lo spazio per i parametri attuali",
-        "dinamico, 3) l'indirizzo di ritorno (tramite la RET).",
+        "In contemporanea il chiamato rimuove dalla pila: 1) lo spazio per le variabili locali, 2) il link dinamico, 3) l'indirizzo di ritorno (tramite la RET); il chiamante rimuove dalla pila lo spazio per i parametri attuali",
+        "Comincia il chiamato che rimuove dalla pila: 1) lo spazio per le variabili locali, 2) il link dinamico, 3) l'indirizzo di ritorno (tramite la RET).Successivamente, il chiamante rimuove dalla pila lo spazio per i parametri attuali",
+        "Comincia il chiamante che rimuove dalla pila lo spazio per i parametri attuali. Successivamente, il chiamato rimuove dalla pila: 1) lo spazio per le variabili locali, 2) il link dinamico, 3) l'indirizzo di ritorno (tramite la RET).",
         "Nessuna delle altre opzioni"
       ],
-      "answer": null
+      "answer": "Comincia il chiamato che rimuove dalla pila: 1) lo spazio per le variabili locali, 2) il link dinamico, 3) l'indirizzo di ritorno (tramite la RET).Successivamente, il chiamante"
     },
     {
-      "id": 108,
-      "type": "multiple",
-      "question": "Con riferimento alla programmazine mista, nella formazione del record di attivazione, il sottoprogramma chiamante (il main o un'altra funzione) inserisce",
-      "options": [
-        "nella pila:",
-        "1) I parametri formali (in ordine inverso rispetto a cui essi sono forniti alla funzione), 2)L'indirizzo di chiamata",
-        "1) L'indirizzo dello stack per programma chiamante (link dinamico, opzionale), 2) Lo spazio per le variabili locali"
-      ],
-      "answer": null
-    },
-    {
-      "id": 109,
+      "id": 75,
       "type": "multiple",
       "question": "Il controllore video VGA (Video Graphics Array) è formato da:",
       "options": [
@@ -1388,10 +901,11 @@
       "answer": "Un insieme di registri e da una memoria video che fa direttamente riferimento allo schermo."
     },
     {
-      "id": 110,
+      "id": 76,
       "type": "multiple",
       "question": "Con riferimento ad una semplice interfaccia della tastiera, il make code è:",
       "options": [
+        "Un codice che si genera quando viene premuto un tasto sulla testiera: si genera una sequenza di byte corrispondente al codice di scansione",
         "Un codice che si genera quando viene rilasciato un tasto sulla testiera: è un byte corrispondente al codice di scansione",
         "Nessuna delle altre opzioni",
         "Un codice che si genera quando viene premuto un tasto sulla testiera: è un byte corrispondente al codice di scansione"
@@ -1399,64 +913,115 @@
       "answer": "Un codice che si genera quando viene premuto un tasto sulla testiera: è un byte corrispondente al codice di scansione"
     },
     {
-      "id": 111,
+      "id": 77,
       "type": "multiple",
       "question": "Una semplice interfaccia per la gestione della tastiera ha in genere al suo interno:",
       "options": [
         "Due registri che fungono da: buffer di ingresso/uscita, registro di lettura/scrittura",
         "Quattro registri che fungono da: buffer di ingresso, buffer di uscita, registro di lettura e registro di scrittura",
         "Quattro registri che fungono da: buffer di ingresso, buffer di uscita, registro di stato e registro di comando",
-        "Due registri che fungono da: buffer di ingresso/uscita, registro di stato/comando"
+        "Due registri che fungono da: buffer di ingresso/uscita, registro di stato/comando 05. Discutere la differenza fra modalità testo e modalità grafica nella gestione dello schermo 06. Discutere a parole o con codice o pseudo codice come un programmatore può scrivere una funzione che preleva dati dall'interfaccia collegata alla tastiera"
       ],
       "answer": "Quattro registri che fungono da: buffer di ingresso, buffer di uscita, registro di stato e registro di comando"
     },
     {
-      "id": 112,
+      "id": 78,
       "type": "multiple",
       "question": "Nel contesto del meccanismo delle interruzioni, indicare quale delle seguenti affermazioni è quella vera:",
       "options": [
         "Nessuna delle altre opzioni",
-        "specifica di uno dei 256 tipo",
+        "Le eccezioni del processore hanno tipo esplicito assegnato dalla routine di interruzione che è legato alla causa che determina le interruzioni.",
+        "Per interruzioni esterne mascherabili (arrivano tramite /INTR) il tipo viene prelevato tramite il bus di interruzione. Infatti, ogni richiesta è sempre accompagnata dalla specifica di uno dei 256 tipo",
         "Le interruzioni esterne sono sincrone rispetto al programma in esecuzione."
       ],
-      "answer": null
+      "answer": "Per interruzioni esterne mascherabili (arrivano tramite /INTR) il tipo viene prelevato tramite il bus di interruzione. Infatti, ogni richiesta è sempre accompagnata dalla"
     },
     {
-      "id": 113,
+      "id": 79,
       "type": "multiple",
       "question": "Nel contesto del meccanismo delle interruzioni, indicare quale delle seguente affermazioni è quella vera:",
       "options": [
         "Non possono essere generate a controllo di programma",
         "Non sono mai generate in caso di anomalie circuitali",
+        "Il processore riceve una richiesta tramite un piedino specifico. Tale richiesta viene analizzata: per gestirla il processore interrompe temporaneamente il programma in esecuzione e provvede all'esecuzione di una apposita routine che ha l'obiettivo di gestire la situzione che ha generato la richiesta di interruzione",
         "Le interruzioni servono solo per la gestione del trasferimento dati da e per le interfacce"
       ],
-      "answer": null
+      "answer": "Il processore riceve una richiesta tramite un piedino specifico. Tale richiesta viene analizzata: per gestirla il processore interrompe temporaneamente il programma in"
     },
     {
-      "id": 114,
+      "id": 80,
+      "type": "multiple",
+      "question": "Nel contesto del meccanismo delle interruzioni, indicare quale delle seguente affermazioni è quella vera:",
+      "options": [
+        "Le interruzioni esterne sono asincrone rispetto al programma in esecuzione: esse possono giungere in qualsiasi momento, ma il processore termina la fase di esecuzione dell'istruzione corrente e poi esamina eventuali richieste di interruzione. Questo tipo di interruzione non può interrompere nel bel mezzo l'esecuzione di una istruzione",
+        "Le eccezioni del processore non sospendono mai l'esecuzione dell'istruzione in corso che ha generato l'anomalia",
+        "Le interruzioni prodotte dall'istruzione INT e quelle single step trap sono sincrone: esse producono l'interruzione di nessuna istruzione",
+        "Nessuna delle altre opzioni"
+      ],
+      "answer": "Le interruzioni esterne sono asincrone rispetto al programma in esecuzione: esse possono giungere in qualsiasi momento, ma il processore termina la fase di esecuzione"
+    },
+    {
+      "id": 81,
+      "type": "multiple",
+      "question": "Il gate delle interruzioni:",
+      "options": [
+        "Esso è formato da 8 bit che contengono l'indirizzo della routine di interruzione e un byte di accesso (importanti i bit P e TI)",
+        "Esso è formato da 4 byte che contengono l'indirizzo della routine di interruzione e un byte di accesso (importanti i bit P e TI)",
+        "Nessuna delle altre opzioni",
+        "Esso è formato da 8 byte che contengono l'indirizzo della routine di interruzione e un byte di accesso (importanti i bit P e TI)"
+      ],
+      "answer": "Esso è formato da 8 byte che contengono l'indirizzo della routine di interruzione e un byte di accesso (importanti i bit P e TI)"
+    },
+    {
+      "id": 82,
+      "type": "multiple",
+      "question": "La tabella delle interruzioni:",
+      "options": [
+        "Essa è formato da 8 byte che contengono l'indirizzo della routine di interruzione e un byte di accesso (importanti i bit P e TI)",
+        "Nessuna delle altre opzioni",
+        "Essa è formato da 8 bit che contengono l'indirizzo della routine di interruzione e un byte di accesso (importanti i bit P e TI)",
+        "Essa è formato da 4 byte che contengono l'indirizzo della routine di interruzione e un byte di accesso (importanti i bit P e TI)"
+      ],
+      "answer": "Nessuna delle altre opzioni"
+    },
+    {
+      "id": 83,
       "type": "multiple",
       "question": "Le eccezioni del processore si dividono in:",
       "options": [
         "Eccezioni sincrone ed asincrone",
         "Nessuna delle altre opzioni",
         "Interruzioni mascherabili, non mascherabili e generate dall'istruzione INT",
-        "Trap, fault e abort"
+        "Trap, fault e abort 07. Descrivere la tabella delle interruzioni e la struttura dei gate (o descrittori)."
       ],
       "answer": "Trap, fault e abort"
     },
     {
-      "id": 115,
+      "id": 84,
       "type": "multiple",
       "question": "Con riferimento al controllore APIC per le interruzioni, indicare quale delle seguenti affermazioni è quella vera:",
       "options": [
-        "64 registri nascosti (accessibili tramite porte).",
-        "registri nascosti (accessibili tramite porte).",
-        "bit"
+        "Il controllore riceve le richieste di interruzione tramite il piedino di ingresso /INTR e le invia al processore tramite uno dei 24 piedini di uscita (IR0-IR23)",
+        "Nessuna delle altre opzioni",
+        "Il controllore riceve le richieste di interruzione tramite 24 piedini di ingresso (IR0-IR23). Invia al processore la richiesta effettiva di interruzione tramite il piedino di uscita /INTR",
+        "Il controllore riceve le richieste di interruzione tramite il piedino di ingresso /INTa e le invia al processore tramite uno dei 24 piedini di uscita (IR0-IR23)"
       ],
-      "answer": null
+      "answer": "Il controllore riceve le richieste di interruzione tramite 24 piedini di ingresso (IR0-IR23). Invia al processore la richiesta effettiva di interruzione tramite il piedino di uscita"
     },
     {
-      "id": 116,
+      "id": 85,
+      "type": "multiple",
+      "question": "Con riferimento al controllore APIC per le interruzioni, indicare quale delle seguenti affermazioni è quella vera:",
+      "options": [
+        "Il controllore può essere gestito dal programmatore che lo vede come una interfaccia montata nello spazio di I/O. Ci sono solo 3 registri direttamente accessibili a 32 bit",
+        "Il controllore può essere gestito dal programmatore che lo vede come una interfaccia montata nello spazio di memoria. Ci sono 3 registri direttamente accessibili a 32 bit e 64 registri nascosti (accessibili tramite porte).",
+        "Il controllore può essere gestito dal programmatore che lo vede come una interfaccia montata nello spazio di I/O. Ci sono 3 registri direttamente accessibili a 32 bit e 64 registri nascosti (accessibili tramite porte).",
+        "Il controllore può essere gestito dal programmatore che lo vede come una interfaccia montata nello spazio di memoria. Ci sono solo 3 registri direttamente accessibili a 32 bit"
+      ],
+      "answer": "Il controllore può essere gestito dal programmatore che lo vede come una interfaccia montata nello spazio di memoria. Ci sono 3 registri direttamente accessibili a 32 bit e"
+    },
+    {
+      "id": 86,
       "type": "multiple",
       "question": "Il bus speciale che consente al processore di comunicare con il controllore delle interruzioni APIC è formato da:",
       "options": [
@@ -1468,18 +1033,31 @@
       "answer": "I file collegati ai piedini: 1) /INTR , 2) /INTA 3) TP"
     },
     {
-      "id": 117,
+      "id": 87,
       "type": "multiple",
       "question": "Con riferimento al controllore APIC per le interruzioni, indicare quale delle seguenti affermazioni è quella vera:",
       "options": [
-        "interruzione",
-        "l'interruzione stessa",
-        "Nessuna delle altre opzioni"
+        "Nessuna delle altre opzioni",
+        "Il controllore APIC è collegato al bus locale a 8 bit del processore tramite i classici piedini di indirizzo, dati e di controllo (piedini di ingresso nella parte LOCAL APIC)",
+        "Il controllore APIC è collegato al bus locale a 16 bit del processore tramite i classici piedini di indirizzo, dati e di controllo (piedini di ingresso nella parte LOCAL APIC)",
+        "Il controllore APIC è collegato al bus locale a 32 bit del processore tramite i classici piedini di indirizzo, dati e di controllo (piedini di ingresso nella parte LOCAL APIC) 05. Disegnare lo schema della circuiteria del controllore di interruzione APIC. 06. Elencare i passi che il controllore APIC effettua per la gestione del meccanismo delle interruzioni"
       ],
-      "answer": null
+      "answer": "Il controllore APIC è collegato al bus locale a 32 bit del processore tramite i classici piedini di indirizzo, dati e di controllo (piedini di ingresso nella parte LOCAL APIC)"
     },
     {
-      "id": 118,
+      "id": 88,
+      "type": "multiple",
+      "question": "Con riferimento al controllore APIC per le interruzioni, indicare quale delle seguenti affermazioni è quella vera:",
+      "options": [
+        "La tabella delle interruzioni non ha bisogno di essere inizializzata: essa si modifica e si aggiorna automaticamente mentre vengono inviate e gestite le richieste di interruzione",
+        "Occorre inizializzare la tabella delle interruzioni, cioè scrivere per ogni tipo di interruzione utilizzato un gate di interrupt che contenga l'indirizzo della routine che gestisce l'interruzione stessa",
+        "Occorre inizializzare la tabella delle interruzioni, cioè scrivere per ogni tipo di interruzione utilizzato un gate di interrupt che contenga l'indirizzo della routine che gestisce l'interruzione stessa. Inoltre, essa si modifica e si aggiorna automaticamente mentre vengono inviate e gestite le richieste di interruzione",
+        "Nessuna delle altre opzioni"
+      ],
+      "answer": "Occorre inizializzare la tabella delle interruzioni, cioè scrivere per ogni tipo di interruzione utilizzato un gate di interrupt che contenga l'indirizzo della routine che gestisce"
+    },
+    {
+      "id": 89,
       "type": "multiple",
       "question": "Per cosa sono dedicati, in genere, i piedini IR0 o IR2 del controllore APIC per le interruzioni?",
       "options": [
@@ -1491,35 +1069,31 @@
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 119,
+      "id": 90,
       "type": "multiple",
       "question": "Si consideri una semplice interfaccia gestita tramte il meccanismo delle interruzioni. Essa comunica con il controllore delle interruzioni tramite:",
       "options": [
-        "Nessuna delle altre opzioni",
-        "nuovo byte prelevato dal dispositivo esterno.",
-        "TBR. TBR diviene vuoto quando il suo contenuto viene trasferito al trasduttore associato all'interfaccia.",
-        "nuovo byte prelevato dal dispositivo esterno.",
-        "RBR. RBR diviene vuoto quando il suo contenuto viene trasferito al trasduttore associato all'interfaccia.",
-        "x",
-        "nuovo byte prelevato dal dispositivo esterno.",
+        "Nessuna delle altre opzioni l Il piedino INTO: è collegato a IR4 e invia una richiesta di interruzione quando il buffer di ingresso diviene pieno. Questo accade quando il registro RBR contiene un nuovo byte prelevato dal dispositivo esterno. l Il piedino INTI: è collegato a IR5 invia una richiesta di interruzione quando il buffer di uscita diviene vuoto e un nuovo dato può essere messo all'interno del registro",
+        "TBR. TBR diviene vuoto quando il suo contenuto viene trasferito al trasduttore associato all'interfaccia. l Il piedino INTI: è collegato a IR4 e invia una richiesta di interruzione quando il buffer di ingresso diviene pieno. Questo accade quando il registro TBR contiene un nuovo byte prelevato dal dispositivo esterno. l Il piedino INTO: è collegato a IR5 invia una richiesta di interruzione quando il buffer di uscita diviene vuoto e un nuovo dato può essere messo all'interno del registro",
+        "RBR. RBR diviene vuoto quando il suo contenuto viene trasferito al trasduttore associato all'interfaccia. x l Il piedino INTI: è collegato a IR4 e invia una richiesta di interruzione quando il buffer di ingresso diviene pieno. Questo accade quando il registro RBR contiene un nuovo byte prelevato dal dispositivo esterno. l Il piedino INTO: è collegato a IR5 invia una richiesta di interruzione quando il buffer di uscita diviene vuoto e un nuovo dato può essere messo all'interno del registro",
         "TBR. TBR diviene vuoto quando il suo contenuto viene trasferito al trasduttore associato all'interfaccia."
       ],
       "answer": null
     },
     {
-      "id": 120,
+      "id": 91,
       "type": "multiple",
-      "question": "Una memoria Ram dinamica da 1 Mega bit, quanti piedini di indirizzo ha:",
+      "question": "Con riferimento alla gestione delle interfacce mediante meccanismo delle interruzioni, indicare quale delle seguenti affermazioni è falsa:",
       "options": [
-        "20",
         "Nessuna delle altre opzioni",
-        "30",
-        "10"
+        "Rispetto a quando l'interfaccia viene gestita a controllo di programma (si legge o scrive direttamente nei registri con delle istruzioni Assembly), il meccanismo delle interruzioni comporta dei passi aggiuntivi",
+        "La gestione di una interfaccia ad interruzione di programma comporta una maggiore perdita di tempo per il trasferimento del singolo dato.",
+        "Nella gestione della richiesta di interruzione occorre effettuare accessi aggiuntivi in memoria per salvare il valore dell'EIP corrente e impostare quello dell'EIP del driver 05. Disegnare e discutere lo schema di una interfaccia e dei suoi registri che può essere gestita ad interruzione di programma. 06. Discutere a parole cosa fa il driver che gestisce l'interruzione inviata da una interfaccia. 07. Disegnare lo schema di collegamento, di una interfaccia gestita ad interruzione di programma, al bus e al controllore di interruzione."
       ],
-      "answer": "20"
+      "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 121,
+      "id": 92,
       "type": "multiple",
       "question": "I piedini /CAS e /RAS delle memorie RAM dinamiche servono, rispettivamente, per:",
       "options": [
@@ -1531,7 +1105,7 @@
       "answer": "Specificare che si sta selezionando la colonna o la riga"
     },
     {
-      "id": 122,
+      "id": 93,
       "type": "multiple",
       "question": "Indicare fra le seguenti tipologia di memoria quali sono le più veloci:",
       "options": [
@@ -1543,7 +1117,7 @@
       "answer": "Memorie statiche"
     },
     {
-      "id": 123,
+      "id": 94,
       "type": "multiple",
       "question": "Quali sono i dispositivi di memorizzazione più veloci che si possono trovare in un calcolatore?",
       "options": [
@@ -1555,7 +1129,7 @@
       "answer": "Registri della CPU e code di pre-fetch"
     },
     {
-      "id": 124,
+      "id": 95,
       "type": "multiple",
       "question": "Le memorie di RAM dinamiche sono fatte con:",
       "options": [
@@ -1567,19 +1141,19 @@
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 125,
+      "id": 96,
       "type": "multiple",
       "question": "Il collo di bottiglia nella comunicazione fra CPU e memoria sta:",
       "options": [
         "Nessuna delle altre opzioni",
         "Nella memoria centrale",
         "Nella memoria cache",
-        "Nella comunicazione tramite Bus"
+        "Nella comunicazione tramite Bus 07. Elencare i passi che si effettuano per la scrittura in una memoria DRAM. 08. Disegnare lo schema di una memoria DRAM e discutere i suoi piedini."
       ],
       "answer": "Nella comunicazione tramite Bus"
     },
     {
-      "id": 126,
+      "id": 97,
       "type": "multiple",
       "question": "Le memorie cache sono realizzate con:",
       "options": [
@@ -1591,31 +1165,7 @@
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 127,
-      "type": "multiple",
-      "question": "Nell'organizzazione di una memoria cache, il campo etichetta dell'indizzo serve per:",
-      "options": [
-        "Identificare una locazione nella cache",
-        "identificare una locazione nel blocco dati del gruppo selezionato nella cache",
-        "Identificare un gruppo nella cache",
-        "Nessuna delle altre opzioni"
-      ],
-      "answer": "Nessuna delle altre opzioni"
-    },
-    {
-      "id": 128,
-      "type": "multiple",
-      "question": "Nell'organizzazione di una memoria cache, il campo indice dell'indizzo serve per:",
-      "options": [
-        "Identificare un gruppo nella cache",
-        "identificare una locazione nel blocco dati del gruppo selezionato nella cache",
-        "Identificare una locazione nella cache",
-        "Nessuna delle altre opzioni"
-      ],
-      "answer": "Identificare un gruppo nella cache"
-    },
-    {
-      "id": 129,
+      "id": 98,
       "type": "multiple",
       "question": "Nell'organizzazione di una memoria cache, il campo spiazzamento dell'indizzo serve per:",
       "options": [
@@ -1627,55 +1177,31 @@
       "answer": "identificare una locazione nel blocco dati del gruppo selezionato nella cache"
     },
     {
-      "id": 130,
+      "id": 99,
       "type": "multiple",
       "question": "Indicare quali delle seguenti affermazioni è quella sbagliata:",
       "options": [
-        "compresa la località sequenziale)",
-        "locazione di memoria o il gruppo di locazioni sequenzialmente successive.",
-        "Nessuna delle altre opzioni"
+        "Località spaziale: quando viene riferita una locazione di memoria, è probabile che le locazioni vicine vengano anch'esse riferite (in questo tipo di località può essere compresa la località sequenziale)",
+        "Località Sequenziale: quando viene riferita una locazione di memoria o un blocco di locazioni è molto probabile che negli istanti temporali successivi venga riferita la locazione di memoria o il gruppo di locazioni sequenzialmente successive.",
+        "Nessuna delle altre opzioni",
+        "Località temporale: quando viene riferita una locazione di memoria, è probabile che nel giro di poco tempo venga riferita la stessa locazione."
       ],
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 131,
+      "id": 100,
       "type": "multiple",
       "question": "La località di può classificare in:",
       "options": [
         "Temporale, Intenzionale, Algoritmica",
         "Nessuna delle altre opzioni",
         "Temporale, Spaziale, Intenzionale",
-        "Temporale, Spaziale, Algoritmica"
+        "Temporale, Spaziale, Algoritmica 07. Discutere la differenza fra gestione della scrittura in write through e in write back in una memoria cache."
       ],
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 132,
-      "type": "multiple",
-      "question": "Il controllore della memoria cache è visto da programmatore come:",
-      "options": [
-        "Nessuna delle altre opzioni",
-        "Una periferica",
-        "Una interfaccia nello spazio di I/O",
-        "Una interfaccia nello spazio di memoria"
-      ],
-      "answer": "Una interfaccia nello spazio di memoria"
-    },
-    {
-      "id": 133,
-      "type": "multiple",
-      "question": "L'immagine mostrata in figura",
-      "options": [
-        "rappresenta:",
-        "Una memoria dinamica associativa ad insiemi",
-        "Una memoria cache associativa per parti",
-        "Una memoria dinamica associativa per parti",
-        "Una memoria cache associativa ad insiemi"
-      ],
-      "answer": "Una memoria cache associativa ad insiemi"
-    },
-    {
-      "id": 134,
+      "id": 101,
       "type": "multiple",
       "question": "Nelle memoria associative ad insiemi l'algoritmo di rimpiazzamento più utilizzato è:",
       "options": [
@@ -1687,23 +1213,7 @@
       "answer": "LRU"
     },
     {
-      "id": 135,
-      "type": "multiple",
-      "question": "Il controllore della memoria cache si occupa di:",
-      "options": [
-        "Nessuna delle altre opzioni",
-        "l gestire le operazioni di lettura/scrittura comandate dalla memoria centrale",
-        "l effettuare tutte le operazioni sulla memoria cache e memoria centrale",
-        "l gestire le operazioni di lettura/scrittura comandate dal processore",
-        "l effettuare tutte le operazioni sulla memoria cache",
-        "X",
-        "l gestire le operazioni di lettura/scrittura comandate dal processore",
-        "l effettuare tutte le operazioni sulla memoria cache e memoria centrale"
-      ],
-      "answer": null
-    },
-    {
-      "id": 136,
+      "id": 102,
       "type": "multiple",
       "question": "Con riferimento ad una architettura con bus PCI, specificare quale delle seguenti affermazioni è quella vera:",
       "options": [
@@ -1715,7 +1225,7 @@
       "answer": "Il processore e le periferiche sono collegati sullo stesso bus PCI, la memoria è collegata sul bus locale"
     },
     {
-      "id": 137,
+      "id": 103,
       "type": "multiple",
       "question": "Con riferimento ad una architettura con bus PCI, come si specifica l'indirizzo di un registro nello spazio di configurazione?",
       "options": [
@@ -1727,63 +1237,7 @@
       "answer": "Numero del bus, numero del dispositivo, indirizzo del registro nello spazio privato"
     },
     {
-      "id": 138,
-      "type": "multiple",
-      "question": "Con riferimento ad una architettura con bus PCI, specificare quale delle seguenti affermazioni è quella vera:",
-      "options": [
-        "l Le transazioni sono tutte le operazioni che vengono svolte sul Ponte Ospite-PCI.",
-        "l L'iniziatore è il dispositivo che inizia la transazione sul bus PCI (master del bus).",
-        "l L'obiettivo è il dispositivo che viene indirizzato dalla transazione (slave del bus).",
-        "l In transazioni diverse, un dispositivo può svolgere sia il ruolo di iniziatore sia il ruolo di obiettivo.",
-        "l Un tipico esempio di iniziatore è il ponte Ospite-PCI che si occupa di trasferire dati fra CPU e periferiche.",
-        "Nessuna delle altre opzioni",
-        "x",
-        "l Le transazioni sono tutte le operazioni che vengono svolte sul bus PCI.",
-        "l L'iniziatore è il dispositivo che inizia la transazione sul bus PCI (master del bus).",
-        "l L'obiettivo è il dispositivo che viene indirizzato dalla transazione (slave del bus).",
-        "l In transazioni diverse, un dispositivo può svolgere sia il ruolo di iniziatore sia il ruolo di obiettivo.",
-        "l Un tipico esempio di iniziatore è il ponte Ospite-PCI che si occupa di trasferire dati fra CPU e periferiche.",
-        "l Le transazioni sono tutte le operazioni che vengono svolte sul bus PCI.",
-        "l L'iniziatore è il dispositivo che inizia la transazione sul bus PCI (master del bus).",
-        "l L'obiettivo è il dispositivo che viene indirizzato dalla transazione (slave del bus).",
-        "l Nella stessa transazione, un dispositivo può svolgere sia il ruolo di iniziatore sia il ruolo di obiettivo.",
-        "l Un tipico esempio di iniziatore è il ponte Ospite-PCI che si occupa di trasferire dati fra CPU e periferiche."
-      ],
-      "answer": null
-    },
-    {
-      "id": 139,
-      "type": "multiple",
-      "question": "Le principali linee del bus PCI sono:",
-      "options": [
-        "l trenta linee AD29-AD0 (Address oppure Data), di ingresso/uscita per tutti i dispositivi;",
-        "l una linea /FRAME e una linea /IRDY (Initiator Ready), di uscita per gli iniziatori e di ingresso per gli obiettivi;",
-        "l trentadue linee AD31-AD0 (Address oppure Data), di ingresso/uscita per tutti i dispositivi;",
-        "l una linea /FRAME e una linea /IRDY (Initiator Ready), di uscita per gli iniziatori e di ingresso per gli obiettivi;",
-        "l trentadue linee AD31-AD0 (Address oppure Data), di ingresso/uscita per tutti i dispositivi;",
-        "l una linea /FRAME e una linea /IRDY (Initiator Ready), di uscita per gli iniziatori e di ingresso per gli obiettivi;",
-        "x",
-        "l trentadue linee AD31-AD0 (Address oppure Data), di ingresso/uscita per tutti i dispositivi;",
-        "l una linea /FRAME e una linea /IRDY (Initiator Ready), di uscita per gli iniziatori e di ingresso per gli obiettivi;"
-      ],
-      "answer": null
-    },
-    {
-      "id": 140,
-      "type": "multiple",
-      "question": "Con riferimento ad una architettura con bus PCI, specificare quale delle seguenti affermazioni è quella vera:",
-      "options": [
-        "x",
-        "l Ogni dispositivo montato sul bus PCI può realizzare differenti funzioni.",
-        "l Ogni dispositivo montato sul bus PCI può realizzare una sola funzione.",
-        "l Ogni dispositivo montato sul bus PCI può realizzare differenti funzioni.",
-        "l Tutti i registri di configurazione sono costituiti da uno o più byte",
-        "Nessuna delle altre opzioni"
-      ],
-      "answer": null
-    },
-    {
-      "id": 141,
+      "id": 104,
       "type": "multiple",
       "question": "L'immagine mostrata in figura rappresenta:",
       "options": [
@@ -1795,7 +1249,7 @@
       "answer": "I principali registri obbligatori di una funzione implementata da un dispositivo su bus PCI"
     },
     {
-      "id": 142,
+      "id": 105,
       "type": "multiple",
       "question": "Con riferimento ad una architettura con bus PCI, le transazioni nello spazio di configurazione vengono effettuate:",
       "options": [
@@ -1807,7 +1261,19 @@
       "answer": "Tramite il ponte Ospite-PCI"
     },
     {
-      "id": 143,
+      "id": 106,
+      "type": "multiple",
+      "question": "Con riferimento ad una architettura con bus PCI, specificare quale delle seguenti affermazioni è quella vera:",
+      "options": [
+        "Per la gestione delle transazioni di configurazione, il ponte Ospite-PCI possiede quattro registri da 32 bit posizionati nello spazio di I/O",
+        "Nessuna delle altre opzioni",
+        "Per la gestione delle transazioni di configurazione, il ponte Ospite-PCI possiede sei registri da 32 bit posizionati nello spazio di I/O",
+        "Per la gestione delle transazioni di configurazione, il ponte Ospite-PCI possiede due registri da 32 bit posizionati nello spazio di I/O"
+      ],
+      "answer": "Per la gestione delle transazioni di configurazione, il ponte Ospite-PCI possiede due registri da 32 bit posizionati nello spazio di I/O"
+    },
+    {
+      "id": 107,
       "type": "multiple",
       "question": "Nell'architettura con bus PCI express, quale è il dispositivo che assuma una particolare importanza?",
       "options": [
@@ -1819,30 +1285,7 @@
       "answer": "Lo switch"
     },
     {
-      "id": 144,
-      "type": "multiple",
-      "question": "Con riferimento ad una architettura con bus PCI, quanti piedini per inviare richieste di interruzione ha ciascun dispositivo collegato?",
-      "options": [
-        "4",
-        "Da 1 a 4",
-        "1",
-        "Nessuna delle altre opzioni"
-      ],
-      "answer": "Da 1 a 4"
-    },
-    {
-      "id": 145,
-      "type": "multiple",
-      "question": "Con riferimento ad una architettura con bus PCI, è possibile che più funzioni di uno stesso dispositivo PCI effettuino richieste di interruzione tramite lo",
-      "options": [
-        "stesso piedino?",
-        "Nessuna delle altre opzioni",
-        "A volte"
-      ],
-      "answer": "A volte"
-    },
-    {
-      "id": 146,
+      "id": 108,
       "type": "multiple",
       "question": "Alcune delle motivazioni più importanti che hanno portato all'introduzione del bus PCI express sono:",
       "options": [
@@ -1854,7 +1297,7 @@
       "answer": "Fornisce una banda limitata per alcune categorie di dispositivi e di dispositivi PCI sono pittosto ingombranti."
     },
     {
-      "id": 147,
+      "id": 109,
       "type": "multiple",
       "question": "Nell'architettura con bus PCI express la trasmissione dei dati avviene:",
       "options": [
@@ -1866,7 +1309,7 @@
       "answer": "In maniera seriale"
     },
     {
-      "id": 148,
+      "id": 110,
       "type": "multiple",
       "question": "Che cosa è il bus mastering?",
       "options": [
@@ -1878,7 +1321,7 @@
       "answer": "Un tipico esempio di utilizzo del DMA tramite bus PCI"
     },
     {
-      "id": 149,
+      "id": 111,
       "type": "multiple",
       "question": "Quanti e quali registri utilizza il controllore del DMA in una architettura con solo bus locale?",
       "options": [
@@ -1890,7 +1333,7 @@
       "answer": "MAR, IOAR, TCR e MODER a 32 bit"
     },
     {
-      "id": 150,
+      "id": 112,
       "type": "multiple",
       "question": "Dove viene montato il controllore DMA in una architettura con solo bus locale?",
       "options": [
@@ -1902,66 +1345,19 @@
       "answer": "A monte dei circuiti di pilotaggio del bus locale nello spazio di memoria"
     },
     {
-      "id": 151,
-      "type": "multiple",
-      "question": "I modi previsti per il trasferimento in DMA su bus locale sono:",
-      "options": [
-        "Seriale e parallelo, Singolo e Continuo",
-        "Nessuna delle altre opzioni",
-        "Singolo e Continuo",
-        "Seriale e parallelo"
-      ],
-      "answer": "Singolo e Continuo"
-    },
-    {
-      "id": 152,
-      "type": "multiple",
-      "question": "Dove viene montato il controllore DMA in una architettura con bus PCI",
-      "options": [
-        "A monte dei circuiti di pilotaggio del bus locale nello spazio di I/O",
-        "Nessuna delle altre opzioni",
-        "A monte dei circuiti di pilotaggio del bus locale nello spazio di memoria",
-        "A valle dei circuiti di pilotaggio del bus locale nello spazio di I/O"
-      ],
-      "answer": "Nessuna delle altre opzioni"
-    },
-    {
-      "id": 153,
-      "type": "multiple",
-      "question": "Con riferimento al bus mastering, quali delle seguenti affermazioni è falsa?",
-      "options": [
-        "Nessuna delle altre opzioni",
-        "Un qualsivoglia dispositivo collegato al bus PCI può essere scelto come obiettivo della transazione",
-        "Tutti i dispositivi collegati al bus PCI possono essere iniziatori di transazione"
-      ],
-      "answer": null
-    },
-    {
-      "id": 154,
-      "type": "multiple",
-      "question": "L'immagine mostrata in figura",
-      "options": [
-        "rappresenta:",
-        "L'architettura di un calcolatore con Bus Locale e accesso in DMA",
-        "L'architettura di un calcolatore con Bus PCI",
-        "Nessuna delle altre opzioni",
-        "L'architettura di un calcolatore con Bus PCI e accesso in DMA"
-      ],
-      "answer": "L'architettura di un calcolatore con Bus PCI e accesso in DMA"
-    },
-    {
-      "id": 155,
+      "id": 113,
       "type": "multiple",
       "question": "Cosa succede nel bus mastering in presenza di memoria cache?",
       "options": [
-        "resta sempre disattivo.",
-        "resta sempre attivo",
+        "I piedini /HOLD e /HOLDA, tramite cui viene gestita la richiesta del bus locale, sono collegati direttamente al controllore della cache. Il piedino /HOLD del processore resta sempre disattivo.",
+        "I piedini /HOLD e /HOLDA, tramite cui viene gestita la richiesta del bus locale, sono collegati direttamente al controllore della cache.",
+        "I piedini /HOLD e /HOLDA, tramite cui viene gestita la richiesta del bus locale, sono collegati direttamente al controllore della cache. Il piedino /HOLD del processore resta sempre attivo",
         "Nessuna delle altre opzioni"
       ],
-      "answer": null
+      "answer": "I piedini /HOLD e /HOLDA, tramite cui viene gestita la richiesta del bus locale, sono collegati direttamente al controllore della cache. Il piedino /HOLD del processore"
     },
     {
-      "id": 156,
+      "id": 114,
       "type": "multiple",
       "question": "Per il trasferimento in DMA tramite bus mastering deve essere predisposta in memoria, per ogni funzione interessata:",
       "options": [
@@ -1973,19 +1369,7 @@
       "answer": "Una tabella di descrittori di funzione"
     },
     {
-      "id": 157,
-      "type": "multiple",
-      "question": "Quali sono le fasi di esecuzione delle e-istruzioni del processore PC",
-      "options": [
-        "Prelievo, Decodifica, Lettura degli operandi, Esecuzione vera e propria, Scrittura del Risultato",
-        "Nessuna delle altre opzioni",
-        "Prefetch, Prelievo, Decodifica, Lettura degli operandi, Esecuzione vera e propria",
-        "Prefetch, Prelivevo, Lettura degli operandi, Esecuzione vera e propria, Scrittura del risultato"
-      ],
-      "answer": "Prelievo, Decodifica, Lettura degli operandi, Esecuzione vera e propria, Scrittura del Risultato"
-    },
-    {
-      "id": 158,
+      "id": 115,
       "type": "multiple",
       "question": "Come si classificano le e-istruzioni in cui possono essere scomposte le istruzioni del processore PC?",
       "options": [
@@ -1997,7 +1381,7 @@
       "answer": "Esse si dividono in: operative, di memoria e di salto"
     },
     {
-      "id": 159,
+      "id": 116,
       "type": "multiple",
       "question": "Il risultato finale dell'utilizzo della tecnica del pipeline è:",
       "options": [
@@ -2009,44 +1393,19 @@
       "answer": "L'esecuzione di fasi diverse di istruzioni diverse in parallelo"
     },
     {
-      "id": 160,
+      "id": 117,
       "type": "multiple",
-      "question": "Quale è il formato delle e-istruzioni operative?",
+      "question": "Cosa sono le stazioni di prenotazione?",
       "options": [
-        "op dest, src1, src2",
+        "Nella tecnica di pipeline gestita con esecuzione fuori ordine, rappresentano quelle circuiterie da cui le e-istruzioni vengono prelevate",
+        "Nella tecnica di pipeline gestita con esecuzione fuori ordine, rappresentano quelle circuiterie in cui le e-istruzioni vengono emesse",
         "Nessuna delle altre opzioni",
-        "op src1, src2",
-        "op dest, src1"
+        "Nella tecnica di pipeline gestita con esecuzione fuori ordine, rappresentano quelle circuiterie in cui le e-istruzioni vengono eseguite"
       ],
-      "answer": "op dest, src1, src2"
+      "answer": "Nella tecnica di pipeline gestita con esecuzione fuori ordine, rappresentano quelle circuiterie in cui le e-istruzioni vengono emesse"
     },
     {
-      "id": 161,
-      "type": "multiple",
-      "question": "Con riferimento alla tecnica del pipeline, come si possono risolvere le alee sul controllo?",
-      "options": [
-        "Non esistono questi tipi di alee",
-        "Facendo una previsione sul risultato del controllo della condizione e continuando a prelevare la e-istruzione prevista",
-        "Pilotando il pipeline in maniera fondamentale",
-        "Nessuna delle altre opzioni"
-      ],
-      "answer": "Facendo una previsione sul risultato del controllo della condizione e continuando a prelevare la e-istruzione prevista"
-    },
-    {
-      "id": 162,
-      "type": "multiple",
-      "question": "L'immagine mostrata in figura",
-      "options": [
-        "rappresenta:",
-        "La circuiteria per la gestione della pipeline con esecuzione fuori ordine",
-        "La circuiteria per la gestione della pipeline",
-        "La circuiteria per la gestione della pipeline con esecuzione speculativa",
-        "Nessuna delle altre opzioni"
-      ],
-      "answer": "La circuiteria per la gestione della pipeline con esecuzione fuori ordine"
-    },
-    {
-      "id": 163,
+      "id": 118,
       "type": "multiple",
       "question": "Nella tecnica di esecuzione fuori ordine le dipendenze ci possono essere:",
       "options": [
@@ -2058,7 +1417,31 @@
       "answer": "Sui dati, sui nomi e sul controllo"
     },
     {
-      "id": 164,
+      "id": 119,
+      "type": "multiple",
+      "question": "Nella tecnica di esecuzione fuori ordine:",
+      "options": [
+        "Le e-istruzioni possono sempre essere eseguite in ordine diverso rispetto a quello in cui sono state scritte solo se non ci sono delle incoerenze",
+        "Le e-istruzioni possono sempre essere eseguite in ordine diverso rispetto a quello in cui sono state scritte",
+        "Le e-istruzioni possono sempre essere eseguite in ordine diverso rispetto a quello in cui sono state scritte solo se non ci sono delle dipendenze",
+        "Le e-istruzioni possono sempre essere eseguite in ordine diverso rispetto a quello in cui sono state scritte solo se ci sono le risorse hardware a disposizione"
+      ],
+      "answer": "Le e-istruzioni possono sempre essere eseguite in ordine diverso rispetto a quello in cui sono state scritte solo se non ci sono delle dipendenze"
+    },
+    {
+      "id": 120,
+      "type": "multiple",
+      "question": "Cosa è e dove si usa il buffer di riordino?",
+      "options": [
+        "Si usa nella tecnica di esecuzione speculativa nello stadio di prenotazione. Si tratta di una struttura dati organizzata come una coda che contiene dei descrittori di e-istruzioni.",
+        "Nessuna delle altre opzioni",
+        "Si usa nella tecnica di esecuzione fuori ordine nello stadio di ritiro. Si tratta di una struttura dati organizzata come una coda che contiene dei descrittori di e-istruzioni.",
+        "Si usa nella tecnica di esecuzione speculativa nello stadio di ritiro. Si tratta di una struttura dati organizzata come una coda che contiene dei descrittori di e-istruzioni."
+      ],
+      "answer": "Si usa nella tecnica di esecuzione fuori ordine nello stadio di ritiro. Si tratta di una struttura dati organizzata come una coda che contiene dei descrittori di e-istruzioni."
+    },
+    {
+      "id": 121,
       "type": "multiple",
       "question": "La tecnica dell'esecuzione speculativa, nel pipeline che contempla l'esecuzione fuori ordine:",
       "options": [
@@ -2070,7 +1453,7 @@
       "answer": "Prevede l'eliminazione della dipendenza sui nomi tramite la rinomina dei registri"
     },
     {
-      "id": 165,
+      "id": 122,
       "type": "multiple",
       "question": "La tecnica dell'esecuzione speculativa, nel pipeline che contempla l'esecuzione fuori ordine:",
       "options": [
@@ -2082,41 +1465,43 @@
       "answer": "Prevede l'aggiunta dello stadio di ritiro"
     },
     {
-      "id": 166,
+      "id": 123,
       "type": "multiple",
       "question": "La tecnica dell'esecuzione speculativa, nel pipeline che contempla l'esecuzione fuori ordine:",
       "options": [
         "Consente di eseguire nel pipeline anche e-istruzioni dipendenti da e-istruzioni di salto non ancora risolte",
         "Consente di eseguire nel pipeline anche e-istruzioni non parallelizzabili",
         "Consente di eseguire nel pipeline anche e-istruzioni con un formato non uniforme",
-        "Nessuna delle altre opzioni"
+        "Nessuna delle altre opzioni 05. Discutere quando e come avviene lo svuotamento del ROB. 06. Discutere come avviene l'emissione, il completamento e il ritiro di una e-istruzione di controllo in caso di esecuzione speculativa. 07. Disegnare e discutere la struttura dati (a puntatori) utilizzata per la rinomina dei registri. Fare riferimento alla struttura con corrispondenza speculativa e non speculativa."
       ],
       "answer": "Consente di eseguire nel pipeline anche e-istruzioni dipendenti da e-istruzioni di salto non ancora risolte"
     },
     {
-      "id": 167,
+      "id": 124,
       "type": "multiple",
       "question": "Quali delle seguenti affermazioni è falsa?",
       "options": [
-        "esecuzione",
+        "Nelle GPU le unità di controllo sono più di una ma sono molto semplici. Esse servono a gestire i thread (programmi) paralleli e massimizzare il numero di programmi in esecuzione",
         "Nessuna delle altre opzioni",
-        "esecuzione parallela"
+        "Nelle CPU c'è una sola sofisticata unità di controllo che serve a sfruttare le unità di calcolo per ottimizzare i codici dei programmi sequenziali.",
+        "Nelle GPU Le memorie sono di dimensione ridotta, ma cercano di superare il problema delle latenze di accesso sfruttando il fatto che si utilizzano multi thread in esecuzione parallela"
       ],
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 168,
+      "id": 125,
       "type": "multiple",
       "question": "Possono esistere calcolatori basati solo su GPU?",
       "options": [
         "Nessuna delle altre opzioni",
+        "In alcuni casi particolari si. Si tratta dei casi un cui alcune GPU possono anche organizzare la distribuzione dei task sulle altre GPU.",
         "Si, l'importante che ci siano le unità di calcolo e le GPU lo sono.",
         "No, è sempre necessaria la presenza di una CPU."
       ],
       "answer": "No, è sempre necessaria la presenza di una CPU."
     },
     {
-      "id": 169,
+      "id": 126,
       "type": "multiple",
       "question": "Nelle architetture di calcolo che utilizzano le GPU, come vengono organizzati i thread?",
       "options": [
@@ -2128,19 +1513,19 @@
       "answer": "Sono organizzati gerarchicamente"
     },
     {
-      "id": 170,
+      "id": 127,
       "type": "multiple",
       "question": "Cosa sono i Thread Processing Clusters (TPC) ?",
       "options": [
-        "genere non visibili al programmatore",
-        "grafiche e in genere non visibili al programmatore",
+        "Sono presenti nelle architetture basata su GPU e gruppi di Streaming Multiprocessor che condividono anche altre circuiterie che servono per applicazioni grafiche e in genere non visibili al programmatore",
+        "Sono presenti nelle architetture basata su GPU e gruppi di Streaming Multiprocessor che non condividono anche altre circuiterie fra loro e che servono per applicazioni grafiche e in genere non visibili al programmatore",
         "Sono presenti nelle architetture basata su GPU e sono dei gruppi di processi organizzati gerarchicamente",
         "Sono presenti nelle architetture basata su GPU e sono dei gruppi di thread organizzati gerarchicamente"
       ],
-      "answer": null
+      "answer": "Sono presenti nelle architetture basata su GPU e gruppi di Streaming Multiprocessor che condividono anche altre circuiterie che servono per applicazioni grafiche e in"
     },
     {
-      "id": 171,
+      "id": 128,
       "type": "multiple",
       "question": "Quali tipologie di memorie sono presenti nelle architetture basata su GPU?",
       "options": [
@@ -2152,7 +1537,7 @@
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 172,
+      "id": 129,
       "type": "multiple",
       "question": "In un sistema operativo su sistema multielaborazione:",
       "options": [
@@ -2164,7 +1549,7 @@
       "answer": "Più processi indipendenti possono andare in esecuzione contemporaneamente"
     },
     {
-      "id": 173,
+      "id": 130,
       "type": "multiple",
       "question": "Con riferimento ai sistemi operativi, specificare quale delle seguenti affermazioni è quella falsa:",
       "options": [
@@ -2176,19 +1561,7 @@
       "answer": "Non esistono sistemi operativi per la gestione di sistemi real time"
     },
     {
-      "id": 174,
-      "type": "multiple",
-      "question": "In un sistema operativo multiprogrammato:",
-      "options": [
-        "Più processi indipendenti possono andare in esecuzione contemporaneamente",
-        "Nessuna delle altre opzioni",
-        "Più processi indipendenti possono essere gestiti in contemporaneamente",
-        "Più utenti possono contemporaneamente gestire processi indipendenti"
-      ],
-      "answer": "Più processi indipendenti possono andare in esecuzione contemporaneamente"
-    },
-    {
-      "id": 175,
+      "id": 131,
       "type": "multiple",
       "question": "Con riferimento ai sistemi operativi Batch, specificare quale fra le seguenti affermazioni è quella falsa:",
       "options": [
@@ -2200,7 +1573,7 @@
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 176,
+      "id": 132,
       "type": "multiple",
       "question": "Cosa sono i Mainframe?",
       "options": [
@@ -2212,7 +1585,7 @@
       "answer": "Sono calcolatori elettronici di grosse dimensioni su cui giravano sistemi operativi di tipo batch"
     },
     {
-      "id": 177,
+      "id": 133,
       "type": "multiple",
       "question": "Cosa sono i sistemi operativi interattivi?",
       "options": [
@@ -2224,7 +1597,7 @@
       "answer": "Sono una variante dei sistemi operativi time sharing"
     },
     {
-      "id": 178,
+      "id": 134,
       "type": "multiple",
       "question": "Cosa è lo spooling?",
       "options": [
@@ -2236,30 +1609,7 @@
       "answer": "E' una tecnica che consente l'utilizzo contemporaneo delle risorse"
     },
     {
-      "id": 179,
-      "type": "multiple",
-      "question": "Quali sono i principali vantaggi dei sistemi paralleli?",
-      "options": [
-        "Efficienza, Affidabilità, Velocità",
-        "Nessuna delle altre opzioni",
-        "Efficienza, Velocità, Disponibilità",
-        "Efficienza, Affidabilità, Disponibilità"
-      ],
-      "answer": "Efficienza, Affidabilità, Disponibilità"
-    },
-    {
-      "id": 180,
-      "type": "multiple",
-      "question": "Con riferimento ai sistemi operativi real time, indicare quale fra le seguenti affermazioni è falsa",
-      "options": [
-        "Si possono classificare in soft, medium e hard real time",
-        "Se le elaborazioni non vengono eseguite entro il limite massimo temporale i risultati non sono più attendibili",
-        "Nessuna delle altre opzioni"
-      ],
-      "answer": "Si possono classificare in soft, medium e hard real time"
-    },
-    {
-      "id": 181,
+      "id": 135,
       "type": "multiple",
       "question": "In una smart TV che tipo di sistema operativo gira?",
       "options": [
@@ -2271,19 +1621,19 @@
       "answer": "Un sistema embedded"
     },
     {
-      "id": 182,
+      "id": 136,
       "type": "multiple",
       "question": "I sistemi operativi distribuiti su quali architetture si utilizzano?",
       "options": [
         "Architetture multiprocessore",
         "Cluster",
         "Architetture monoprocessore",
-        "Nessuna delle altre opzioni"
+        "Nessuna delle altre opzioni 05. Discutere le differenze fra le caratteristiche che devono avere i sistemi operativi hard real-time e soft real-time."
       ],
       "answer": "Cluster"
     },
     {
-      "id": 183,
+      "id": 137,
       "type": "multiple",
       "question": "Fra le funzioni visibili all'utente di un sistema operativo quali delle seguenti ne fanno parte?",
       "options": [
@@ -2295,7 +1645,7 @@
       "answer": "Tutte quelle che realizzano il criterio di convenienza"
     },
     {
-      "id": 184,
+      "id": 138,
       "type": "multiple",
       "question": "Fra le funzioni non visibili all'utente di un sistema operativo quali delle seguenti ne fanno parte?",
       "options": [
@@ -2307,7 +1657,7 @@
       "answer": "Tutte quelle che realizzano il criterio di efficienza"
     },
     {
-      "id": 185,
+      "id": 139,
       "type": "multiple",
       "question": "L'allocazione delle risorse da parte del sistema operativo è gestita da funzioni:",
       "options": [
@@ -2319,18 +1669,19 @@
       "answer": "Non visibili all'utente"
     },
     {
-      "id": 186,
+      "id": 140,
       "type": "multiple",
       "question": "Con riferimento alle chiamate di sistema di un sistema operativo, quele fra le seguenti affermazioni è quella falsa?",
       "options": [
+        "Una parte delle funzioni svolte dal sistema operativo possono essere disponibili ai programmi scritti dagli utenti attraverso chiamate di sistema",
         "Non possono essere scritte in linguaggi come l'Assembly e il C/C++",
         "Nessuna delle altre opzioni",
-        "Esse costituiscono l'interfaccia tra un processo e il sistema operativo."
+        "Esse costituiscono l'interfaccia tra un processo e il sistema operativo. 05. Discutere le principali funzioni di un sistema operativo visibili all'utente. 06. Discutere le principali funzioni di un sistema operativo non visibili all'utente."
       ],
       "answer": "Non possono essere scritte in linguaggi come l'Assembly e il C/C++"
     },
     {
-      "id": 187,
+      "id": 141,
       "type": "multiple",
       "question": "La struttura di base di un sistema operativo stratificato è costituita da:",
       "options": [
@@ -2342,7 +1693,7 @@
       "answer": "Livello Driver Dispositivi, Livello Nucleo, Livello dei Sotto Sistemi, Livello API, Livello Applicazione"
     },
     {
-      "id": 188,
+      "id": 142,
       "type": "multiple",
       "question": "La struttura di base di un sistema operativo monolitico è costituita da:",
       "options": [
@@ -2354,7 +1705,7 @@
       "answer": "Programma principale, procedure di servizio, procedure di utilità"
     },
     {
-      "id": 189,
+      "id": 143,
       "type": "multiple",
       "question": "La struttura di base di un sistema operativo stratificato è costituita da:",
       "options": [
@@ -2366,7 +1717,7 @@
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 190,
+      "id": 144,
       "type": "multiple",
       "question": "Le macchine virtuali sono:",
       "options": [
@@ -2378,19 +1729,19 @@
       "answer": "Sistemi strutturati a livelli"
     },
     {
-      "id": 191,
+      "id": 145,
       "type": "multiple",
       "question": "I sistemi cliente-server sono:",
       "options": [
         "Sistemi orientati al kernel distrubuito",
         "Sistemi monilitici",
         "Sistemi orientati al microkernel",
-        "Nessuna delle altre opzioni"
+        "Nessuna delle altre opzioni 06. Illustrare le caratteristiche dei sistemi client-server e disegnare lo schema architetturale."
       ],
       "answer": "Sistemi orientati al microkernel"
     },
     {
-      "id": 192,
+      "id": 146,
       "type": "multiple",
       "question": "Quali sono gli stati in cui si può trovare un processo?",
       "options": [
@@ -2402,7 +1753,7 @@
       "answer": "New, Ready, Running, Waiting, Terminate"
     },
     {
-      "id": 193,
+      "id": 147,
       "type": "multiple",
       "question": "Il passaggio dallo stato ready allo stato running di un processo viene effettuato da:",
       "options": [
@@ -2414,7 +1765,7 @@
       "answer": "Dispatcher"
     },
     {
-      "id": 194,
+      "id": 148,
       "type": "multiple",
       "question": "Quando viene allocata la memoria ad un processo?",
       "options": [
@@ -2426,7 +1777,19 @@
       "answer": "Quando passa nello stato ready"
     },
     {
-      "id": 195,
+      "id": 149,
+      "type": "multiple",
+      "question": "Che cosa è il descrittore di processo?",
+      "options": [
+        "Nessuna delle altre opzioni",
+        "E' un metodo del processo in esecuzione che contiene tutte le informazioni che descrivono l'istanza del processo",
+        "E' una struttura dati gestita a livello di sistema operativo che contiene tutte le informazioni che descrivono l'istanza del processo",
+        "E' una struttura dati del processo in esecuzione che contiene tutte le informazioni che descrivono l'istanza del processo"
+      ],
+      "answer": "E' una struttura dati del processo in esecuzione che contiene tutte le informazioni che descrivono l'istanza del processo"
+    },
+    {
+      "id": 150,
       "type": "multiple",
       "question": "Quale fra i seguenti elementi non fa parte dell'istanza di un processo:",
       "options": [
@@ -2438,7 +1801,7 @@
       "answer": "Il codice sorgente caricato in memoria"
     },
     {
-      "id": 196,
+      "id": 151,
       "type": "multiple",
       "question": "Che cosa è un processo?",
       "options": [
@@ -2450,65 +1813,23 @@
       "answer": "E' un programma in esecuzione in memoria"
     },
     {
-      "id": 197,
-      "type": "multiple",
-      "question": "Quando un processo può passare dallo stato waiting allo stato running?",
-      "options": [
-        "Nessuna delle altre opzioni",
-        "Quando si verifica un particolare evento",
-        "Quando si conclude il completamento di un I/O",
-        "Quando lo decide lo scheduler"
-      ],
-      "answer": "Quando lo decide lo scheduler"
-    },
-    {
-      "id": 198,
-      "type": "multiple",
-      "question": "Quali fra le seguenti attività relative ai processi non viene gestita dal sistema operativo",
-      "options": [
-        "Nessuna delle altre opzioni",
-        "Meccanismi di sincronizzazione ed interruzione",
-        "Scheduling dei processi",
-        "Creazione e cancellazione"
-      ],
-      "answer": "Nessuna delle altre opzioni"
-    },
-    {
-      "id": 199,
+      "id": 152,
       "type": "multiple",
       "question": "Con riferimento allo scheduling dei processi, indicare quale fra le seguenti descrizioni è quella falsa:",
       "options": [
-        "richieste di I/O; processi CPU bound, processi che richiedono maggior tempi di calcolo e fanno poche richieste di I/O",
-        "x",
-        "richieste di I/O; processi CPU bound, processi che richiedono maggior tempi di calcolo e fanno poche richieste di I/O",
-        "richieste di I/O; processi CPU bound, processi che richiedono minori tempi di calcolo e fanno poche richieste di I/O\"",
+        "Ogni processo si può caratterizzare come avente una prevalenza di I/O o una prevalenza di elaborazione. Si distinguono: processi I/O bound, processi che fanno poche richieste di I/O; processi CPU bound, processi che richiedono maggior tempi di calcolo e fanno poche richieste di I/O x",
+        "Ogni processo si può caratterizzare come avente una prevalenza di I/O o una prevalenza di elaborazione. Si distinguono: processi I/O bound, processi che fanno molte richieste di I/O; processi CPU bound, processi che richiedono maggior tempi di calcolo e fanno poche richieste di I/O",
+        "Ogni processo si può caratterizzare come avente una prevalenza di I/O o una prevalenza di elaborazione. Si distinguono: processi I/O bound, processi che fanno molte richieste di I/O; processi CPU bound, processi che richiedono minori tempi di calcolo e fanno poche richieste di I/O\"",
         "Nessuna delle altre opzioni"
       ],
       "answer": null
     },
     {
-      "id": 200,
-      "type": "multiple",
-      "question": "Con riferimento allo scheduling dei processi, indicare quale fra le seguenti descrizioni è quella falsa:",
-      "options": [
-        "x",
-        "prestazioni del sistema.",
-        "scegliere un processo per l'esecuzione.",
-        "Esistono tre tipologie di scheduler: a breve termine, a lungo termine a medio termine",
-        "- Lo scheduler a medio termine non è presente in tutti i sistemi operativi;",
-        "riprendere la loro esecuzione dal punto in cui era stata abbandonata (swap in).",
-        "del sistema.",
-        "processo per l'esecuzione."
-      ],
-      "answer": null
-    },
-    {
-      "id": 201,
+      "id": 153,
       "type": "multiple",
       "question": "Nei sistemi operativi multiprogrammati si hanno le seguenti code dei processi:",
       "options": [
-        "Job queue, running queue, waiting queue",
-        "x",
+        "Job queue, running queue, waiting queue x",
         "Job queue, ready queue, waiting queue",
         "Running queue, waiting queue",
         "Waiting queue, ready queue"
@@ -2516,19 +1837,19 @@
       "answer": null
     },
     {
-      "id": 202,
+      "id": 154,
       "type": "multiple",
       "question": "In generale, nel contesto dei sistemi operativi, quali fra le seguenti code di processi non esiste?",
       "options": [
         "xLa coda dei processi terminati",
         "La coda dei processi in attesa di essere eseguiti",
         "La coda dei processi in attesa che termini una richiesta di I/O",
-        "La coda dei processi in attesa di allocare memoria"
+        "La coda dei processi in attesa di allocare memoria 05. Discutere la differenza fra lo stato ready e waiting"
       ],
       "answer": null
     },
     {
-      "id": 203,
+      "id": 155,
       "type": "multiple",
       "question": "Nel sistema operativo UNIX la terminazione di un processo può avvenire:",
       "options": [
@@ -2540,19 +1861,19 @@
       "answer": "Normalmente, in maniera anomala, per volonta dei un altro processo"
     },
     {
-      "id": 204,
+      "id": 156,
       "type": "multiple",
       "question": "Con riferimento alla creazione dei processi (processo padre che genera un processo figlio), indicare quale delle seguenti descrizioni è quella falsa:",
       "options": [
         "Nel sistema operativo UNIX, si può creare un nuovo processo per mezzo della chiamata di sistema fork( ).",
         "Nessuna delle altre opzioni",
-        "comunicare senza difficoltà.",
-        "proprio PID nel nuovo processo (il figlio) e riporta l'identificatore del processo figlio nel processo genitore."
+        "Il processo figlio generato con la primitiva fork() è composto di una copia dello spazio degli indirizzi del processo genitore. In questa maniera i due processi possono comunicare senza difficoltà.",
+        "Entrambi i processi (genitore e figlio) continuano l'esecuzione all'istruzione successiva alla chiamata di sistema fork( ): la chiamata di sistema fork ( ) riporta il valore del proprio PID nel nuovo processo (il figlio) e riporta l'identificatore del processo figlio nel processo genitore."
       ],
-      "answer": null
+      "answer": "Entrambi i processi (genitore e figlio) continuano l'esecuzione all'istruzione successiva alla chiamata di sistema fork( ): la chiamata di sistema fork ( ) riporta il valore del"
     },
     {
-      "id": 205,
+      "id": 157,
       "type": "multiple",
       "question": "Quale delle seguenti affermazioni sulla funzione fork() e' vera?",
       "options": [
@@ -2564,30 +1885,31 @@
       "answer": "La chiamata restituisce -1 in caso di errore"
     },
     {
-      "id": 206,
+      "id": 158,
       "type": "multiple",
       "question": "Con riferimento alla creazione dei processi (processo padre che genera un processo figlio), indicare quale delle seguenti affermazioni è quella falsa:",
       "options": [
         "Nessuna delle altre opzioni",
-        "programma diverso.",
+        "Spazio di indirizzamento del nuovo processo: se lo spazio di indirizzamento è uguale, allora il figlio è una copia identica del padre; se è diverso il figlio esegue un programma diverso.",
         "Condivisione delle risorse: un figlio ottiene le proprie risorse direttamente ed esclusivamente dal sistema operativo.",
-        "ferma in attesa che i figli terminino la loro esecuzione). L'implementazione dipende dalle scelte del programmatore."
+        "Modello di esecuzione: il processo padre e i processi figlio possono essere eseguiti in modo concorrente ognuno per conto suo, oppure in modo sequenziale (il padre si ferma in attesa che i figli terminino la loro esecuzione). L'implementazione dipende dalle scelte del programmatore."
       ],
       "answer": "Condivisione delle risorse: un figlio ottiene le proprie risorse direttamente ed esclusivamente dal sistema operativo."
     },
     {
-      "id": 207,
+      "id": 159,
       "type": "multiple",
       "question": "In ambiente UNIX cosa è il processo init()?",
       "options": [
         "E' il processo di PID uno che si occupa di organizzare tutti i processi che finiscono la loro esecuzione",
         "Nessuna delle altre opzioni",
-        "E' il processo di PID zero che si occupa di gestire i processi orfani e la loro terminazione"
+        "E' il processo di PID zero che si occupa di gestire i processi orfani e la loro terminazione",
+        "Esso è il padre di tutti i processi, gestisce il lancio di tutti i programmi per rendere attivo il sistema operativo. Il suo PID è sempre uno e gestisce i processi orfani 06. Scrivere un esempio di codice C in cui si crea un processo con la primitiva fork()."
       ],
-      "answer": null
+      "answer": "Esso è il padre di tutti i processi, gestisce il lancio di tutti i programmi per rendere attivo il sistema operativo. Il suo PID è sempre uno e gestisce i processi orfani"
     },
     {
-      "id": 208,
+      "id": 160,
       "type": "multiple",
       "question": "La gestione dei thread a livello kernel prevede la mappatura sul sistema operativo secondo quale modello?",
       "options": [
@@ -2599,7 +1921,7 @@
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 209,
+      "id": 161,
       "type": "multiple",
       "question": "La gestione dei thread a livello utente prevede la mappatura sul sistema operativo secondo quale modello?",
       "options": [
@@ -2611,7 +1933,7 @@
       "answer": "Molti a uno"
     },
     {
-      "id": 210,
+      "id": 162,
       "type": "multiple",
       "question": "Queli fra i seguenti vantaggi non è tipico della programmazione multi-thread?",
       "options": [
@@ -2623,7 +1945,7 @@
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 211,
+      "id": 163,
       "type": "multiple",
       "question": "Cosa condividono i thread di uno stesso processo?",
       "options": [
@@ -2635,19 +1957,31 @@
       "answer": "Codice, dati e file"
     },
     {
-      "id": 212,
+      "id": 164,
       "type": "multiple",
-      "question": "in generale, quale può essere considerato come migliore indice per valutare le prestazioni degli algoritmi di scheduling?",
+      "question": "Che cosa è un thread?",
       "options": [
-        "L'indice di produttività",
-        "Il tempo di utilizzo della CPU, che dovrebbe essere portato al 100%",
-        "Il tempo di completamento",
-        "Il tempo di attesa nella coda dei processi pronti"
+        "Un thread è l'unità di base d'uso della CPU e comprende un identificatore di thread (ID), un contatore di programma e una pila (stack).",
+        "Un thread è l'unità di base d'uso della CPU e comprende un identificatore di thread (ID), un contatore di programma, un insieme di registri, una pila (stack) e il codice oggetto",
+        "Un thread è l'unità di base d'uso della CPU e comprende un identificatore di thread (ID), un contatore di programma, un insieme di registri, e una pila (stack).",
+        "Un thread è l'unità di base d'uso della CPU e comprende un identificatore di thread (ID), un insieme di registri, e una pila (stack)."
       ],
-      "answer": "Il tempo di attesa nella coda dei processi pronti"
+      "answer": "Un thread è l'unità di base d'uso della CPU e comprende un identificatore di thread (ID), un contatore di programma, un insieme di registri, e una pila (stack)."
     },
     {
-      "id": 213,
+      "id": 165,
+      "type": "multiple",
+      "question": "Di cosa si occupa il dispacher?",
+      "options": [
+        "Effettua il cambio di contesto, passa alla modalità utente e salta nella posizione giusta del programma utente per riavviarne l'esecuzione",
+        "Decide quale processo mandare in esecuzione fra quelli nella coda dei processi pronti",
+        "Passa alla modalità sistema, effettua il cambio di contesto e salta nella posizione giusta del programma utente per riavviarne l'esecuzione",
+        "Nessuna delle altre opzioni"
+      ],
+      "answer": "Effettua il cambio di contesto, passa alla modalità utente e salta nella posizione giusta del programma utente per riavviarne l'esecuzione"
+    },
+    {
+      "id": 166,
       "type": "multiple",
       "question": "Cosa si intende per troughput?",
       "options": [
@@ -2659,43 +1993,31 @@
       "answer": "Il numero di processi che completano la loro esecuzione per unità di tempo"
     },
     {
-      "id": 214,
+      "id": 167,
       "type": "multiple",
       "question": "In quali circostanze non parte lo scheduler della CPU?",
       "options": [
         "Quando un processo passa da stato running a stato ready",
         "Quando un processo passa da stato running a stato waiting",
         "Quando un processo passa da stato waiting a stato ready",
-        "Nessuna delle altre opzioni"
+        "Nessuna delle altre opzioni 05. Discutere la differenza fra scheduler e dispacher. 06. Discutere la differenza fra scheduling con e senza prelazione. 07. Elencare e discutere i principali criteri di scheduling."
       ],
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 215,
+      "id": 168,
       "type": "multiple",
       "question": "Con riferimento allo scheduling della CPU, l'algoritmo Round Robin quale politica segue?",
       "options": [
-        "viene assegnata al prossimo processo prelevato dalla testa della coda.",
+        "I processi vengono eseguiti per un intervallo di tempo definito dal sistema. Dopo tale intervallo il processo viene inserito in fondo alla coda dei processi pronti e la CPU viene assegnata al prossimo processo prelevato dalla testa della coda.",
         "Il primo processo ad essere eseguito è quello con minor tempo di esecuzione, cioè quello con CPU burst più breve",
         "Il primo processo che si trova nella coda dei processi pronti da più tempo viene servito",
-        "viene assegnata al prossimo processo prelevato dalla testa della coda."
+        "I processi vengono eseguiti per un intervallo di tempo definito dal sistema. Dopo tale intervallo il processo viene inserito in testa alla coda dei processi pronti e la CPU viene assegnata al prossimo processo prelevato dalla testa della coda."
       ],
-      "answer": null
+      "answer": "I processi vengono eseguiti per un intervallo di tempo definito dal sistema. Dopo tale intervallo il processo viene inserito in fondo alla coda dei processi pronti e la CPU"
     },
     {
-      "id": 216,
-      "type": "multiple",
-      "question": "Cosa significa che l'algoritmo di scheduling della CPU Shortest Job Firs può essere preemptive?",
-      "options": [
-        "inseriti in coda indipendentemente dalla lunghezza del loro CPU burst",
-        "switch tra i due processi",
-        "inseriti in coda in base alla lunghezza del loro CPU burst",
-        "Nessuna delle altre opzioni"
-      ],
-      "answer": null
-    },
-    {
-      "id": 217,
+      "id": 169,
       "type": "multiple",
       "question": "Con riferimento allo scheduling della CPU, l'algoritmo Shortest Job First quale politica segue?",
       "options": [
@@ -2707,7 +2029,7 @@
       "answer": "Il primo processo ad essere eseguito è quello con minor tempo di esecuzione, cioè quello con CPU burst più breve"
     },
     {
-      "id": 218,
+      "id": 170,
       "type": "multiple",
       "question": "Con riferimento allo scheduling della CPU, l'algoritmo First-Come First-Served quale politica segue?",
       "options": [
@@ -2719,7 +2041,7 @@
       "answer": "Il primo processo che si trova nella coda dei processi pronti da più tempo viene servito"
     },
     {
-      "id": 219,
+      "id": 171,
       "type": "multiple",
       "question": "Come può avvenire la cooperazione fra processi?",
       "options": [
@@ -2731,18 +2053,19 @@
       "answer": "Tramite lo scambio di messaggi o la condivisione della memoria"
     },
     {
-      "id": 220,
+      "id": 172,
       "type": "multiple",
       "question": "Con riferimento al concetto di cooperazione fra processi, indicare quale delle seguenti affermazioni è quella falsa:",
       "options": [
-        "e compilazione) e per questo devono cooperare e sincronizzarsi.",
+        "Aumenta il grado di parallelismo; esistono attività non sequenziali ma costituite da sotto attività che possono essere svolte concorrentemente (per esempio scrittura, stampa e compilazione) e per questo devono cooperare e sincronizzarsi.",
         "Può avvenire solo tramite meccanismi basati sulla condivisione di risorse",
-        "programma."
+        "Consente la condivisione delle informazioni tra i processi cooperanti; per esempio se due utenti devono condividere codice o dati i processi devono cooperare.",
+        "Modularizza il sistema; l'organizzazione a moduli semplifica il sistema. Ogni modulo può corrispondere a un processo o un tread, l'insieme dei quali costituisce un unico programma."
       ],
       "answer": "Può avvenire solo tramite meccanismi basati sulla condivisione di risorse"
     },
     {
-      "id": 221,
+      "id": 173,
       "type": "multiple",
       "question": "Il sistema produttore consumatore è un esempio di cooperazione dei processi secondo il modello a:",
       "options": [
@@ -2754,30 +2077,43 @@
       "answer": "Condivisione di memoria"
     },
     {
-      "id": 222,
+      "id": 174,
       "type": "multiple",
       "question": "Con riferimento al modello di cooperazione dei processi a scambio di messaggi, indicare quale fra le seguenti affermazioni è quella falsa:",
       "options": [
         "La comunicazione puà avvenire in maniera diretta o in maniera indiretta",
         "Si basa su due operazioni fondamentali: send(message) e receive(message)",
         "Consente anche la condivisione della memoria",
-        "Nessuna delle altre opzioni"
+        "Nessuna delle altre opzioni 05. Scrivere le strutture dati e il codice (in C/C++ o pseudo codice) che implementano il paradigma produttore/consumatore nel modello a memoria condivisa. 06. Discutere la differenza fra scambio di messaggi sincrono e asincrono."
       ],
       "answer": "Consente anche la condivisione della memoria"
     },
     {
-      "id": 223,
+      "id": 175,
       "type": "multiple",
       "question": "Cosa è la race condition?",
       "options": [
-        "accessi.",
+        "Si parla di race condition quando più processi accedono e manipolano dati diversi ed indipendenti e l'esito non varia a seconda dell'ordine con il quale avvengono gli accessi.",
+        "Si parla di race condition quando più processi accedono e manipolano dati diversi ed indipendenti e l'esito varia a seconda dell'ordine con il quale avvengono gli accessi.",
         "Nessuna delle altre opzioni",
-        "accessi."
+        "Si parla di race condition quando più processi accedono e manipolano gli stessi dati concorrentemente e l'esito varia a seconda dell'ordine con il quale avvengono gli accessi."
       ],
-      "answer": null
+      "answer": "Si parla di race condition quando più processi accedono e manipolano gli stessi dati concorrentemente e l'esito varia a seconda dell'ordine con il quale avvengono gli"
     },
     {
-      "id": 224,
+      "id": 176,
+      "type": "multiple",
+      "question": "Cosa è la sezione critica?",
+      "options": [
+        "E' la parte di codice di un programma in cui il corrispondente processo non sa come procedere se non riceve degli input esterno",
+        "E' la parte di codice di un programma in cui il corrispondente processo attende il risultato di una operazione esterna",
+        "E' la parte di codice di un programma in cui il corrispondente processo può accedere a risorse comuni o modificare dati comuni ad altri processi.",
+        "Nessuna delle altre opzioni"
+      ],
+      "answer": "E' la parte di codice di un programma in cui il corrispondente processo può accedere a risorse comuni o modificare dati comuni ad altri processi."
+    },
+    {
+      "id": 177,
       "type": "multiple",
       "question": "La sezione critica di un programma deve essere eseguita:",
       "options": [
@@ -2789,7 +2125,7 @@
       "answer": "In maniera mutuamente esclusiva"
     },
     {
-      "id": 225,
+      "id": 178,
       "type": "multiple",
       "question": "Come si garantisce l'atomicità delle operazioni nelle sezioni critiche nei sistemi monoprocessore?",
       "options": [
@@ -2801,31 +2137,19 @@
       "answer": "Disabilitando le interruzioni"
     },
     {
-      "id": 226,
+      "id": 179,
       "type": "multiple",
-      "question": "Con riferimento ai semafori, indicare quale è il codice che implementa correttamente la funzione signal():",
+      "question": "Con riferimento ai monitor, indicare quale fra le seguenti descrizioni è quela vera:",
       "options": [
-        "Nessuna delle altre opzioni",
-        "void signal (sem s){while (s ≤ 0) {} s++; }",
-        "void signal (sem s){ s--; }",
-        "void signal (sem s){ s++; }"
+        "Si tratta di un tipo di dato astratto che al suo interno incapsula dati privati. L'accesso a tali dati avviene solo attraverso metodi pubblici",
+        "Si tratta di un tipo di dato astratto che al suo interno incapsula dati pubblici L'accesso a tali dati avviene solo attraverso metodi pubblici",
+        "Si tratta di un tipo di dato astratto che al suo interno incapsula dati pubblici. L'accesso a tali dati avviene solo attraverso metodi privati",
+        "Nessuna delle altre opzioni"
       ],
-      "answer": "void signal (sem s){ s++; }"
+      "answer": "Si tratta di un tipo di dato astratto che al suo interno incapsula dati privati. L'accesso a tali dati avviene solo attraverso metodi pubblici"
     },
     {
-      "id": 227,
-      "type": "multiple",
-      "question": "Con riferimento ai semafori, indicare quale è il codice che implementa correttamente la funzione wait():",
-      "options": [
-        "void wait (sem s){ while (s ≤ 0) {} s++; }",
-        "void wait (sem s){ while (s > 0) {} s++; }",
-        "void wait (sem s){ while (s > 0) {} s--; }",
-        "void wait (sem s){ while (s ≤ 0) {} s--; }"
-      ],
-      "answer": "void wait (sem s){ while (s ≤ 0) {} s--; }"
-    },
-    {
-      "id": 228,
+      "id": 180,
       "type": "multiple",
       "question": "E' possibile realizzare i monitor utilizzando i semafori?",
       "options": [
@@ -2837,43 +2161,43 @@
       "answer": "Si, utilizzando un semaforo mutex inizializzato a uno"
     },
     {
-      "id": 229,
+      "id": 181,
       "type": "multiple",
       "question": "Con riferimento ai monitor, indicare quale fra le seguenti descrizioni è quela vera:",
       "options": [
-        "permette che un solo processo sia attivo al suo interno",
+        "I metodi del monitor consentono avere come argomento i dati condivisi da più processi e le operazioni definite su di loro sono contraddistinti dalla semplicità di accesso",
+        "I metodi del monitor consentono avere come argomento i dati condivisi da più processi e le operazioni definite su di loro sono contraddistinti dalla mutua esclusione",
         "Nessuna delle altre opzioni",
-        "che più processi siano attivi al suo interno.",
-        "permette che più processi siano attivi al suo interno."
+        "I metodi del monitor consentono avere come argomento i dati pubblici di un processo e le operazioni definite su di loro sono contraddistinti dalla mutua esclusione."
       ],
-      "answer": null
+      "answer": "I metodi del monitor consentono avere come argomento i dati condivisi da più processi e le operazioni definite su di loro sono contraddistinti dalla mutua esclusione"
     },
     {
-      "id": 230,
+      "id": 182,
       "type": "multiple",
-      "question": "Indicare quale è l'implementazione corretta del processo produttore utilizzando i semafori:",
+      "question": "Con riferimento ai monitor, indicare quale fra le seguenti descrizioni è quela vera:",
       "options": [
-        "signal(full); } while (1); }",
-        "signal(full); } while (1); }",
+        "Il vantaggio nell'utilizzo del monitor deriva dal fatto che non si deve codificare esplicitamente alcun meccanismo per realizzare la mutua esclusione, giacché il monitor permette che un solo processo sia attivo al suo interno",
         "Nessuna delle altre opzioni",
-        "signal(full); } while (1); }"
+        "Il vantaggio nell'utilizzo del monitor deriva dal fatto che si devono codificare esplicitamente meccanismi per realizzare la mutua esclusione, giacché il monitor permette che più processi siano attivi al suo interno.",
+        "Il vantaggio nell'utilizzo del monitor deriva dal fatto che non si deve codificare esplicitamente alcun meccanismo per realizzare la mutua esclusione, giacché il monitor permette che più processi siano attivi al suo interno."
       ],
-      "answer": null
+      "answer": "Il vantaggio nell'utilizzo del monitor deriva dal fatto che non si deve codificare esplicitamente alcun meccanismo per realizzare la mutua esclusione, giacché il monitor"
     },
     {
-      "id": 231,
+      "id": 183,
       "type": "multiple",
       "question": "Come si può risolvere il problema dei cinque filosofi con i semafori?",
       "options": [
-        "semafori, dove ogni elemento è inizializzato ad uno.",
-        "semafori, dove ogni elemento è inizializzato a zero.",
-        "inizializzato con il valore 5.",
+        "Una possibile soluzione prevede che ogni bacchetta sia rappresentata con un semaforo. Quando un filosofo vuole afferrare una bacchetta, esegue una operazione wait() sul corrispondente semaforo. Quando ha finito di utilizzarla esegue una signal() sul semaforo corrispondente. Quindi, i dati condivisi sono un vettore di cinque elementi di semafori, dove ogni elemento è inizializzato ad uno.",
+        "Una possibile soluzione prevede che ogni bacchetta sia rappresentata con un semaforo. Quando un filosofo vuole afferrare una bacchetta, esegue una operazione signal() sul corrispondente semaforo. Quando ha finito di utilizzarla esegue una waitl() sul semaforo corrispondente. Quindi, i dati condivisi sono un vettore di cinque elementi di semafori, dove ogni elemento è inizializzato a zero.",
+        "Una possibile soluzione prevede che ogni bacchetta sia rappresentata con un semaforo. Quando un filosofo vuole afferrare una bacchetta, esegue una operazione wait() sul corrispondente semaforo. Quando ha finito di utilizzarla esegue una signal() sul semaforo corrispondente. Quindi, i dati condivisi sono si gestiscono con un semaforo inizializzato con il valore 5.",
         "Nessuna delle altre opzioni"
       ],
-      "answer": null
+      "answer": "Una possibile soluzione prevede che ogni bacchetta sia rappresentata con un semaforo. Quando un filosofo vuole afferrare una bacchetta, esegue una operazione wait() sul"
     },
     {
-      "id": 232,
+      "id": 184,
       "type": "multiple",
       "question": "Il sistemi operativi UNIX-based seguono il paradigma a:",
       "options": [
@@ -2885,7 +2209,7 @@
       "answer": "Scambio di messaggi"
     },
     {
-      "id": 233,
+      "id": 185,
       "type": "multiple",
       "question": "In un sistema operativo UNIX come si può creare un nuovo processo?",
       "options": [
@@ -2897,19 +2221,19 @@
       "answer": "Utilizzando la primitiva fork()"
     },
     {
-      "id": 234,
+      "id": 186,
       "type": "multiple",
       "question": "In ambiente UNIX la la syscall _exit(), o la library call exit() servono per:",
       "options": [
         "Nessuna delle altre opzioni",
         "Terminare implicitamente un processo",
         "Terminare esplicitamente un processo",
-        "Iniziare esplicitamento un nuovo processo dopo l'uscita da un processo"
+        "Iniziare esplicitamento un nuovo processo dopo l'uscita da un processo 03. Mostrare un semplice esempio di utilizzo della primitiva fork()."
       ],
       "answer": "Terminare esplicitamente un processo"
     },
     {
-      "id": 235,
+      "id": 187,
       "type": "multiple",
       "question": "Cosa è lo swapping dei processi?",
       "options": [
@@ -2921,18 +2245,19 @@
       "answer": "Si tratta del procedimento di avvicendamento dei processi dalla memoria centrale alla memoria di massa"
     },
     {
-      "id": 236,
+      "id": 188,
       "type": "multiple",
       "question": "Cosa si intende per indirizzi virtuali?",
       "options": [
         "Nessuna delle altre opzioni",
         "Sono quelli gestiti dalla MMU (Main Memory Unit) e caricati nel registro MAR (memory address register)",
+        "Sono gli indirizzi logici gestiti nei sistemi che realizzano l'associazione fra spazio degli indirizzi logici e spazio degli indirizzi fisici in fase di esecuzione",
         "Sono quelli caricati nel registro EBP"
       ],
-      "answer": null
+      "answer": "Sono gli indirizzi logici gestiti nei sistemi che realizzano l'associazione fra spazio degli indirizzi logici e spazio degli indirizzi fisici in fase di esecuzione"
     },
     {
-      "id": 237,
+      "id": 189,
       "type": "multiple",
       "question": "Cosa si intende per indirizzi fisici?",
       "options": [
@@ -2944,7 +2269,7 @@
       "answer": "Sono quelli gestiti dalla MMU (Main Memory Unit) e caricati nel registro MAR (memory address register)"
     },
     {
-      "id": 238,
+      "id": 190,
       "type": "multiple",
       "question": "Cosa si intende per indirizzi logici?",
       "options": [
@@ -2956,19 +2281,19 @@
       "answer": "Sono quelli generati da un programma in esecuzione sulla CPU"
     },
     {
-      "id": 239,
+      "id": 191,
       "type": "multiple",
       "question": "Quando il codice oggetto di un programma si dice rilocabile?",
       "options": [
         "Quando il sistema operativo sa già in fase di scrittura del codice dove risiederà il programma in memoria",
         "Quando il sistema operativo sa già in fase di caricamento dove risiederà il programma in memoria",
         "Quando il sistema operativo sa già in fase di compilazione dove risiederà il programma in memoria",
-        "Nessuna delle altre opzioni"
+        "Nessuna delle altre opzioni 06. Un processo in esecuzione può essere scaricato dalla memoria al disco prima che sia terminato? Discutere la risposta."
       ],
       "answer": "Quando il sistema operativo sa già in fase di caricamento dove risiederà il programma in memoria"
     },
     {
-      "id": 240,
+      "id": 192,
       "type": "multiple",
       "question": "Quali dei seguenti algoritmi non è classicamente utilizzato per l'allocazione di memoria in sistemi multi programmati?",
       "options": [
@@ -2980,7 +2305,7 @@
       "answer": "Random Fit"
     },
     {
-      "id": 241,
+      "id": 193,
       "type": "multiple",
       "question": "Come si può implementare un meccanismo di protezione della memoria in sistemi mono programmati?",
       "options": [
@@ -2992,19 +2317,43 @@
       "answer": "Utilizzando il registro base e il registro limite"
     },
     {
-      "id": 242,
+      "id": 194,
       "type": "multiple",
       "question": "Nei sistemi operativi multi programmati la memoria come può essere gestita?",
       "options": [
         "Nessuna delle altre opzioni",
         "Solo con partizioni variabili",
         "Solo con partizioni fisse",
-        "Con partizioni fisse o con partizioni variabili"
+        "Con partizioni fisse o con partizioni variabili 04. Discutere la differenza fra code di ingresso multiple e coda di ingresso singola."
       ],
       "answer": "Con partizioni fisse o con partizioni variabili"
     },
     {
-      "id": 243,
+      "id": 195,
+      "type": "multiple",
+      "question": "Cosa si intende per frammentazione esterna della memoria?",
+      "options": [
+        "E' il problema tipico il cui è disponibile lo spazio totale per soddisfare una richiesta di allocazione di memoria ad un processo, ma non è contiguo",
+        "E' il tipico problema in cui la memoria allocata ad un processo è leggermente maggiore della memoria richiesta. La memoria in più allocata non viene impiegata ma non può essere allocata a nessun altro processo",
+        "Nessuna delle altre opzioni",
+        "E' il tipico problema in cui non c'e' abbastanza memoria a disposizione da allocare ad un processo. La sua memoria viene quindi frammentata"
+      ],
+      "answer": "E' il problema tipico il cui è disponibile lo spazio totale per soddisfare una richiesta di allocazione di memoria ad un processo, ma non è contiguo"
+    },
+    {
+      "id": 196,
+      "type": "multiple",
+      "question": "Cosa si intende per frammentazione interna della memoria?",
+      "options": [
+        "Nessuna delle altre opzioni",
+        "E' il problema tipico il cui è disponibile lo spazio totale per soddisfare una richiesta di allocazione di memoria ad un processo, ma non è contiguo",
+        "E' il tipico problema in cui la memoria allocata ad un processo è leggermente maggiore della memoria richiesta. La memoria in più allocata non viene impiegata ma non può essere allocata a nessun altro processo",
+        "E' il tipico problema in cui non c'e' abbastanza memoria a disposizione da allocare ad un processo. La sua memoria viene quindi frammentata"
+      ],
+      "answer": "E' il tipico problema in cui la memoria allocata ad un processo è leggermente maggiore della memoria richiesta. La memoria in più allocata non viene impiegata ma non"
+    },
+    {
+      "id": 197,
       "type": "multiple",
       "question": "Quale è il principale responsabile della frammentazione esterna della memoria?",
       "options": [
@@ -3016,7 +2365,7 @@
       "answer": "Lo swapping dei processi che richiedono memoria di dimensione diversa"
     },
     {
-      "id": 244,
+      "id": 198,
       "type": "multiple",
       "question": "Quale è il principale responsabile della frammentazione interna della memoria?",
       "options": [
@@ -3028,7 +2377,7 @@
       "answer": "Meccanismi di allocazione di blocchi di memoria di dimensioni prefissate"
     },
     {
-      "id": 245,
+      "id": 199,
       "type": "multiple",
       "question": "Che cosa sono i frame?",
       "options": [
@@ -3040,7 +2389,7 @@
       "answer": "Blocchi di memoria fisica tutti della stessa dimensione prefissata"
     },
     {
-      "id": 246,
+      "id": 200,
       "type": "multiple",
       "question": "Che cosa sono le pagine di memoria?",
       "options": [
@@ -3052,18 +2401,31 @@
       "answer": "Blocchi di memoria logica tutti della stessa dimensione prefissata"
     },
     {
-      "id": 247,
+      "id": 201,
+      "type": "multiple",
+      "question": "Che cosa è la tabella delle pagine?",
+      "options": [
+        "Una struttura dati implementata in hardware la tabella delle pagine, che consente di mappare pagine logiche in pagine fisiche",
+        "Nessuna delle altre opzioni",
+        "Una struttura dati implementata in hardware la tabella delle pagine, che consente di mappare pagine fisiche in pagine logiche",
+        "Una struttura dati implementata in software la tabella delle pagine, che consente di mappare pagine logiche in pagine fisiche"
+      ],
+      "answer": "Una struttura dati implementata in hardware la tabella delle pagine, che consente di mappare pagine logiche in pagine fisiche"
+    },
+    {
+      "id": 202,
       "type": "multiple",
       "question": "In una architettura che utilizza il meccanismo di paginazione come si genera l'indirizzo fisico da quello logico?",
       "options": [
-        "fisico è rappresentato dalla base e la parte meno significativa dall'offset dell'indirizzo logico",
+        "Si usa la parte più significativa (selettore) dell'indirizzo logico per identificare la base dell'indirizzo fisico dalla tabella delle pagine. La parte più significativa dell'indirizzo fisico è rappresentato dalla base e la parte meno significativa dall'offset dell'indirizzo logico",
+        "Si usa la parte più significativa (selettore) dell'indirizzo logico per identificare la base dell'indirizzo fisico dalla tabella delle pagine. La parte più significativa dell'indirizzo fisico è rappresentato dall'offset dell'indirizzo logico e la parte meno significativa dalla base estratta dalla tabella delle pagine",
         "Nessuna delle altre opzioni",
-        "dell'indirizzo fisico è rappresentato dalla base e la parte meno significativa dall'offset dell'indirizzo logico"
+        "Si usa la parte meno significativa (selettore) dell'indirizzo logico per identificare la base dell'indirizzo fisico dalla tabella delle pagine. La parte più significativa dell'indirizzo fisico è rappresentato dalla base e la parte meno significativa dall'offset dell'indirizzo logico"
       ],
-      "answer": null
+      "answer": "Si usa la parte più significativa (selettore) dell'indirizzo logico per identificare la base dell'indirizzo fisico dalla tabella delle pagine. La parte più significativa dell'indirizzo"
     },
     {
-      "id": 248,
+      "id": 203,
       "type": "multiple",
       "question": "Nel contesto della memoria paginata, a cosa serve il bit di protezione?",
       "options": [
@@ -3075,7 +2437,7 @@
       "answer": "Per determinare su una pagina si può leggere e scrivere oppure soltando leggere"
     },
     {
-      "id": 249,
+      "id": 204,
       "type": "multiple",
       "question": "Cosa succede al contentuto di una TLB (translation lookaside buffer ) quando c'è un cambiamento di contesto?",
       "options": [
@@ -3087,30 +2449,43 @@
       "answer": "Il suo contenuto deve essere invalidato"
     },
     {
-      "id": 250,
+      "id": 205,
+      "type": "multiple",
+      "question": "Cosa è la TLB (translation look\u001aaside buffer )?",
+      "options": [
+        "Nessuna delle altre opzioni",
+        "Si utilizza per velocizzare la ricerca nella tabelle delle pagine. Essa è una memoria associativa ad alta velocità.",
+        "Si utilizza nello scheduling dei processi per cercare velocemente i processi da mandare in esecuzione. Essa è una memoria associativa ad alta velocità.",
+        "Si utilizza nello scheduling della per cercare velocemente la memoria da allocare ai processi. Essa è una memoria associativa ad alta velocità. 04. Mostrare e discutere lo schema architetturale della paginazione con TLB. 05. Cosa sono i registri PTBR e PRLR utilizzati per la gestione della tabelle delle pagine? Quali sono i limiti dell'organizzazione della tabella delle pagine con tali registri? 06. Discutere i concetti principali della paginazione gerarchica. 07. Mostrare graficamente come si realizza la traduzione degli indirizzi logici in indirizzi fisici nella paginazione gerarchica."
+      ],
+      "answer": "Si utilizza per velocizzare la ricerca nella tabelle delle pagine. Essa è una memoria associativa ad alta velocità."
+    },
+    {
+      "id": 206,
       "type": "multiple",
       "question": "Con riferimento alla segmentazione della memoria, indicare quale fra le seguenti descrizioni è quella falsa:",
       "options": [
         "Il meccanismo di segmentazione non consente la condivisione di porzioni di memoria da parte di processi diversi",
-        "del segmento (specifica la lunghezza del segmento).",
-        "Nessuna delle altre opzioni"
+        "Per ciascun segmento, viene specificata una coppia ordinata di valori: la base del segmento (specifica l'indirizzo in memoria fisica dove comincia il segmento) e il limite del segmento (specifica la lunghezza del segmento).",
+        "Nessuna delle altre opzioni",
+        "Per la realizzazione della segmentazione si utilizzano due registri della CPU: 1) Il registro SegmentTable Base Register (STBR), che punta alla locazione in memoria della tabella dei segmenti, 2)bIl registro SegmentTable Length Register (STLR), che indica il numero di segmenti utilizzati dal programma"
       ],
       "answer": "Il meccanismo di segmentazione non consente la condivisione di porzioni di memoria da parte di processi diversi"
     },
     {
-      "id": 251,
+      "id": 207,
       "type": "multiple",
       "question": "Che cosa è la segmentazione della memoria?",
       "options": [
-        "chiamati segmenti.",
+        "La segmentazione è un meccanismo predisposto a livello architetturale per suddividere l’intero spazio di memoria lineare in sottospazi protetti e della stessa dimensione chiamati segmenti.",
         "Nessuna delle altre opzioni",
-        "chiamati segmenti.",
-        "segmenti."
+        "La segmentazione è un meccanismo predisposto a livello architetturale per suddividere l’intero spazio di memoria lineare in sottospazi protetti e di dimensioni ridotte chiamati segmenti.",
+        "La segmentazione è un meccanismo predisposto a livello software per suddividere l’intero spazio di memoria lineare in sottospazi protetti e di dimensioni ridotte chiamati segmenti."
       ],
-      "answer": null
+      "answer": "La segmentazione è un meccanismo predisposto a livello architetturale per suddividere l’intero spazio di memoria lineare in sottospazi protetti e di dimensioni ridotte"
     },
     {
-      "id": 252,
+      "id": 208,
       "type": "multiple",
       "question": "Che tipo di problema consente di risolvere la segmentazione?",
       "options": [
@@ -3122,21 +2497,23 @@
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 253,
+      "id": 209,
       "type": "multiple",
       "question": "Che cosa è il page fault trap?",
       "options": [
         "Nessuna delle altre opzioni",
         "E' una eccezione che viene inviata al processore quando un processo tenta l'accesso ad una pagina non condivisa",
+        "E' una eccezione che viene inviata al processore quando un processo tenta l'accesso ad una pagina non caricata in memoria centrale",
         "E' una eccezione che viene inviata al processore quando un processo tenta l'accesso ad una pagina non autorizzata"
       ],
-      "answer": null
+      "answer": "E' una eccezione che viene inviata al processore quando un processo tenta l'accesso ad una pagina non caricata in memoria centrale"
     },
     {
-      "id": 254,
+      "id": 210,
       "type": "multiple",
       "question": "Quale è la filosofia alla base della memoria virtuale?",
       "options": [
+        "Consente di usare la memoria secondaria per eseguire i processi, effettuando il fetch delle istruzioni direttamente dal disco",
         "Consente di usare lo spazio di I/O come uno spazio di memoria",
         "Nessuna delle altre opzioni",
         "Tale meccanismo consente l'esecuzione di processi non contenuti interamente nella memoria"
@@ -3144,64 +2521,79 @@
       "answer": "Tale meccanismo consente l'esecuzione di processi non contenuti interamente nella memoria"
     },
     {
-      "id": 255,
+      "id": 211,
+      "type": "multiple",
+      "question": "Con riferimento alla memoria virtuale, quale delle seguenti descrizioni è falsa?",
+      "options": [
+        "Usando la memoria virtuale diminuiscono i tempi di caricamento dei programmi in memoria",
+        "Usando la memoria virtuale non si separa la memoria logica, vista dall'utente, dalla memoria fisica: gli indirizzi logici corrispondono agli indirizzi fisici",
+        "SI aumenta il parallelismo delle esecuzioni, con una conseguente crescita della produttività della CPU; poiché ogni singolo processo occupa meno memoria fisica, più programmi possono essere eseguiti contemporaneamente",
+        "La programmazione non è più vincolata dalla quantità di memoria fisica disponibile; si possono scrivere programmi per uno spazio di indirizzi virtuali molto grande"
+      ],
+      "answer": "Usando la memoria virtuale non si separa la memoria logica, vista dall'utente, dalla memoria fisica: gli indirizzi logici corrispondono agli indirizzi fisici"
+    },
+    {
+      "id": 212,
       "type": "multiple",
       "question": "Che cosa è il paginatore?",
       "options": [
         "Nessuna delle altre opzioni",
-        "viceversa",
+        "E' un modulo del sistema operativo che si occupa della paginazione su richiesta e si occupa del passaggio delle pagine dalla memoria principale alla memoria di massa e viceversa",
         "E' un modulo del sistema operativo che si occupa di implementare il meccanismo di paginazione",
-        "E' un modulo del sistema operativo che si occupa di gestire la tabella delle pagine"
+        "E' un modulo del sistema operativo che si occupa di gestire la tabella delle pagine 05. Mostrare graficamente l'idea di base della memoria virtuale (mostrare gli elementi principali)"
       ],
-      "answer": null
+      "answer": "E' un modulo del sistema operativo che si occupa della paginazione su richiesta e si occupa del passaggio delle pagine dalla memoria principale alla memoria di massa e"
     },
     {
-      "id": 256,
+      "id": 213,
       "type": "multiple",
-      "question": "Quando si verifica un page fault trap occorre sempre effettuare un trasferimento di pagine dalla memoria di massa alla memoria fisica.",
+      "question": "Che cosa è la paginazione su richiesta pura?",
       "options": [
-        "Vero",
-        "Nessuna delle altre opzioni",
-        "Dipende dal valore del bit dirty nella tabella delle pagine in corrispondenza del riferimento di pagina considerato"
+        "Si parla di paginazione su richiesta pura quando un processo che viene mandato in esecuzione carica al principio solo due pagine in memoria centrale (quella dei dati e quella del codice)",
+        "Si parla di paginazione su richiesta pura quando un processo che viene mandato in esecuzione non carica al principio alcuna pagina in memoria centrale",
+        "Si parla di paginazione su richiesta pura quando un processo che viene mandato in esecuzione carica al principio solo una pagina in memoria centrale (quella del codice)",
+        "Nessuna delle altre opzioni"
       ],
-      "answer": null
+      "answer": "Si parla di paginazione su richiesta pura quando un processo che viene mandato in esecuzione non carica al principio alcuna pagina in memoria centrale"
     },
     {
-      "id": 257,
+      "id": 214,
       "type": "multiple",
       "question": "Cosa succede nell'ultimo passo di gestione del page fault trap?",
       "options": [
-        "processo può accedere alla pagina come se questa fosse già presente in memoria",
-        "pagina direttamente nella memoria secondaria",
-        "pagina come se questa fosse già presente in memoria",
-        "Nessuna delle altre opzioni"
+        "Il processo che è stato bloccato dall'eccezione riprende il controllo della CPU e riparte dalla istruzione successiva rispetto a quella che è stata interrotta. A questo punto il processo può accedere alla pagina come se questa fosse già presente in memoria",
+        "Il processo che è stato bloccato dall'eccezione riprende il controllo della CPU e riparte riavviando l'istruzione interrotta. A questo punto il processo può accedere alla pagina direttamente nella memoria secondaria",
+        "Il processo che è stato bloccato dall'eccezione riprende il controllo della CPU e riparte riavviando l'istruzione interrotta. A questo punto il processo può accedere alla pagina come se questa fosse già presente in memoria",
+        "Nessuna delle altre opzioni 04. Discutere la strategie di gestione dell'algoritmo FIFO per il rimpiazzamento delle pagine."
       ],
-      "answer": null
+      "answer": "Il processo che è stato bloccato dall'eccezione riprende il controllo della CPU e riparte riavviando l'istruzione interrotta. A questo punto il processo può accedere alla"
     },
     {
-      "id": 258,
+      "id": 215,
       "type": "multiple",
       "question": "Quale è l'idea che sta alla base dell'algoritmo LRU di rimpiazzamento delle pagine di memoria?",
       "options": [
+        "Tale algoritmo il sistema interpreta il futuro sulla base delle informazioni passate e seleziona la pagina non utilizzata da più lungo tempo, supponendo che non sia più utile",
         "Tale algoritmo di prefigge di rimpiazzare sempre l'ultima pagina riferita",
         "Tale algoritmo si prefigge di sostituire la pagina che non sarà utilizzata per più tempo",
         "Nessuna delle altre opzioni"
       ],
-      "answer": null
+      "answer": "Tale algoritmo il sistema interpreta il futuro sulla base delle informazioni passate e seleziona la pagina non utilizzata da più lungo tempo, supponendo che non sia più utile"
     },
     {
-      "id": 259,
+      "id": 216,
       "type": "multiple",
       "question": "Quale è l'idea che sta alla base dell'algoritmo ottimo di rimpiazzamento delle pagine di memoria?",
       "options": [
         "Tale algoritmo si prefigge di sostituire la pagina che non sarà utilizzata per più tempo",
+        "Tale algoritmo il sistema interpreta il futuro sulla base delle informazioni passate e seleziona la pagina non utilizzata da più lungo tempo, supponendo che non sia più utile",
         "Nessuna delle altre opzioni",
-        "Tale algoritmo di prefigge di rimpiazzare sempre l'ultima pagina riferita"
+        "Tale algoritmo di prefigge di rimpiazzare sempre l'ultima pagina riferita 03. Discutere l'implementazione con la pila dell'algoritmo LRU e mostrare un esempio di utilizzo"
       ],
       "answer": "Tale algoritmo si prefigge di sostituire la pagina che non sarà utilizzata per più tempo"
     },
     {
-      "id": 260,
+      "id": 217,
       "type": "multiple",
       "question": "Con riferimento all'algoritmo ottimale di rimpiazzamento delle pagine, quale fra le seguenti affermazioni è quella vera?",
       "options": [
@@ -3213,7 +2605,7 @@
       "answer": "Non è implementabile ma utile come indice di confronto e valutazione"
     },
     {
-      "id": 261,
+      "id": 218,
       "type": "multiple",
       "question": "Con riferimento all'algoritmo di rimpiazzamento delle pagine seconda chance, quale fra le seguenti affermazioni è quella vera?",
       "options": [
@@ -3225,7 +2617,7 @@
       "answer": "Rappresenta un deciso miglioramento dell'algoritmo FIFO"
     },
     {
-      "id": 262,
+      "id": 219,
       "type": "multiple",
       "question": "Con riferimento all'algoritmo di rimpiazzamento delle pagine NRU, quale fra le seguenti affermazioni è quella vera?",
       "options": [
@@ -3237,7 +2629,7 @@
       "answer": "E' una approssimazione alquanto rozza dell'LRU"
     },
     {
-      "id": 263,
+      "id": 220,
       "type": "multiple",
       "question": "Quali sono i metodi di allocazione dei frame della memoria da parte del sistema operativo?",
       "options": [
@@ -3249,7 +2641,7 @@
       "answer": "Uniforme e proporzionata alle esigenze"
     },
     {
-      "id": 264,
+      "id": 221,
       "type": "multiple",
       "question": "Quali sono gli schemi di allocazione dei frame della memoria da parte del sistema operativo?",
       "options": [
@@ -3261,7 +2653,7 @@
       "answer": "Statica e dinamica"
     },
     {
-      "id": 265,
+      "id": 222,
       "type": "multiple",
       "question": "Quali sono i principali meccanismi di rimpiazzamento delle pagine al variare del tipo di allocazione dei frame?",
       "options": [
@@ -3273,19 +2665,7 @@
       "answer": "Locale e Globale"
     },
     {
-      "id": 266,
-      "type": "multiple",
-      "question": "Quale fra i seguenti non è un compito svolto da un controllore di dispositivo di I/O?",
-      "options": [
-        "Nessuna delle altre opzioni",
-        "convertire un flusso (stream) seriale di bit in blocchi di byte",
-        "rendere i byte disponibili per essere copiati in RAM",
-        "effettuare la correzione degli errori se necessario"
-      ],
-      "answer": "Nessuna delle altre opzioni"
-    },
-    {
-      "id": 267,
+      "id": 223,
       "type": "multiple",
       "question": "Il sotto sistema di I/O gestisce le differenze effettive fra i vari dispositivi di I/O per mezzo di:",
       "options": [
@@ -3297,7 +2677,19 @@
       "answer": "Driver specifici"
     },
     {
-      "id": 268,
+      "id": 224,
+      "type": "multiple",
+      "question": "Che cosa è il buffer gestito dal sotto sistema di I/O?",
+      "options": [
+        "E' una area della memoria in cui vengono memorizzati i dati trasferiti tra due dispositivi, o tra un'applicazione e un dispositivo",
+        "E' un dispositivo ad hoc in cui vengono memorizzati i dati trasferiti tra due dispositivi, o tra un'applicazione e un dispositivo",
+        "E' una area dello spazio di I/O in cui vengono memorizzati i dati trasferiti tra due dispositivi, o tra un'applicazione e un dispositivo",
+        "Nessuna delle altre opzioni 04. Discutere brevemente le caratteristiche dello scheduler di I/O."
+      ],
+      "answer": "E' una area della memoria in cui vengono memorizzati i dati trasferiti tra due dispositivi, o tra un'applicazione e un dispositivo"
+    },
+    {
+      "id": 225,
       "type": "multiple",
       "question": "Da chi viene sbloccata l'esecuzione di un diver di dispositivo?",
       "options": [
@@ -3309,7 +2701,7 @@
       "answer": "Da una richiesta di interruzione"
     },
     {
-      "id": 269,
+      "id": 226,
       "type": "multiple",
       "question": "Quali sono i livelli del software di I/O?",
       "options": [
@@ -3321,7 +2713,7 @@
       "answer": "Software a livello utente, Software indipendente dai dispositivi, Driver dei dispositivi, Driver delle interruzioni"
     },
     {
-      "id": 270,
+      "id": 227,
       "type": "multiple",
       "question": "Da chi viene bloccata l'esecuzione di un diver di dispositivo?",
       "options": [
@@ -3333,7 +2725,7 @@
       "answer": "L'esecuzione del driver si blocca in attesa che il controllore del dispositivo faccia il suo lavoro"
     },
     {
-      "id": 271,
+      "id": 228,
       "type": "multiple",
       "question": "Da chi sono gestiti gli errori del disco dovuti a settori corrotti?",
       "options": [
@@ -3345,55 +2737,31 @@
       "answer": "Dal controllore o dal sistema operativo"
     },
     {
-      "id": 272,
+      "id": 229,
       "type": "multiple",
       "question": "Cosa accade durante la formattazione ad alto livello di un disco?",
       "options": [
-        "modo che il controllore possa leggere o scrivere sul disco.",
-        "disco a se stante",
+        "In questa fase vengono scritti i settori all'interno delle tracce del disco. La formattazione a basso livello dà un formato al disco (da qui deriva il termine \"formattazione\") in modo che il controllore possa leggere o scrivere sul disco.",
+        "In questa fase avviene la creazione delle partizioni del disco. Il sistema operativo suddivide il disco in gruppi di cilindri (le partizioni) e tratta ogni gruppo come una unità a disco a se stante",
         "Nessuna delle altre opzioni",
         "In questa fase viene inserito un file system all'interno delle partizioni del disco."
       ],
       "answer": "In questa fase viene inserito un file system all'interno delle partizioni del disco."
     },
     {
-      "id": 273,
+      "id": 230,
       "type": "multiple",
-      "question": "Cosa accade durante la formattazione a basso livello di un disco?",
+      "question": "Che cosa è il file system?",
       "options": [
-        "In questa fase viene inserito un file system all'interno delle partizioni del disco.",
-        "modo che il controllore possa leggere o scrivere sul disco.",
-        "disco a se stante",
+        "E' quell parte del processore che interagisce direttamente con l'utente e consente di gestire e memorizzare i dati utilizzando file e cartelle",
+        "E' quell parte del sistema operativo che interagisce direttamente con l'utente e consente di gestire e memorizzare i dati utilizzando file e cartelle",
+        "E' l'insieme di tutti i file e le cartelle gestiti dal sistema operativo",
         "Nessuna delle altre opzioni"
       ],
-      "answer": null
+      "answer": "E' quell parte del sistema operativo che interagisce direttamente con l'utente e consente di gestire e memorizzare i dati utilizzando file e cartelle"
     },
     {
-      "id": 274,
-      "type": "multiple",
-      "question": "Da quali parti è costituito il settore di un disco",
-      "options": [
-        "Preambolo, dati, ECC",
-        "Preambolo, dati, traccia",
-        "Nessuna delle altre opzioni",
-        "Preambolo, traccia, ECC"
-      ],
-      "answer": "Preambolo, dati, ECC"
-    },
-    {
-      "id": 275,
-      "type": "multiple",
-      "question": "Quale fra le seguenti modalità non rientra fra quelle utilizzate per accedere ai file",
-      "options": [
-        "Nessuna delle altre opzioni",
-        "Accesso diretto",
-        "Accesso sincronizzato",
-        "Accesso sequenziale"
-      ],
-      "answer": "Accesso sincronizzato"
-    },
-    {
-      "id": 276,
+      "id": 231,
       "type": "multiple",
       "question": "Quali fra le seguenti strutture non rientra fra quelle utilizzate per rappresentare i file:",
       "options": [
@@ -3405,19 +2773,7 @@
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 277,
-      "type": "multiple",
-      "question": "Quali fra le seguenti strutture non rientra fra quelle utilizzate per l'organizzazione delle directory",
-      "options": [
-        "Struttura a due livelli",
-        "Struttura sequenziale",
-        "Struttura a singolo livello",
-        "Struttura ad albero"
-      ],
-      "answer": "Struttura sequenziale"
-    },
-    {
-      "id": 278,
+      "id": 232,
       "type": "multiple",
       "question": "Quali sono le principali proprietà che la gestione delle directory deve assicurare?",
       "options": [
@@ -3429,7 +2785,7 @@
       "answer": "Efficienza, Nominazione, Raggruppamento Logico dei file"
     },
     {
-      "id": 279,
+      "id": 233,
       "type": "multiple",
       "question": "Quali sono le classi di operazioni consentite sui file nei sistemi operativi UNIX?",
       "options": [
@@ -3441,7 +2797,7 @@
       "answer": "Lettura, scrittura, esecuzione"
     },
     {
-      "id": 280,
+      "id": 234,
       "type": "multiple",
       "question": "Quali fra le seguenti strutture dati non sono utilizzate dal sistema operativo per l'implementazione del file system?",
       "options": [
@@ -3453,30 +2809,31 @@
       "answer": "Tabella delle pagine"
     },
     {
-      "id": 281,
+      "id": 235,
       "type": "multiple",
       "question": "Cosa si intende per file system logico?",
       "options": [
         "E' il livello dei file system in cui viene implementata le astrazioni dei file e delle cartelle",
         "E' il livello dei file system in cui si traducono i blocchi logici nei corrispondenti indirizzi fisici",
-        "Nessuna delle altre opzioni"
+        "Nessuna delle altre opzioni",
+        "E' il livello del file system in cui di smistano i comandi, ricevuti dal modulo per l'organizzazione dei file, agli opportuni driver, più precisamente all'I/O control"
       ],
       "answer": "E' il livello dei file system in cui viene implementata le astrazioni dei file e delle cartelle"
     },
     {
-      "id": 282,
+      "id": 236,
       "type": "multiple",
       "question": "Quanti sono i livelli in cui è tipicamente organizzato un file system?",
       "options": [
         "Dieci",
         "Due",
         "Sei",
-        "Uno"
+        "Uno 04. Disegnare e discutere lo schema di organizzazione a livelli del file system."
       ],
       "answer": "Sei"
     },
     {
-      "id": 283,
+      "id": 237,
       "type": "multiple",
       "question": "Cosa descrive l'inode del VFS?",
       "options": [
@@ -3488,19 +2845,19 @@
       "answer": "La locazione di ciascun file, directory o link all'interno di ogni file system disponibile"
     },
     {
-      "id": 284,
+      "id": 238,
       "type": "multiple",
       "question": "Quali fra le seguenti coppie di strategie sono in genere utilizzate per la l'implementazione della struttura delle directory?",
       "options": [
         "Realizzazione a lista lineare e realizzazione ad hash table",
         "Realizzazione a lista lineare e realizzazione ad albero binario",
         "Nessuna delle altre opzioni",
-        "Realizzazione a vettore satico e realizzazione ad albero binario"
+        "Realizzazione a vettore satico e realizzazione ad albero binario 03. Discutere pregi e difetti della implementazione delle directory come lista lineare. 04. Discutere pregi e difetti della implementazione delle directory come tabella hash."
       ],
       "answer": "Realizzazione a lista lineare e realizzazione ad hash table"
     },
     {
-      "id": 285,
+      "id": 239,
       "type": "multiple",
       "question": "Quale è il principale problema della allocazione contigua dei file nel disco?",
       "options": [
@@ -3512,18 +2869,19 @@
       "answer": "La frammentazione esterna"
     },
     {
-      "id": 286,
+      "id": 240,
       "type": "multiple",
       "question": "Cosa è l'extend nell'allocazione dei file?",
       "options": [
+        "E' una strategia che consente di allocare nei dischi porzioni di file,anche di dimensioni diverse ma costituite da blocchi contigui, in qualsiasi parte del disco.",
         "Nessuna delle altre opzioni",
         "E' una strategia che consente di allocare file vuoti",
         "E' una strategia che consente di allocare file di dimensioni fisse"
       ],
-      "answer": null
+      "answer": "E' una strategia che consente di allocare nei dischi porzioni di file,anche di dimensioni diverse ma costituite da blocchi contigui, in qualsiasi parte del disco."
     },
     {
-      "id": 287,
+      "id": 241,
       "type": "multiple",
       "question": "Come si ottiene l'allocazione dei file su disco a lista concatenata?",
       "options": [
@@ -3535,66 +2893,55 @@
       "answer": "Nessuna delle altre opzioni"
     },
     {
-      "id": 288,
-      "type": "multiple",
-      "question": "Che cosa è l'i-node, nel contesto dell'allocazione con indice dei file su disco ?",
-      "options": [
-        "E' il blocco in cui sono allocati tutti i puntatori ai blocchi contigui allocati ad uno specifico file",
-        "E' il blocco in cui sono allocati tutti i puntatori ai blocchi allocati ad uno specifico file",
-        "E' il blocco in cui sono allocati tutti i blocchi contigui allocati ad uno specifico file",
-        "Nessuna delle altre opzioni"
-      ],
-      "answer": "E' il blocco in cui sono allocati tutti i puntatori ai blocchi allocati ad uno specifico file"
-    },
-    {
-      "id": 289,
-      "type": "multiple",
-      "question": "Quale fra le seguenti varianti di allocazione con indice dei file non è reale",
-      "options": [
-        "Nessuna delle altre opzioni",
-        "Indice allineato",
-        "Indice multilivello",
-        "Indice concatenato"
-      ],
-      "answer": "Indice allineato"
-    },
-    {
-      "id": 290,
+      "id": 242,
       "type": "multiple",
       "question": "Quale fra le seguenti tecniche non viene utilizzata per ottimizzare le operazioni gestite dal file system?",
       "options": [
         "Caching",
         "Prefetching",
         "Scheduling",
-        "Dispatching"
+        "Dispatching 04. Disegnare e discutere lo schema implementativo dello schema combinato per l'allocazione indicizzata dei file sul disco."
       ],
       "answer": "Dispatching"
     },
     {
-      "id": 291,
+      "id": 243,
+      "type": "multiple",
+      "question": "Cosa è un diritto di accesso?",
+      "options": [
+        "E' una coppia <nome-processo insieme-diritti> dove insieme-diritti è un sottoinsieme di tutte le operazioni che possono essere eseguite da un processo",
+        "E' una coppia <nome-oggetto, insieme-processi> dove insieme-processi è un sottoinsieme di tutti i processi che possono lavorare sull'oggetto",
+        "Nessuna delle altre opzioni",
+        "E' una coppia <nome-oggetto, insieme-diritti> dove insieme-diritti è un sottoinsieme di tutte le operazioni che possono essere eseguite da un processo sull’oggetto"
+      ],
+      "answer": "E' una coppia <nome-oggetto, insieme-diritti> dove insieme-diritti è un sottoinsieme di tutte le operazioni che possono essere eseguite da un processo sull’oggetto"
+    },
+    {
+      "id": 244,
       "type": "multiple",
       "question": "Cosa è un dominio di protezione?",
       "options": [
+        "Rappresenta l'insieme di operazioni che possono essere effettuate da un processo su un oggetto e determina le risorse a cui esso può accedere",
         "Nessuna delle altre opzioni",
         "Rappresenta l'insieme di risorse che può essere utilizzato da un processo",
         "Rappresenta l'insieme di processi che può lavorare su una risorsa"
       ],
-      "answer": null
+      "answer": "Rappresenta l'insieme di operazioni che possono essere effettuate da un processo su un oggetto e determina le risorse a cui esso può accedere"
     },
     {
-      "id": 292,
+      "id": 245,
       "type": "multiple",
       "question": "A cosa servono le matrici di accesso?",
       "options": [
         "Per la gestione dei domini di protezione",
         "Per la gestione della sicurezza",
         "Nessuna delle altre opzioni",
-        "Per la gestione degli accessi"
+        "Per la gestione degli accessi 04. Discutere la principale differenza fra protezione e sicurezza."
       ],
       "answer": "Per la gestione della sicurezza"
     },
     {
-      "id": 293,
+      "id": 246,
       "type": "multiple",
       "question": "Gli algoritmi di sicurezza a chiave pubblica sono:",
       "options": [
@@ -3606,7 +2953,7 @@
       "answer": "Asimmetrici"
     },
     {
-      "id": 294,
+      "id": 247,
       "type": "multiple",
       "question": "Quale è il problema principale della crittografia a chiave simmetrica?",
       "options": [
@@ -3618,7 +2965,7 @@
       "answer": "Il problema è lo scambio sicuro della chiave segreta tra mittente e destinatario"
     },
     {
-      "id": 295,
+      "id": 248,
       "type": "multiple",
       "question": "Quali obiettivi persegue la sicurezza informatica?",
       "options": [
@@ -3630,13 +2977,14 @@
       "answer": "Garantire la disponibilità, l'integrità, la riservatezza, l'autenticità e il non ripudio"
     },
     {
-      "id": 296,
+      "id": 249,
       "type": "multiple",
       "question": "Cosa si intende per non ripudio nella sicurezza informatica?",
       "options": [
         "Nessuna delle altre opzioni",
+        "Il non ripudio garantisce che eventi, documenti e messaggi vengano attribuiti con certezza al legittimo autore e a nessun altro",
         "Il non ripudio garantisce che un utente sia autorizzato ad utilizzare le sue risorse",
-        "Il non ripudio impedisce che un evento o documento possa essere disconosciuto dal suo autore"
+        "Il non ripudio impedisce che un evento o documento possa essere disconosciuto dal suo autore 05. Fornire una semplice definizione di crittografia."
       ],
       "answer": "Il non ripudio impedisce che un evento o documento possa essere disconosciuto dal suo autore"
     }
