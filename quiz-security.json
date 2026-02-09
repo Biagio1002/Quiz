@@ -1,0 +1,4624 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple",
+      "question": "Quali sono le due categorie di misure preventive implementate da un SOC?",
+      "options": [
+        "Monitoraggio e gestione",
+        "Gestione degli allarmi",
+        "Nessuna risposta corretta",
+        "Preparazione e manutenzione preventiva"
+      ],
+      "answer": "Monitoraggio e gestione"
+    },
+    {
+      "id": 2,
+      "type": "multiple",
+      "question": "Qual è il compito principale del SOC specialist dopo un incidente?",
+      "options": [
+        "Indagare sulla causa principale",
+        "Ignorare l'incidente",
+        "Chiudere l'organizzazione",
+        "Fare una pausa"
+      ],
+      "answer": "Indagare sulla causa principale"
+    },
+    {
+      "id": 3,
+      "type": "multiple",
+      "question": "Quali sono le fasi del flusso di lavoro quotidiano di un SOC specialist?",
+      "options": [
+        "Preparazione, monitoraggio, risposta",
+        "Monitoraggio,detection, triage",
+        "Remediazione, affinamento, bonifica",
+        "Nessuna risposta corretta"
+      ],
+      "answer": "Preparazione, monitoraggio, risposta"
+    },
+    {
+      "id": 4,
+      "type": "multiple",
+      "question": "Quali sono alcune delle normative di conformità che il SOC deve seguire?",
+      "options": [
+        "Linux, Windows e macOS",
+        "SIEM, EDR e IDS",
+        "Facebook, Instagram e Twitter",
+        "GDPR, HIPAA e PCI DSS"
+      ],
+      "answer": "GDPR, HIPAA e PCI DSS"
+    },
+    {
+      "id": 5,
+      "type": "multiple",
+      "question": "Quali strumenti di monitoraggio possono essere utilizzati da un SOC?",
+      "options": [
+        "ERP e CRM",
+        "Antivirus e antispyware",
+        "SIEM e EDR",
+        "VPN e firewall"
+      ],
+      "answer": "SIEM e EDR"
+    },
+    {
+      "id": 6,
+      "type": "multiple",
+      "question": "Cosa fa il SOC dopo aver affrontato un incidente?",
+      "options": [
+        "Si ferma per un periodo di riposo",
+        "Si licenzia",
+        "Lavora per migliorare la sicurezza",
+        "Passa il caso ad un altro dipartimento"
+      ],
+      "answer": "Lavora per migliorare la sicurezza"
+    },
+    {
+      "id": 7,
+      "type": "multiple",
+      "question": "Cosa fa il personale di un SOC quando riceve un allarme?",
+      "options": [
+        "Scarta solo i falsi positivi",
+        "Ignora tutti gli allarmi",
+        "Chiede consiglio a un collega",
+        "Risponde immediatamente senza esaminare l'allarme"
+      ],
+      "answer": "Scarta solo i falsi positivi"
+    },
+    {
+      "id": 8,
+      "type": "multiple",
+      "question": "Cosa rappresenta la fase di \"Recovery\" nell'Incident Response?",
+      "options": [
+        "Identificare gli attaccanti",
+        "Rimuovere il malware",
+        "Ristabilire la condizione pre-incident",
+        "Risolvere l'incidente nel breve periodo"
+      ],
+      "answer": "Ristabilire la condizione pre-incident"
+    },
+    {
+      "id": 9,
+      "type": "multiple",
+      "question": "Qual è uno degli elementi fondamentali della fase di \"Preparazione\" nell'Incident Response secondo NIST?",
+      "options": [
+        "Valutazione dei danni causati dall'attacco",
+        "Risoluzione immediata dell'incidente",
+        "Identificazione degli attaccanti",
+        "Hardening dei dispositivi"
+      ],
+      "answer": "Hardening dei dispositivi"
+    },
+    {
+      "id": 10,
+      "type": "multiple",
+      "question": "Quando avviene il processo di hardening durante il ciclo di Incident Response?",
+      "options": [
+        "Durante la fase di \"Preparazione\"",
+        "Durante la fase di \"Recovery\"",
+        "Durante la fase di \"Contenimento\"",
+        "Durante la fase di \"Eradicazione\""
+      ],
+      "answer": "Durante la fase di \"Preparazione\""
+    },
+    {
+      "id": 11,
+      "type": "multiple",
+      "question": "Qual è uno degli obiettivi chiave della Threat Intelligence durante la fase di \"Identificazione\"?",
+      "options": [
+        "Disabilitare le porte dello switch",
+        "Identificare gli attaccanti e l'attacco",
+        "Incrementare la sicurezza dell'azienda",
+        "Incrementare l'accuratezza delle procedure"
+      ],
+      "answer":  "Identificare gli attaccanti e l'attacco"
+    },
+    {
+      "id": 12,
+      "type": "multiple",
+      "question": "Cosa comprende la fase di \"Eradicazione\" nell'Incident Response?",
+      "options": [
+        "Rimuovere il malware",
+        "Identificare gli attaccanti",
+        "Risolvere l'incidente nel breve periodo",
+        "Ristabilire la condizione pre-incident"
+      ],
+      "answer": "Rimuovere il malware"
+    },
+    {
+      "id": 13,
+      "type": "multiple",
+      "question": "Qual è uno degli elementi fondamentali della fase di \"Preparazione\" nell'Incident Response cycle?",
+      "options": [
+        "Valutazione dei danni causati dall'attacco",
+        "Formazione del team di incident response",
+        "Monitoraggio delle attività quotidiane",
+        "Risoluzione immediata dell'incidente"
+      ],
+      "answer": "Formazione del team di incident response"
+    },
+    {
+      "id": 14,
+      "type": "multiple",
+      "question": "Quante fasi compongono il processo di Incident Response secondo NIST?",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": 15,
+      "type": "multiple",
+      "question": "Cosa rappresenta la fase di \"Contenimento\" nel processo di Incident Response?",
+      "options": [
+        "Preparazione per il recupero a lungo termine",
+        "Azioni per fermare immediatamente l'attacco",
+        "Rimozione del malware",
+        "Identificazione degli attaccanti"
+      ],
+      "answer": "Azioni per fermare immediatamente l'attacco"
+    },
+    {
+      "id": 16,
+      "type": "multiple",
+      "question": "Qual è l'elemento fondamentale che permette di stabilire se è avvenuto un Incident o un semplice evento?",
+      "options": [
+        "Firewall",
+        "Checklist di sicurezza",
+        "Politiche comportamentali",
+        "Log di sicurezza"
+      ],
+      "answer": "Log di sicurezza"
+    },
+    {
+      "id": 17,
+      "type": "multiple",
+      "question": "Cosa deve essere incluso nelle procedure per la gestione degli incidenti?",
+      "options": [
+        "Regole su come creare la documentazione",
+        "Politiche di marketing",
+        "Politiche di licenziamento",
+        "Procedure per la gestione delle risorse umane"
+      ],
+      "answer": "Regole su come creare la documentazione"
+    },
+    {
+      "id": 18,
+      "type": "multiple",
+      "question": "Quali sono le fasi della preparazione nell'Incident Response?",
+      "options": [
+        "Risoluzione dell'incidente",
+        "Identificazione dei rischi",
+        "Analisi delle cause",
+        "Valutazione degli impatti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 19,
+      "type": "multiple",
+      "question": "Quali tipi di policy possono essere utilizzati per stabilire le regole all'interno di un'organizzazione?",
+      "options": [
+        "Politiche comportamentali",
+        "Politiche di marketing",
+        "Politiche fiscali",
+        "Politiche aziendali"
+      ],
+      "answer": "Politiche comportamentali"
+    },
+    {
+      "id": 20,
+      "type": "multiple",
+      "question": "Cosa dovrebbe essere incluso in un response toolkit nell'ambito della gestione degli incidenti?",
+      "options": [
+        "Lista delle minacce",
+        "Programmi di formazione",
+        "Politiche di autenticazione",
+        "Sistemi hardware e software utilizzati"
+      ],
+      "answer": "Sistemi hardware e software utilizzati"
+    },
+    {
+      "id": 21,
+      "type": "multiple",
+      "question": "Quali sono alcune delle attività coinvolte nella preparazione dei dispositivi (host) per la gestione degli incidenti?",
+      "options": [
+        "Eliminazione dei membri del CERT",
+        "Memorizzazione delle checksum dei file critici",
+        "Concessione di massimi livelli di accesso possibili agli host",
+        "Disattivazione dei log di sicurezza"
+      ],
+      "answer": "Memorizzazione delle checksum dei file critici"
+    },
+    {
+      "id": 22,
+      "type": "multiple",
+      "question": "Quali misure di sicurezza dovrebbero essere implementate nella preparazione della rete per la gestione degli incidenti?",
+      "options": [
+        "Non criptare mai il traffico di rete",
+        "Non definire telemetrie",
+        "Disabilitare i firewall",
+        "Utilizzare ACL su router"
+      ],
+      "answer": "Utilizzare ACL su router"
+    },
+    {
+      "id": 23,
+      "type": "multiple",
+      "question": "Cosa fa un Endpoint DLP?",
+      "options": [
+        "Protegge i dati in movimento",
+        "Protegge la rete da intrusioni",
+        "Protegge i dati in uso",
+        "Protegge i dati in riposo nei server"
+      ],
+      "answer": "Protegge i dati in movimento"
+    },
+    {
+      "id": 24,
+      "type": "multiple",
+      "question": "Quali sono le attività fondamentali associate a DLP, come menzionate nel testo?",
+      "options": [
+        "Monitorare l'intera infrastruttura IT",
+        "Creare un processo di gestione delle detection",
+        "Definire come i dati devono essere trattati",
+        "Archiviare i log in formati omogenei"
+      ],
+      "answer": null
+    },
+    {
+      "id": 25,
+      "type": "multiple",
+      "question": "Quali tipi di dati possono essere catturati utilizzando i tool di Data capture menzionati nel testo?",
+      "options": [
+        "Metriche, IDS, IPS",
+        "Log, eventi, allarmi",
+        "SIEM, Packet Analyzer, Netflow",
+        "Full packets, header, sample"
+      ],
+      "answer": "Full packets, header, sample"
+    },
+    {
+      "id": 26,
+      "type": "multiple",
+      "question": "Cosa fa un Security Information and Event Managerment (SIEM) nella gestione degli eventi di sicurezza?",
+      "options": [
+        "Cattura full packets per l'analisi",
+        "Sincronizza log e eventi in formato omogeneo",
+        "Protegge i dati in movimento",
+        "Crea regole per ridurre i falsi positivi"
+      ],
+      "answer": "Sincronizza log e eventi in formato omogeneo"
+    },
+    {
+      "id": 27,
+      "type": "multiple",
+      "question": "Qual è il ruolo del Primary Incident handler nella fase di identificazione?",
+      "options": [
+        "Garantire lo scambio sicuro di informazioni",
+        "Categorizzare logicamente l'infrastruttura",
+        "Stabilire fiducia e condivisione di informazioni",
+        "Colui che è responsabile della gestione dell'incidente"
+      ],
+      "answer": "Colui che è responsabile della gestione dell'incidente"
+    },
+    {
+      "id": 28,
+      "type": "multiple",
+      "question": "Quali sono le due principali categorie di Data Loss Prevention (DLP) menzionate nel testo?",
+      "options": [
+        "Data in movimento DLP e Data in uso DLP",
+        "Network DLP e Application DLP",
+        "Network DLP e Endpoint DLP",
+        "Endpoint DLP e Application DLP"
+      ],
+      "answer": "Network DLP e Endpoint DLP"
+    },
+    {
+      "id": 29,
+      "type": "multiple",
+      "question": "Quali sono alcune delle altre metodologie di monitoraggio menzionate nel testo?",
+      "options": [
+        "Monitoraggio delle condizioni meteorologiche",
+        "Monitoraggio delle applicazioni social",
+        "Monitoraggio del traffico DNS, dei Router e dei Switches",
+        "Monitoraggio del traffico di rete e monitoraggio del clima"
+      ],
+      "answer": "Monitoraggio del traffico DNS, dei Router e dei Switches"
+    },
+    {
+      "id": 30,
+      "type": "multiple",
+      "question": "Quali sono i vantaggi principali degli honeypot ad alta interazione rispetto a quelli a bassa interazione?",
+      "options": [
+        "Maggiore sicurezza",
+        "Maggior quantità di informazioni catturate",
+        "Minori costi",
+        "Maggiore facilità di installazione"
+      ],
+      "answer": "Maggior quantità di informazioni catturate"
+    },
+    {
+      "id": 31,
+      "type": "multiple",
+      "question": "Qual è l'obiettivo principale degli honeypots all'interno di un'infrastruttura di rete?",
+      "options": [
+        "Proteggere i server principali della rete",
+        "Creare reti isolate per la sicurezza",
+        "Eliminare tutti gli attacchi informatici",
+        "Monitorare potenziali attacchi e simulare risorse attraenti per gli attaccanti"
+      ],
+      "answer": "Monitorare potenziali attacchi e simulare risorse attraenti per gli attaccanti"
+    },
+    {
+      "id": 32,
+      "type": "multiple",
+      "question": "In quale modalità di utilizzo si tende a usare gli IPS (Intrusion Prevention System) a causa dei falsi positivi?",
+      "options": [
+        "Modalità HIDS (Host-based Intrusion Detection System)",
+        "Modalità IDS (Intrusion Detection System)",
+        "Modalità Honeypot",
+        "Modalità NIDS (Network-based Intrusion Detection System)"
+      ],
+      "answer": null
+    },
+    {
+      "id": 33,
+      "type": "multiple",
+      "question": "Qual è l'obiettivo principale di un IDS (Intrusion Detection System)?",
+      "options": [
+        "Bloccare tutti i pacchetti di dati provenienti dall'esterno",
+        "Monitorare il traffico di rete alla ricerca di attacchi o intrusioni",
+        "Creare una rete isolata per attirare gli hacker",
+        "Eseguire applicazioni e servizi su server virtuali"
+      ],
+      "answer": null
+    },
+    {
+      "id": 34,
+      "type": "multiple",
+      "question": "Quali sono le due tipologie di firewall menzionate nel testo?",
+      "options": [
+        "Firewall hardware e firewall software",
+        "Firewall host based e Firewall network based",
+        "Firewall interno ed esterno",
+        "Firewall ad alta interazione e firewall a bassa interazione"
+      ],
+      "answer": null
+    },
+    {
+      "id": 35,
+      "type": "multiple",
+      "question": "Quali sono le principali funzioni di un firewall e in che modo si configurano per proteggere una rete?",
+      "options": [
+        "© 2016 - 2024 Università Telematica eCampus - Data Stampa 18/12/2024 11:33:26 - 12/140",
+        "Set Domande: SECURITY OPERATION CENTER SPECIALIST",
+        "INGEGNERIA INFORMATICA E DELL'AUTOMAZIONE (D.M. 270/04)",
+        "Docente: Capobianco Antonio"
+      ],
+      "answer": null
+    },
+    {
+      "id": 36,
+      "type": "multiple",
+      "question": "Quali sono gli strumenti menzionati nel testo per l'analisi statica avanzata del malware?",
+      "options": [
+        "VirusTotal e strings",
+        "RegShot e Process Monitor",
+        "CaptureBAT e Process Hacker",
+        "IDA Pro e disassembler"
+      ],
+      "answer": null
+    },
+    {
+      "id": 37,
+      "type": "multiple",
+      "question": "Qual è uno degli obiettivi dell'analisi dinamica menzionata nel testo?",
+      "options": [
+        "Analizzare le vulnerabilità di un sistema",
+        "Identificare le istruzioni di codice",
+        "Trovare le forme per fornire ai sistemi di IDS/IPS",
+        "Analizzare il malware senza eseguirlo"
+      ],
+      "answer": null
+    },
+    {
+      "id": 38,
+      "type": "multiple",
+      "question": "Cosa implica l'analisi dinamica \"avanzata\" nel testo?",
+      "options": [
+        "Esecuzione del codice in un debugger e analisi dello stato interno dell'eseguibile",
+        "Utilizzo di VirusTotal",
+        "Analisi del malware utilizzando Process Monitor",
+        "Analisi del malware senza vedere le istruzioni di codice"
+      ],
+      "answer": null
+    },
+    {
+      "id": 39,
+      "type": "multiple",
+      "question": "Qual è uno dei requisiti per l'analisi dinamica \"base\" menzionata nel testo?",
+      "options": [
+        "Ambiente di test sicuro",
+        "Utilizzo di un disassembler",
+        "Conoscenza del linguaggio Assembler",
+        "Utilizzo di una macchina virtuale"
+      ],
+      "answer": null
+    },
+    {
+      "id": 40,
+      "type": "multiple",
+      "question": "Cosa rappresenta l'analisi dinamica nel contesto della Malware Analysis?",
+      "options": [
+        "Analisi della propagazione di un malware",
+        "Analisi del malware eseguendo il suo codice",
+        "Analisi del malware senza vedere le istruzioni di codice",
+        "Analisi delle vulnerabilità di un sistema"
+      ],
+      "answer": null
+    },
+    {
+      "id": 41,
+      "type": "multiple",
+      "question": "Quali sono gli strumenti menzionati nel testo per l'analisi statica del malware?",
+      "options": [
+        "Debugger e RegShot",
+        "VirusTotal e IDA Pro",
+        "Process Monitor e Process Hacker",
+        "CaptureBAT e strings"
+      ],
+      "answer": null
+    },
+    {
+      "id": 42,
+      "type": "multiple",
+      "question": "Quali sono alcune delle macroaree in cui è divisa la Malware Analysis, secondo il testo?",
+      "options": [
+        "Analisi forense e analisi crittografica",
+        "Analisi delle vulnerabilità e analisi dei log di sicurezza",
+        "Analisi statica e analisi dinamica",
+        "Analisi del traffico di rete e analisi degli eventi di sistema"
+      ],
+      "answer": null
+    },
+    {
+      "id": 43,
+      "type": "multiple",
+      "question": "Quali sono le regole di base durante la fase di Short Term Containment?",
+      "options": [
+        "Staccare il cavo di rete e mettere in sleep mode",
+        "Spegnere immediatamente la macchina",
+        "Modificare i registri di sistema",
+        "Creare un backup dei dati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 44,
+      "type": "multiple",
+      "question": "Cosa sono gli IoC (Indicatori di Compromissione)?",
+      "options": [
+        "Protocolli di sicurezza del firewall",
+        "Elementi che confermano l'esistenza di un attacco",
+        "Registri dei dispositivi compromessi",
+        "Codici sorgente di virus"
+      ],
+      "answer": null
+    },
+    {
+      "id": 45,
+      "type": "multiple",
+      "question": "Qual è la prima regola da seguire nella fase di Backup dei sistemi coinvolti e studio?",
+      "options": [
+        "Non effettuare alcun backup",
+        "Scegliere l'ordine di volatilità",
+        "Creare una copia dell'immagine del disco compromesso",
+        "Lavorare direttamente sull'originale"
+      ],
+      "answer": null
+    },
+    {
+      "id": 46,
+      "type": "multiple",
+      "question": "Cosa si acquisisce durante un processo di acquisizione dinamica o live?",
+      "options": [
+        "Registri del sistema",
+        "Password, messaggi e indirizzi IP",
+        "Virus signatures",
+        "Dati non volatili"
+      ],
+      "answer": null
+    },
+    {
+      "id": 47,
+      "type": "multiple",
+      "question": "Quando è necessario comunicare con il provider ISP durante la fase di Long Term Containment?",
+      "options": [
+        "Non è mai necessario comunicare con il provider ISP",
+        "Dopo aver completato la fase di eradicazione",
+        "Solo se è stato compromesso il sistema ISP",
+        "Prima di muoversi verso questa fase"
+      ],
+      "answer": null
+    },
+    {
+      "id": 48,
+      "type": "multiple",
+      "question": "Quali azioni possono essere necessarie se i sistemi devono rimanere accesi durante la fase di Long Term Containment?",
+      "options": [
+        "Cambiare il provider ISP",
+        "Disconnettersi dalla rete",
+        "Mettere patch ai sistemi e utilizzare HIDS",
+        "Spegnere immediatamente i sistemi"
+      ],
+      "answer": null
+    },
+    {
+      "id": 49,
+      "type": "multiple",
+      "question": "Cosa è il Forum of Incident Response and Security Teams (FIRST)?",
+      "options": [
+        "Un sistema operativo per il contenimento degli attacchi",
+        "Un'organizzazione che fornisce informazione sulla sicurezza informatica attraverso un forum",
+        "Un gruppo di hacker",
+        "Un forum online per discutere di incidenti informatici"
+      ],
+      "answer": null
+    },
+    {
+      "id": 50,
+      "type": "multiple",
+      "question": "Cosa indica il \"tempo di vita\" (TTL) nell'output di Tracepath o Traceroute?",
+      "options": [
+        "Il tempo massimo per completare una scansione",
+        "Il tempo trascorso dalla scansione",
+        "La larghezza di banda di rete disponibile",
+        "Il numero di hop (router) lungo il percorso"
+      ],
+      "answer": null
+    },
+    {
+      "id": 51,
+      "type": "multiple",
+      "question": "Quale livello della pila ISO/OSI è associato all'analisi del protocollo ARP?",
+      "options": [
+        "Livello di trasporto",
+        "Livello di collegamento",
+        "Livello di rete",
+        "Livello applicativo"
+      ],
+      "answer": null
+    },
+    {
+      "id": 52,
+      "type": "multiple",
+      "question": "Cosa fa la scansione ICMP?",
+      "options": [
+        "Traccia il percorso verso un indirizzo di rete designato",
+        "Analizza il protocollo ARP",
+        "Esegue una scansione dei servizi di rete",
+        "Rileva la presenza di host in una rete fisica"
+      ],
+      "answer": null
+    },
+    {
+      "id": 53,
+      "type": "multiple",
+      "question": "Qual è il protocollo utilizzabile con Netcat per condurre il Port Probing?",
+      "options": [
+        "Sia TCP che UDP",
+        "Solo ICMP",
+        "Solo TCP",
+        "Solo UDP"
+      ],
+      "answer": null
+    },
+    {
+      "id": 54,
+      "type": "multiple",
+      "question": "Quale delle seguenti opzioni NON è un protocollo menzionato nel testo per condurre il Port Probing?",
+      "options": [
+        "HTTP",
+        "Telnet",
+        "SMTP",
+        "FTP"
+      ],
+      "answer": null
+    },
+    {
+      "id": 55,
+      "type": "multiple",
+      "question": "Qual è uno dei client specifici di protocollo menzionati nel testo che può essere utilizzato per condurre il Port Probing?",
+      "options": [
+        "FTP",
+        "Netcat",
+        "SSH",
+        "Telnet"
+      ],
+      "answer": null
+    },
+    {
+      "id": 56,
+      "type": "multiple",
+      "question": "Cosa rappresenta l'output generato dalla tecnica di Port Probing utilizzando Netcat?",
+      "options": [
+        "Messaggio di errore di connessione",
+        "Lista di indirizzi IP",
+        "Elenco di porte aperte e servizi disponibili",
+        "Dati binari cifrati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 57,
+      "type": "multiple",
+      "question": "Quali sono le differenze tra Tracepath e Traceroute nell'analisi del percorso di rete?",
+      "options": [
+        "© 2016 - 2024 Università Telematica eCampus - Data Stampa 18/12/2024 11:33:26 - 20/140",
+        "Set Domande: SECURITY OPERATION CENTER SPECIALIST",
+        "INGEGNERIA INFORMATICA E DELL'AUTOMAZIONE (D.M. 270/04)",
+        "Docente: Capobianco Antonio"
+      ],
+      "answer": null
+    },
+    {
+      "id": 58,
+      "type": "multiple",
+      "question": "Quali sono le tipologie di record DNS menzionate nel testo?",
+      "options": [
+        "A, NS, MX, PTR",
+        "A, B, C, D",
+        "Linux, Windows, macOS, Kali",
+        "TCP, UDP, HTTP, FTP"
+      ],
+      "answer": null
+    },
+    {
+      "id": 59,
+      "type": "multiple",
+      "question": "Cosa indica il record MX in un DNS?",
+      "options": [
+        "Indica i server di posta per il dominio.",
+        "Indica il nome corrispondente ad un indirizzo.",
+        "Indica gli indirizzi e i nomi degli host.",
+        "Indica altri name server per il dominio."
+      ],
+      "answer": null
+    },
+    {
+      "id": 60,
+      "type": "multiple",
+      "question": "Qual è l'output principale di nslookup quando si interroga un dominio?",
+      "options": [
+        "Nome e indirizzo del server DNS.",
+        "Una lista di record SOA.",
+        "Una serie di indirizzi che fanno parte del dominio.",
+        "Dettagliati informazioni sul server DNS."
+      ],
+      "answer": null
+    },
+    {
+      "id": 61,
+      "type": "multiple",
+      "question": "Cosa indica l'output \"akamaiedge\" quando si esegue una query nslookup su www.microsoft.com?",
+      "options": [
+        "Il server DNS è autorevole per Microsoft.",
+        "Microsoft ospita autonomamente i suoi contenuti.",
+        "Akamai è un provider di contenuti utilizzato da Microsoft.",
+        "Microsoft è l'host principale del dominio."
+      ],
+      "answer": null
+    },
+    {
+      "id": 62,
+      "type": "multiple",
+      "question": "Come si esegue una risoluzione inversa (reverse DNS lookup) utilizzando nslookup?",
+      "options": [
+        "Scrivere \"nslookup -r 74.125.28.26\".",
+        "Scrivere \"nslookup reverse 74.125.28.26\".",
+        "Scrivere \"nslookup -x 74.125.28.26\".",
+        "Scrivere \"nslookup 74.125.28.26\"."
+      ],
+      "answer": null
+    },
+    {
+      "id": 63,
+      "type": "multiple",
+      "question": "Qual è l'operazione che consente di visualizzare l'intero albero degli oggetti OID?",
+      "options": [
+        "GetRequest",
+        "SetRequest",
+        "Response",
+        "Traversal operation"
+      ],
+      "answer": null
+    },
+    {
+      "id": 64,
+      "type": "multiple",
+      "question": "Qual è l'operazione SNMP utilizzata per leggere i valori all'interno delle variabili?",
+      "options": [
+        "GetRequest",
+        "Response",
+        "Trap",
+        "SetRequest"
+      ],
+      "answer": null
+    },
+    {
+      "id": 65,
+      "type": "multiple",
+      "question": "Qual è il nome comunemente utilizzato per la community SNMP che permette solo operazioni di lettura?",
+      "options": [
+        "Write-Only",
+        "Read-Write",
+        "Read-Only",
+        "Trap"
+      ],
+      "answer": null
+    },
+    {
+      "id": 66,
+      "type": "multiple",
+      "question": "Cosa rappresenta l'acronimo OID nel contesto del protocollo SNMP?",
+      "options": [
+        "Online Identifier",
+        "Operational Identifier",
+        "Object Identifier",
+        "Organizational Identifier"
+      ],
+      "answer": null
+    },
+    {
+      "id": 67,
+      "type": "multiple",
+      "question": "Qual è uno dei principali scopi del protocollo SNMP?",
+      "options": [
+        "Scambiare informazioni di gestione tra dispositivi di rete",
+        "Creare siti web",
+        "Navigare su Internet",
+        "Invio di messaggi di posta elettronica"
+      ],
+      "answer": null
+    },
+    {
+      "id": 68,
+      "type": "multiple",
+      "question": "Quale delle seguenti non è una componente di una rete gestita SNMP?",
+      "options": [
+        "Manager",
+        "Agent",
+        "Router",
+        "MIB"
+      ],
+      "answer": null
+    },
+    {
+      "id": 69,
+      "type": "multiple",
+      "question": "Qual è il comando SNMP utilizzato per la richiesta SET, che permette di modificare i valori delle variabili?",
+      "options": [
+        "snmpget snmptranslate snmpwalk snmpset 08. Spiega il concetto di Manager Information Base (MIB) nel contesto del protocollo SNMP e come vengono utilizzati gli identificatori di oggetto (OID). 09. Descrivi brevemente le componenti principali di una rete gestita SNMP e il ruolo di ciascuna. © 2016 - 2024 Università Telematica eCampus - Data Stampa 18/12/2024 11:33:26 - 24/140",
+        "Set Domande: SECURITY OPERATION CENTER SPECIALIST",
+        "INGEGNERIA INFORMATICA E DELL'AUTOMAZIONE (D.M. 270/04)",
+        "Docente: Capobianco Antonio"
+      ],
+      "answer": null
+    },
+    {
+      "id": 70,
+      "type": "multiple",
+      "question": "Qual è uno dei casi principali in cui cURL può essere utilizzato, secondo il testo?",
+      "options": [
+        "Controllo remoto di un computer",
+        "Trasferimento di dati attraverso vari protocolli",
+        "Esecuzione di calcoli matematici complessi",
+        "Creazione di applicazioni grafiche"
+      ],
+      "answer": null
+    },
+    {
+      "id": 71,
+      "type": "multiple",
+      "question": "Cosa significa l'acronimo HTTP ?",
+      "options": [
+        "HyperText Transfer Protocol",
+        "Hypertext Text Protocol",
+        "Hyper Transfer Text Protocol",
+        "High-Level Transfer Protocol"
+      ],
+      "answer": null
+    },
+    {
+      "id": 72,
+      "type": "multiple",
+      "question": "Quale dei seguenti non è uno dei protocolli menzionati nel testo come supportati da cURL?",
+      "options": [
+        "POP3S",
+        "FTP",
+        "IMAP",
+        "SSH"
+      ],
+      "answer": null
+    },
+    {
+      "id": 73,
+      "type": "multiple",
+      "question": "Cosa è possibile ottenere eseguendo una richiesta HTTP GET con cURL?",
+      "options": [
+        "L'intera pagina",
+        "Solo i dati del corpo della risposta",
+        "L'URL della pagina richiesta",
+        "Solo l'intestazione HTTP"
+      ],
+      "answer": null
+    },
+    {
+      "id": 74,
+      "type": "multiple",
+      "question": "Quali sono alcune delle caratteristiche di uso principali di cURL menzionate nel testo?",
+      "options": [
+        "Streaming video in tempo reale",
+        "Invio di email",
+        "Supporto per database SQL",
+        "Richieste HTTP GET e POST"
+      ],
+      "answer": null
+    },
+    {
+      "id": 75,
+      "type": "multiple",
+      "question": "Quando si utilizza un \"verbo generico HTTP\" con cURL, quale output si ottiene?",
+      "options": [
+        "Solo le intestazioni HTTP",
+        "Un messaggio di errore",
+        "L'intera pagina web richiesta",
+        "Il corpo della risposta HTTP"
+      ],
+      "answer": null
+    },
+    {
+      "id": 76,
+      "type": "multiple",
+      "question": "In che modo può essere utilizzato cURL per eseguire test relativi al protocollo HTTP?",
+      "options": [
+        "© 2016 - 2024 Università Telematica eCampus - Data Stampa 18/12/2024 11:33:26 - 26/140",
+        "Set Domande: SECURITY OPERATION CENTER SPECIALIST",
+        "INGEGNERIA INFORMATICA E DELL'AUTOMAZIONE (D.M. 270/04)",
+        "Docente: Capobianco Antonio"
+      ],
+      "answer": null
+    },
+    {
+      "id": 77,
+      "type": "multiple",
+      "question": "Quali informazioni aggiuntive si ottengono utilizzando cURL per stampare statistiche utili di un server HTTPS?",
+      "options": [
+        "User agent e metodo HTTP",
+        "Tempo di risposta e numero di reindirizzamenti",
+        "Versione del server e indirizzo IP",
+        "Certificati SSL e algoritmi di crittografia utilizzati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 78,
+      "type": "multiple",
+      "question": "Cosa permette di fare il comando cURL con l'opzione -k?",
+      "options": [
+        "Ignorare i certificati SSL non validi",
+        "Verificare la versione di HTTP",
+        "Stampare statistiche utili",
+        "Specificare un user agent"
+      ],
+      "answer": null
+    },
+    {
+      "id": 79,
+      "type": "multiple",
+      "question": "Come puoi utilizzare cURL per scaricare un file da un server HTTPS con un certificato SSL non valido?",
+      "options": [
+        "curl -k curl --no-check curl --insecure curl --ignore-ssl © 2016 - 2024 Università Telematica eCampus - Data Stampa 18/12/2024 11:33:26 - 28/140",
+        "Set Domande: SECURITY OPERATION CENTER SPECIALIST",
+        "INGEGNERIA INFORMATICA E DELL'AUTOMAZIONE (D.M. 270/04)",
+        "Docente: Capobianco Antonio"
+      ],
+      "answer": null
+    },
+    {
+      "id": 80,
+      "type": "multiple",
+      "question": "Cosa fa Wget quando incontra un errore durante il download di un file?",
+      "options": [
+        "Passa al file successivo",
+        "Continua a provare finché non riesce a scaricare l'intero file",
+        "Si interrompe immediatamente",
+        "Mostra un messaggio di errore e si ferma"
+      ],
+      "answer": null
+    },
+    {
+      "id": 81,
+      "type": "multiple",
+      "question": "Quale comando è più adatto per scaricare un singolo documento da un sito web?",
+      "options": [
+        "Wget",
+        "SCP",
+        "SSH",
+        "Telnet"
+      ],
+      "answer": null
+    },
+    {
+      "id": 82,
+      "type": "multiple",
+      "question": "Quale funzionalità di Wget consente di ricostruire interamente la struttura delle directory originale di un sito remoto?",
+      "options": [
+        "La possibilità di scaricare un singolo file",
+        "La capacità di seguire i collegamenti nelle pagine HTML e XHTML",
+        "La capacità di visualizzare l'intestazione del protocollo HTTP",
+        "L'affidabilità su collegamenti di rete lenti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 83,
+      "type": "multiple",
+      "question": "Come viene visualizzata la risposta del server HTTP quando si scarica un documento con Wget?",
+      "options": [
+        "Come un messaggio di errore",
+        "Mostrando l'intestazione del protocollo HTTP",
+        "Non viene visualizzata",
+        "Come un file di log separato"
+      ],
+      "answer": null
+    },
+    {
+      "id": 84,
+      "type": "multiple",
+      "question": "Che cosa consente di fare Wget in risposta ai collegamenti di rete instabili?",
+      "options": [
+        "Ignorare i file non scaricabili",
+        "Riprovare automaticamente il download finché non riesce",
+        "Interrompere il download e mostrare un errore",
+        "Passare a un altro server 09. In che modo Wget gestisce la creazione della versione locale di un sito remoto? Descrivi il processo."
+      ],
+      "answer": null
+    },
+    {
+      "id": 85,
+      "type": "multiple",
+      "question": "Qual è il comportamento naturale di Nmap riguardo al port scanning?",
+      "options": [
+        "Configurare le porte per l'accesso remoto",
+        "Bloccare tutte le porte aperte",
+        "Verificare solo la porta 80",
+        "Utilizzare lo SYN scan per verificare le porte"
+      ],
+      "answer": null
+    },
+    {
+      "id": 86,
+      "type": "multiple",
+      "question": "Quali pacchetti di test Nmap utilizza per la ricerca di oggetti quando i firewall possono bloccare ICMP?",
+      "options": [
+        "Solo ACK port 80",
+        "Solo SYN port 443",
+        "Solo ICMP echo",
+        "ICMP echo, SYN port 443, ACK port 80"
+      ],
+      "answer": null
+    },
+    {
+      "id": 87,
+      "type": "multiple",
+      "question": "Qual è uno degli utilizzi principali di Nmap nella sicurezza informatica?",
+      "options": [
+        "Installare software antivirus",
+        "Effettuare backup incrementali",
+        "Monitorare l'uso della CPU",
+        "Identificare servizi di rete disponibili su una macchina"
+      ],
+      "answer": null
+    },
+    {
+      "id": 88,
+      "type": "multiple",
+      "question": "Per quale scopo un amministratore di sistema può utilizzare Nmap?",
+      "options": [
+        "Per configurare firewall",
+        "Per crittografare i dati",
+        "Per verificare la presenza di applicazioni server non autorizzate",
+        "Per eseguire il backup del sistema"
+      ],
+      "answer": null
+    },
+    {
+      "id": 89,
+      "type": "multiple",
+      "question": "Qual è una delle operazioni che Nmap può eseguire?",
+      "options": [
+        "Configurazione di router e switch",
+        "Ping sweep per ricercare oggetti mediante ICMP",
+        "Monitoraggio del traffico di rete",
+        "Backup dei database"
+      ],
+      "answer": null
+    },
+    {
+      "id": 90,
+      "type": "multiple",
+      "question": "Qual è il formato di file utilizzato dalla libreria libcap per la registrazione dei pacchetti?",
+      "options": [
+        "Pcap",
+        "Nessuna risposta corretta",
+        "BPF",
+        "PcapNG"
+      ],
+      "answer": null
+    },
+    {
+      "id": 91,
+      "type": "multiple",
+      "question": "Quali sono gli strumenti basati sulla libreria libcap per l'acquisizione e l'analisi dei pacchetti?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Tshark e dumpcap",
+        "Wireshark e tcpdump",
+        "Libcap e tcpdump"
+      ],
+      "answer": null
+    },
+    {
+      "id": 92,
+      "type": "multiple",
+      "question": "Cosa consente di fare tshark?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Catturare e analizzare pacchetti",
+        "Applicare filtri BPF",
+        "Registrare pacchetti in un file PCAP"
+      ],
+      "answer": null
+    },
+    {
+      "id": 93,
+      "type": "multiple",
+      "question": "Quali sono le principali caratteristiche del formato PCAP?",
+      "options": [
+        "Aggiunta di commenti ai frame",
+        "Nessuna risposta corretta",
+        "Possibilità di registrare pacchetti provenienti da diverse interfacce",
+        "Aggiunta di metadata che descrivono OS, hardware e applicazione sniffer"
+      ],
+      "answer": null
+    },
+    {
+      "id": 94,
+      "type": "multiple",
+      "question": "Cosa consente di fare il linguaggio di filtro Berkley Packet Filter (BPF) incluso nella libreria PCAP?",
+      "options": [
+        "Registrare i pacchetti in un file PCAP",
+        "Selezionare i pacchetti con certe caratteristiche all'interno di un flusso di rete",
+        "Applicare filtri ai pacchetti trasmessi o ricevuti su una rete",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 95,
+      "type": "multiple",
+      "question": "Qual è lo strumento Unix a linea di comando progettato come sniffer di pacchetti?",
+      "options": [
+        "Tshark",
+        "Tcpdump",
+        "Wireshark",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 96,
+      "type": "multiple",
+      "question": "Qual è il flag da utilizzare con tcpdump per salvare i pacchetti in un file PCAP?",
+      "options": [
+        "Nessuna risposta corretta -w -t -s © 2016 - 2024 Università Telematica eCampus - Data Stampa 18/12/2024 11:33:26 - 36/140",
+        "Set Domande: SECURITY OPERATION CENTER SPECIALIST",
+        "INGEGNERIA INFORMATICA E DELL'AUTOMAZIONE (D.M. 270/04)",
+        "Docente: Capobianco Antonio"
+      ],
+      "answer": null
+    },
+    {
+      "id": 97,
+      "type": "multiple",
+      "question": "Quale strumento può essere utilizzato sia per la cattura che per l'analisi dei pacchetti?",
+      "options": [
+        "Wireshark",
+        "Nessuna risposta corretta",
+        "Tshark",
+        "Tcpdump"
+      ],
+      "answer": null
+    },
+    {
+      "id": 98,
+      "type": "multiple",
+      "question": "Quali sono i possibili qualificatori di direzione di trasferimento nella sintassi BPF?",
+      "options": [
+        "Sorgente (src), destinazione (dst)",
+        "Ethernet, FDDI, WLAN",
+        "Nessuna risposta corretta",
+        "Host, network, porte"
+      ],
+      "answer": null
+    },
+    {
+      "id": 99,
+      "type": "multiple",
+      "question": "Cosa rappresentano le primitive nella sintassi BPF?",
+      "options": [
+        "Qualificatori di direzione di trasferimento",
+        "Nessuna risposta corretta",
+        "Riferimenti a campi in un'intestazione del protocollo di rete",
+        "Filtri di tipo host, net, port o portrange"
+      ],
+      "answer": null
+    },
+    {
+      "id": 100,
+      "type": "multiple",
+      "question": "Quali informazioni possono essere identificate dai qualificatori di tipo nella sintassi BPF?",
+      "options": [
+        "Indirizzi IP di rete",
+        "Nessuna risposta corretta",
+        "Host, network, porte",
+        "Dispositivi di rete"
+      ],
+      "answer": null
+    },
+    {
+      "id": 101,
+      "type": "multiple",
+      "question": "Cosa permette di fare Berkeley Packet Filters (BPF) nell'ambito della cybersecurity?",
+      "options": [
+        "Monitoraggio del traffico di rete",
+        "Analisi delle intrusioni",
+        "Nessuna risposta corretta",
+        "Riduzione delle catture a uno specifico tipo di traffico"
+      ],
+      "answer": null
+    },
+    {
+      "id": 102,
+      "type": "multiple",
+      "question": "Quali sono i possibili protocolli limitati dal qualificatore Proto nella sintassi BPF?",
+      "options": [
+        "IP, IP6, ARP",
+        "Ether, FDDI, WLAN, IP, IP6, ARP, TCP, UDP",
+        "Ethernet, FDDI, WLAN",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 103,
+      "type": "multiple",
+      "question": "Quali sono i possibili qualificatori di direzione utilizzati nella sintassi BPF?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Src, Net, Dst",
+        "Src, Port, Dst",
+        "Src, Dst"
+      ],
+      "answer": null
+    },
+    {
+      "id": 104,
+      "type": "multiple",
+      "question": "Quali sono i possibili qualificatori di tipo utilizzati nella sintassi BPF?",
+      "options": [
+        "Host, Net, Portrange",
+        "Host, Net, Port",
+        "Nessuna risposta corretta",
+        "Host, Net"
+      ],
+      "answer": null
+    },
+    {
+      "id": 105,
+      "type": "multiple",
+      "question": "Cosa indica il size nella sintassi Proto[expr:size]?",
+      "options": [
+        "Il numero di byte da leggere in totale",
+        "Nessuna risposta corretta",
+        "L'offset di byte dal quale partire",
+        "Il numero di byte da leggere di default"
+      ],
+      "answer": null
+    },
+    {
+      "id": 106,
+      "type": "multiple",
+      "question": "Quale protocollo viene utilizzato per le comunicazioni senza connessione?",
+      "options": [
+        "IPv4",
+        "Nessuna risposta corretta",
+        "UDP",
+        "ICMP"
+      ],
+      "answer": null
+    },
+    {
+      "id": 107,
+      "type": "multiple",
+      "question": "Quale protocollo viene utilizzato per il controllo degli errori e dei messaggi di controllo?",
+      "options": [
+        "Nessuna risposta corretta",
+        "IPv4",
+        "ICMP",
+        "UDP"
+      ],
+      "answer": null
+    },
+    {
+      "id": 108,
+      "type": "multiple",
+      "question": "Quale sintassi viene utilizzata per accedere ai campi specifici dei pacchetti?",
+      "options": [
+        "Proto[expr:size]",
+        "Proto[expr]",
+        "Nessuna risposta corretta",
+        "Proto[size]"
+      ],
+      "answer": null
+    },
+    {
+      "id": 109,
+      "type": "multiple",
+      "question": "Cosa indica l'expr nella sintassi Proto[expr:size]?",
+      "options": [
+        "L'offset di byte dal quale partire",
+        "Il numero di byte da leggere in totale",
+        "Nessuna risposta corretta",
+        "Il numero di byte da leggere di default"
+      ],
+      "answer": null
+    },
+    {
+      "id": 110,
+      "type": "multiple",
+      "question": "Quali sono alcuni degli header di protocolli che possono essere di interesse?",
+      "options": [
+        "IPv4, ICMP, UDP, TCP",
+        "HTTP, FTP, SMTP, POP3",
+        "Nessuna risposta corretta",
+        "SSL, SSH, DNS, DHCP"
+      ],
+      "answer": null
+    },
+    {
+      "id": 111,
+      "type": "multiple",
+      "question": "Quale protocollo è utilizzato per la comunicazione tra host su Internet?",
+      "options": [
+        "IPv4",
+        "UDP",
+        "ICMP",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 112,
+      "type": "multiple",
+      "question": "Quali sono i due tipi di filtri presenti in Wireshark?",
+      "options": [
+        "Filtri di ingresso e filtri di uscita",
+        "Filtri di sicurezza e filtri di analisi",
+        "Nessuna risposta corretta",
+        "Filtri di acquisizione e filtri di visualizzazione"
+      ],
+      "answer": null
+    },
+    {
+      "id": 113,
+      "type": "multiple",
+      "question": "Dove vengono comunemente collocate le appliance di acquisizione pacchetti?",
+      "options": [
+        "Nessuna risposta corretta",
+        "All'ingresso della rete",
+        "All'interno delle apparecchiature critiche",
+        "All'uscita della rete"
+      ],
+      "answer": null
+    },
+    {
+      "id": 114,
+      "type": "multiple",
+      "question": "Quali informazioni vengono acquisite e registrate dalle appliance di acquisizione pacchetti?",
+      "options": [
+        "Solo il payload dei pacchetti",
+        "Sia l'intestazione che il payload dei pacchetti",
+        "Solo l'intestazione dei pacchetti",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 115,
+      "type": "multiple",
+      "question": "Quali sono i due posizionamenti di punti di inserzione delle appliance di acquisizione pacchetti?",
+      "options": [
+        "Posizionamenti centralizzati e decentralizzati",
+        "Posizionamenti interni ed esterni",
+        "Nessuna risposta corretta",
+        "Posizionamenti centralizzati e distribuiti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 116,
+      "type": "multiple",
+      "question": "Quanta capacità di disco possono richiedere le appliance di acquisizione pacchetti?",
+      "options": [
+        "Da 100 GB a 500 GB",
+        "Da 1 TB a 4 TB",
+        "Da 500 GB a 192 TB o più",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 117,
+      "type": "multiple",
+      "question": "Cosa significa \"cattura full\" nel contesto delle appliance di acquisizione pacchetti?",
+      "options": [
+        "La cattura di un sottoinsieme del traffico di rete",
+        "La cattura di tutti i pacchetti",
+        "La cattura di pacchetti filtrati in base a criteri definiti dall'utente",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 118,
+      "type": "multiple",
+      "question": "Quali sono alcuni esempi di Indici di Compromissione?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Indirizzi email, nome del file, protocollo di rete",
+        "Indirizzi IP, numero di porta, URL",
+        "Indirizzi IP, numero di telefono, nome del file"
+      ],
+      "answer": null
+    },
+    {
+      "id": 119,
+      "type": "multiple",
+      "question": "Cosa permette di identificare l'oggetto infettante utilizzato dall'attaccante?",
+      "options": [
+        "URL",
+        "Nessuna risposta corretta",
+        "Numero di porta",
+        "Indirizzo IP"
+      ],
+      "answer": null
+    },
+    {
+      "id": 120,
+      "type": "multiple",
+      "question": "Quali informazioni possono essere ottenute utilizzando il nome di un file?",
+      "options": [
+        "Indirizzo IP",
+        "Numero di porta",
+        "Nessuna risposta corretta",
+        "Identificazione di file comuni usati come attacco"
+      ],
+      "answer": null
+    },
+    {
+      "id": 121,
+      "type": "multiple",
+      "question": "Quali informazioni possono essere ottenute utilizzando l'indirizzo di posta elettronica dell'attaccante?",
+      "options": [
+        "Identificazione dell'attaccante che attua un attacco di phishing",
+        "Indirizzo IP",
+        "Nessuna risposta corretta",
+        "Nome del file"
+      ],
+      "answer": null
+    },
+    {
+      "id": 122,
+      "type": "multiple",
+      "question": "Cosa permette di identificare i messaggi standard adottati dagli attaccanti?",
+      "options": [
+        "Indirizzo IP",
+        "Campo oggetto di un messaggio di posta",
+        "Nessuna risposta corretta",
+        "Numero di porta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 123,
+      "type": "multiple",
+      "question": "Cosa permette di ottenere la firma digitale di un file?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Numero di porta",
+        "File hash (md5, sha1, sha256, ...)",
+        "Indirizzo IP"
+      ],
+      "answer": null
+    },
+    {
+      "id": 124,
+      "type": "multiple",
+      "question": "Cosa si consiglia di fare durante la prima fase di penetrazione del perimetro per evitare di dare informazioni all'attaccante?",
+      "options": [
+        "Registrare gli IoC rilevati su fonti aperte",
+        "Non registrare mai su fonti aperte gli IoC rilevati",
+        "Nessuna risposta corretta",
+        "Caricare file su VirusTotal per l'analisi"
+      ],
+      "answer": null
+    },
+    {
+      "id": 125,
+      "type": "multiple",
+      "question": "Cosa controlla uno stateful firewall durante una connessione?",
+      "options": [
+        "Gli indirizzi di origine e di destinazione dei pacchetti",
+        "I pacchetti e la struttura della quintupla di connessione",
+        "Nessuna risposta corretta",
+        "Il traffico di rete in base alle regole di accesso"
+      ],
+      "answer": null
+    },
+    {
+      "id": 126,
+      "type": "multiple",
+      "question": "Qual è stata la prima soluzione per contrastare gli accessi non autorizzati ad una rete?",
+      "options": [
+        "Firewall di prima generazione",
+        "Stateful Packet Inspection (SPI)",
+        "Liste di controllo degli accessi (ACL) nei router basate su IP",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 127,
+      "type": "multiple",
+      "question": "Cosa offre un Unified Threat Management (UTM) rispetto a un firewall tradizionale?",
+      "options": [
+        "Supporto per reti LAN e WAN",
+        "Nessuna risposta corretta",
+        "Funzioni aggiuntive come antivirus, IPS, VPN e load balancing",
+        "Maggiore efficienza nel filtraggio del traffico di rete"
+      ],
+      "answer": null
+    },
+    {
+      "id": 128,
+      "type": "multiple",
+      "question": "In che momento si decide se un pacchetto in ingresso deve essere mandato al routing del pacchetto?",
+      "options": [
+        "Prima dell'analisi del pacchetto",
+        "Durante l'analisi del pacchetto",
+        "Dopo l'analisi del pacchetto",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 129,
+      "type": "multiple",
+      "question": "Quali sono le funzioni offerte da Netfilter?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Filtraggio dei pacchetti, traduzione degli indirizzi di rete, traduzione delle porte",
+        "Filtraggio dei pacchetti, traduzione degli indirizzi di rete, traduzione delle porte",
+        "Filtraggio dei pacchetti, traduzione degli indirizzi di rete, crittografia dei pacchetti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 130,
+      "type": "multiple",
+      "question": "In che momento si può prendere una decisione sul pacchetto da inviare verso un'interfaccia esterna?",
+      "options": [
+        "Dopo l'analisi del pacchetto",
+        "Prima dell'analisi del pacchetto",
+        "Nel momento in cui il pacchetto deve essere inviato verso l'interfaccia esterna",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 131,
+      "type": "multiple",
+      "question": "Cosa fa il motore del kernel nftables?",
+      "options": [
+        "Gestisce le connessioni di rete",
+        "Nessuna risposta corretta",
+        "Aggiunge una macchina virtuale nel kernel Linux per eseguire bytecode",
+        "Aggiunge una macchina virtuale nel kernel Linux per eseguire bytecode"
+      ],
+      "answer": null
+    },
+    {
+      "id": 132,
+      "type": "multiple",
+      "question": "Quante componenti compongono Netfilter?",
+      "options": [
+        "Tre",
+        "Nessuna risposta corretta",
+        "Una",
+        "Due"
+      ],
+      "answer": null
+    },
+    {
+      "id": 133,
+      "type": "multiple",
+      "question": "Quali sono le catene predefinite nella tabella di netfilter?",
+      "options": [
+        "INPUT, OUTPUT e FORWARDING",
+        "PREROUTING, INPUT, OUTPUT, FORWARDING e POSTROUTING",
+        "PREROUTING, INPUT e OUTPUT",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 134,
+      "type": "multiple",
+      "question": "Quali sono gli obiettivi possibili di una regola in netfilter?",
+      "options": [
+        "Solo uno degli obiettivi predefiniti",
+        "Nessuna risposta corretta",
+        "Una catena definita dall'utente, uno degli obiettivi predefiniti o un obiettivo aggiuntivo definito da un'estensione",
+        "Solo una catena definita dall'utente"
+      ],
+      "answer": null
+    },
+    {
+      "id": 135,
+      "type": "multiple",
+      "question": "Qual è la politica di default di tutte le catene in netfilter?",
+      "options": [
+        "Alterare tutti i pacchetti che non corrispondono ad alcuna regola",
+        "Nessuna risposta corretta",
+        "Permettere a tutti i pacchetti di passare senza bloccarli o alterarli in alcun modo",
+        "Bloccare tutti i pacchetti che non corrispondono ad alcuna regola"
+      ],
+      "answer": null
+    },
+    {
+      "id": 136,
+      "type": "multiple",
+      "question": "Cosa succede quando si consulta una catena in netfilter?",
+      "options": [
+        "Il pacchetto viene confrontato solo con la prima regola della catena",
+        "Il pacchetto viene confrontato con ogni regola della catena, finché non corrisponde a una regola",
+        "Nessuna risposta corretta",
+        "Il pacchetto viene confrontato con tutte le regole della catena, indipendentemente dalla corrispondenza"
+      ],
+      "answer": null
+    },
+    {
+      "id": 137,
+      "type": "multiple",
+      "question": "Cosa definiscono le catene in netfilter?",
+      "options": [
+        "Come vengono trattati i pacchetti nelle diverse fasi della loro elaborazione",
+        "Le regole relative ad uno specifico flusso",
+        "Nessuna risposta corretta",
+        "Le operazioni che è possibile effettuare sui pacchetti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 138,
+      "type": "multiple",
+      "question": "Quante tabelle predefinite ci sono in netfilter?",
+      "options": [
+        "Tre",
+        "Nessuna risposta corretta",
+        "Cinque",
+        "Quattro"
+      ],
+      "answer": null
+    },
+    {
+      "id": 139,
+      "type": "multiple",
+      "question": "Quali sono le due parti in cui sono divise le regole di netfilter?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Specifica e obiettivo",
+        "Interfaccia e protocollo",
+        "Indirizzo IP sorgente e destinazione 09. 3. Quali sono gli obiettivi possibili di una regola di netfilter?"
+      ],
+      "answer": null
+    },
+    {
+      "id": 140,
+      "type": "multiple",
+      "question": "Come vengono identificati i pacchetti all'interno di una connessione?",
+      "options": [
+        "Attraverso l'utilizzo di insiemi di indirizzi IP",
+        "Nessuna risposta corretta",
+        "Attraverso l'analisi dei pacchetti interi",
+        "Attraverso l'assegnazione di stati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 141,
+      "type": "multiple",
+      "question": "Qual è la funzione principale di Netfilter?",
+      "options": [
+        "Tradurre gli indirizzi dei pacchetti di una stessa connessione",
+        "Monitorare le connessioni di rete",
+        "Creare regole basate sulla relazione tra pacchetti e connessioni",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 142,
+      "type": "multiple",
+      "question": "Quali pacchetti possono passare attraverso un firewall stateful?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Solo i pacchetti che non sono frammentati",
+        "Solo i pacchetti RELATED e ESTABLISHED in entrambe le direzioni",
+        "Solo i pacchetti NEW dall'interno del firewall verso l'esterno"
+      ],
+      "answer": null
+    },
+    {
+      "id": 143,
+      "type": "multiple",
+      "question": "Qual è il problema delle connessioni nel contesto del firewall stateful?",
+      "options": [
+        "La gestione dei protocolli di comunicazione che stabiliscono due canali",
+        "La complessità delle regole da impostare",
+        "L'alterazione dei pacchetti durante la trasmissione",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 144,
+      "type": "multiple",
+      "question": "Cosa permette di gestire le complessità delle regole in Netfilter?",
+      "options": [
+        "Il modulo nf_conntrack_ipv4",
+        "Il modulo ipset",
+        "Nessuna risposta corretta",
+        "Il modulo nf_conntrack_ftp"
+      ],
+      "answer": null
+    },
+    {
+      "id": 145,
+      "type": "multiple",
+      "question": "Qual è il tipo di set più flessibile in ipset?",
+      "options": [
+        "List:set",
+        "Hash:net",
+        "Hash:ip",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 146,
+      "type": "multiple",
+      "question": "Quali sono le applicazioni software di terze parti per iptables?",
+      "options": [
+        "UFW e Firewalld",
+        "Nessuna risposta corretta",
+        "Iptables e UFW",
+        "Iptables e Firewalld"
+      ],
+      "answer": null
+    },
+    {
+      "id": 147,
+      "type": "multiple",
+      "question": "Quali sono i criteri predefiniti delle catene di iptables?",
+      "options": [
+        "DROP",
+        "Nessuna risposta corretta",
+        "REJECT",
+        "ACCEPT"
+      ],
+      "answer": null
+    },
+    {
+      "id": 148,
+      "type": "multiple",
+      "question": "Qual è lo strumento nativo per la gestione del framework netfilter?",
+      "options": [
+        "Firewalld",
+        "Nessuna risposta corretta",
+        "Iptables",
+        "UFW"
+      ],
+      "answer": null
+    },
+    {
+      "id": 149,
+      "type": "multiple",
+      "question": "Quali distribuzioni Linux supportano iptables come strumento di basso livello?",
+      "options": [
+        "RedHat e CentOS",
+        "Nessuna risposta corretta",
+        "Debian e Ubuntu",
+        "Tutte le distribuzioni Linux"
+      ],
+      "answer": null
+    },
+    {
+      "id": 150,
+      "type": "multiple",
+      "question": "Cosa occorre fare per utilizzare la stateful filter in iptables?",
+      "options": [
+        "Consentire i pacchetti in relazione",
+        "Impostare un nuovo progetto di difesa",
+        "Non viene specificato nel testo",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 151,
+      "type": "multiple",
+      "question": "Come possiamo specificare delle regole in base ad indirizzi IP specifici, indirizzi di sotto-rete o attraverso una interfaccia di rete?",
+      "options": [
+        "Utilizzando il comando \"iptables -A\" seguito dagli indirizzi IP o dalle sotto-reti specifiche",
+        "Utilizzando il comando \"iptables -L\" seguito dagli indirizzi IP o dalle sotto-reti specifiche",
+        "Non è possibile specificare queste informazioni con iptables",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 152,
+      "type": "multiple",
+      "question": "Come possiamo verificare lo stato delle regole nelle iptables?",
+      "options": [
+        "Non è possibile verificare lo stato delle regole nelle iptables",
+        "Nessuna risposta corretta",
+        "Utilizzando il comando \"iptables -S\"",
+        "Utilizzando il comando \"iptables -L\""
+      ],
+      "answer": null
+    },
+    {
+      "id": 153,
+      "type": "multiple",
+      "question": "Dove possiamo trovare i log delle decisioni del firewall in iptables?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Nel file /etc/sysconfig/iptables",
+        "Nel file /var/log/messages",
+        "Nel file /etc/iptables/rules.v4"
+      ],
+      "answer": null
+    },
+    {
+      "id": 154,
+      "type": "multiple",
+      "question": "Come si può impostare un filtro stateful in iptables?",
+      "options": [
+        "Partendo da un firewall vuoto e seguendo alcuni passi specifici",
+        "Utilizzando il flag -S (stateful) e specificando la porta di origine",
+        "Utilizzando il flag -F (filter) e specificando l'indirizzo IP di destinazione",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 155,
+      "type": "multiple",
+      "question": "Come si possono specificare delle regole in base agli indirizzi IP in iptables?",
+      "options": [
+        "Utilizzando il flag -I (ip) e specificando l'indirizzo IP di origine",
+        "Utilizzando il flag -A (address) e specificando l'indirizzo IP di destinazione",
+        "Nessuna risposta corretta",
+        "Utilizzando il flag -s (source) e specificando l'indirizzo IP di origine"
+      ],
+      "answer": null
+    },
+    {
+      "id": 156,
+      "type": "multiple",
+      "question": "Come si possono ripristinare le configurazioni iniziali di iptables?",
+      "options": [
+        "Utilizzando il comando \"iptables-reset\"",
+        "Nessuna risposta corretta",
+        "Utilizzando il comando \"iptables-flush\"",
+        "Utilizzando il comando \"iptables-restore\""
+      ],
+      "answer": null
+    },
+    {
+      "id": 157,
+      "type": "multiple",
+      "question": "Come si può abilitare il salvataggio delle configurazioni di iptables alla chiusura?",
+      "options": [
+        "Modificando il file /etc/iptables/rules.v4",
+        "Nessuna risposta corretta",
+        "Modificando il file /etc/sysconfig/iptables-config",
+        "Modificando il file /etc/syslog.conf"
+      ],
+      "answer": null
+    },
+    {
+      "id": 158,
+      "type": "multiple",
+      "question": "Come si può tenere traccia delle decisioni del firewall in iptables?",
+      "options": [
+        "Inviando un messaggio a syslog",
+        "Utilizzando il flag -L (log) e specificando il nome della catena",
+        "Utilizzando il flag -T (track) e specificando l'indirizzo IP di origine",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 159,
+      "type": "multiple",
+      "question": "Quali sono le regole che possono essere resettate alle impostazioni di default?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Regole di forwarding",
+        "Regole di filtraggio",
+        "Tutte le regole"
+      ],
+      "answer": null
+    },
+    {
+      "id": 160,
+      "type": "multiple",
+      "question": "Quali sono gli esempi di protezione da traffico illegale menzionati nel testo?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Protezione da Port Scanning",
+        "Protezione da SYN Flood",
+        "Protezione da NULL Scan"
+      ],
+      "answer": null
+    },
+    {
+      "id": 161,
+      "type": "multiple",
+      "question": "Qual è l'utilità che permette di interrogare e configurare Firewalld?",
+      "options": [
+        "D-Bus",
+        "Firewall-cmd",
+        "Nessuna risposta corretta",
+        "NetworkManager"
+      ],
+      "answer": null
+    },
+    {
+      "id": 162,
+      "type": "multiple",
+      "question": "Firewalld gestisce le regole in ingresso e in uscita con la stessa efficienza?",
+      "options": [
+        "Non specificato",
+        "Sì",
+        "Nessuna risposta corretta",
+        "No"
+      ],
+      "answer": null
+    },
+    {
+      "id": 163,
+      "type": "multiple",
+      "question": "Quali sono i limiti di Firewalld relativi a ipset, nomi servizi e politica di blocco di default?",
+      "options": [
+        "Sono limitati da standard come NIST 800-171 e 800-53",
+        "Nessuna risposta corretta",
+        "Non ci sono limiti",
+        "Sono limitati dai protocolli di rete utilizzati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 164,
+      "type": "multiple",
+      "question": "Qual è l'architettura di Firewalld?",
+      "options": [
+        "Non specificato",
+        "Si basa su netfilter e si posiziona sopra al firewall",
+        "Nessuna risposta corretta",
+        "Si basa su iptables e si posiziona sotto al firewall"
+      ],
+      "answer": null
+    },
+    {
+      "id": 165,
+      "type": "multiple",
+      "question": "Quali sono le zone definite per Firewalld a livello di fiducia crescente?",
+      "options": [
+        "Non specificato",
+        "Public, External, Internal, Trusted",
+        "Nessuna risposta corretta",
+        "Low, Medium, High, Critical"
+      ],
+      "answer": null
+    },
+    {
+      "id": 166,
+      "type": "multiple",
+      "question": "Firewalld supporta la rete IPv6 e IPv6?",
+      "options": [
+        "Sì",
+        "Nessuna risposta corretta",
+        "Non specificato",
+        "No"
+      ],
+      "answer": null
+    },
+    {
+      "id": 167,
+      "type": "multiple",
+      "question": "Qual è uno degli elementi in gioco per gestire il flusso di un pacchetto attraverso un host?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Rotta di instradamento RX -> TX",
+        "Regole di routing",
+        "Regole in uscita"
+      ],
+      "answer": null
+    },
+    {
+      "id": 168,
+      "type": "multiple",
+      "question": "Cosa succede se uno stato non viene trovato durante la ricerca di corrispondenza di un pacchetto?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Il pacchetto viene scartato",
+        "Il firewall cerca una regola nell'elenco per trovare un'innesco stato iniziale",
+        "Il pacchetto viene accettato"
+      ],
+      "answer": null
+    },
+    {
+      "id": 169,
+      "type": "multiple",
+      "question": "Cosa fa il comando \"pfctl -e\"?",
+      "options": [
+        "Attiva PF",
+        "Nessuna risposta corretta",
+        "Disattiva PF",
+        "Carica le regole di firewall"
+      ],
+      "answer": null
+    },
+    {
+      "id": 170,
+      "type": "multiple",
+      "question": "Cosa sono le liste e le macro in PF?",
+      "options": [
+        "Elenco di criteri simili all'interno di una regola",
+        "Nessuna risposta corretta",
+        "Entrambe le risposte precedenti",
+        "Variabili definite dall'utente per ridurre la complessità delle regole"
+      ],
+      "answer": null
+    },
+    {
+      "id": 171,
+      "type": "multiple",
+      "question": "Cosa indica il parametro \"af\" in una regola di filtraggio?",
+      "options": [
+        "Nessuna risposta corretta",
+        "L'address family (famiglia di indirizzi) e può essere inet (IPv4) o inet6 (IPv6)",
+        "L'address family (famiglia di indirizzi) e può essere ICMP o ICMP6",
+        "L'address family (famiglia di indirizzi) e può essere tcp o udp"
+      ],
+      "answer": null
+    },
+    {
+      "id": 172,
+      "type": "multiple",
+      "question": "Cosa possono essere i valori per src_addr e dst_addr in una regola di filtraggio?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Flag TCP",
+        "Indirizzo singolo, CIDR, FQDN, tabella",
+        "Numero di porta, un nome in /etc/services, una lista, un range"
+      ],
+      "answer": null
+    },
+    {
+      "id": 173,
+      "type": "multiple",
+      "question": "Quali sono i possibili valori per tcp_flags in una regola di filtraggio?",
+      "options": [
+        "FIN, SYN, RST, PUSH, ACK",
+        "FIN, SYN, RST, PUSH, ACK, URG, ECE, CWR",
+        "Nessuna risposta corretta",
+        "FIN, SYN, RST, PUSH, ACK, URG, ECE, CWR"
+      ],
+      "answer": null
+    },
+    {
+      "id": 174,
+      "type": "multiple",
+      "question": "Cosa mostra la sezione \"Diagnostica\" in OPNsense?",
+      "options": [
+        "La diagnostica del sistema, come l'attivit e i servizi",
+        "Nessuna risposta corretta",
+        "I processi attualmente in esecuzione e i loro dettagli",
+        "La configurazione dei servizi e il loro stato"
+      ],
+      "answer": null
+    },
+    {
+      "id": 175,
+      "type": "multiple",
+      "question": "Come si possono creare nuovi gruppi in OPNsense?",
+      "options": [
+        "Nessuna risposta corretta",
+        "System -> Access -> Servers",
+        "System -> Access -> Groups",
+        "System -> Access -> Users"
+      ],
+      "answer": null
+    },
+    {
+      "id": 176,
+      "type": "multiple",
+      "question": "Come si possono aggiungere nuovi utenti al sistema in OPNsense?",
+      "options": [
+        "System -> Access -> Servers",
+        "System -> Access -> Groups",
+        "System -> Access -> Users",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 177,
+      "type": "multiple",
+      "question": "Dove possiamo inserire le configurazioni salvate in precedenza?",
+      "options": [
+        "System -> Configurazioni -> Backup",
+        "System -> Configurazioni -> Cronologia",
+        "System -> Configurazioni -> Ripristino",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 178,
+      "type": "multiple",
+      "question": "Dove possiamo inserire qualsiasi range o numero per definire regole sulle porte specifiche?",
+      "options": [
+        "Firewall -> Rules -> LAN -> Add",
+        "Firewall -> Rules -> WAN -> Add",
+        "Firewall -> Rules -> Floating -> Add",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 179,
+      "type": "multiple",
+      "question": "Qual è il modo più corretto per definire regole basate su alias di host o indirizzi specifici?",
+      "options": [
+        "Selezionare una rete dalla sezione Firewall -> Rules -> WAN -> Add",
+        "Selezionare un indirizzo specifico dalla sezione Firewall -> Rules -> WAN -> Add",
+        "Aggiungere un nuovo alias o modificarne un altro",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 180,
+      "type": "multiple",
+      "question": "Come si può bloccare o negare una connessione?",
+      "options": [
+        "Creando una nuova regola e impostando \"Block\"",
+        "Modificando una regola esistente e impostando \"Block\"",
+        "Nessuna risposta corretta",
+        "Creando una nuova regola e impostando \"Pass\""
+      ],
+      "answer": null
+    },
+    {
+      "id": 181,
+      "type": "multiple",
+      "question": "Quali sono le due modalità di implementazione della sicurezza in IPsec?",
+      "options": [
+        "Transport mode e Tunnel mode",
+        "Internal Key Exchange e Security Association",
+        "AH mode ed ESP mode",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 182,
+      "type": "multiple",
+      "question": "Cosa garantisce la tunnel mode in IPsec?",
+      "options": [
+        "Sicurezza end-to-end e protezione dei campi variabili nei pacchetti",
+        "Cifratura del traffico e protezione dei campi variabili nei pacchetti",
+        "Nessuna risposta corretta",
+        "Integrità, autenticazione e no reply"
+      ],
+      "answer": null
+    },
+    {
+      "id": 183,
+      "type": "multiple",
+      "question": "Cosa garantisce la transport mode in IPsec?",
+      "options": [
+        "Sicurezza end-to-end e protezione dei campi variabili nei pacchetti",
+        "Nessuna risposta corretta",
+        "Cifratura del traffico e protezione dei campi variabili nei pacchetti",
+        "Integrità, autenticazione e no reply"
+      ],
+      "answer": null
+    },
+    {
+      "id": 184,
+      "type": "multiple",
+      "question": "Cosa garantisce il protocollo AH in IPsec?",
+      "options": [
+        "Integrità, autenticazione e no reply",
+        "Nessuna risposta corretta",
+        "Integrità, autenticazione, no reply e riservatezza",
+        "Riservatezza dei dati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 185,
+      "type": "multiple",
+      "question": "Cosa garantisce il protocollo ESP in IPsec?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Riservatezza dei dati",
+        "Integrità, autenticazione, no reply e riservatezza",
+        "Integrità, autenticazione e no reply"
+      ],
+      "answer": null
+    },
+    {
+      "id": 186,
+      "type": "multiple",
+      "question": "Quali algoritmi di cifratura sono consigliati nella prima fase di IKE?",
+      "options": [
+        "AES e MD5",
+        "AES e SHA1",
+        "Nessuna risposta corretta",
+        "DES e 3DES"
+      ],
+      "answer": null
+    },
+    {
+      "id": 187,
+      "type": "multiple",
+      "question": "Cosa si intende per IPv4 Tunnel Network?",
+      "options": [
+        "Una rete dedicata alla VPN",
+        "Nessuna risposta corretta",
+        "Una rete pubblica",
+        "Una rete locale"
+      ],
+      "answer": null
+    },
+    {
+      "id": 188,
+      "type": "multiple",
+      "question": "Come si creano gli utenti su OPNsense?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Andando su 'VPN' -> 'OpenVPN' -> 'Client Export' e selezionando il server desiderato",
+        "Andando su 'VPN' -> 'OpenVPN' -> 'Servers' e cliccando su 'Use a wizzard to setup a new server'",
+        "Andando su 'System' -> 'Access' -> 'Users' e cliccando su 'Add'"
+      ],
+      "answer": null
+    },
+    {
+      "id": 189,
+      "type": "multiple",
+      "question": "Come si scaricano i file da OpenVPN su OPNsense?",
+      "options": [
+        "Andando su 'VPN' -> 'OpenVPN' -> 'Servers' e cliccando su 'Use a wizzard to setup a new server'",
+        "Andando su 'VPN' -> 'OpenVPN' -> 'Client Export' e selezionando il server desiderato",
+        "Andando su 'System' -> 'Access' -> 'Users' e cliccando su 'Add'",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 190,
+      "type": "multiple",
+      "question": "Cosa utilizza il metodo di configurazione Static Key?",
+      "options": [
+        "Un tunnel a livello TCP/UDP",
+        "Nessuna risposta corretta",
+        "Una coppia di chiavi e dei certificati per l'autenticazione reciproca",
+        "Una chiave di cifratura simmetrica condivisa tra client e server"
+      ],
+      "answer": null
+    },
+    {
+      "id": 191,
+      "type": "multiple",
+      "question": "Come si crea un nuovo server OpenVPN su OPNsense?",
+      "options": [
+        "Andando su 'VPN' -> 'OpenVPN' -> 'Client Export' e selezionando il server desiderato",
+        "Andando su 'System' -> 'Access' -> 'Users' e cliccando su 'Add'",
+        "Andando su 'VPN' -> 'OpenVPN' -> 'Servers' e cliccando su 'Use a wizzard to setup a new server'",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 192,
+      "type": "multiple",
+      "question": "Qual è il protocollo utilizzato dalla configurazione SSL/TLS di OpenVPN?",
+      "options": [
+        "IP",
+        "UDP",
+        "TCP",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 193,
+      "type": "multiple",
+      "question": "Qual è il nome dell'azienda che produce dispositivi di rete e software specializzati in sicurezza?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Gil Shwed",
+        "Snort",
+        "Check Point Software Technologies Ltd."
+      ],
+      "answer": null
+    },
+    {
+      "id": 194,
+      "type": "multiple",
+      "question": "Chi è stato l'ideatore della tecnologia di base di Check Point?",
+      "options": [
+        "Gil Shwed",
+        "Nessuna risposta corretta",
+        "Snort",
+        "Check Point Software Technologies Ltd."
+      ],
+      "answer": null
+    },
+    {
+      "id": 195,
+      "type": "multiple",
+      "question": "Quale sistema operativo è una sintesi di Check Point SecurePlatform e Check Point IPSO?",
+      "options": [
+        "Check Point IPSO",
+        "Check Point SecurePlatform",
+        "Check Point Gaia",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 196,
+      "type": "multiple",
+      "question": "Su quale sistema operativo è basato Check Point Gaia?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Check Point IPSO",
+        "Check Point SecurePlatform",
+        "Redhat Entreprise Linux 5"
+      ],
+      "answer": null
+    },
+    {
+      "id": 197,
+      "type": "multiple",
+      "question": "Quali sono le due modalità di amministrazione di Gaia?",
+      "options": [
+        "Traffic Visibility e Hybrid OSI",
+        "WebUI e Clish",
+        "Nessuna risposta corretta",
+        "Check Point SecurePlatform e Check Point IPSO"
+      ],
+      "answer": null
+    },
+    {
+      "id": 198,
+      "type": "multiple",
+      "question": "Cosa consente di fare il Blade di Application Control di Check Point?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Applicare policy di sicurezza alle applicazioni",
+        "Analizzare i pacchetti singolarmente",
+        "Entrambe le risposte sono corrette"
+      ],
+      "answer": null
+    },
+    {
+      "id": 199,
+      "type": "multiple",
+      "question": "Cosa bisogna fare per far sì che le regole di sicurezza producano log?",
+      "options": [
+        "Attivare il meccanismo di tracciamento delle policy",
+        "Installare le policy sui Security Gateway",
+        "Nessuna risposta corretta",
+        "Configurare il sistema di comunicazione tra Gateway e Server"
+      ],
+      "answer": null
+    },
+    {
+      "id": 200,
+      "type": "multiple",
+      "question": "Cosa permette di fare l'Identity Awareness di Checkpoint?",
+      "options": [
+        "Creare e gestire i certificati utilizzati per il SIC",
+        "Nessuna risposta corretta",
+        "Fornire una visibilità dettagliata degli utenti, dei gruppi e delle macchine",
+        "Configurare le regole di sicurezza per i Gateway e i Server"
+      ],
+      "answer": null
+    },
+    {
+      "id": 201,
+      "type": "multiple",
+      "question": "Quali sono i moduli dell'architettura SMART di Checkpoint?",
+      "options": [
+        "Firewall, IPsecVPN, IDS",
+        "Security Gateway, Security Management Server, Smart Console",
+        "Antivirus, DLP, Application Control",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 202,
+      "type": "multiple",
+      "question": "Cosa sono i Blades nell'architettura di Checkpoint?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Componenti hardware che implementano e gestiscono i meccanismi di sicurezza",
+        "Componenti di rete che permettono la connessione tra Gateway e Server",
+        "Componenti software che aggiungono funzionalità come Firewall, IPsecVPN, IDS"
+      ],
+      "answer": null
+    },
+    {
+      "id": 203,
+      "type": "multiple",
+      "question": "Qual è la differenza tra la configurazione 'Distributed' e la configurazione 'Standalone' dell'architettura SMART di Checkpoint?",
+      "options": [
+        "Nella configurazione 'Distributed' si possono gestire più gateways, mentre nella configurazione 'Standalone' il Security Management Server coincide con il Gateway",
+        "Non ci sono differenze tra le due configurazioni",
+        "Nella configurazione 'Distributed' il Security Management Server coincide con il Gateway, mentre nella configurazione 'Standalone' si possono gestire più gateways",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 204,
+      "type": "multiple",
+      "question": "Qual è la policy di base presente su tutti i gateway di Checkpoint?",
+      "options": [
+        "Firewall rule",
+        "Install rule",
+        "Cleanup rule",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 205,
+      "type": "multiple",
+      "question": "Cosa si può fare nella sezione 'Manage & Settings' della Smart Console?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Vedere il resto delle configurazioni possibili",
+        "Controllare e configurare lo stato dei Server",
+        "Creare, eliminare e modificare le regole di sicurezza"
+      ],
+      "answer": null
+    },
+    {
+      "id": 206,
+      "type": "multiple",
+      "question": "Cosa sono i Blades nell'architettura di CheckPoint?",
+      "options": [
+        "Utenti e Gruppi",
+        "Gateway e Server",
+        "Componenti software aggiuntivi",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 207,
+      "type": "multiple",
+      "question": "Cosa si può fare nella sezione 'Logs & Monitor' della Smart Console?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Fare query al registro degli eventi",
+        "Controllare lo stato dei Gateway",
+        "Configurare i Blade relativi"
+      ],
+      "answer": null
+    },
+    {
+      "id": 208,
+      "type": "multiple",
+      "question": "Cosa scansiona e protegge il traffico criptato SSL/TLS attraverso il gateway di Checkpoint?",
+      "options": [
+        "Application Control con tecnologia di ispezione Check Point",
+        "Application Control",
+        "Nessuna risposta corretta",
+        "Stateless Filtering"
+      ],
+      "answer": null
+    },
+    {
+      "id": 209,
+      "type": "multiple",
+      "question": "Qual è il vantaggio dell'utilizzo dello Stateful Filtering di Checkpoint?",
+      "options": [
+        "Ricorda gli 'stati' delle connessioni",
+        "Nessuna risposta corretta",
+        "Controlla solo i pacchetti singolarmente",
+        "Analizza solo l'origine e la destinazione dei pacchetti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 210,
+      "type": "multiple",
+      "question": "Quali informazioni vengono analizzate dallo Stateless Filtering di Checkpoint?",
+      "options": [
+        "Solo l'origine e la destinazione dei pacchetti",
+        "Solo le porte relative dei pacchetti",
+        "Nessuna risposta corretta",
+        "Origine, destinazione, porte relative e header dei payload"
+      ],
+      "answer": null
+    },
+    {
+      "id": 211,
+      "type": "multiple",
+      "question": "Quale modello utilizza Checkpoint per la sua architettura di sicurezza?",
+      "options": [
+        "Modello TCP/IP",
+        "Modello ISO/OSI",
+        "Modello ibrido OSI/TCPIP",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 212,
+      "type": "multiple",
+      "question": "Quali risorse consuma il metodo di controllo Application Control di Checkpoint?",
+      "options": [
+        "Molte risorse",
+        "Pochissime risorse",
+        "Nessuna risposta corretta",
+        "Risorse medie"
+      ],
+      "answer": null
+    },
+    {
+      "id": 213,
+      "type": "multiple",
+      "question": "Cosa permette di definire in modo granulare le eccezioni per l'ispezione SSL/TLS di Checkpoint?",
+      "options": [
+        "Stateful Filtering",
+        "Application Control",
+        "Application Control con tecnologia di ispezione Check Point",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 214,
+      "type": "multiple",
+      "question": "Quali sono le misure di sicurezza utilizzate dal sistema di comunicazione SIC?",
+      "options": [
+        "Protocollo crittografico SSL per la creazione del canale sicuro",
+        "Autenticazione con certificato",
+        "Nessuna risposta corretta",
+        "Crittografia AES"
+      ],
+      "answer": null
+    },
+    {
+      "id": 215,
+      "type": "multiple",
+      "question": "Quali sono le connessioni distinte per colore all'interno dell'architettura SMART di Checkpoint?",
+      "options": [
+        "Le connessioni tra Gateway, server di gestione e componenti",
+        "Le connessioni tra vari Blades implementati",
+        "Le connessioni tra Smart Console e Management Server",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 216,
+      "type": "multiple",
+      "question": "Cosa fornisce Identity Awareness nel Next Generation Firewall di Check Point?",
+      "options": [
+        "Visibilità dettagliata degli utenti, dei gruppi e delle macchine",
+        "Nessuna risposta corretta",
+        "Controllo delle applicazioni e dell'accesso basato sull'identità",
+        "Tutte le risposte precedenti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 217,
+      "type": "multiple",
+      "question": "Quando la comunicazione tra Smart Console e Management Server è garantita?",
+      "options": [
+        "Solo quando viene impostata una policy che blocca l'SSH e l'HTTPS",
+        "Sempre, tranne quando viene impostata una policy che blocca l'SSH e l'HTTPS",
+        "Nessuna risposta corretta",
+        "Solo in una configurazione Standalone"
+      ],
+      "answer": null
+    },
+    {
+      "id": 218,
+      "type": "multiple",
+      "question": "Cosa fa l'Internal Certificate Authority (ICA) di Checkpoint?",
+      "options": [
+        "Crea e gestisce i certificati utilizzati per il SIC",
+        "Gestisce le regole restrittive tra Smart Console e Management Server",
+        "Nessuna risposta corretta",
+        "Implementa le connessioni all'interno dell'architettura SMART di Checkpoint"
+      ],
+      "answer": null
+    },
+    {
+      "id": 219,
+      "type": "multiple",
+      "question": "Quali sono le tre misure di sicurezza utilizzate dal sistema di comunicazione SIC?",
+      "options": [
+        "Autenticazione con certificato",
+        "Protocollo crittografico SSL per la creazione del canale sicuro",
+        "Crittografia 3DES",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 220,
+      "type": "multiple",
+      "question": "Qual è la differenza principale tra Gaia e i precedenti sistemi operativi di Checkpoint?",
+      "options": [
+        "Gaia può essere utilizzato solo da interfaccia grafica",
+        "Gaia può essere utilizzato sia da interfaccia grafica che da linea di comando",
+        "Gaia può essere utilizzato solo da linea di comando",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 221,
+      "type": "multiple",
+      "question": "Quante persone possono accedere contemporaneamente all'amministrazione di Gaia?",
+      "options": [
+        "Più di una",
+        "Nessuna",
+        "Solo una",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 222,
+      "type": "multiple",
+      "question": "Cosa permette di fare la WebUI di Gaia?",
+      "options": [
+        "Tutte le risposte precedenti",
+        "Nessuna risposta corretta",
+        "Monitorare le prestazioni del dispositivo",
+        "Configurare le impostazioni del sistema operativo"
+      ],
+      "answer": null
+    },
+    {
+      "id": 223,
+      "type": "multiple",
+      "question": "Cosa permette di fare la Clish di Gaia?",
+      "options": [
+        "Configurare ciò che la WebUI non può configurare",
+        "Configurare solo le impostazioni di alto livello",
+        "Configurare solo le impostazioni di basso livello",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 224,
+      "type": "multiple",
+      "question": "Cosa bisogna fare per far sì che le regole producano log?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Disattivare il meccanismo di tracciamento delle policy",
+        "Non è possibile far sì che le regole producano log",
+        "Attivare il meccanismo di tracciamento delle policy"
+      ],
+      "answer": null
+    },
+    {
+      "id": 225,
+      "type": "multiple",
+      "question": "Cosa succede se una policy che autorizza la connessione di un'interfaccia è seguita da una che la blocca?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Il passaggio verrà bloccato",
+        "Non succede nulla",
+        "Il passaggio verrà autorizzato"
+      ],
+      "answer": null
+    },
+    {
+      "id": 226,
+      "type": "multiple",
+      "question": "Quali sono i componenti principali dell'architettura SMART di Checkpoint?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Firewall, IDS, Antivirus",
+        "Security Gateway, Security Management Server, Smart Console",
+        "Gateway, Server, Blades"
+      ],
+      "answer": null
+    },
+    {
+      "id": 227,
+      "type": "multiple",
+      "question": "Qual è la regola di base su tutti i gateway che impedisce tutto il traffico su un Gateway appena installato?",
+      "options": [
+        "Firewall rule",
+        "Nessuna risposta corretta",
+        "Cleanup rule",
+        "Default Deny"
+      ],
+      "answer": null
+    },
+    {
+      "id": 228,
+      "type": "multiple",
+      "question": "Dove avviene l'installazione delle policy nell'architettura SMART?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Security Gateway",
+        "Smart Console",
+        "Security Management Server"
+      ],
+      "answer": null
+    },
+    {
+      "id": 229,
+      "type": "multiple",
+      "question": "Qual è l'ordine di applicazione delle policy?",
+      "options": [
+        "La regola che autorizza il traffico ha la precedenza",
+        "Nessuna risposta corretta",
+        "L'ordine di applicazione delle policy è casuale",
+        "La regola che nega il traffico ha la precedenza"
+      ],
+      "answer": null
+    },
+    {
+      "id": 230,
+      "type": "multiple",
+      "question": "Qual è la regola di base che blocca tutto il traffico su un Gateway appena installato?",
+      "options": [
+        "Accept Rule",
+        "Log Rule",
+        "Nessuna risposta corretta",
+        "Cleanup Rule"
+      ],
+      "answer": null
+    },
+    {
+      "id": 231,
+      "type": "multiple",
+      "question": "Cosa bisogna fare per permettere tutto l'ICMP?",
+      "options": [
+        "Inserire una nuova policy sopra la Cleanup Rule",
+        "Nessuna risposta corretta",
+        "Selezionare 'Accept' su Action e 'Log' su Track",
+        "Selezionare il protocollo ICMP sulla sezione 'Services & Application'"
+      ],
+      "answer": null
+    },
+    {
+      "id": 232,
+      "type": "multiple",
+      "question": "Dove bisogna aggiungere l'Host Linux nella policy ICMP solo da Host a Web-Server?",
+      "options": [
+        "Come Source",
+        "Come Destination",
+        "Nessuna risposta corretta",
+        "Come Action"
+      ],
+      "answer": null
+    },
+    {
+      "id": 233,
+      "type": "multiple",
+      "question": "Cosa bisogna aggiungere come Destination nella policy ICMP solo da Host a Web-Server?",
+      "options": [
+        "Nessuna risposta corretta",
+        "NAT Agent",
+        "Linux Web Server (DMZ)",
+        "Smart Console"
+      ],
+      "answer": null
+    },
+    {
+      "id": 234,
+      "type": "multiple",
+      "question": "Qual è un altro nome per la Shallow Packet Inspection (SPI)?",
+      "options": [
+        "Stateful Packet Inspection (SPI)",
+        "Stateful Packet Inspection (SPI)",
+        "Deep Packet Inspection (DPI)",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 235,
+      "type": "multiple",
+      "question": "Qual è uno dei compiti della Deep Packet Inspection (DPI)?",
+      "options": [
+        "Interrompere il flusso del traffico",
+        "Garantire che i dati siano nel formato corretto",
+        "Verificare la presenza di codice dannoso (malware)",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 236,
+      "type": "multiple",
+      "question": "Dove viene comunemente utilizzata la Deep Packet Inspection (DPI)?",
+      "options": [
+        "Negli IDS/IPS e nei firewall",
+        "Nei firewall",
+        "Nessuna risposta corretta",
+        "Nei router di rete"
+      ],
+      "answer": null
+    },
+    {
+      "id": 237,
+      "type": "multiple",
+      "question": "Qual è il compito principale di un IDS?",
+      "options": [
+        "Bloccare il traffico sospetto",
+        "Creare un pacchetto di risposta fittizio",
+        "Analizzare il traffico sospetto",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 238,
+      "type": "multiple",
+      "question": "Cosa fa la Deep Packet Inspection (DPI)?",
+      "options": [
+        "Ispeziona solo l'intestazione dei pacchetti",
+        "Non ispeziona i pacchetti",
+        "Nessuna risposta corretta",
+        "Ispeziona anche il payload dei pacchetti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 239,
+      "type": "multiple",
+      "question": "In che posizione si colloca un IDS nella topologia di rete?",
+      "options": [
+        "Non si colloca nella topologia di rete",
+        "Nessuna risposta corretta",
+        "In serie",
+        "In parallelo"
+      ],
+      "answer": null
+    },
+    {
+      "id": 240,
+      "type": "multiple",
+      "question": "Qual è la componente di Snort che estrae i pacchetti dalle diverse tipologie di interfacce?",
+      "options": [
+        "Preprocessor",
+        "Nessuna risposta corretta",
+        "Detection Engine",
+        "Packet Decoder"
+      ],
+      "answer": null
+    },
+    {
+      "id": 241,
+      "type": "multiple",
+      "question": "Cosa fa l'Analisi forense di Snort?",
+      "options": [
+        "Analizza il traffico di rete sulla base di regole definite dall'utente",
+        "Intercepisce il traffico di rete",
+        "Esegue analisi a posteriori su un traffico intercettato precedentemente",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 242,
+      "type": "multiple",
+      "question": "Qual è la modalità di funzionamento di Snort che permette di registrare i pacchetti intercettati su disco?",
+      "options": [
+        "Packet Logger",
+        "Sniffer",
+        "IDS",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 243,
+      "type": "multiple",
+      "question": "Su quali livelli della pila ISO/OSI può lavorare Snort?",
+      "options": [
+        "Livello di trasporto (TCP/UDP) e livello applicativo",
+        "Livello di rete (IP) e livello di trasporto (TCP/UDP)",
+        "Livello di rete (IP) e livello applicativo",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 244,
+      "type": "multiple",
+      "question": "Cosa fa il Logging e Alerting System di Snort?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Esegue analisi forense su un traffico intercettato precedentemente",
+        "Registra gli eventi e avvia gli alert e le notifiche",
+        "Estrae i pacchetti dalle diverse tipologie di interfacce"
+      ],
+      "answer": null
+    },
+    {
+      "id": 245,
+      "type": "multiple",
+      "question": "Qual è la componente di Snort che esegue i controlli sui campi o aspetti particolari dei pacchetti?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Detection Engine",
+        "Packet Decoder",
+        "Preprocessor"
+      ],
+      "answer": null
+    },
+    {
+      "id": 246,
+      "type": "multiple",
+      "question": "Cosa identifica l'identificatore SID?",
+      "options": [
+        "Nessuna risposta corretta",
+        "L'identificazione del flusso di rete",
+        "L'identificazione del traffico univoco",
+        "L'identificazione della regola"
+      ],
+      "answer": null
+    },
+    {
+      "id": 247,
+      "type": "multiple",
+      "question": "Quali sono le tipologie di regole utilizzate dal detection engine?",
+      "options": [
+        "Allarme, blocco, registrazione",
+        "Alert, pass/block, log",
+        "Allarme, gestite, registro",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 248,
+      "type": "multiple",
+      "question": "Quali sono i requisiti di un detection engine?",
+      "options": [
+        "Completezza e sicurezza",
+        "Completezza e affidabilità",
+        "Completezza e velocità",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 249,
+      "type": "multiple",
+      "question": "Quali sono i requisiti di completezza e velocità di un detection engine?",
+      "options": [
+        "Dipendono dal numero di regole, volume del traffico, velocità della rete e della macchina, efficienza dell'algoritmo di rilevamento",
+        "Nessuna risposta corretta",
+        "Dipendono solo dal numero di regole",
+        "Dipendono solo dalla velocità della rete"
+      ],
+      "answer": null
+    },
+    {
+      "id": 250,
+      "type": "multiple",
+      "question": "Quale limite può essere superato utilizzando l'architettura basata sul modulo di kernel pf-ring?",
+      "options": [
+        "Limite di gestione del carico di lavoro",
+        "Limite di velocità della rete",
+        "Limite di volume del traffico",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 251,
+      "type": "multiple",
+      "question": "Quale concetto topologico gestito da Snort identifica gli oggetti da difendere?",
+      "options": [
+        "External net",
+        "Nessuna risposta corretta",
+        "Home net",
+        "Entrambi"
+      ],
+      "answer": null
+    },
+    {
+      "id": 252,
+      "type": "multiple",
+      "question": "Cosa fa il Preprocessor in Snort?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Estrae i pacchetti dalle interfacce di rete",
+        "Esegue analisi sul traffico di rete",
+        "Rileva anomalie nelle intestazioni dei pacchetti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 253,
+      "type": "multiple",
+      "question": "Qual è la sezione in cui possiamo visualizzare gli allarmi generati da Snort?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Services",
+        "Logs",
+        "Alerts"
+      ],
+      "answer": null
+    },
+    {
+      "id": 254,
+      "type": "multiple",
+      "question": "Qual è la componente di Snort che estrae i pacchetti dalle diverse tipologie di interfacce di rete?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Packet Decoder",
+        "Preprocessor",
+        "Detection Engine"
+      ],
+      "answer": null
+    },
+    {
+      "id": 255,
+      "type": "multiple",
+      "question": "Qual è la principale funzione di pfSense?",
+      "options": [
+        "Antivirus",
+        "Nessuna risposta corretta",
+        "Router",
+        "Firewall"
+      ],
+      "answer": null
+    },
+    {
+      "id": 256,
+      "type": "multiple",
+      "question": "Dove possiamo trovare l'interfaccia di Snort in pfSense?",
+      "options": [
+        "Interfaces -> Interface Assignments",
+        "Services -> Snort",
+        "Interface -> LAN",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 257,
+      "type": "multiple",
+      "question": "Cosa dobbiamo fare per abilitare una istanza Snort su una specifica interfaccia di rete?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Aggiungere una configurazione nella sezione Snort",
+        "Configurare l'interfaccia fisica",
+        "Impostare la lunghezza del pacchetto"
+      ],
+      "answer": null
+    },
+    {
+      "id": 258,
+      "type": "multiple",
+      "question": "Quali sono le sezioni in cui possiamo gestire le regole in Snort?",
+      "options": [
+        "DMZ Rules",
+        "WAN Rules",
+        "LAN Rules",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 259,
+      "type": "multiple",
+      "question": "Quali sono le categorie di regole che possono essere abilitate o disabilitate in Snort?",
+      "options": [
+        "WAN Categories",
+        "LAN Categories",
+        "DMZ Categories",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 260,
+      "type": "multiple",
+      "question": "Quali regole possono essere modificate con PulledPork?",
+      "options": [
+        "Regole con GID 3",
+        "Nessuna risposta corretta",
+        "Regole con GID 2",
+        "Regole con GID 1"
+      ],
+      "answer": null
+    },
+    {
+      "id": 261,
+      "type": "multiple",
+      "question": "Quali sono le fonti da cui possiamo ottenere le regole per la configurazione di Snort?",
+      "options": [
+        "Cisco (Talos)",
+        "Nessuna risposta corretta",
+        "Emerging Threats",
+        "Strumenti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 262,
+      "type": "multiple",
+      "question": "Quali sono gli strumenti utilizzati per la gestione delle regole di Snort?",
+      "options": [
+        "Both a) and b)",
+        "Nessuna risposta corretta",
+        "PulledPork",
+        "Oinkmaster"
+      ],
+      "answer": null
+    },
+    {
+      "id": 263,
+      "type": "multiple",
+      "question": "Quali funzionalità offre PulledPork per la gestione delle regole di Snort?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Aggiornare le regole",
+        "Abilitare determinate regole",
+        "Abilitare o disabilitare regole specifiche"
+      ],
+      "answer": null
+    },
+    {
+      "id": 264,
+      "type": "multiple",
+      "question": "Quali file di testo vengono utilizzati da PulledPork per la gestione delle regole?",
+      "options": [
+        "Nessuna risposta corretta dropsid.conf modifysid.conf enablesid.conf © 2016 - 2024 Università Telematica eCampus - Data Stampa 18/12/2024 11:33:26 - 101/140",
+        "Set Domande: SECURITY OPERATION CENTER SPECIALIST",
+        "INGEGNERIA INFORMATICA E DELL'AUTOMAZIONE (D.M. 270/04)",
+        "Docente: Capobianco Antonio"
+      ],
+      "answer": null
+    },
+    {
+      "id": 265,
+      "type": "multiple",
+      "question": "Dove si trova l'interfaccia degli eventi e allarmi?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Nella sezione 'Services' -> 'Snort' -> 'Rules'",
+        "Nella sezione 'Services' -> 'Snort' -> 'Alerts'",
+        "Nella sezione 'Services' -> 'Snort' -> 'Logs'"
+      ],
+      "answer": null
+    },
+    {
+      "id": 266,
+      "type": "multiple",
+      "question": "Cosa si può scegliere nella sezione 'Services' -> 'Snort' -> 'Edit Interface' -> 'LAN'?",
+      "options": [
+        "La regola custom da aggiungere",
+        "Nessuna risposta corretta",
+        "L'interfaccia da visualizzare",
+        "La categoria degli allarmi da filtrare"
+      ],
+      "answer": null
+    },
+    {
+      "id": 267,
+      "type": "multiple",
+      "question": "Dove si possono gestire i log di Snort?",
+      "options": [
+        "Nella sezione 'Services' -> 'Snort' -> 'Rules'",
+        "Nella sezione 'Services' -> 'Snort' -> 'Alerts'",
+        "Nessuna risposta corretta",
+        "Nella sezione 'Services' -> 'Snort' -> 'Logs'"
+      ],
+      "answer": null
+    },
+    {
+      "id": 268,
+      "type": "multiple",
+      "question": "Qual è il motore offerto da PfSense per la gestione dei collettori di log?",
+      "options": [
+        "Syslog",
+        "Nessuna risposta corretta",
+        "Barnyard2",
+        "Snort"
+      ],
+      "answer": null
+    },
+    {
+      "id": 269,
+      "type": "multiple",
+      "question": "La gestione dei collettori di log è specifica per quale interfaccia?",
+      "options": [
+        "Snort",
+        "LAN",
+        "Nessuna risposta corretta",
+        "WAN"
+      ],
+      "answer": null
+    },
+    {
+      "id": 270,
+      "type": "multiple",
+      "question": "Qual è la sezione in cui è possibile attivare un insieme di regole per individuare uno scan nmap in Snort?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Services",
+        "Snort",
+        "Categories"
+      ],
+      "answer": null
+    },
+    {
+      "id": 271,
+      "type": "multiple",
+      "question": "Qual è la sezione in cui è possibile aggiungere una regola di soppressione in Snort?",
+      "options": [
+        "Suppression List Edit",
+        "Services",
+        "Nessuna risposta corretta",
+        "Snort"
+      ],
+      "answer": null
+    },
+    {
+      "id": 272,
+      "type": "multiple",
+      "question": "Dove è possibile abilitare la categoria delle scansioni in Snort?",
+      "options": [
+        "Categories",
+        "Snort",
+        "Services",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 273,
+      "type": "multiple",
+      "question": "Quali sono i casi d'uso di Snort menzionati nel testo?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Rimuovere una Suppress List e ignorare il traffico generato da uno specifico indirizzo IP",
+        "Attivare un insieme di regole per individuare uno scan nmap e sopprimere gli allarmi per porta VNC Scan",
+        "Disabilitare allarmi in caso di VA programmata nella nostra infrastruttura e identificare la configurazione della Suppress List applicata"
+      ],
+      "answer": null
+    },
+    {
+      "id": 274,
+      "type": "multiple",
+      "question": "Come è possibile rimuovere una Suppress List in Snort?",
+      "options": [
+        "Attraverso la sezione Services",
+        "Attraverso la sezione Suppression List",
+        "Attraverso la sezione Snort",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 275,
+      "type": "multiple",
+      "question": "Dove è possibile identificare la configurazione della Suppress List applicata in Snort?",
+      "options": [
+        "Suppression List",
+        "Services",
+        "Nessuna risposta corretta",
+        "Snort"
+      ],
+      "answer": null
+    },
+    {
+      "id": 276,
+      "type": "multiple",
+      "question": "Qual è la principale funzione di Tshark?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Interrompere il traffico di rete",
+        "Interrompere gli attacchi informatici",
+        "Intercettare e analizzare pacchetti di rete a linea di comando"
+      ],
+      "answer": null
+    },
+    {
+      "id": 277,
+      "type": "multiple",
+      "question": "Come possiamo salvare i pacchetti catturati con Tcpdump in un file?",
+      "options": [
+        "Utilizzando il comando \"cattura basata su porta\"",
+        "Nessuna risposta corretta",
+        "Utilizzando il comando \"cattura basato su un indirizzo ip sorgente o destinazione\"",
+        "Utilizzando il comando \"catturare e salvare i dati in un file\""
+      ],
+      "answer": null
+    },
+    {
+      "id": 278,
+      "type": "multiple",
+      "question": "Qual è la differenza tra Tcpdump e Tshark?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Tcpdump è un analizzatore di pacchetti a linea di comando, mentre Tshark è uno strumento di intercettazione del traffico di rete",
+        "Non ci sono differenze tra Tcpdump e Tshark",
+        "Tcpdump è uno strumento di intercettazione del traffico di rete, mentre Tshark è un analizzatore di pacchetti a linea di comando"
+      ],
+      "answer": null
+    },
+    {
+      "id": 279,
+      "type": "multiple",
+      "question": "Cosa ci permette di fare lo strumento di Packet Capture in pfSense?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Mettere diversi filtri di porte, indirizzi ip, etc...",
+        "Interrompere gli attacchi informatici",
+        "Analizzare il traffico di rete"
+      ],
+      "answer": null
+    },
+    {
+      "id": 280,
+      "type": "multiple",
+      "question": "Dove possiamo trovare lo strumento di Packet Capture in pfSense?",
+      "options": [
+        "Nella sezione \"Security\"",
+        "Nella sezione \"Diagnostics\"",
+        "Nessuna risposta corretta",
+        "Nella sezione \"Settings\""
+      ],
+      "answer": null
+    },
+    {
+      "id": 281,
+      "type": "multiple",
+      "question": "Qual è la funzione principale di Snort?",
+      "options": [
+        "Interrompere il traffico di rete",
+        "Interrompere gli attacchi informatici",
+        "Analizzare il traffico di rete",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 282,
+      "type": "multiple",
+      "question": "Quali sono le funzionalità minime di un SIEM?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Raccolta dei dati, correlazione, dashboard",
+        "Raccolta dei dati, parsing e normalizzazione, correlazione, reporting, dashboard, notifiche *",
+        "Parsing e normalizzazione, reporting, notifiche"
+      ],
+      "answer": null
+    },
+    {
+      "id": 283,
+      "type": "multiple",
+      "question": "Quali sono le componenti principali dell'architettura di IBM QRadar?",
+      "options": [
+        "Event collector, flow collector, event processor, flow processor",
+        "Dashboard, log activity, offensive o reati",
+        "Nessuna risposta corretta",
+        "Console, origine dei dati, raccolta dati ed eventi"
+      ],
+      "answer": null
+    },
+    {
+      "id": 284,
+      "type": "multiple",
+      "question": "Cosa fa Identity Awareness nel Next Generation Firewall di Check Point?",
+      "options": [
+        "Fornisce una visibilità dettagliata degli utenti, dei gruppi e delle macchine",
+        "Gestisce la sicurezza della rete e il monitoraggio dei flussi",
+        "Crea politiche accurate basate sull'identità",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 285,
+      "type": "multiple",
+      "question": "Quali sono le tre misure di sicurezza utilizzate nel Secure Internal Communication (SIC)?",
+      "options": [
+        "Autenticazione con certificato, protocollo crittografico SSH, crittografia AES",
+        "Nessuna risposta corretta",
+        "Autenticazione con password, protocollo crittografico TLS, crittografia AES",
+        "Autenticazione con certificato, protocollo crittografico SSL, crittografia 3DES"
+      ],
+      "answer": null
+    },
+    {
+      "id": 286,
+      "type": "multiple",
+      "question": "Cosa fa il Secure Information Management (SIM) in un SIEM?",
+      "options": [
+        "Fornisce report inerenti ai dati raccolti",
+        "Automatizza il processo di raccolta e gestione dei log non in tempo reale",
+        "Nessuna risposta corretta",
+        "Monitoraggio delle connessioni sospette e trasferimento dei dati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 287,
+      "type": "multiple",
+      "question": "Cosa fa il Secure Event Management (SEM) in un SIEM?",
+      "options": [
+        "Monitoraggio e gestione real-time degli eventi di sicurezza",
+        "Nessuna risposta corretta",
+        "Fornisce report inerenti ai dati raccolti",
+        "Automatizza il processo di raccolta e gestione dei log non in tempo reale"
+      ],
+      "answer": null
+    },
+    {
+      "id": 288,
+      "type": "multiple",
+      "question": "Quali sono le fonti dati per gli eventi in IBM QRadar?",
+      "options": [
+        "Log di Windows servers",
+        "Tutte le risposte sono corrette",
+        "Nessuna risposta corretta",
+        "Log di Unix server Syslog"
+      ],
+      "answer": null
+    },
+    {
+      "id": 289,
+      "type": "multiple",
+      "question": "Dove vengono salvati gli eventi in IBM QRadar?",
+      "options": [
+        "Console",
+        "Log activity",
+        "Ariel",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 290,
+      "type": "multiple",
+      "question": "Cosa include l'interfaccia utente non amministrativa di IBM QRadar?",
+      "options": [
+        "Tutte le risposte sono corrette",
+        "Dashboard",
+        "Nessuna risposta corretta",
+        "Log activity"
+      ],
+      "answer": null
+    },
+    {
+      "id": 291,
+      "type": "multiple",
+      "question": "Cosa fa il Logging e Alerting System in IBM QRadar?",
+      "options": [
+        "Registra gli eventi e avvia gli alert e le notifiche",
+        "Nessuna risposta corretta",
+        "Elabora i dati raccolti dalle fonti",
+        "Analizza i flussi di rete"
+      ],
+      "answer": null
+    },
+    {
+      "id": 292,
+      "type": "multiple",
+      "question": "Quali sono le fonti dati per i flussi in IBM QRadar?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Tutte le risposte sono corrette",
+        "Switch",
+        "Router"
+      ],
+      "answer": null
+    },
+    {
+      "id": 293,
+      "type": "multiple",
+      "question": "Cosa fa l'event collector in IBM QRadar?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Elabora gli eventi",
+        "Registra gli eventi nel database",
+        "Invia gli eventi alle fonti dati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 294,
+      "type": "multiple",
+      "question": "Dove vengono definite le regole di QRadar?",
+      "options": [
+        "Nelle offensive.",
+        "Nessuna risposta corretta",
+        "Nel log activity.",
+        "Nel Custom Rules Engine (CRE)."
+      ],
+      "answer": null
+    },
+    {
+      "id": 295,
+      "type": "multiple",
+      "question": "Cosa sono le dashboards in QRadar?",
+      "options": [
+        "Componenti per l'analisi dei dati.",
+        "Componenti per l'amministrazione del sistema.",
+        "Componenti grafici non importanti.",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 296,
+      "type": "multiple",
+      "question": "Quali tipi di informazioni possono essere trovate in una dashboard di QRadar?",
+      "options": [
+        "Top Domains visited.",
+        "Stato del sistema.",
+        "Nessuna risposta corretta",
+        "Regole di sicurezza."
+      ],
+      "answer": null
+    },
+    {
+      "id": 297,
+      "type": "multiple",
+      "question": "Cosa è il log activity in QRadar?",
+      "options": [
+        "Una funzione per la personalizzazione delle dashboards.",
+        "Una funzione per monitorare ed analizzare eventi di sicurezza e di rete.",
+        "Nessuna risposta corretta",
+        "Una funzione per la creazione di report."
+      ],
+      "answer": null
+    },
+    {
+      "id": 298,
+      "type": "multiple",
+      "question": "Qual è l'obiettivo delle offensive (reati) in QRadar?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Creare dashboard personalizzate.",
+        "Identificare e rispondere alle minacce in modo rapido.",
+        "Monitorare il log activity."
+      ],
+      "answer": null
+    },
+    {
+      "id": 299,
+      "type": "multiple",
+      "question": "Cosa rappresentano le regole in QRadar?",
+      "options": [
+        "Test eseguiti sulle offensive.",
+        "Nessuna risposta corretta",
+        "Alert Highlights.",
+        "Condizioni e risposte applicate ai dati."
+      ],
+      "answer": null
+    },
+    {
+      "id": 300,
+      "type": "multiple",
+      "question": "Qual è l'interfaccia che gestisce il fruire degli eventi di log?",
+      "options": [
+        "Visualizzazione di Log",
+        "Attività di Log",
+        "Interfaccia di Log",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 301,
+      "type": "multiple",
+      "question": "Quali sono le modalità di visualizzazione dei log?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Visualizzazione diretta, Aggiornamento temporale, Finestra statica",
+        "Streaming, Aggiornamento automatico, Finestra temporale statica",
+        "Tempo reale, Ultimo intercalo, Ultimi 5-15-... min-ore-giorni"
+      ],
+      "answer": null
+    },
+    {
+      "id": 302,
+      "type": "multiple",
+      "question": "Cosa permette di fare il Filtro rapido?",
+      "options": [
+        "Aggregazione dei dati secondo metadati prestabiliti",
+        "Nessuna risposta corretta",
+        "Visualizzazione in diretta di quello che avviene",
+        "Ricerca di valori e parole all'interno degli eventi di log"
+      ],
+      "answer": null
+    },
+    {
+      "id": 303,
+      "type": "multiple",
+      "question": "Come si possono combinare le parole nel Filtro rapido?",
+      "options": [
+        "Streaming, Aggiornamento automatico, Finestra temporale statica",
+        "Nessuna risposta corretta",
+        "AND, OR, NOT",
+        "Tempo reale, Ultimo intervallo, Ultimi 5-15-... min-ore-giorni"
+      ],
+      "answer": null
+    },
+    {
+      "id": 304,
+      "type": "multiple",
+      "question": "Cosa permette di fare l'aggiunta di filtri?",
+      "options": [
+        "Selezionare una sola sorgente di log",
+        "Aggregare i dati secondo metadati prestabiliti",
+        "Salvare i criteri di ricerca",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 305,
+      "type": "multiple",
+      "question": "Come si può salvare un criterio di ricerca?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Cliccando su 'Nuova ricerca'",
+        "Cliccando su 'Salva risultati'",
+        "Cliccando su 'Salva criteri'"
+      ],
+      "answer": null
+    },
+    {
+      "id": 306,
+      "type": "multiple",
+      "question": "Quali sono i diversi parametri di filtro che possiamo utilizzare con il filtro rapido?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Conte degli eventi; violazione o reato; altri",
+        "Data di creazione; data di modifica; altri",
+        "Gruppo origine log; origine log"
+      ],
+      "answer": null
+    },
+    {
+      "id": 307,
+      "type": "multiple",
+      "question": "Cosa indica l'icona rossa a sinistra di un evento nella schermata di dettaglio?",
+      "options": [
+        "La violazione collegata all'evento",
+        "Il gruppo di origine del log",
+        "L'origine del log",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 308,
+      "type": "multiple",
+      "question": "Come possiamo salvare un criterio di ricerca per utilizzarlo tra i filtri rapidi?",
+      "options": [
+        "Cliccando su 'Salva risultati'",
+        "Cliccando su 'Gestione risultati della ricerca'",
+        "Cliccando su 'Salva criteri'",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 309,
+      "type": "multiple",
+      "question": "Dove possiamo trovare l'elenco di tutti i risultati di ricerca salvati?",
+      "options": [
+        "Nella schermata di gestione risultati della ricerca",
+        "Nessuna risposta corretta",
+        "Nella schermata di modifica della ricerca",
+        "Nella schermata di salvataggio dei criteri di ricerca"
+      ],
+      "answer": null
+    },
+    {
+      "id": 310,
+      "type": "multiple",
+      "question": "Quali operazioni di base possiamo eseguire sull'interfaccia di Attività Log?",
+      "options": [
+        "Creare un nuovo criterio di ricerca; salvare i risultati di ricerca; gestire i risultati salvati",
+        "Nessuna risposta corretta",
+        "Applicare una vista; impostare un filtro rapido",
+        "Modificare una ricerca; eseguire una nuova ricerca; visualizzare le regole di sicurezza"
+      ],
+      "answer": null
+    },
+    {
+      "id": 311,
+      "type": "multiple",
+      "question": "Cosa possiamo fare utilizzando lo strumento di 'Nuova ricerca'?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Modificare la ricerca rapida corrente",
+        "Accedere allo strumento di gestione risultati della ricerca",
+        "Compilare un form con tutti i criteri di ricerca configurati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 312,
+      "type": "multiple",
+      "question": "Come si aggiunge un filtro per selezionare una sola sorgente di log?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Attraverso il filtro rapido",
+        "Attraverso il filtro di ricerca",
+        "Attraverso il filtro avanzato"
+      ],
+      "answer": null
+    },
+    {
+      "id": 313,
+      "type": "multiple",
+      "question": "Cosa si ottiene cliccando su uno dei risultati della ricerca sugli eventi?",
+      "options": [
+        "Nessuna risposta corretta",
+        "La lista delle regole di sicurezza",
+        "La lista delle fonti dati per flusso",
+        "La descrizione dell'evento con tutti i dettagli"
+      ],
+      "answer": null
+    },
+    {
+      "id": 314,
+      "type": "multiple",
+      "question": "Come si accede al database di QRadar per eseguire una ricerca sugli eventi?",
+      "options": [
+        "Attraverso la schermata 'Offensive o reati'",
+        "Nessuna risposta corretta",
+        "Attraverso la schermata 'Attività di Log'",
+        "Attraverso la schermata 'Dashboard'"
+      ],
+      "answer": null
+    },
+    {
+      "id": 315,
+      "type": "multiple",
+      "question": "Dove vengono salvati gli eventi nel database di QRadar?",
+      "options": [
+        "Event Processor",
+        "Nessuna risposta corretta",
+        "Log activity",
+        "Ariel"
+      ],
+      "answer": null
+    },
+    {
+      "id": 316,
+      "type": "multiple",
+      "question": "In quale formato vengono trasformati i dati grezzi durante il processo di normalizzazione?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Formato contenente campi come l'indirizzo IP o i vari IoC",
+        "Formato JSON",
+        "Formato XML"
+      ],
+      "answer": null
+    },
+    {
+      "id": 317,
+      "type": "multiple",
+      "question": "Cosa succede quando gli eventi vengono inseriti nelle code di input del collector?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Vengono eliminati",
+        "Vengono analizzati e normalizzati",
+        "Vengono salvati nel database"
+      ],
+      "answer": null
+    },
+    {
+      "id": 318,
+      "type": "multiple",
+      "question": "Cosa possiamo selezionare attraverso il menu relativo alle viste?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Il tipo di vista per selezionare solo alcune offensive",
+        "L'aggiornamento manuale o automatico della pagina",
+        "La finestra temporale delle offensive"
+      ],
+      "answer": null
+    },
+    {
+      "id": 319,
+      "type": "multiple",
+      "question": "Chi pu assegnare un'offensiva a diversi operatori?",
+      "options": [
+        "L'operatore che ha gestito l'offensiva",
+        "Nessuna risposta corretta",
+        "Gli utenti coinvolti nell'offensiva",
+        "L'amministratore"
+      ],
+      "answer": null
+    },
+    {
+      "id": 320,
+      "type": "multiple",
+      "question": "Cosa possiamo fare eseguendo un doppio click su una delle offensive?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Visualizzare solo alcune offensive selezionate",
+        "Aggiornare manualmente la finestra temporale delle viste",
+        "Andare su una scheda di dettaglio dell'offensiva"
+      ],
+      "answer": null
+    },
+    {
+      "id": 321,
+      "type": "multiple",
+      "question": "Quali sono i campi caratterizzanti ogni offensiva nella tabella?",
+      "options": [
+        "Flag, Id, Origine log, Eventi, Flussi",
+        "Nessuna risposta corretta",
+        "Flag, Id, Origine offensiva, IP sorgente e destinazione del flusso",
+        "Flag, Id, Descrizione, Tipo di offensiva"
+      ],
+      "answer": null
+    },
+    {
+      "id": 322,
+      "type": "multiple",
+      "question": "Quali sono le opzioni presenti nel riquadro \"Offensive\" dell'interfaccia di gestione dei reati?",
+      "options": [
+        "Offensive personali, Tutte le offensive, Per IP di origine",
+        "Offensive personali, Tutte le offensive, Per categoria",
+        "Offensive personali, Tutte le offensive, Per IP di destinazione",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 323,
+      "type": "multiple",
+      "question": "Cosa pu essere aggiunta a un reato?",
+      "options": [
+        "Un'offensiva personale",
+        "Nessuna risposta corretta",
+        "Una nota",
+        "Una regola"
+      ],
+      "answer": null
+    },
+    {
+      "id": 324,
+      "type": "multiple",
+      "question": "Come possiamo aggiungere un filtro rapido?",
+      "options": [
+        "Cliccando sul pulsante \"Aggiunta Filtri\"",
+        "Cliccando sul pulsante \"Filtro rapido\"",
+        "Nessuna risposta corretta",
+        "Cliccando sul pulsante \"Ecco un esempio di query AQL\""
+      ],
+      "answer": null
+    },
+    {
+      "id": 325,
+      "type": "multiple",
+      "question": "Qual è lo strumento che permette di interrogare direttamente il database temporale che gestisce il flusso di eventi?",
+      "options": [
+        "Wizard nei log",
+        "Ricerca avanzata",
+        "Nessuna risposta corretta",
+        "Ariel Query Language (AQL)"
+      ],
+      "answer": null
+    },
+    {
+      "id": 326,
+      "type": "multiple",
+      "question": "Cosa possiamo fare cliccando su una regola nella tabella delle regole?",
+      "options": [
+        "Modificare la regola",
+        "Entrambe le risposte precedenti",
+        "Nessuna risposta corretta",
+        "Vedere il dettaglio della regola"
+      ],
+      "answer": null
+    },
+    {
+      "id": 327,
+      "type": "multiple",
+      "question": "Cosa possiamo fare una volta salvati i risultati di ricerca?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Creare un nuovo criterio di ricerca",
+        "Gestire i risultati salvati tramite lo strumento di Gestione risultati della ricerca",
+        "Modificare una ricerca"
+      ],
+      "answer": null
+    },
+    {
+      "id": 328,
+      "type": "multiple",
+      "question": "Quali sono i campi che caratterizzano ogni regola nella tabella delle regole?",
+      "options": [
+        "Nome della regola, Gruppo, Categoria regola, Tipo di regola, Abilitato, Origine, Data di creazione, Data di modifica, Dettagli",
+        "Nessuna risposta corretta",
+        "Nome della regola, Gruppo, Categoria regola, Tipo di regola, Abilitato, Origine, Data di creazione, Data di modifica",
+        "Nome della regola, Categoria regola, Tipo di regola, Abilitato, Origine, Data di creazione, Data di modifica, Dettagli"
+      ],
+      "answer": null
+    },
+    {
+      "id": 329,
+      "type": "multiple",
+      "question": "Qual è un esempio di query AQL?",
+      "options": [
+        "Aggiunta Filtri",
+        "Ecco un esempio di query AQL:",
+        "Filtro rapido",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 330,
+      "type": "multiple",
+      "question": "Cosa permette di fare il linguaggio Ariel Query Language (AQL)?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Analizzare il contesto in cui è scattata un'offensiva",
+        "Eseguire ricerche sempre più accurate",
+        "Interrogare il database temporale che gestisce il flusso di eventi 09. 1. Quali sono i campi caratterizzanti di ogni regola nella tabella delle regole? 10. 2. Come si può accedere al dettaglio di una regola? 11. 3. Qual è lo strumento che permette di interrogare direttamente il database temporale che gestisce il flusso di eventi? 12. 1. Come il sistema QRadar gestisce l'aggregazione e la normalizzazione dei dati per migliorare la gestione degli eventi di sicurezza?"
+      ],
+      "answer": null
+    },
+    {
+      "id": 331,
+      "type": "multiple",
+      "question": "Cosa fa Splunk Enterprise Security?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Fornisce informazioni di sicurezza e gestisce gli eventi",
+        "Automatizza le operazioni di sicurezza",
+        "Rileva minacce sconosciute tramite apprendimento automatico"
+      ],
+      "answer": null
+    },
+    {
+      "id": 332,
+      "type": "multiple",
+      "question": "Qual è il problema principale nella gestione dei Big Data?",
+      "options": [
+        "La mancanza di integrazione ed implementazione dei dati",
+        "La mancanza di competenze e infrastrutture preesistenti",
+        "La mancanza di caratteristiche e funzionalità nei sistemi IT",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 333,
+      "type": "multiple",
+      "question": "Cosa fa Splunk per risolvere i problemi legati ai Big Data?",
+      "options": [
+        "Offre capacità di intelligence e analisi dei dati",
+        "Fornisce soluzioni per la gestione dei dati nei database relazionali",
+        "Semplifica la raccolta, aggregazione e normalizzazione dei dati",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 334,
+      "type": "multiple",
+      "question": "Cosa sono le app per l'ecosistema Splunk?",
+      "options": [
+        "Soluzioni pronte all'uso per analisi di vendita e marketing",
+        "Componenti aggiuntivi gratuiti per i prodotti Splunk",
+        "Strumenti per l'aggregazione e l'analisi di log",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 335,
+      "type": "multiple",
+      "question": "Qual è il nome della comunità di sviluppatori e utenti di Splunk?",
+      "options": [
+        "Splunk Community",
+        "Splunk Support",
+        "Splunk Base",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 336,
+      "type": "multiple",
+      "question": "Qual è la soluzione di Splunk per il rilevamento di minacce basato sul comportamento degli utenti?",
+      "options": [
+        "Splunk Enterprise Security",
+        "Splunk User Behavior Analytics",
+        "Splunk Phantom",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 337,
+      "type": "multiple",
+      "question": "Cosa significa l'acronimo SOAR in riferimento a Splunk Phantom?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Security Orchestration Automation and Response",
+        "Security Operations and Analytics Reporting",
+        "Security Optimization and Advanced Response 09. 2. Quali sono le modalità attraverso le quali è possibile fruire delle risposte fornite da Splunk?"
+      ],
+      "answer": null
+    },
+    {
+      "id": 338,
+      "type": "multiple",
+      "question": "Quali sono i due tipi di indici in Splunk Enterprise?",
+      "options": [
+        "Indici di eventi e indici di log",
+        "Indici di log e indici di metriche",
+        "Indici di eventi e indici di metriche",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 339,
+      "type": "multiple",
+      "question": "Quali sono le tre funzioni principali di Splunk Enterprise?",
+      "options": [
+        "Acquisire dati da file, analizzare e indicizzare i dati, eseguire ricerche su questi dati indicizzati",
+        "Acquisire dati da file, analizzare e indicizzare i dati, eseguire ricerche su questi dati non indicizzati",
+        "Acquisire dati da file, analizzare i dati, eseguire ricerche su questi dati indicizzati",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 340,
+      "type": "multiple",
+      "question": "Come si chiama l'interfaccia di gestione di Splunk Enterprise?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Splunk Console",
+        "Splunk Web",
+        "Splunk Manager"
+      ],
+      "answer": null
+    },
+    {
+      "id": 341,
+      "type": "multiple",
+      "question": "Come è possibile estendere le capacità di Splunk Enterprise?",
+      "options": [
+        "Aggiungendo specifiche app",
+        "Aggiungendo più server",
+        "Aggiungendo più indici",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 342,
+      "type": "multiple",
+      "question": "Cosa è un indice in Splunk Enterprise?",
+      "options": [
+        "Un archivio in cui vengono memorizzati solo i dati di metriche",
+        "Nessuna risposta corretta",
+        "Un archivio in cui vengono memorizzati i dati provenienti da una determinata fonte dati",
+        "Un archivio in cui vengono memorizzati i dati provenienti da tutte le fonti dati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 343,
+      "type": "multiple",
+      "question": "Come vengono identificati i dati durante la ricerca in Splunk Enterprise?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Mediante il linguaggio SPL (Search Processing Language) e specificando solo l'indice",
+        "Mediante il linguaggio SQL e specificando l'indice, la sorgente e il tipo di sorgente",
+        "Mediante il linguaggio SPL (Search Processing Language) e specificando l'indice, la sorgente e il tipo di sorgente"
+      ],
+      "answer": null
+    },
+    {
+      "id": 344,
+      "type": "multiple",
+      "question": "Quali tipi di dati può raccogliere Splunk Enterprise?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Solo dati provenienti da server e applicazioni",
+        "Dati provenienti da server, applicazioni, database, dispositivi di rete, macchine virtuali, sensori e altro ancora",
+        "Solo dati provenienti da server e database"
+      ],
+      "answer": null
+    },
+    {
+      "id": 345,
+      "type": "multiple",
+      "question": "Cosa è uno \"Splunk Universal Forwarder\"?",
+      "options": [
+        "Una soluzione più leggera e specializzata di Splunk Enterprise",
+        "Nessuna risposta corretta",
+        "Un componente nel livello di gestione delle ricerche",
+        "Un'istanza completa di Splunk Enterprise"
+      ],
+      "answer": null
+    },
+    {
+      "id": 346,
+      "type": "multiple",
+      "question": "Cosa è un \"cluster di indicizzazione\" in Splunk Enterprise?",
+      "options": [
+        "Un gruppo di nodi che gestiscono l'input dei dati",
+        "Un gruppo di nodi che coordinano le ricerche tra le istanze",
+        "Nessuna risposta corretta",
+        "Un gruppo di nodi che gestiscono l'indicizzazione dei dati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 347,
+      "type": "multiple",
+      "question": "Qual è l'architettura più semplice per Splunk Enterprise?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Architettura complessa",
+        "Architettura distribuita",
+        "Architettura a singola istanza"
+      ],
+      "answer": null
+    },
+    {
+      "id": 348,
+      "type": "multiple",
+      "question": "Cosa fa il \"forwarder\" in Splunk Enterprise?",
+      "options": [
+        "Raccoglie e inoltra i dati",
+        "Gestisce l'indicizzazione dei dati",
+        "Coordinare le ricerche tra le istanze",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 349,
+      "type": "multiple",
+      "question": "Cosa fa l'\"indexer\" in Splunk Enterprise?",
+      "options": [
+        "Coordinare le ricerche tra le istanze",
+        "Nessuna risposta corretta",
+        "Gestisce l'indicizzazione dei dati",
+        "Raccoglie e inoltra i dati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 350,
+      "type": "multiple",
+      "question": "Cosa fa il \"search head\" in Splunk Enterprise?",
+      "options": [
+        "Coordinare le ricerche tra le istanze",
+        "Gestisce l'indicizzazione dei dati",
+        "Nessuna risposta corretta",
+        "Raccoglie e inoltra i dati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 351,
+      "type": "multiple",
+      "question": "Cosa fa il \"nodo manager\" all'interno di un cluster di indicizzazione in Splunk Enterprise?",
+      "options": [
+        "Gestisce il cluster",
+        "Coordinare le ricerche tra le istanze",
+        "Gestisce l'indicizzazione dei dati",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 352,
+      "type": "multiple",
+      "question": "Qual è il termine utilizzato da Splunk per descrivere le fonti di dati?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Input dati",
+        "Fonti dati",
+        "Dati di origine"
+      ],
+      "answer": null
+    },
+    {
+      "id": 353,
+      "type": "multiple",
+      "question": "Quali sono le possibili fonti di dati per Splunk?",
+      "options": [
+        "Solo flussi HTTP e HTTPS",
+        "Nessuna risposta corretta",
+        "Solo istanze Splunk o motori di inoltro tramite protocolli specifici",
+        "Flussi HTTP e HTTPS, istanze Splunk o motori di inoltro tramite protocolli specifici, connessioni TCP o UDP, Syslog e l'esecuzione di script"
+      ],
+      "answer": null
+    },
+    {
+      "id": 354,
+      "type": "multiple",
+      "question": "Come si accede a Splunk?",
+      "options": [
+        "Attraverso un browser",
+        "Attraverso un'applicazione mobile",
+        "Nessuna risposta corretta",
+        "Attraverso un software di desktop publishing"
+      ],
+      "answer": null
+    },
+    {
+      "id": 355,
+      "type": "multiple",
+      "question": "Come è possibile limitare l'ambito dell'analisi dei dati in Splunk?",
+      "options": [
+        "Aggiungendo manualmente ulteriori campi di interesse",
+        "Nessuna risposta corretta",
+        "Utilizzando caratteri jolly come l'asterisco",
+        "Specificando un indice nella ricerca"
+      ],
+      "answer": null
+    },
+    {
+      "id": 356,
+      "type": "multiple",
+      "question": "Qual è il linguaggio utilizzato per la ricerca dei dati in Splunk?",
+      "options": [
+        "SQL",
+        "Nessuna risposta corretta",
+        "SPL (Search Processing Language)",
+        "Python"
+      ],
+      "answer": null
+    },
+    {
+      "id": 357,
+      "type": "multiple",
+      "question": "Cosa sono gli indici in Splunk?",
+      "options": [
+        "Directory in cui vengono organizzati i file di un indice",
+        "Archivi in cui vengono memorizzati i dati provenienti da una determinata fonte dati",
+        "Campi che rappresentano i vari aspetti del record di dati",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 358,
+      "type": "multiple",
+      "question": "Qual è l'applicazione predefinita e fondamentale per il funzionamento di Splunk Enterprise?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Search & Reporting",
+        "Data Management",
+        "User Administration"
+      ],
+      "answer": null
+    },
+    {
+      "id": 359,
+      "type": "multiple",
+      "question": "Quali sono i vantaggi della gestione degli intervalli temporali in Splunk?",
+      "options": [
+        "Maggiore flessibilità nella dimensione spaziale degli eventi",
+        "Nessuna risposta corretta",
+        "Maggiore flessibilità nell'analisi degli eventi",
+        "Maggiore flessibilità nella dimensione quantitativa degli eventi"
+      ],
+      "answer": null
+    },
+    {
+      "id": 360,
+      "type": "multiple",
+      "question": "Qual è l'elemento che spesso non viene considerato nella gestione degli eventi temporali in Splunk?",
+      "options": [
+        "La dimensione temporale",
+        "La dimensione quantitativa",
+        "La dimensione spaziale",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 361,
+      "type": "multiple",
+      "question": "Cosa rappresenta la timeline presente nel grafico della frequenza degli eventi in Splunk?",
+      "options": [
+        "La dimensione quantitativa degli eventi",
+        "La dimensione spaziale degli eventi",
+        "La dimensione temporale degli eventi",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 362,
+      "type": "multiple",
+      "question": "Cosa permette di fare lo strumento di selezione dell'intervallo temporale di Splunk?",
+      "options": [
+        "Modificare la dimensione spaziale degli eventi",
+        "Applicare un controllo temporale implicito sugli eventi",
+        "Nessuna risposta corretta",
+        "Personalizzare gli intervalli preimpostati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 363,
+      "type": "multiple",
+      "question": "Come possiamo visualizzare la timeline in Splunk?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Solo in una versione esplicita",
+        "Solo in una versione dettagliata",
+        "In diverse versioni, inclusa una versione dettagliata con una scala dimensionale"
+      ],
+      "answer": null
+    },
+    {
+      "id": 364,
+      "type": "multiple",
+      "question": "Cosa possiamo fare una volta ottenuta una risposta attraverso la timeline in Splunk?",
+      "options": [
+        "Cambiare l'unità di misura spaziale degli eventi",
+        "Nessuna risposta corretta",
+        "Modificare la dimensione quantitativa degli eventi",
+        "Applicare ulteriori filtri temporali alla risposta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 365,
+      "type": "multiple",
+      "question": "Quali sono i due modificatori specifici che possiamo utilizzare per definire l'intervallo temporale in Splunk?",
+      "options": [
+        "Nessuna risposta corretta \"start\" e \"end\" \"earliest\" e \"latest\" \"beginning\" e \"end\" © 2016 - 2024 Università Telematica eCampus - Data Stampa 18/12/2024 11:33:26 - 133/140",
+        "Set Domande: SECURITY OPERATION CENTER SPECIALIST",
+        "INGEGNERIA INFORMATICA E DELL'AUTOMAZIONE (D.M. 270/04)",
+        "Docente: Capobianco Antonio"
+      ],
+      "answer": null
+    },
+    {
+      "id": 366,
+      "type": "multiple",
+      "question": "Come possiamo definire un intervallo temporale specifico utilizzando i timestamp in Splunk?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Utilizzando le parole chiave \"beginning\" e \"end\"",
+        "Utilizzando le parole chiave \"earliest\" e \"latest\"",
+        "Utilizzando le parole chiave \"start\" e \"end\""
+      ],
+      "answer": null
+    },
+    {
+      "id": 367,
+      "type": "multiple",
+      "question": "Cosa rappresenta un report in Splunk?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Una rappresentazione dei dati di input nell'applicazione Splunk",
+        "Una rappresentazione delle modifiche apportate ai risultati di una ricerca",
+        "Una rappresentazione dei risultati di una ricerca"
+      ],
+      "answer": null
+    },
+    {
+      "id": 368,
+      "type": "multiple",
+      "question": "Quali sono le funzionalità aggiuntive disponibili nell'applicazione Splunk oltre alla barra di ricerca?",
+      "options": [
+        "Eseguire ricerche, monitorare lo stato delle ricerche, gestire ricerche storiche",
+        "Salvare report, configurare allarmi, gestire tipi di eventi",
+        "Nessuna risposta corretta",
+        "Definire campi personalizzati, utilizzare lookup, personalizzare l'interfaccia utente"
+      ],
+      "answer": null
+    },
+    {
+      "id": 369,
+      "type": "multiple",
+      "question": "Cosa sono gli avvisi o allarmi in Splunk?",
+      "options": [
+        "Azioni che vengono eseguite automaticamente quando si esegue una ricerca",
+        "Notifiche che vengono inviate quando i risultati di una ricerca soddisfano determinati criteri",
+        "Messaggi di errore che vengono visualizzati quando si verifica un problema nell'applicazione Splunk",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 370,
+      "type": "multiple",
+      "question": "Quali funzionalità possono essere limitate in base al ruolo dell'utente in Splunk?",
+      "options": [
+        "Pianificazione delle ricerche",
+        "Nessuna risposta corretta",
+        "Esecuzione di ricerche in tempo reale",
+        "Creazione di avvisi"
+      ],
+      "answer": null
+    },
+    {
+      "id": 371,
+      "type": "multiple",
+      "question": "Cosa offre lo \"Splunk Dashboard Studio\" in Splunk?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Strumenti per eseguire ricerche avanzate",
+        "Strumenti per progettare e personalizzare le dashboard",
+        "Strumenti per monitorare lo stato delle ricerche"
+      ],
+      "answer": null
+    },
+    {
+      "id": 372,
+      "type": "multiple",
+      "question": "Cosa permette di fare l'utilizzo di comandi personalizzati in Python in SPL?",
+      "options": [
+        "Interagire con SplunkD durante la ricerca e utilizzare comandi personalizzati",
+        "Eseguire calcoli e applicare operazioni sui risultati",
+        "Creare una visualizzazione tabellare dei risultati",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 373,
+      "type": "multiple",
+      "question": "Quali sono i comandi SPL che ordinano i risultati in forma tabellare?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Comandi di Elaborazione del Dataset",
+        "Comandi di Trasformazione",
+        "Comandi di Streaming"
+      ],
+      "answer": null
+    },
+    {
+      "id": 374,
+      "type": "multiple",
+      "question": "Quali sono i comandi SPL che recuperano informazioni dagli indici senza apportare trasformazioni significative?",
+      "options": [
+        "Comandi di Streaming",
+        "Comandi di Trasformazione",
+        "Nessuna risposta corretta",
+        "Comandi di Generazione"
+      ],
+      "answer": null
+    },
+    {
+      "id": 375,
+      "type": "multiple",
+      "question": "Cosa fa il comando \"chart\" in SPL?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Crea una visualizzazione tabellare dei risultati",
+        "Evidenzia termini specifici nei risultati",
+        "Filtra i risultati per i primi \"n\" elementi di ricerca trovati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 376,
+      "type": "multiple",
+      "question": "Quali sono i comandi SPL che elaborano i risultati uno alla volta?",
+      "options": [
+        "Comandi di Trasformazione",
+        "Comandi di Generazione",
+        "Comandi di Streaming",
+        "Nessuna risposta corretta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 377,
+      "type": "multiple",
+      "question": "Cosa fa il comando \"hid\" in SPL?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Evidenzia termini specifici nei risultati",
+        "Crea una visualizzazione tabellare dei risultati",
+        "Filtra i risultati per i primi \"n\" elementi di ricerca trovati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 378,
+      "type": "multiple",
+      "question": "Quali sono le attività dell'utente Knowledge Manager in Splunk Enterprise?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Creare e condividere modelli di dati",
+        "Integrare dati e funzionalità delle applicazioni con Splunk Enterprise",
+        "Utilizzare la ricerca per indagare sui problemi del server"
+      ],
+      "answer": null
+    },
+    {
+      "id": 379,
+      "type": "multiple",
+      "question": "Quali sono le attività dell'utente Knowledge Manager in Splunk Enterprise?",
+      "options": [
+        "Integrare dati e funzionalità delle applicazioni con Splunk Enterprise",
+        "Nessuna risposta corretta",
+        "Utilizzare la ricerca per indagare sui problemi del server",
+        "Creare e condividere modelli di dati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 380,
+      "type": "multiple",
+      "question": "Quali sono le attività dell'utente Search User in Splunk Enterprise?",
+      "options": [
+        "Utilizzare la ricerca per indagare sui problemi del server e creare report",
+        "Configurare e amministrare la distribuzione Splunk Enterprise",
+        "Nessuna risposta corretta",
+        "Supervisionare la creazione e l'utilizzo degli oggetti della conoscenza"
+      ],
+      "answer": null
+    },
+    {
+      "id": 381,
+      "type": "multiple",
+      "question": "Qual è il ruolo dell'utente Pivot User in Splunk Enterprise?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Integrare dati e funzionalità delle applicazioni con Splunk Enterprise",
+        "Utilizzare Pivot per creare report basati su modelli di dati",
+        "Configurare e amministrare la distribuzione Splunk Enterprise"
+      ],
+      "answer": null
+    },
+    {
+      "id": 382,
+      "type": "multiple",
+      "question": "Quali sono le attività dell'utente Developer in Splunk Enterprise?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Utilizzare Pivot per creare report basati su modelli di dati",
+        "Integrare dati e funzionalità delle applicazioni con Splunk Enterprise",
+        "Configurare e amministrare la distribuzione Splunk Enterprise"
+      ],
+      "answer": null
+    },
+    {
+      "id": 383,
+      "type": "multiple",
+      "question": "Quali sono i meccanismi di sicurezza adottati da Splunk Enterprise?",
+      "options": [
+        "Sistema di permessi Role Based",
+        "Accesso diretto alle autorizzazioni e funzionalità",
+        "Nessuna risposta corretta",
+        "Utilizzo dei ruoli per controllare l'accesso alle risorse della piattaforma"
+      ],
+      "answer": null
+    },
+    {
+      "id": 384,
+      "type": "multiple",
+      "question": "Qual è il ruolo dell'utente Administrator in Splunk Enterprise?",
+      "options": [
+        "Nessuna risposta corretta",
+        "Configurare, amministrare, ottimizzare e proteggere la distribuzione Splunk Enterprise",
+        "Supervisionare la creazione e l'utilizzo degli oggetti della conoscenza",
+        "Utilizzare la ricerca per indagare sui problemi del server"
+      ],
+      "answer": null
+    },
+    {
+      "id": 385,
+      "type": "multiple",
+      "question": "Qual è il ruolo dell'utente Knowledge Manager in Splunk Enterprise?",
+      "options": [
+        "Supervisionare la creazione e l'utilizzo degli oggetti della conoscenza",
+        "Configurare e amministrare la distribuzione Splunk Enterprise",
+        "Nessuna risposta corretta",
+        "Utilizzare la ricerca per indagare sui problemi del server"
+      ],
+      "answer": null
+    }
+  ]
+}
