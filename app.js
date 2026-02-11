@@ -126,7 +126,8 @@ function updateProgress() {
 function showFinal() {
   document.getElementById("app").innerHTML = `
     <h2>Quiz completato 🎉</h2>
-    <p>Punteggio: ${score} / ${questions.length}</p>
+    <p>Punteggio: ${score} / ${currentIndex}</p>
     <button onclick="location.reload()">Ricomincia</button>
   `;
 }
+
