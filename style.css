@@ -24,6 +24,12 @@ h1 {
 
 button {
     cursor: pointer;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 .progress-container {
@@ -115,4 +121,5 @@ textarea {
     margin-top: 0.5rem;
 
 }
+
 
