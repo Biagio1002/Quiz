@@ -20,7 +20,7 @@
         "Negli Stati Uniti nel 1948 per definire procedure in serie senza intervento diretto dell'operatore",
         "In Inghilterra nel 1948 per definire procedure in serie senza intervento diretto dell'operatore"
       ],
-      "answer": null
+      "answer": "Negli Stati Uniti nel 1948 per definire procedure in serie senza intervento diretto dell'operatore"
     },
     {
       "id": 2,
@@ -34,7 +34,7 @@
         "Magazzinaggio",
         "Movimentazione"
       ],
-      "answer": null
+      "answer": "Petrolchimico"
     },
     {
       "id": 3,
@@ -48,7 +48,7 @@
         "I problemi collegati alla progettazione, realizzazione e utilizzazione del solo sistema da controllare.",
         "Nessuna delle altre risposte è corretta."
       ],
-      "answer": null
+      "answer": "I problemi collegati alla progettazione, realizzazione e utilizzazione del sistema controllato."
     },
     {
       "id": 4,
@@ -62,7 +62,7 @@
         "Chimica",
         "Acqua"
       ],
-      "answer": null
+      "answer": "Chimica"
     },
     {
       "id": 5,
@@ -76,7 +76,7 @@
         "Quantità finite di prodotto finale ottenuto da quantità finite di grezzi e semilavorati senza vincoli temporali",
         "Quantità finite di prodotto finale fissate a priori ottenuto da quantità finite di materiali grezzi"
       ],
-      "answer": null
+      "answer": "Quantità finite di prodotto finale ottenuto da quantità finite di materiali grezz, processati secondo un insieme ordinato di attività e in un periodo finito"
     },
     {
       "id": 6,
@@ -90,7 +90,7 @@
         "Input continuo e output discreto a lotti",
         "Input discreto e output continuo"
       ],
-      "answer": null
+      "answer": "Input continuo e output continuo"
     },
     {
       "id": 7,
@@ -104,7 +104,7 @@
         "Passi logici che non descrivono il processo produttivo, ma solo le attività accessorie",
         "Passi logici cge descrivono il processo produttivo, escluse le attività accessorie"
       ],
-      "answer": null
+      "answer": "Passi logici cge descrivono il processo produttivo, incluse le attività accessorie"
     },
     {
       "id": 8,
@@ -118,7 +118,7 @@
         "Può essere sia di tipo discreto che semi-continuo",
         "Può essere sia di tipo semi-continuo che discreto"
       ],
-      "answer": null
+      "answer": "Può essere di tipo discreto e batch"
     },
     {
       "id": 9,
@@ -132,7 +132,7 @@
         "Gas",
         "Energia"
       ],
-      "answer": null
+      "answer": "Lotti"
     },
     {
       "id": 10,
@@ -146,7 +146,7 @@
         "Materie prime, prodotto, scarti,energia,cliente",
         "Materie prime, prodotto, scarti,energia"
       ],
-      "answer": null
+      "answer": "Materie prime, prodotto, scarti,energia,responsabile commerciale,ingegnere"
     },
     {
       "id": 11,
@@ -160,7 +160,7 @@
         "Al sistema di supporto, in particolare all'area business",
         "Al sistema di supporto, in particolare al planning"
       ],
-      "answer": null
+      "answer": "Al sistema di supporto, in particolare alla progettazione"
     },
     {
       "id": 12,
@@ -169,16 +169,12 @@
       "type": "multiple",
       "question": "Come si definisce il concetto di \"sistema\"?",
       "options": [
-        "è un insieme di elementi, ognuno caratterizzato da una propria funzionalità, strettamente interagenti tra loro per quanto riguarda i flussi di informazione e e con l'ambiente",
-        "per quanto riguarda i flussi di materia e di energia.",
-        "è un insieme di elementi, ognuno caratterizzato da una propria funzionalità, operanti in maniera autonoma ed indipendente per quanto riguarda i flussi di materia, energia e",
-        "informazione.",
-        "è un insieme di elementi, ognuno caratterizzato da una propria funzionalità, strettamente interagenti tra loro e con l'ambiente per quanto riguarda i flussi di materia, energia",
-        "e informazione.",
-        "è un insieme di elementi, caratterizzato da funzionalità identiche, strettamente interagenti tra loro e con l'ambiente per quanto riguarda i flussi di materia, energia e",
-        "informazione."
+        "è un insieme di elementi, ognuno caratterizzato da una propria funzionalità, strettamente interagenti tra loro per quanto riguarda i flussi di informazione e e con l'ambiente per quanto riguarda i flussi di materia e di energia.",
+        "è un insieme di elementi, ognuno caratterizzato da una propria funzionalità, operanti in maniera autonoma ed indipendente per quanto riguarda i flussi di materia, energia e informazione.",
+        "è un insieme di elementi, ognuno caratterizzato da una propria funzionalità, strettamente interagenti tra loro e con l'ambiente per quanto riguarda i flussi di materia, energia e informazione.",
+        "è un insieme di elementi, caratterizzato da funzionalità identiche, strettamente interagenti tra loro e con l'ambiente per quanto riguarda i flussi di materia, energia e informazione."
       ],
-      "answer": null
+      "answer": "è un insieme di elementi, ognuno caratterizzato da una propria funzionalità, strettamente interagenti tra loro e con l'ambiente per quanto riguarda i flussi di materia, energia e informazione."
     },
     {
       "id": 13,
@@ -188,14 +184,11 @@
       "question": "Come viene fissata la finalità e la funzionalità del sistema a cui viene applicata l'Automazione?",
       "options": [
         "Nessuna delle altre risposte è corretta.",
-        "Le finalità sono determinate dalla struttura del sistema da controllare e sono imposte tramite le azioni di intervento. La funzionalità del sistema è garantita agendo sulla",
-        "struttura del sistema da controllare e sulle modalità secondo cui devono essere applicate le azioni di intervento.",
-        "Le finalità sono determinate dalla struttura del sistema da controllare e sono imposte tramite le azioni di intervento. La funzionalità del sistema è indipendente sia dalla",
-        "struttura del sistema da controllare che dalle modalità di controllo.",
-        "Le finalità sono indipendenti dalla struttura del sistema da controllare e non possono essere imposte tramite le azioni di intervento. La funzionalità dipende solo dalla",
-        "modalità di controllo attuata."
+        "Le finalità sono determinate dalla struttura del sistema da controllare e sono imposte tramite le azioni di intervento. La funzionalità del sistema è garantita agendo sulla struttura del sistema da controllare e sulle modalità secondo cui devono essere applicate le azioni di intervento.",
+        "Le finalità sono determinate dalla struttura del sistema da controllare e sono imposte tramite le azioni di intervento. La funzionalità del sistema è indipendente sia dalla struttura del sistema da controllare che dalle modalità di controllo.",
+        "Le finalità sono indipendenti dalla struttura del sistema da controllare e non possono essere imposte tramite le azioni di intervento. La funzionalità dipende solo dalla modalità di controllo attuata."
       ],
-      "answer": null
+      "answer": "Le finalità sono determinate dalla struttura del sistema da controllare e sono imposte tramite le azioni di intervento. La funzionalità del sistema è garantita agendo sulla struttura del sistema da controllare e sulle modalità secondo cui devono essere applicate le azioni di intervento."
     },
     {
       "id": 14,
@@ -209,7 +202,7 @@
         "modello teorico di sistema di produzione che prevede l'integrazione dei processi produttivi con i sistemi di automazione",
         "un modello teorico di sistema di produzione che prevede l'integrazione dei processi produttivi con i sistemi di automazione e con i sistemi informativi gestionali"
       ],
-      "answer": null
+      "answer": "un modello teorico di sistema di produzione che prevede l'integrazione dei processi produttivi con i sistemi di automazione e con i sistemi informativi gestionali"fdzs
     },
     {
       "id": 15,
@@ -268,7 +261,7 @@
         "del CAPP",
         "del DSS"
       ],
-      "answer": null
+      "answer": "del CAM"
     },
     {
       "id": 21,
@@ -282,7 +275,7 @@
         "Software che rende disponibili una serie di funzionalità di supporto per migliorare il processo decisionale",
         "Software che rende disponibili una serie di funzionalità di supporto per la produzione"
       ],
-      "answer": null
+      "answer": "Software che rende disponibili una serie di funzionalità di supporto per migliorare il processo decisionale"
     },
     {
       "id": 22,
@@ -296,7 +289,7 @@
         "processo produttivo",
         "energia"
       ],
-      "answer": null
+      "answer": "il cliente"
     },
     {
       "id": 23,
@@ -310,7 +303,7 @@
         "Riduzione della quantità di produzione",
         "Riduzione dei tempi, costi, scarti"
       ],
-      "answer": null
+      "answer": "Riduzione dei tempi, costi, scarti"
     },
     {
       "id": 24,
@@ -324,7 +317,7 @@
         "Un insieme di applicazioni informatiche volte all'automazione di attività amministrative,logistiche, gestione della produzione, escluse le risorse umane",
         "Un insieme di applicazioni informatiche volte all'automazione di attività amministrative,logistiche, gestione della produzione,risorse umane"
       ],
-      "answer": null
+      "answer": "Un insieme di applicazioni informatiche volte all'automazione di attività amministrative,logistiche, gestione della produzione,risorse umane"
     },
     {
       "id": 25,
@@ -343,14 +336,11 @@
       "question": "Quali sono le principali modalità di intervento e che prestazioni possono garantire?",
       "options": [
         "Nessuna delle altre risposte è corretta.",
-        "A catena aperta, a catena chiusa e a controreazione. La prima non garantisce alcuna prestazione, la seconda garantisce prestazioni solo nel comportamento statico (regime)",
-        "la terza garantisce prestazioni anche nel comportamento dinamico (transitorio).",
-        "A catena chiusa, a catena aperta e a controreazione. La prima non garantisce alcuna prestazione, la seconda garantisce prestazioni solo nel comportamento statico (regime)",
-        "la terza garantisce prestazioni anche nel comportamento dinamico (transitorio).",
-        "A controreazione, a catena aperta e a catena chiusa. La prima non garantisce alcuna prestazione, la seconda garantisce prestazioni solo nel comportamento statico (regime)",
-        "la terza garantisce prestazioni anche nel comportamento dinamico (transitorio)."
+        "A catena aperta, a catena chiusa e a controreazione. La prima non garantisce alcuna prestazione, la seconda garantisce prestazioni solo nel comportamento statico (regime) la terza garantisce prestazioni anche nel comportamento dinamico (transitorio).",
+        "A catena chiusa, a catena aperta e a controreazione. La prima non garantisce alcuna prestazione, la seconda garantisce prestazioni solo nel comportamento statico (regime) la terza garantisce prestazioni anche nel comportamento dinamico (transitorio).",
+        "A controreazione, a catena aperta e a catena chiusa. La prima non garantisce alcuna prestazione, la seconda garantisce prestazioni solo nel comportamento statico (regime) la terza garantisce prestazioni anche nel comportamento dinamico (transitorio)."
       ],
-      "answer": null
+      "answer": "A catena aperta, a catena chiusa e a controreazione. La prima non garantisce alcuna prestazione, la seconda garantisce prestazioni solo nel comportamento statico (regime) la terza garantisce prestazioni anche nel comportamento dinamico (transitorio)."
     },
     {
       "id": 27,
@@ -364,7 +354,7 @@
         "Sono le variabili di controllo del sistema da controllare che devono essere monitorate, quando è sottoposto ad opportune azioni di intervento.",
         "Raggiungimento degli obiettivi richiesti dal committente da parte del sistema da controllare, quando è sottoposto ad opportune azioni di intervento."
       ],
-      "answer": null
+      "answer": "Raggiungimento degli obiettivi richiesti dal committente da parte del sistema da controllare, quando è sottoposto ad opportune azioni di intervento."
     },
     {
       "id": 28,
@@ -373,16 +363,12 @@
       "type": "multiple",
       "question": "Quale è la struttura generale di un sistema controllato?",
       "options": [
-        "Un sistema controllato complesso comprende un impianto, un apparato, un dispositivo, un elemento singolo e un componente. Per ciascuno di essi, il sistema controllato",
-        "complesso include anche il relativo sistema di controllo separato.",
-        "Un sistema controllato complesso è la risultante dell'unione di due sistemi: sistema da controllare e sistema di controllo. Un sistema controllato complesso comprende più",
-        "impianti. Un impianto è costituito da più apparati. Un apparato è costituito da più dispositivi. Un dispositivo è costituito da più elementi singoli. Ogni elemento singolo è",
-        "costituito da più componenti.",
+        "Un sistema controllato complesso comprende un impianto, un apparato, un dispositivo, un elemento singolo e un componente. Per ciascuno di essi, il sistema controllato complesso include anche il relativo sistema di controllo separato.",
+        "Un sistema controllato complesso è la risultante dell'unione di due sistemi: sistema da controllare e sistema di controllo. Un sistema controllato complesso comprende più impianti. Un impianto è costituito da più apparati. Un apparato è costituito da più dispositivi. Un dispositivo è costituito da più elementi singoli. Ogni elemento singolo è costituito da più componenti.",
         "Nessuna delle altre risposte è corretta.",
-        "Un sistema controllato complesso è la risultante dell'unione di due sistemi: sistema controllante e un sistema non controllato. Un sistema controllato comprende apparati ed",
-        "elementi singoli."
+        "Un sistema controllato complesso è la risultante dell'unione di due sistemi: sistema controllante e un sistema non controllato. Un sistema controllato comprende apparati ed elementi singoli."
       ],
-      "answer": null
+      "answer": "Un sistema controllato complesso è la risultante dell'unione di due sistemi: sistema da controllare e sistema di controllo. Un sistema controllato complesso comprende più impianti. Un impianto è costituito da più apparati. Un apparato è costituito da più dispositivi. Un dispositivo è costituito da più elementi singoli. Ogni elemento singolo è costituito da più componenti."
     },
     {
       "id": 29,
@@ -392,12 +378,11 @@
       "question": "Quale sono le possibili modalità di intervento su un elemento singolo?",
       "options": [
         "Sono automatiche o manuali, attuate attraverso una modalità di controllo a catena aperta, attraverso l'uso di sensori di misura.",
-        "Possono essere manuali o atuomatiche, attuate attraverso una modalità di controllo a catena aperta, a catena chiusa o a controreazione, attraverso l'uso di attuatori e di",
-        "dispositivi di misura.",
+        "Possono essere manuali o atuomatiche, attuate attraverso una modalità di controllo a catena aperta, a catena chiusa o a controreazione, attraverso l'uso di attuatori e di dispositivi di misura.",
         "Nessuna delle altre risposte è corretta.",
         "Sono automatiche e applicate con una modalità di controllo a controreazione, attraverso l'uso dei dispositivi del sistema di controllo."
       ],
-      "answer": null
+      "answer": "Possono essere manuali o atuomatiche, attuate attraverso una modalità di controllo a catena aperta, a catena chiusa o a controreazione, attraverso l'uso di attuatori e di dispositivi di misura."
     },
     {
       "id": 30,
@@ -411,7 +396,7 @@
         "conosce come progettare le modalità di controllo e sa scegliere quelle più indicate",
         "conosce come \"trattare\" i dati e le informazioni provenienti dal sistema controllato e renderli utilizzabili per il controllo"
       ],
-      "answer": null
+      "answer": "conosce come \"trattare\" i dati e le informazioni provenienti dal sistema controllato e renderli utilizzabili per il controllo"
     },
     {
       "id": 31,
@@ -425,7 +410,7 @@
         "Attuatori e sistema da controllare",
         "Sistema controllato"
       ],
-      "answer": null
+      "answer": "Attuatori e sistema da controllare"
     },
     {
       "id": 32,
@@ -437,10 +422,9 @@
         "Nessuna delle altre risposte è corretta.",
         "Raggiungimento degli obiettivi richiesti dal committente da parte del sistema da controllare, quando è sottoposto ad opportune azioni di intervento.",
         "Sono le variabili di controllo del sistema da controllare che devono essere monitorate, quando è sottoposto ad opportune azioni di intervento.",
-        "Attività richieste dal committente affinché il sistema da controllare, per effetto delle azioni di intervento, possa raggiungere le finalità per le quali è stato progettato e",
-        "realizzato."
+        "Attività richieste dal committente affinché il sistema da controllare, per effetto delle azioni di intervento, possa raggiungere le finalità per le quali è stato progettato e realizzato."
       ],
-      "answer": null
+      "answer":    "Attività richieste dal committente affinché il sistema da controllare, per effetto delle azioni di intervento, possa raggiungere le finalità per le quali è stato progettato e realizzato."
     },
     {
       "id": 33,
@@ -451,11 +435,10 @@
       "options": [
         "formalizzazione delle richieste del committente per la realizzazione di un sistema controllato.",
         "Sono le condizioni nominali di funzionamento, in relazioni alle quali sono state definite la funzionalità, le prestazioni e le specifiche",
-        "Attività richieste dal committente affinché il sistema da controllare, per effetto delle azioni di intervento, possa raggiungere le finalità per le quali è stato progettato e",
-        "realizzato.",
+        "Attività richieste dal committente affinché il sistema da controllare, per effetto delle azioni di intervento, possa raggiungere le finalità per le quali è stato progettato e realizzato.",
         "Nessuna delle altre risposte è corretta."
       ],
-      "answer": null
+      "answer": "Sono le condizioni nominali di funzionamento, in relazioni alle quali sono state definite la funzionalità, le prestazioni e le specifiche"
     },
     {
       "id": 34,
@@ -469,7 +452,7 @@
         "In ingresso la variabile di controllo e in uscita la variabile di comando.",
         "In ingresso la variabile di comando e in uscita la variabile di forzamento."
       ],
-      "answer": null
+      "answer": "In ingresso la variabile di comando e in uscita la variabile di forzamento."
     },
     {
       "id": 35,
@@ -481,10 +464,9 @@
         "Nessuna delle altre risposte è corretta.",
         "Prestazioni e specifiche dipendono esclusivamente dalla struttura del sistema da controllare.",
         "Prestazioni e specifiche dipendono esclusivamente dalla struttura del sistema di controllo.",
-        "Le azioni di intervento caratterizzano il modo con il quale vengono raggiunte la finalità del sistema controllato e quindi le prestazioni. La modalità di intervento permettere",
-        "di soddisfare le specifiche."
+        "Le azioni di intervento caratterizzano il modo con il quale vengono raggiunte la finalità del sistema controllato e quindi le prestazioni. La modalità di intervento permettere di soddisfare le specifiche."
       ],
-      "answer": null
+      "answer": "Le azioni di intervento caratterizzano il modo con il quale vengono raggiunte la finalità del sistema controllato e quindi le prestazioni. La modalità di intervento permettere di soddisfare le specifiche."
     },
     {
       "id": 36,
@@ -499,7 +481,7 @@
         "Attività che è in grado di svolgere il sistema da controllare quanto è sottoposto alle azioni di intervento",
         "formalizzazione delle richieste del committente per la realizzazione di un sistema controllato."
       ],
-      "answer": null
+      "answer": "formalizzazione delle richieste del committente per la realizzazione di un sistema controllato."
     },
     {
       "id": 37,
@@ -513,7 +495,7 @@
         "Un sistema è complesso se ha più di una variabile di stato, di ingresso o di uscita. Altrimenti è un sistema semplice.",
         "Il numero di elementi che li contraddistinguono. Un sistema complesso è costituito da un insieme di numerosi elementi, aventi tra loro interazioni di vario tipo."
       ],
-      "answer": null
+      "answer": "Il numero di elementi che li contraddistinguono. Un sistema complesso è costituito da un insieme di numerosi elementi, aventi tra loro interazioni di vario tipo."
     },
     {
       "id": 38,
@@ -522,13 +504,12 @@
       "type": "multiple",
       "question": "Cosa sono le prestazioni di un sistema di automazione industriale?",
       "options": [
-        "Attività richieste dal committente affinché il sistema da controllare, per effetto delle azioni di intervento, possa raggiungere le finalità per le quali è stato progettato e",
-        "realizzato.",
+        "Attività richieste dal committente affinché il sistema da controllare, per effetto delle azioni di intervento, possa raggiungere le finalità per le quali è stato progettato e realizzato.",
         "Sono le condizioni operative preliminari che deve soddisfare il sistema da controllare, quando è sottoposto ad opportune azioni di intervento.",
         "Nessuna delle altre risposte è corretta.",
         "Performance che è in grado di erogare il sistema da controllare quando è sottoposto alle azioni di intervento."
       ],
-      "answer": null
+      "answer": "Performance che è in grado di erogare il sistema da controllare quando è sottoposto alle azioni di intervento."
     },
     {
       "id": 39,
@@ -541,10 +522,9 @@
         "in base alle informazioni presenti sul quadro di controllo.",
         "Un sistema controllato è composto da sensori ed ed attuatori, i sensori danno informazioni di conoscenza agli attuatori che sviluppano una azione di intevento.",
         "Nessuna delle altre risposte è corretta.",
-        "Un sistema controllato è composto da un sistema da controllare e un sistema di controllo. Quest'ultimo sceglie le azioni di intervento sulla base della valutazione dell'effetto",
-        "ottenuto."
+        "Un sistema controllato è composto da un sistema da controllare e un sistema di controllo. Quest'ultimo sceglie le azioni di intervento sulla base della valutazione dell'effetto ottenuto."
       ],
-      "answer": null
+      "answer": "Un sistema controllato è composto da un sistema da controllare e un sistema di controllo. Quest'ultimo sceglie le azioni di intervento sulla base della valutazione dell'effetto ottenuto."
     },
     {
       "id": 40,
@@ -576,24 +556,21 @@
         "L'ordine corretto, dal valore più alto a quello più basso è: sistema da controllare, strumentazione, controllo statico, controllo dinamico.",
         "L'ordine corretto, dal valore più alto a quello più basso è: sistema di controllo, sistema da controllare, sistema controllato."
       ],
-      "answer": null
+      "answer": "L'ordine corretto, dal valore più alto a quello più basso è: sistema da controllare, strumentazione, controllo statico, controllo dinamico."
     },
     {
       "id": 43,
       "lezione": "Lezione 008",
       "number": 2,
       "type": "multiple",
-      "question": "Come sono organizzati gli interventi che vengono di solito effettuati in corrispondenza dei singoli livelli gerarchici con cui è rappresentata la struttura di un",
+      "question": "Come sono organizzati gli interventi che vengono di solito effettuati in corrispondenza dei singoli livelli gerarchici con cui è rappresentata la struttura di un sistema complesso?",
       "options": [
-        "sistema complesso?",
-        "Le azioni di intervento sono di tipo attivo o di tipo passivo. Quelle di tipo attivo si applicano a livello di campo e coordinamento, quelle di tipo passivo si applicano a livello",
-        "di conduzione e gestione.",
-        "Le variabili di gestione e le variabili controllate sono da input per il sistema di controllo il quale genera i valori delle variabili di conduzione, comando e controllo che",
-        "pilotano rispettivamente i livelli di conduzione, coordinamento e campo",
+        "Le azioni di intervento sono di tipo attivo o di tipo passivo. Quelle di tipo attivo si applicano a livello di campo e coordinamento, quelle di tipo passivo si applicano a livello di conduzione e gestione.",
+        "Le variabili di gestione e le variabili controllate sono da input per il sistema di controllo il quale genera i valori delle variabili di conduzione, comando e controllo che pilotano rispettivamente i livelli di conduzione, coordinamento e campo",
         "Si applica prima un controllo a catena aperta, poi a catena chiusa e quindi a controreazione.",
         "Nessuna delle altre risposte è corretta."
       ],
-      "answer": null
+      "answer": "Le variabili di gestione e le variabili controllate sono da input per il sistema di controllo il quale genera i valori delle variabili di conduzione, comando e controllo che pilotano rispettivamente i livelli di conduzione, coordinamento e campo"
     },
     {
       "id": 44,
@@ -607,7 +584,7 @@
         "Cella",
         "Campo"
       ],
-      "answer": null
+      "answer": "Cella"
     },
     {
       "id": 45,
@@ -621,7 +598,7 @@
         "Economicità e precisione",
         "Sicurezza ed efficienza"
       ],
-      "answer": null
+      "answer": "Fedeltà e rapidità di risposta"
     },
     {
       "id": 46,
@@ -635,7 +612,7 @@
         "Macchina",
         "Stabilimento"
       ],
-      "answer": null
+      "answer": "Stabilimento"
     },
     {
       "id": 47,
@@ -649,7 +626,7 @@
         "Sistema di supervisione al livello di macchina",
         "Sistema Software per l'analisi dei dati sensoriali."
       ],
-      "answer": null
+      "answer": "Sistema di supervisione e acquisizione dati"
     },
     {
       "id": 48,
@@ -663,25 +640,21 @@
         "Come una lista ordinata mulivello.",
         "Come una struttura gerarchica di grafo bipartito."
       ],
-      "answer": null
+      "answer": "Come una struttura gerarchica di piramide a più livelli."
     },
     {
       "id": 49,
       "lezione": "Lezione 008",
       "number": 8,
       "type": "multiple",
-      "question": "Quale è la strumentazione che viene comunemente impiegata in corrispondenza dei singoli livelli gerarchici con cui è rappresentata la struttura di un sistema",
+      "question": "Quale è la strumentazione che viene comunemente impiegata in corrispondenza dei singoli livelli gerarchici con cui è rappresentata la struttura di un sistema complesso?",
       "options": [
-        "complesso?",
         "Nessuna delle altre risposte è corretta.",
-        "A livello di campo ci sono attuatori elettrici, idraulici o pneumatici e sensori deputati alla misura di grandezze fisiche. A livello di coordinamento ci sono sensori di",
-        "prossimità, di fine corsa, analizzatori della visione e lettori codici. A livello di conduzione trovano sede sensori on/off di tipo a soglia.",
-        "A livello di coordinamento ci sono attuatori elettrici, idraulici o pneumatici e sensori deputati alla misura di grandezze fisiche. A livello di campo ci sono sensori di",
-        "prossimità, di fine corsa, analizzatori della visione e lettori codici. A livello di conduzione trovano sede sensori on/off di tipo a soglia.",
-        "A livello di conduzione ci sono attuatori elettrici, idraulici o pneumatici e sensori deputati alla misura di grandezze fisiche. A livello di coordinamento ci sono sensori di",
-        "prossimità, di fine corsa, analizzatori della visione e lettori codici. A livello di campo trovano sede sensori on/off di tipo a soglia."
+        "A livello di campo ci sono attuatori elettrici, idraulici o pneumatici e sensori deputati alla misura di grandezze fisiche. A livello di coordinamento ci sono sensori di prossimità, di fine corsa, analizzatori della visione e lettori codici. A livello di conduzione trovano sede sensori on/off di tipo a soglia.",
+        "A livello di coordinamento ci sono attuatori elettrici, idraulici o pneumatici e sensori deputati alla misura di grandezze fisiche. A livello di campo ci sono sensori di prossimità, di fine corsa, analizzatori della visione e lettori codici. A livello di conduzione trovano sede sensori on/off di tipo a soglia.",
+        "A livello di conduzione ci sono attuatori elettrici, idraulici o pneumatici e sensori deputati alla misura di grandezze fisiche. A livello di coordinamento ci sono sensori di prossimità, di fine corsa, analizzatori della visione e lettori codici. A livello di campo trovano sede sensori on/off di tipo a soglia."
       ],
-      "answer": null
+      "answer": "A livello di campo ci sono attuatori elettrici, idraulici o pneumatici e sensori deputati alla misura di grandezze fisiche. A livello di coordinamento ci sono sensori di prossimità, di fine corsa, analizzatori della visione e lettori codici. A livello di conduzione trovano sede sensori on/off di tipo a soglia."
     },
     {
       "id": 50,
@@ -695,7 +668,7 @@
         "Il PLC opera esclusivamente a livello di coordinamento per acqusire dati, temporizzare e sequenzializzare le azioni di controllo.",
         "Il PLC è utilizzato a livello di campo (attivazione delle azioni di intervento), di coordinamento (sequenziamento e temporizzazione) e di conduzione (guasti)."
       ],
-      "answer": null
+      "answer": "Il PLC è utilizzato a livello di campo (attivazione delle azioni di intervento), di coordinamento (sequenziamento e temporizzazione) e di conduzione (guasti)."
     },
     {
       "id": 51,
@@ -767,15 +740,12 @@
       "type": "multiple",
       "question": "Quali sono gli obiettivi da raggiungere a livello di conduzione?",
       "options": [
-        "temporizzazione, sequenzializzazione e scelta delle strategie di intervento, verifica che sussistano le condizioni per il corretto funzionamento dei sistemi controllati a livello",
-        "di campo",
-        "determinazione della attivazione e disattivazione degli impianti, determinazione del valore da assegnare alle variabili di conduzione, valutazione della funzionalità e della",
-        "efficienza del sistema controllato complesso",
+        "temporizzazione, sequenzializzazione e scelta delle strategie di intervento, verifica che sussistano le condizioni per il corretto funzionamento dei sistemi controllati a livello  di campo",
+        "determinazione della attivazione e disattivazione degli impianti, determinazione del valore da assegnare alle variabili di conduzione, valutazione della funzionalità e della efficienza del sistema controllato complesso",
         "assegnazione dell'andamento desiderato della variabile di intervento, misura delle variabili controllate, della variabili interne e delle variabili esterne",
-        "verifica che il funzionamento dei sistemi controllati a livello di campo sia corretto, gestione delle condizioni di funzionamento in emergenza, assegnazione del valore alle",
-        "variabili di controllo, assegnazione del valore ai parametri degli algoritmi di controllo"
+        "verifica che il funzionamento dei sistemi controllati a livello di campo sia corretto, gestione delle condizioni di funzionamento in emergenza, assegnazione del valore alle variabili di controllo, assegnazione del valore ai parametri degli algoritmi di controllo"
       ],
-      "answer": null
+      "answer": "verifica che il funzionamento dei sistemi controllati a livello di campo sia corretto, gestione delle condizioni di funzionamento in emergenza, assegnazione del valore alle variabili di controllo, assegnazione del valore ai parametri degli algoritmi di controllo"
     },
     {
       "id": 59,
@@ -785,14 +755,11 @@
       "question": "Quali sono gli obiettivi da raggiungere a livello di coordinamento?",
       "options": [
         "assegnazione dell'andamento desiderato della variabile di intervento, misura delle variabili controllate, della variabili interne e delle variabili esterne",
-        "temporizzazione, sequenzializzazione e scelta delle strategie di intervento, verifica che sussistano le condizioni per il corretto funzionamento dei sistemi controllati a livello",
-        "di campo",
-        "determinazione della attivazione e disattivazione degli impianti, determinazione del valore da assegnare alle variabili di conduzione, valutazione della funzionalità e della",
-        "efficienza del sistema controllato complesso",
-        "verifica che il funzionamento dei sistemi controllati a livello di campo sia corretto, gestione delle condizioni di funzionamento in emergenza, assegnazione del valore alle",
-        "variabili di controllo, assegnazione del valore ai parametri degli algoritmi di controllo"
+        "temporizzazione, sequenzializzazione e scelta delle strategie di intervento, verifica che sussistano le condizioni per il corretto funzionamento dei sistemi controllati a livello di campo",
+        "determinazione della attivazione e disattivazione degli impianti, determinazione del valore da assegnare alle variabili di conduzione, valutazione della funzionalità e della efficienza del sistema controllato complesso",
+        "verifica che il funzionamento dei sistemi controllati a livello di campo sia corretto, gestione delle condizioni di funzionamento in emergenza, assegnazione del valore alle variabili di controllo, assegnazione del valore ai parametri degli algoritmi di controllo"
       ],
-      "answer": null
+      "answer": "verifica che il funzionamento dei sistemi controllati a livello di campo sia corretto, gestione delle condizioni di funzionamento in emergenza, assegnazione del valore alle variabili di controllo, assegnazione del valore ai parametri degli algoritmi di controllo"
     },
     {
       "id": 60,
@@ -801,15 +768,12 @@
       "type": "multiple",
       "question": "Quali sono gli obiettivi da raggiungere a livello di campo (controllo locale)?",
       "options": [
-        "verifica che il funzionamento dei sistemi controllati a livello di campo sia corretto, gestione delle condizioni di funzionamento in emergenza, assegnazione del valore alle",
-        "variabili di controllo, assegnazione del valore ai parametri degli algoritmi di controllo",
-        "temporizzazione, sequenzializzazione e scelta delle strategie di intervento, verifica che sussistano le condizioni per il corretto funzionamento dei sistemi controllati a livello",
-        "di campo",
-        "determinazione della attivazione e disattivazione degli impianti, determinazione del valore da assegnare alle variabili di conduzione, valutazione della funzionalità e della",
-        "efficienza del sistema controllato complesso",
+        "verifica che il funzionamento dei sistemi controllati a livello di campo sia corretto, gestione delle condizioni di funzionamento in emergenza, assegnazione del valore alle variabili di controllo, assegnazione del valore ai parametri degli algoritmi di controllo",
+        "temporizzazione, sequenzializzazione e scelta delle strategie di intervento, verifica che sussistano le condizioni per il corretto funzionamento dei sistemi controllati a livello di campo",
+        "determinazione della attivazione e disattivazione degli impianti, determinazione del valore da assegnare alle variabili di conduzione, valutazione della funzionalità e della efficienza del sistema controllato complesso",
         "assegnazione dell'andamento desiderato della variabile di intervento, misura delle variabili controllate, della variabili interne e delle variabili esterne"
       ],
-      "answer": null
+      "answer": "assegnazione dell'andamento desiderato della variabile di intervento, misura delle variabili controllate, della variabili interne e delle variabili esterne"
     },
     {
       "id": 61,
