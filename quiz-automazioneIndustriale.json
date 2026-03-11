@@ -1,0 +1,2985 @@
+{
+  "source": "input.pdf",
+  "total": 228,
+  "stats": {
+    "multiple_choice": 165,
+    "true_false": 0,
+    "open": 63,
+    "with_answer": 0
+  },
+  "questions": [
+    {
+      "id": 1,
+      "lezione": "Lezione 002",
+      "number": 1,
+      "type": "multiple",
+      "question": "Dove e con quale scopo fu coniato il termine Automazione industriale?",
+      "options": [
+        "Negli Stati Uniti nel 1900 per definire procedure senza intervento diretto dell'operatore",
+        "In inghilterra nel 1830 per definire procedure in serie senza intervento diretto dell'operatore",
+        "Negli Stati Uniti nel 1948 per definire procedure in serie senza intervento diretto dell'operatore",
+        "In Inghilterra nel 1948 per definire procedure in serie senza intervento diretto dell'operatore"
+      ],
+      "answer": null
+    },
+    {
+      "id": 2,
+      "lezione": "Lezione 004",
+      "number": 1,
+      "type": "multiple",
+      "question": "Quale, tra i seguenti, non è un impianto di produzione ad eventi programmati?",
+      "options": [
+        "Linee di produzione",
+        "Petrolchimico",
+        "Magazzinaggio",
+        "Movimentazione"
+      ],
+      "answer": null
+    },
+    {
+      "id": 3,
+      "lezione": "Lezione 004",
+      "number": 2,
+      "type": "multiple",
+      "question": "Quali sono le problematiche di base attinenti l'Automazione Industriale?",
+      "options": [
+        "I problemi collegati alla progettazione, realizzazione e utilizzazione del solo sistema di controllo.",
+        "I problemi collegati alla progettazione, realizzazione e utilizzazione del sistema controllato.",
+        "I problemi collegati alla progettazione, realizzazione e utilizzazione del solo sistema da controllare.",
+        "Nessuna delle altre risposte è corretta."
+      ],
+      "answer": null
+    },
+    {
+      "id": 4,
+      "lezione": "Lezione 004",
+      "number": 3,
+      "type": "multiple",
+      "question": "Quale, tra i seguenti impianti, non è una rete di distribuzione?",
+      "options": [
+        "Gas",
+        "Calore",
+        "Chimica",
+        "Acqua"
+      ],
+      "answer": null
+    },
+    {
+      "id": 5,
+      "lezione": "Lezione 004",
+      "number": 4,
+      "type": "multiple",
+      "question": "Cosa si intende con processi batch?",
+      "options": [
+        "Quantità infinite di prodotto finale ottenute da quantità finite di materiali grezzi",
+        "Quantità finite di prodotto finale ottenuto da quantità finite di materiali grezz, processati secondo un insieme ordinato di attività e in un periodo finito",
+        "Quantità finite di prodotto finale ottenuto da quantità finite di grezzi e semilavorati senza vincoli temporali",
+        "Quantità finite di prodotto finale fissate a priori ottenuto da quantità finite di materiali grezzi"
+      ],
+      "answer": null
+    },
+    {
+      "id": 6,
+      "lezione": "Lezione 004",
+      "number": 5,
+      "type": "multiple",
+      "question": "Il processo per la produzione di energia possiende:",
+      "options": [
+        "Input sia continuo che discreto e output continuo",
+        "Input continuo e output continuo",
+        "Input continuo e output discreto a lotti",
+        "Input discreto e output continuo"
+      ],
+      "answer": null
+    },
+    {
+      "id": 7,
+      "lezione": "Lezione 004",
+      "number": 6,
+      "type": "multiple",
+      "question": "Che cosa si intende con il termine \"ricetta\" di lavorazione?",
+      "options": [
+        "Istruzioni per il processo produttivo",
+        "Passi logici cge descrivono il processo produttivo, incluse le attività accessorie",
+        "Passi logici che non descrivono il processo produttivo, ma solo le attività accessorie",
+        "Passi logici cge descrivono il processo produttivo, escluse le attività accessorie"
+      ],
+      "answer": null
+    },
+    {
+      "id": 8,
+      "lezione": "Lezione 004",
+      "number": 7,
+      "type": "multiple",
+      "question": "L'industria manufatturiera è un processo di di tipo:",
+      "options": [
+        "Può essere di tipo discreto e batch",
+        "Può essere sia di tipo discreto che continuo",
+        "Può essere sia di tipo discreto che semi-continuo",
+        "Può essere sia di tipo semi-continuo che discreto"
+      ],
+      "answer": null
+    },
+    {
+      "id": 9,
+      "lezione": "Lezione 004",
+      "number": 8,
+      "type": "multiple",
+      "question": "Quali di queste tipologie di processi è un processo batch?",
+      "options": [
+        "Cemento",
+        "Lotti",
+        "Gas",
+        "Energia"
+      ],
+      "answer": null
+    },
+    {
+      "id": 10,
+      "lezione": "Lezione 005",
+      "number": 1,
+      "type": "multiple",
+      "question": "Quali fra queste entità non è un input/output del sistema di supporto",
+      "options": [
+        "Materie prime, prodotto, scarti,energia,fornitore,cliente",
+        "Materie prime, prodotto, scarti,energia,responsabile commerciale,ingegnere",
+        "Materie prime, prodotto, scarti,energia,cliente",
+        "Materie prime, prodotto, scarti,energia"
+      ],
+      "answer": null
+    },
+    {
+      "id": 11,
+      "lezione": "Lezione 005",
+      "number": 2,
+      "type": "multiple",
+      "question": "Un ingegnere dell'automazione appartiene",
+      "options": [
+        "Al sistema di supporto, in particolare alla progettazione",
+        "Al sistema di produzione, in particolare alla progettazione",
+        "Al sistema di supporto, in particolare all'area business",
+        "Al sistema di supporto, in particolare al planning"
+      ],
+      "answer": null
+    },
+    {
+      "id": 12,
+      "lezione": "Lezione 005",
+      "number": 3,
+      "type": "multiple",
+      "question": "Come si definisce il concetto di \"sistema\"?",
+      "options": [
+        "è un insieme di elementi, ognuno caratterizzato da una propria funzionalità, strettamente interagenti tra loro per quanto riguarda i flussi di informazione e e con l'ambiente",
+        "per quanto riguarda i flussi di materia e di energia.",
+        "è un insieme di elementi, ognuno caratterizzato da una propria funzionalità, operanti in maniera autonoma ed indipendente per quanto riguarda i flussi di materia, energia e",
+        "informazione.",
+        "è un insieme di elementi, ognuno caratterizzato da una propria funzionalità, strettamente interagenti tra loro e con l'ambiente per quanto riguarda i flussi di materia, energia",
+        "e informazione.",
+        "è un insieme di elementi, caratterizzato da funzionalità identiche, strettamente interagenti tra loro e con l'ambiente per quanto riguarda i flussi di materia, energia e",
+        "informazione."
+      ],
+      "answer": null
+    },
+    {
+      "id": 13,
+      "lezione": "Lezione 005",
+      "number": 4,
+      "type": "multiple",
+      "question": "Come viene fissata la finalità e la funzionalità del sistema a cui viene applicata l'Automazione?",
+      "options": [
+        "Nessuna delle altre risposte è corretta.",
+        "Le finalità sono determinate dalla struttura del sistema da controllare e sono imposte tramite le azioni di intervento. La funzionalità del sistema è garantita agendo sulla",
+        "struttura del sistema da controllare e sulle modalità secondo cui devono essere applicate le azioni di intervento.",
+        "Le finalità sono determinate dalla struttura del sistema da controllare e sono imposte tramite le azioni di intervento. La funzionalità del sistema è indipendente sia dalla",
+        "struttura del sistema da controllare che dalle modalità di controllo.",
+        "Le finalità sono indipendenti dalla struttura del sistema da controllare e non possono essere imposte tramite le azioni di intervento. La funzionalità dipende solo dalla",
+        "modalità di controllo attuata."
+      ],
+      "answer": null
+    },
+    {
+      "id": 14,
+      "lezione": "Lezione 005",
+      "number": 5,
+      "type": "multiple",
+      "question": "Che cosa si intende con il termine CIM:",
+      "options": [
+        "modello teorico di sistema di produzione che prevede l'integrazione dei processi produttivi con i sistemi informativi gestionali",
+        "una tecnica di produzione che prevede l'integrazione dei processi produttivi con i sistemi di automazione e con i sistemi informativi gestionali",
+        "modello teorico di sistema di produzione che prevede l'integrazione dei processi produttivi con i sistemi di automazione",
+        "un modello teorico di sistema di produzione che prevede l'integrazione dei processi produttivi con i sistemi di automazione e con i sistemi informativi gestionali"
+      ],
+      "answer": null
+    },
+    {
+      "id": 15,
+      "lezione": "Lezione 005",
+      "number": 6,
+      "type": "open",
+      "question": "Definire i concetti di: finalità, funzionalità, prestazioni e specifiche",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 16,
+      "lezione": "Lezione 005",
+      "number": 7,
+      "type": "open",
+      "question": "Descrivere le condizioni operative di un sistema controllato.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 17,
+      "lezione": "Lezione 005",
+      "number": 8,
+      "type": "open",
+      "question": "Indicare i principali tool di automazione delle attività di supporto alla produzione",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 18,
+      "lezione": "Lezione 005",
+      "number": 9,
+      "type": "open",
+      "question": "Data la struttura di un sistema controllato, spiegare quali parti sono scelte dal committente, quali dal progettista e quali sono invece assegnate.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 19,
+      "lezione": "Lezione 005",
+      "number": 10,
+      "type": "open",
+      "question": "Definire i concetti di: aspetto qualitativo, aspetto quantitativo e condizioni operative",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 20,
+      "lezione": "Lezione 006",
+      "number": 1,
+      "type": "multiple",
+      "question": "Il software CAD/CAM è parte:",
+      "options": [
+        "del ERP",
+        "del CAM",
+        "del CAPP",
+        "del DSS"
+      ],
+      "answer": null
+    },
+    {
+      "id": 21,
+      "lezione": "Lezione 006",
+      "number": 2,
+      "type": "multiple",
+      "question": "Che cosa si intende con il termine Decision Support System (DSS)?",
+      "options": [
+        "Una tecnica per migliorare il processo decisionale",
+        "Un modello teorico che rende disponibili una serie di funzionalità di supporto per migliorare il processo decisionale",
+        "Software che rende disponibili una serie di funzionalità di supporto per migliorare il processo decisionale",
+        "Software che rende disponibili una serie di funzionalità di supporto per la produzione"
+      ],
+      "answer": null
+    },
+    {
+      "id": 22,
+      "lezione": "Lezione 006",
+      "number": 3,
+      "type": "multiple",
+      "question": "Il DSS si interfaccia con:",
+      "options": [
+        "il cliente",
+        "l'operatore",
+        "processo produttivo",
+        "energia"
+      ],
+      "answer": null
+    },
+    {
+      "id": 23,
+      "lezione": "Lezione 006",
+      "number": 4,
+      "type": "multiple",
+      "question": "Quale fra questi è un vantaggio del CIM?",
+      "options": [
+        "Riduzione costi, scart, ma non tempi",
+        "Riduzione dei tempi, costi, ma non scarti",
+        "Riduzione della quantità di produzione",
+        "Riduzione dei tempi, costi, scarti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 24,
+      "lezione": "Lezione 006",
+      "number": 5,
+      "type": "multiple",
+      "question": "Che cosa si intende con il termine Enterprise Resource Planning (ERP)?",
+      "options": [
+        "Un insieme di applicazioni informatiche volte produzione industriale",
+        "Un insieme di applicazioni informatiche volte all'automazione diella sola amministrazione",
+        "Un insieme di applicazioni informatiche volte all'automazione di attività amministrative,logistiche, gestione della produzione, escluse le risorse umane",
+        "Un insieme di applicazioni informatiche volte all'automazione di attività amministrative,logistiche, gestione della produzione,risorse umane"
+      ],
+      "answer": null
+    },
+    {
+      "id": 25,
+      "lezione": "Lezione 006",
+      "number": 6,
+      "type": "open",
+      "question": "In fase di progettazione di un sistema di automazione, quali sono le problematiche emergenti di cui bisogna tenere conto?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 26,
+      "lezione": "Lezione 007",
+      "number": 1,
+      "type": "multiple",
+      "question": "Quali sono le principali modalità di intervento e che prestazioni possono garantire?",
+      "options": [
+        "Nessuna delle altre risposte è corretta.",
+        "A catena aperta, a catena chiusa e a controreazione. La prima non garantisce alcuna prestazione, la seconda garantisce prestazioni solo nel comportamento statico (regime)",
+        "la terza garantisce prestazioni anche nel comportamento dinamico (transitorio).",
+        "A catena chiusa, a catena aperta e a controreazione. La prima non garantisce alcuna prestazione, la seconda garantisce prestazioni solo nel comportamento statico (regime)",
+        "la terza garantisce prestazioni anche nel comportamento dinamico (transitorio).",
+        "A controreazione, a catena aperta e a catena chiusa. La prima non garantisce alcuna prestazione, la seconda garantisce prestazioni solo nel comportamento statico (regime)",
+        "la terza garantisce prestazioni anche nel comportamento dinamico (transitorio)."
+      ],
+      "answer": null
+    },
+    {
+      "id": 27,
+      "lezione": "Lezione 007",
+      "number": 2,
+      "type": "multiple",
+      "question": "Cosa sono la finalità di un sistema di automazione industriale?",
+      "options": [
+        "Sono le condizioni operative preliminari che deve soddisfare il sistema da controllare, quando è sottoposto ad opportune azioni di intervento.",
+        "Nessuna delle altre risposte è corretta.",
+        "Sono le variabili di controllo del sistema da controllare che devono essere monitorate, quando è sottoposto ad opportune azioni di intervento.",
+        "Raggiungimento degli obiettivi richiesti dal committente da parte del sistema da controllare, quando è sottoposto ad opportune azioni di intervento."
+      ],
+      "answer": null
+    },
+    {
+      "id": 28,
+      "lezione": "Lezione 007",
+      "number": 3,
+      "type": "multiple",
+      "question": "Quale è la struttura generale di un sistema controllato?",
+      "options": [
+        "Un sistema controllato complesso comprende un impianto, un apparato, un dispositivo, un elemento singolo e un componente. Per ciascuno di essi, il sistema controllato",
+        "complesso include anche il relativo sistema di controllo separato.",
+        "Un sistema controllato complesso è la risultante dell'unione di due sistemi: sistema da controllare e sistema di controllo. Un sistema controllato complesso comprende più",
+        "impianti. Un impianto è costituito da più apparati. Un apparato è costituito da più dispositivi. Un dispositivo è costituito da più elementi singoli. Ogni elemento singolo è",
+        "costituito da più componenti.",
+        "Nessuna delle altre risposte è corretta.",
+        "Un sistema controllato complesso è la risultante dell'unione di due sistemi: sistema controllante e un sistema non controllato. Un sistema controllato comprende apparati ed",
+        "elementi singoli."
+      ],
+      "answer": null
+    },
+    {
+      "id": 29,
+      "lezione": "Lezione 007",
+      "number": 4,
+      "type": "multiple",
+      "question": "Quale sono le possibili modalità di intervento su un elemento singolo?",
+      "options": [
+        "Sono automatiche o manuali, attuate attraverso una modalità di controllo a catena aperta, attraverso l'uso di sensori di misura.",
+        "Possono essere manuali o atuomatiche, attuate attraverso una modalità di controllo a catena aperta, a catena chiusa o a controreazione, attraverso l'uso di attuatori e di",
+        "dispositivi di misura.",
+        "Nessuna delle altre risposte è corretta.",
+        "Sono automatiche e applicate con una modalità di controllo a controreazione, attraverso l'uso dei dispositivi del sistema di controllo."
+      ],
+      "answer": null
+    },
+    {
+      "id": 30,
+      "lezione": "Lezione 007",
+      "number": 5,
+      "type": "multiple",
+      "question": "L'ingegnere della conosceza",
+      "options": [
+        "conosce \"tutto\" del sistema da controllare e del sistema di controllo",
+        "conosce \"come far funzionare\" il sistema da controllare e il relativo sistema di controllo",
+        "conosce come progettare le modalità di controllo e sa scegliere quelle più indicate",
+        "conosce come \"trattare\" i dati e le informazioni provenienti dal sistema controllato e renderli utilizzabili per il controllo"
+      ],
+      "answer": null
+    },
+    {
+      "id": 31,
+      "lezione": "Lezione 007",
+      "number": 6,
+      "type": "multiple",
+      "question": "Dato un sistema controreazionato, quali elementi sono interessati dal flusso di energia?",
+      "options": [
+        "Sistema di controllo",
+        "Attuatori e sensori",
+        "Attuatori e sistema da controllare",
+        "Sistema controllato"
+      ],
+      "answer": null
+    },
+    {
+      "id": 32,
+      "lezione": "Lezione 007",
+      "number": 7,
+      "type": "multiple",
+      "question": "Cosa sono le funzionalità di un sistema di automazione industriale?",
+      "options": [
+        "Nessuna delle altre risposte è corretta.",
+        "Raggiungimento degli obiettivi richiesti dal committente da parte del sistema da controllare, quando è sottoposto ad opportune azioni di intervento.",
+        "Sono le variabili di controllo del sistema da controllare che devono essere monitorate, quando è sottoposto ad opportune azioni di intervento.",
+        "Attività richieste dal committente affinché il sistema da controllare, per effetto delle azioni di intervento, possa raggiungere le finalità per le quali è stato progettato e",
+        "realizzato."
+      ],
+      "answer": null
+    },
+    {
+      "id": 33,
+      "lezione": "Lezione 007",
+      "number": 8,
+      "type": "multiple",
+      "question": "Cosa sono le condizioni operative di un sistema di automazione industriale?",
+      "options": [
+        "formalizzazione delle richieste del committente per la realizzazione di un sistema controllato.",
+        "Sono le condizioni nominali di funzionamento, in relazioni alle quali sono state definite la funzionalità, le prestazioni e le specifiche",
+        "Attività richieste dal committente affinché il sistema da controllare, per effetto delle azioni di intervento, possa raggiungere le finalità per le quali è stato progettato e",
+        "realizzato.",
+        "Nessuna delle altre risposte è corretta."
+      ],
+      "answer": null
+    },
+    {
+      "id": 34,
+      "lezione": "Lezione 007",
+      "number": 9,
+      "type": "multiple",
+      "question": "Un attuatore, quali variabili gestisce?",
+      "options": [
+        "In ingresso la variabile di errore e in uscita la variabile di controllo.",
+        "Nessuna delle altre risposte è corretta.",
+        "In ingresso la variabile di controllo e in uscita la variabile di comando.",
+        "In ingresso la variabile di comando e in uscita la variabile di forzamento."
+      ],
+      "answer": null
+    },
+    {
+      "id": 35,
+      "lezione": "Lezione 007",
+      "number": 10,
+      "type": "multiple",
+      "question": "Come viene verificato il soddisfacimento delle prestazioni e delle specifiche?",
+      "options": [
+        "Nessuna delle altre risposte è corretta.",
+        "Prestazioni e specifiche dipendono esclusivamente dalla struttura del sistema da controllare.",
+        "Prestazioni e specifiche dipendono esclusivamente dalla struttura del sistema di controllo.",
+        "Le azioni di intervento caratterizzano il modo con il quale vengono raggiunte la finalità del sistema controllato e quindi le prestazioni. La modalità di intervento permettere",
+        "di soddisfare le specifiche."
+      ],
+      "answer": null
+    },
+    {
+      "id": 36,
+      "lezione": "Lezione 007",
+      "number": 11,
+      "type": "multiple",
+      "question": "Cosa sono le specifiche di un sistema di automazione industriale?",
+      "options": [
+        "Nessuna delle altre risposte è corretta.",
+        "Attività richieste dal committente affinché il sistema da controllare, per effetto delle azioni di intervento, possa raggiungere le finalità per le quali è stato progettato e",
+        "realizzato.",
+        "Attività che è in grado di svolgere il sistema da controllare quanto è sottoposto alle azioni di intervento",
+        "formalizzazione delle richieste del committente per la realizzazione di un sistema controllato."
+      ],
+      "answer": null
+    },
+    {
+      "id": 37,
+      "lezione": "Lezione 007",
+      "number": 12,
+      "type": "multiple",
+      "question": "Cosa contraddistingue un sistema semplice da un sistema complesso?",
+      "options": [
+        "Un sistema complesso è un sistema semplice, in cui compaiono variabili complesse.",
+        "Nessuna delle altre risposte è corretta.",
+        "Un sistema è complesso se ha più di una variabile di stato, di ingresso o di uscita. Altrimenti è un sistema semplice.",
+        "Il numero di elementi che li contraddistinguono. Un sistema complesso è costituito da un insieme di numerosi elementi, aventi tra loro interazioni di vario tipo."
+      ],
+      "answer": null
+    },
+    {
+      "id": 38,
+      "lezione": "Lezione 007",
+      "number": 13,
+      "type": "multiple",
+      "question": "Cosa sono le prestazioni di un sistema di automazione industriale?",
+      "options": [
+        "Attività richieste dal committente affinché il sistema da controllare, per effetto delle azioni di intervento, possa raggiungere le finalità per le quali è stato progettato e",
+        "realizzato.",
+        "Sono le condizioni operative preliminari che deve soddisfare il sistema da controllare, quando è sottoposto ad opportune azioni di intervento.",
+        "Nessuna delle altre risposte è corretta.",
+        "Performance che è in grado di erogare il sistema da controllare quando è sottoposto alle azioni di intervento."
+      ],
+      "answer": null
+    },
+    {
+      "id": 39,
+      "lezione": "Lezione 007",
+      "number": 14,
+      "type": "multiple",
+      "question": "Da quali elementi è composto un sistema controllato e quali relazioni legano tali elementi?",
+      "options": [
+        "Un sistema controllato è composto da una interfaccia uomo-macchina e da un sistema da controllare. L'operatore decide di volta in volta quale azione di intervento erogare",
+        "in base alle informazioni presenti sul quadro di controllo.",
+        "Un sistema controllato è composto da sensori ed ed attuatori, i sensori danno informazioni di conoscenza agli attuatori che sviluppano una azione di intevento.",
+        "Nessuna delle altre risposte è corretta.",
+        "Un sistema controllato è composto da un sistema da controllare e un sistema di controllo. Quest'ultimo sceglie le azioni di intervento sulla base della valutazione dell'effetto",
+        "ottenuto."
+      ],
+      "answer": null
+    },
+    {
+      "id": 40,
+      "lezione": "Lezione 007",
+      "number": 15,
+      "type": "open",
+      "question": "Dato uno schema di controllo a catena chiusa, chiarire quale è il flusso di energia e quale quello di informazione.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 41,
+      "lezione": "Lezione 007",
+      "number": 16,
+      "type": "open",
+      "question": "Definire i concetti di: sistema complesso, evoluzione di un sistema e controllo di un sistema",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 42,
+      "lezione": "Lezione 008",
+      "number": 1,
+      "type": "multiple",
+      "question": "Quale è il rapporto costo/prestazioni delle singole parti di un sistema controllato?",
+      "options": [
+        "Nessuna delle altre risposte è corretta.",
+        "L'ordine corretto, dal valore più alto a quello più basso è: sistema da controllare, attuatori, sensori e controllore.",
+        "L'ordine corretto, dal valore più alto a quello più basso è: sistema da controllare, strumentazione, controllo statico, controllo dinamico.",
+        "L'ordine corretto, dal valore più alto a quello più basso è: sistema di controllo, sistema da controllare, sistema controllato."
+      ],
+      "answer": null
+    },
+    {
+      "id": 43,
+      "lezione": "Lezione 008",
+      "number": 2,
+      "type": "multiple",
+      "question": "Come sono organizzati gli interventi che vengono di solito effettuati in corrispondenza dei singoli livelli gerarchici con cui è rappresentata la struttura di un",
+      "options": [
+        "sistema complesso?",
+        "Le azioni di intervento sono di tipo attivo o di tipo passivo. Quelle di tipo attivo si applicano a livello di campo e coordinamento, quelle di tipo passivo si applicano a livello",
+        "di conduzione e gestione.",
+        "Le variabili di gestione e le variabili controllate sono da input per il sistema di controllo il quale genera i valori delle variabili di conduzione, comando e controllo che",
+        "pilotano rispettivamente i livelli di conduzione, coordinamento e campo",
+        "Si applica prima un controllo a catena aperta, poi a catena chiusa e quindi a controreazione.",
+        "Nessuna delle altre risposte è corretta."
+      ],
+      "answer": null
+    },
+    {
+      "id": 44,
+      "lezione": "Lezione 008",
+      "number": 3,
+      "type": "multiple",
+      "question": "In quale livello si colloca un controllore a logica programmabile?",
+      "options": [
+        "Stabilimento",
+        "Macchina",
+        "Cella",
+        "Campo"
+      ],
+      "answer": null
+    },
+    {
+      "id": 45,
+      "lezione": "Lezione 008",
+      "number": 4,
+      "type": "multiple",
+      "question": "Quali sono le finalità da raggiungere in corrispondenza del livello di campo?",
+      "options": [
+        "Nessuna delle altre risposte è corretta.",
+        "Fedeltà e rapidità di risposta",
+        "Economicità e precisione",
+        "Sicurezza ed efficienza"
+      ],
+      "answer": null
+    },
+    {
+      "id": 46,
+      "lezione": "Lezione 008",
+      "number": 5,
+      "type": "multiple",
+      "question": "In quale livello si colloca il sistema SCADA?",
+      "options": [
+        "Cella",
+        "Campo",
+        "Macchina",
+        "Stabilimento"
+      ],
+      "answer": null
+    },
+    {
+      "id": 47,
+      "lezione": "Lezione 008",
+      "number": 6,
+      "type": "multiple",
+      "question": "Che cosa si intende con il termine SCADA?",
+      "options": [
+        "Nome di un robot antropomorfo",
+        "Sistema di supervisione e acquisizione dati",
+        "Sistema di supervisione al livello di macchina",
+        "Sistema Software per l'analisi dei dati sensoriali."
+      ],
+      "answer": null
+    },
+    {
+      "id": 48,
+      "lezione": "Lezione 008",
+      "number": 7,
+      "type": "multiple",
+      "question": "Come viene rappresentata la struttura di un sistema complesso?",
+      "options": [
+        "Come una struttura gerarchica di piramide a più livelli.",
+        "Nessuna delle altre risposte è corretta.",
+        "Come una lista ordinata mulivello.",
+        "Come una struttura gerarchica di grafo bipartito."
+      ],
+      "answer": null
+    },
+    {
+      "id": 49,
+      "lezione": "Lezione 008",
+      "number": 8,
+      "type": "multiple",
+      "question": "Quale è la strumentazione che viene comunemente impiegata in corrispondenza dei singoli livelli gerarchici con cui è rappresentata la struttura di un sistema",
+      "options": [
+        "complesso?",
+        "Nessuna delle altre risposte è corretta.",
+        "A livello di campo ci sono attuatori elettrici, idraulici o pneumatici e sensori deputati alla misura di grandezze fisiche. A livello di coordinamento ci sono sensori di",
+        "prossimità, di fine corsa, analizzatori della visione e lettori codici. A livello di conduzione trovano sede sensori on/off di tipo a soglia.",
+        "A livello di coordinamento ci sono attuatori elettrici, idraulici o pneumatici e sensori deputati alla misura di grandezze fisiche. A livello di campo ci sono sensori di",
+        "prossimità, di fine corsa, analizzatori della visione e lettori codici. A livello di conduzione trovano sede sensori on/off di tipo a soglia.",
+        "A livello di conduzione ci sono attuatori elettrici, idraulici o pneumatici e sensori deputati alla misura di grandezze fisiche. A livello di coordinamento ci sono sensori di",
+        "prossimità, di fine corsa, analizzatori della visione e lettori codici. A livello di campo trovano sede sensori on/off di tipo a soglia."
+      ],
+      "answer": null
+    },
+    {
+      "id": 50,
+      "lezione": "Lezione 008",
+      "number": 9,
+      "type": "multiple",
+      "question": "In quale livello gerarchico viene utilizzato il PLC e quale deve essere la sua funzionalità?",
+      "options": [
+        "Nessuna delle altre risposte è corretta.",
+        "Il PLC è utilizzato esclusivamente a livello di campo per attivare le azioni di intervento da far eseguire agli elementi singoli.",
+        "Il PLC opera esclusivamente a livello di coordinamento per acqusire dati, temporizzare e sequenzializzare le azioni di controllo.",
+        "Il PLC è utilizzato a livello di campo (attivazione delle azioni di intervento), di coordinamento (sequenziamento e temporizzazione) e di conduzione (guasti)."
+      ],
+      "answer": null
+    },
+    {
+      "id": 51,
+      "lezione": "Lezione 008",
+      "number": 10,
+      "type": "open",
+      "question": "Diagrammare la struttura gerarchica di un sistema controllato.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 52,
+      "lezione": "Lezione 008",
+      "number": 11,
+      "type": "open",
+      "question": "Quali elementi del sistema di automazione si trovano ai vari livelli della struttura gerarchica?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 53,
+      "lezione": "Lezione 008",
+      "number": 12,
+      "type": "open",
+      "question": "Quali variabili agiscono a livello di campo, quali a livello di coordinamento, quali a livello di conduzione e quali a livello di gestione?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 54,
+      "lezione": "Lezione 008",
+      "number": 13,
+      "type": "open",
+      "question": "Spiegare come è gestito il flusso dei dati in un sistema di automazione industriale gerarchico.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 55,
+      "lezione": "Lezione 008",
+      "number": 14,
+      "type": "open",
+      "question": "Quali sono gli obiettivi da perseguire ad ogni livello della struttura gerarchica?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 56,
+      "lezione": "Lezione 008",
+      "number": 15,
+      "type": "open",
+      "question": "Facendo riferimento alla piramide della automazione, come variano i tempi di risposta e la quantità di dati che deve essere scambiata tra i differenti livelli?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 57,
+      "lezione": "Lezione 008",
+      "number": 16,
+      "type": "open",
+      "question": "Tracciare gli schemi funzionali dei sistemi di acquisizione dei dati dal livello di campo.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 58,
+      "lezione": "Lezione 010",
+      "number": 1,
+      "type": "multiple",
+      "question": "Quali sono gli obiettivi da raggiungere a livello di conduzione?",
+      "options": [
+        "temporizzazione, sequenzializzazione e scelta delle strategie di intervento, verifica che sussistano le condizioni per il corretto funzionamento dei sistemi controllati a livello",
+        "di campo",
+        "determinazione della attivazione e disattivazione degli impianti, determinazione del valore da assegnare alle variabili di conduzione, valutazione della funzionalità e della",
+        "efficienza del sistema controllato complesso",
+        "assegnazione dell'andamento desiderato della variabile di intervento, misura delle variabili controllate, della variabili interne e delle variabili esterne",
+        "verifica che il funzionamento dei sistemi controllati a livello di campo sia corretto, gestione delle condizioni di funzionamento in emergenza, assegnazione del valore alle",
+        "variabili di controllo, assegnazione del valore ai parametri degli algoritmi di controllo"
+      ],
+      "answer": null
+    },
+    {
+      "id": 59,
+      "lezione": "Lezione 010",
+      "number": 2,
+      "type": "multiple",
+      "question": "Quali sono gli obiettivi da raggiungere a livello di coordinamento?",
+      "options": [
+        "assegnazione dell'andamento desiderato della variabile di intervento, misura delle variabili controllate, della variabili interne e delle variabili esterne",
+        "temporizzazione, sequenzializzazione e scelta delle strategie di intervento, verifica che sussistano le condizioni per il corretto funzionamento dei sistemi controllati a livello",
+        "di campo",
+        "determinazione della attivazione e disattivazione degli impianti, determinazione del valore da assegnare alle variabili di conduzione, valutazione della funzionalità e della",
+        "efficienza del sistema controllato complesso",
+        "verifica che il funzionamento dei sistemi controllati a livello di campo sia corretto, gestione delle condizioni di funzionamento in emergenza, assegnazione del valore alle",
+        "variabili di controllo, assegnazione del valore ai parametri degli algoritmi di controllo"
+      ],
+      "answer": null
+    },
+    {
+      "id": 60,
+      "lezione": "Lezione 010",
+      "number": 3,
+      "type": "multiple",
+      "question": "Quali sono gli obiettivi da raggiungere a livello di campo (controllo locale)?",
+      "options": [
+        "verifica che il funzionamento dei sistemi controllati a livello di campo sia corretto, gestione delle condizioni di funzionamento in emergenza, assegnazione del valore alle",
+        "variabili di controllo, assegnazione del valore ai parametri degli algoritmi di controllo",
+        "temporizzazione, sequenzializzazione e scelta delle strategie di intervento, verifica che sussistano le condizioni per il corretto funzionamento dei sistemi controllati a livello",
+        "di campo",
+        "determinazione della attivazione e disattivazione degli impianti, determinazione del valore da assegnare alle variabili di conduzione, valutazione della funzionalità e della",
+        "efficienza del sistema controllato complesso",
+        "assegnazione dell'andamento desiderato della variabile di intervento, misura delle variabili controllate, della variabili interne e delle variabili esterne"
+      ],
+      "answer": null
+    },
+    {
+      "id": 61,
+      "lezione": "Lezione 010",
+      "number": 4,
+      "type": "multiple",
+      "question": "Quali sono gli obiettivi da raggiungere a livello di gestione?",
+      "options": [
+        "temporizzazione, sequenzializzazione e scelta delle strategie di intervento, verifica che sussistano le condizioni per il corretto funzionamento dei sistemi controllati a livello",
+        "di campo",
+        "assegnazione dell'andamento desiderato della variabile di intervento, misura delle variabili controllate, della variabili interne e delle variabili esterne",
+        "verifica che il funzionamento dei sistemi controllati a livello di campo sia corretto, gestione delle condizioni di funzionamento in emergenza, assegnazione del valore alle",
+        "variabili di controllo, assegnazione del valore ai parametri degli algoritmi di controllo",
+        "determinazione della attivazione e disattivazione degli impianti, determinazione del valore da assegnare alle variabili di conduzione, valutazione della funzionalità e della",
+        "efficienza del sistema controllato complesso"
+      ],
+      "answer": null
+    },
+    {
+      "id": 62,
+      "lezione": "Lezione 010",
+      "number": 5,
+      "type": "multiple",
+      "question": "A quali livello opera normalmente un Programmable Logic Controller?",
+      "options": [
+        "campo, conduzione e coordinamento",
+        "campo, coordinamento e gestione",
+        "coordinamento, conduzione e gestione.",
+        "campo, gestione e conduzione"
+      ],
+      "answer": null
+    },
+    {
+      "id": 63,
+      "lezione": "Lezione 010",
+      "number": 6,
+      "type": "multiple",
+      "question": "A quale livelli si può trovare un controllo manuale (non automatico)?",
+      "options": [
+        "campo, conduzione e coordinamento",
+        "campo, gestione e conduzione",
+        "coordinamento, conduzione e gestione.",
+        "campo, coordinamento e gestione"
+      ],
+      "answer": null
+    },
+    {
+      "id": 64,
+      "lezione": "Lezione 010",
+      "number": 7,
+      "type": "multiple",
+      "question": "A livello di gestione, quali sistemi di controllo agiscono sui dati?",
+      "options": [
+        "Reti logiche",
+        "Software finalizzati",
+        "PID",
+        "PLC"
+      ],
+      "answer": null
+    },
+    {
+      "id": 65,
+      "lezione": "Lezione 010",
+      "number": 8,
+      "type": "multiple",
+      "question": "Nel ciclo di sviluppo per un sistema software, cosa rappresentano le specifiche funzionali?",
+      "options": [
+        "Individuazioni delle funzionalità richieste dal cliente con un linguaggio non tenico e con informazioni generiche",
+        "Decomposizione funzionale del progetto software , al fine di consentire uno sviluppo indipendenete delle varie funzioanlità individuate",
+        "Individuazioni delle funzionalità richieste dal cliente con un linguaggio tenico e con informazioni generiche",
+        "Decomposizione funzionale del progetto software"
+      ],
+      "answer": null
+    },
+    {
+      "id": 66,
+      "lezione": "Lezione 010",
+      "number": 9,
+      "type": "multiple",
+      "question": "Nel ciclo di sviluppo per un sistema software, le fasi di testing hanno un approccio:",
+      "options": [
+        "Nessuna delle precedenti",
+        "bottom-up",
+        "top-down",
+        "Può essere sia di tipo bottom-up"
+      ],
+      "answer": null
+    },
+    {
+      "id": 67,
+      "lezione": "Lezione 010",
+      "number": 10,
+      "type": "multiple",
+      "question": "Quale approccio organizzativo è usato nel ciclo di sviluppo per un sistema di automazione industraile?",
+      "options": [
+        "Approccio top-down nella parte di sinistra, e approccio top-down nella parte di destra",
+        "Approccio bottom-up nella parte di sinistra, e approccio bootom-up nella parte di destra",
+        "Approccio top-down nella parte di sinistra, e approccio bootom-up nella parte di destra",
+        "Approccio Bottom-up nella parte di sinistra, e approccio top-down nella parte di destra"
+      ],
+      "answer": null
+    },
+    {
+      "id": 68,
+      "lezione": "Lezione 010",
+      "number": 11,
+      "type": "multiple",
+      "question": "Come è strutturato il ciclo di sviluppo per un sistema di automazione industraile?",
+      "options": [
+        "Il ciclo di sviluppo consente di organizzare lo sviluppo software all'interno di un 'azienda. Esso ha una forma a V nelle cui etremità vi è la progettazione dettagliata e la",
+        "validazione del sistema SW.",
+        "Il ciclo di sviluppo consente di organizzare lo sviluppo software all'interno di un 'azienda. Esso ha una forma a V nelle cui etremità vi è la progettazione generale e la",
+        "validazione del sistema SW.",
+        "Il ciclo di sviluppo consente di organizzare lo sviluppo software all'interno di un 'azienda. Esso ha una forma a V nelle cui etremità vi sono le specifiche funzionali e la",
+        "validazione del sistema SW.",
+        "Il ciclo di sviluppo consente di organizzare lo sviluppo software all'interno di un 'azienda. Esso ha una forma a W nelle cui etremità vi sono le specifiche funzionali e la",
+        "validazione del sistema SW."
+      ],
+      "answer": null
+    },
+    {
+      "id": 69,
+      "lezione": "Lezione 010",
+      "number": 12,
+      "type": "multiple",
+      "question": "La definzione delle specifiche :",
+      "options": [
+        "deve essere fatta con il cliente",
+        "non deve essere fatta con il cliente",
+        "nessuna delle precedenti è corretta",
+        "può essere fatta con il cliente"
+      ],
+      "answer": null
+    },
+    {
+      "id": 70,
+      "lezione": "Lezione 011",
+      "number": 1,
+      "type": "multiple",
+      "question": "Il fattore di utilizzazione è pari:",
+      "options": [
+        "Somamtoria di tutte le funzioni di tempo di utilizzazione relativi al task",
+        "1/tempo di utilizazzione",
+        "Sommatoria del tempo di computazione dei singoli task",
+        "Nessauna delle precedenti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 71,
+      "lezione": "Lezione 011",
+      "number": 2,
+      "type": "multiple",
+      "question": "Il servizio di background",
+      "options": [
+        "Esegue task aperiodiciin tutti gli istanti di tempo",
+        "Esegue task periodiciin tutti gli istanti di tempo",
+        "Esegue task periodici sono negli istanti di tempo in cui l'unità di elaborazione è libera",
+        "Esegue task aperiodici sono negli istanti di tempo in cui l'unità di elaborazione è libera"
+      ],
+      "answer": null
+    },
+    {
+      "id": 72,
+      "lezione": "Lezione 012",
+      "number": 1,
+      "type": "multiple",
+      "question": "Quando un algoritmo di Scheduling gode delle proprietà real time, allora",
+      "options": [
+        "esso si definisce soft real time",
+        "esso si definisce lateness",
+        "esso si definisce guaranteed",
+        "esso si definisce hard real time"
+      ],
+      "answer": null
+    },
+    {
+      "id": 73,
+      "lezione": "Lezione 013",
+      "number": 1,
+      "type": "multiple",
+      "question": "Che cosa si intende con il termine di programmazione concorrente?",
+      "options": [
+        "Gestione ordinata di diversi task simultanei al fine di processarli tutti rispettando le relative deadline",
+        "Gestione ordinata di diversi task simultanei al fine di processarli tutti prima della scadenza di una deadline specifica",
+        "Gestione ordinata di diversi task simultanei al fine di processare solo quelli aventi maggiore priorità",
+        "Processamento contemporaneo di più task mediante l'uso di processori multi-core"
+      ],
+      "answer": null
+    },
+    {
+      "id": 74,
+      "lezione": "Lezione 013",
+      "number": 2,
+      "type": "open",
+      "question": "Descrivere il concetto di programmazione concorrente in un sistema real time",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 75,
+      "lezione": "Lezione 014",
+      "number": 1,
+      "type": "multiple",
+      "question": "Dato un insieme di task avente un fattore di utilizzazione pari a 0.8, allora",
+      "options": [
+        "Nessuna delle precedenti è corretta",
+        "essi possono essere schedulati sia tramite un algoritmo EDF che RMPO",
+        "essi possono essere schedulati tramite un algoritmo EDF ma non RMPO",
+        "essi possono essere schedulati tramite un algoritmo RMPO ma non EDF"
+      ],
+      "answer": null
+    },
+    {
+      "id": 76,
+      "lezione": "Lezione 014",
+      "number": 2,
+      "type": "multiple",
+      "question": "Quando si può dire che un task non è schedulabile?",
+      "options": [
+        "Quando il fattore di utilizazzione è maggire di 2",
+        "Quando il fattore di utilizazzione è maggiore uguale a 1",
+        "Quando il fattore di utilizazzione è maggiore di 1",
+        "Quando il fattore di utilizazzione è minore di 1"
+      ],
+      "answer": null
+    },
+    {
+      "id": 77,
+      "lezione": "Lezione 014",
+      "number": 3,
+      "type": "multiple",
+      "question": "Cosa si intende con il termine \"dispatching\"?",
+      "options": [
+        "Operazione che assegna una priorità maggiore ad un task rispetto ad un altro",
+        "Operazione che assegna l'unità di calcolo ad un task",
+        "Nessuna delle precedenti è corretta",
+        "Operazione di interruzione di un task per liberare l'unità di calcolo"
+      ],
+      "answer": null
+    },
+    {
+      "id": 78,
+      "lezione": "Lezione 014",
+      "number": 4,
+      "type": "multiple",
+      "question": "Nello scheduling basato sul FIFO, quale azione fra le seguenti è assente?",
+      "options": [
+        "Preemption",
+        "Dispatching",
+        "Tutte le azioni sono presenti",
+        "Dispatching e Preempton"
+      ],
+      "answer": null
+    },
+    {
+      "id": 79,
+      "lezione": "Lezione 014",
+      "number": 5,
+      "type": "open",
+      "question": "Classificare le varie tipologie di algoritmi di scheduling",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 80,
+      "lezione": "Lezione 015",
+      "number": 1,
+      "type": "multiple",
+      "question": "Quale fra i seguenti algoritmi di scheduling gestisce task le cui deadline non coincidono con il loro periodo di attivazione",
+      "options": [
+        "RMPO",
+        "DMPO",
+        "EDF",
+        "Tutti i precedenti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 81,
+      "lezione": "Lezione 015",
+      "number": 2,
+      "type": "multiple",
+      "question": "L'algoritmo RMPO appartiene alla famiglia degli",
+      "options": [
+        "Algoritmi statici per task aperiodici",
+        "Algoritmi dinamici per task aperiodici",
+        "Algoritmi statici per task periodici",
+        "Algoritmi dinamici per task periodici"
+      ],
+      "answer": null
+    },
+    {
+      "id": 82,
+      "lezione": "Lezione 015",
+      "number": 3,
+      "type": "multiple",
+      "question": "Se un task non è schedulabile tramite RMPO, allora",
+      "options": [
+        "può essere schedulabile da un solo algoritmo statico",
+        "non può essere schedulabile da nessun altro algoritmo (sia statico che dinamico)",
+        "nessuna delle precedenti",
+        "non può essere schedulabile da nessun altro algoritmo statico"
+      ],
+      "answer": null
+    },
+    {
+      "id": 83,
+      "lezione": "Lezione 015",
+      "number": 4,
+      "type": "multiple",
+      "question": "Qual è il principale vantaggio dell'algoritmo EDF?",
+      "options": [
+        "Assegnazione dinamica della priorità dei task la cui deadline è più vicina",
+        "Assegnazione dinamica della priorità dei task la cui deadline è più lontana",
+        "Assegnazione statica della priorità dei task",
+        "Assegnazione sia statica che dinamica della priorità dei task"
+      ],
+      "answer": null
+    },
+    {
+      "id": 84,
+      "lezione": "Lezione 015",
+      "number": 5,
+      "type": "open",
+      "question": "Illustare la metodologia di scheduling EDF",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 85,
+      "lezione": "Lezione 017",
+      "number": 1,
+      "type": "multiple",
+      "question": "Come è strutturata la rete di comunicazione in un sistema complesso a cui è applicata l'Automazione?",
+      "options": [
+        "Una unica rete aziendale che connette tutti i livelli del sistema complesso senza vincoli gerarchici.",
+        "Una rete a livello di campo, separata da un'altra rete a livello di cella, a sua volta indipendente dalla dorsale aziendale.",
+        "Una rete a livello di campo, interconnessa ad una rete a livello di cella, interconnessa ad una dorsale aziendale.",
+        "Nessuna delle altre risposte è corretta."
+      ],
+      "answer": null
+    },
+    {
+      "id": 86,
+      "lezione": "Lezione 018",
+      "number": 1,
+      "type": "multiple",
+      "question": "Cosa è un protocollo di rete?",
+      "options": [
+        "è un protocollo che può essere solo connection-less, utile a trasmettere l'informazione da un nodo sorgente ad un nodo destinazione attraverso l'instradamento logico dei",
+        "messaggi lungo un percorso. Offre garanzie di consegna in ordine dei pacchetti e controllo della congestione, ma offre possibilità di gestione della qualità di servizio.",
+        "è un protocollo che può essere connection-less o connection-oriented, utile a trasmettere l'informazione da un nodo sorgente ad un nodo destinazione attraverso",
+        "l'instradamento logico dei messaggi lungo un percorso. Non offre garanzie di consegna in ordine dei pacchetti, offre controllo della congestione e gestione della qualità di",
+        "servizio.",
+        "Nessuna delle altre risposte è corretta.",
+        "è un protocollo che può essere solo connection-oriented, utile a trasmettere l'informazione da un nodo sorgente ad un nodo destinazione attraverso l'instradamento logico",
+        "dei messaggi lungo un percorso. Offre garanzie di consegna in ordine dei pacchetti, non offre controllo della congestione e gestione della qualità di servizio."
+      ],
+      "answer": null
+    },
+    {
+      "id": 87,
+      "lezione": "Lezione 018",
+      "number": 2,
+      "type": "multiple",
+      "question": "Quali sono le possibili modalità di configurazione di una rete di comunicazione?",
+      "options": [
+        "A bus o a stella.",
+        "Punto-punto o a bus.",
+        "A stella o ad albero.",
+        "Nessuna delle altre risposte è corretta."
+      ],
+      "answer": null
+    },
+    {
+      "id": 88,
+      "lezione": "Lezione 019",
+      "number": 1,
+      "type": "multiple",
+      "question": "In un protocollo di comunicazione, il livello di messaggio si occupa",
+      "options": [
+        "della gestione della sintassi dell'informazione da trasferire",
+        "della definizione dei servizi per l'utente",
+        "della organizzazione del dialogo e sincronizzazione di programmi",
+        "del corretto trasferimento di dati end-to-end indipendente dal tipo di rete"
+      ],
+      "answer": null
+    },
+    {
+      "id": 89,
+      "lezione": "Lezione 019",
+      "number": 2,
+      "type": "multiple",
+      "question": "L'Internet Protocol (IP) è un protocollo di comunizione di livello",
+      "options": [
+        "Rete",
+        "Fisico",
+        "Trasporto",
+        "Linea"
+      ],
+      "answer": null
+    },
+    {
+      "id": 90,
+      "lezione": "Lezione 019",
+      "number": 3,
+      "type": "multiple",
+      "question": "In un protocollo di comunicazione, il livello fisico si occupa",
+      "options": [
+        "della corretta trasmissione di pacchetti di dati tra nodi adiacenti e controllo di accesso al mezzo",
+        "dell'instradamento logico dei messaggi end-to-end, scelta del percorso",
+        "della trasmissione di pacchetti di bit su un canale di comunicazione",
+        "del corretto trasferimento di dati end-to-end indipendente dal tipo di rete"
+      ],
+      "answer": null
+    },
+    {
+      "id": 91,
+      "lezione": "Lezione 019",
+      "number": 4,
+      "type": "multiple",
+      "question": "In un protocollo di comunicazione, il livello di linea si occupa",
+      "options": [
+        "della corretta trasmissione di pacchetti di dati tra nodi adiacenti e controllo di accesso al mezzo",
+        "del corretto trasferimento di dati end-to-end indipendente dal tipo di rete",
+        "dell'instradamento logico dei messaggi end-to-end, scelta del percorso",
+        "della trasmissione di pacchetti di bit su un canale di comunicazione"
+      ],
+      "answer": null
+    },
+    {
+      "id": 92,
+      "lezione": "Lezione 019",
+      "number": 5,
+      "type": "multiple",
+      "question": "In un protocollo di comunicazione, il livello di rete si occupa",
+      "options": [
+        "della trasmissione di pacchetti di bit su un canale di comunicazione",
+        "del corretto trasferimento di dati end-to-end indipendente dal tipo di rete",
+        "la minima variazione della grandezza rilevata dal convertitore analogico/digitale",
+        "dell'instradamento logico dei messaggi end-to-end, scelta del percorso"
+      ],
+      "answer": null
+    },
+    {
+      "id": 93,
+      "lezione": "Lezione 019",
+      "number": 6,
+      "type": "multiple",
+      "question": "In un protocollo di comunicazione, il livello di trasporto si occupa",
+      "options": [
+        "della gestione della sintassi dell'informazione da trasferire",
+        "della organizzazione del dialogo e sincronizzazione di programmi",
+        "dell'instradamento logico dei messaggi end-to-end, scelta del percorso",
+        "del corretto trasferimento di dati end-to-end indipendente dal tipo di rete"
+      ],
+      "answer": null
+    },
+    {
+      "id": 94,
+      "lezione": "Lezione 019",
+      "number": 7,
+      "type": "multiple",
+      "question": "In un protocollo di comunicazione, il livello di sessione si occupa",
+      "options": [
+        "del corretto trasferimento di dati end-to-end indipendente dal tipo di rete",
+        "della organizzazione del dialogo e sincronizzazione di programmi",
+        "della gestione della sintassi dell'informazione da trasferire",
+        "della definizione dei servizi per l'utente"
+      ],
+      "answer": null
+    },
+    {
+      "id": 95,
+      "lezione": "Lezione 019",
+      "number": 8,
+      "type": "multiple",
+      "question": "In un protocollo di comunicazione, il livello di presentazione si occupa",
+      "options": [
+        "del corretto trasferimento di dati end-to-end indipendente dal tipo di rete",
+        "della gestione della sintassi dell'informazione da trasferire",
+        "della organizzazione del dialogo e sincronizzazione di programmi",
+        "della definizione dei servizi per l'utente"
+      ],
+      "answer": null
+    },
+    {
+      "id": 96,
+      "lezione": "Lezione 019",
+      "number": 9,
+      "type": "multiple",
+      "question": "Il Transmission Control Protocol (TCP) è un protocollo di comunicazione di livello",
+      "options": [
+        "Messaggio",
+        "Trasporto",
+        "Rete",
+        "Linea"
+      ],
+      "answer": null
+    },
+    {
+      "id": 97,
+      "lezione": "Lezione 019",
+      "number": 10,
+      "type": "open",
+      "question": "Spiegare la differenza tra la comunicazione punto-punto e la comunicazione a bus.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 98,
+      "lezione": "Lezione 019",
+      "number": 11,
+      "type": "open",
+      "question": "Quando usare una comunicazione punto-punto e quando una a bus?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 99,
+      "lezione": "Lezione 020",
+      "number": 1,
+      "type": "multiple",
+      "question": "Quale, tra i seguenti, non è un bus industriale?",
+      "options": [
+        "Fieldbus",
+        "Sensorbus",
+        "Devicebus",
+        "Actuatorbus"
+      ],
+      "answer": null
+    },
+    {
+      "id": 100,
+      "lezione": "Lezione 020",
+      "number": 2,
+      "type": "multiple",
+      "question": "Cosa è un bus di campo?",
+      "options": [
+        "Il bus di campo (o fieldbus) è una rete di computer industriali per il controllo distribuito di tipo real-time",
+        "Il bus di campo (o fieldbus) è una coppia di computer industriali per il controllo distribuito di tipo real-time",
+        "Il bus di campo (o fieldbus) è un unico computer industriale per il controllo centralizzato di tipo real-time",
+        "Nessuna delle altre risposte è corretta."
+      ],
+      "answer": null
+    },
+    {
+      "id": 101,
+      "lezione": "Lezione 020",
+      "number": 3,
+      "type": "multiple",
+      "question": "Quale, tra i seguenti, non è un vantaggio tra un bus industriale e una comunicazione seriale RS-232?",
+      "options": [
+        "semplicità della connessione: due soli fili portano i segnali ed in alcuni casi anche l'energia elettrica per l'alimentazione dei dispositivi locali di elaborazione.",
+        "riduzione della complessità degli elementi interconnessi dovuta alla inferiore capacità computazionale degli end point.",
+        "standardizzazione: il protocollo di comunicazione è standard e quindi non proprietario. Permette inoltre la connessione di dispositivi di fabbricazione diversa.",
+        "risparmio sui costi di cablaggio e di manutenzione (fino al 40%)."
+      ],
+      "answer": null
+    },
+    {
+      "id": 102,
+      "lezione": "Lezione 021",
+      "number": 1,
+      "type": "open",
+      "question": "Cosa è un bus di campo (o field bus)?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 103,
+      "lezione": "Lezione 021",
+      "number": 2,
+      "type": "open",
+      "question": "Fare alcuni esempi di protocolli operanti ai diversi livelli della pila OSI.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 104,
+      "lezione": "Lezione 021",
+      "number": 3,
+      "type": "open",
+      "question": "Descrivere dettagliatamente i 7 livelli della pila protocollare dei sistemi di telecomunicazione.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 105,
+      "lezione": "Lezione 021",
+      "number": 4,
+      "type": "open",
+      "question": "Descrivere l'architettura di un protocollo di comunicazione.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 106,
+      "lezione": "Lezione 022",
+      "number": 1,
+      "type": "open",
+      "question": "Fare alcuni esempi di bus e spiegare i vantaggi di fare uso di protocolli di comunicazione standardizzati.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 107,
+      "lezione": "Lezione 023",
+      "number": 1,
+      "type": "multiple",
+      "question": "Quali sono i parametri che caratterizzano l'azione di intervento di un regolatore di tipo continuo?",
+      "options": [
+        "Un regolatore continuo di tipo PID è caratterizzato da 2 parametri liberi: il tempo dell'azione derivativa e il tempo dell'azione integrale.",
+        "Un regolatore continuo di tipo PID è caratterizzato da un parametro fondamentale: la costante di tempo del polo all'origine.",
+        "Un regolatore continuo di tipo PID è caratterizzato da 3 parametri liberi: costante proporzionale, la costante derivativa e la costante integrativa.",
+        "Nessuna delle altre risposte è corretta."
+      ],
+      "answer": null
+    },
+    {
+      "id": 108,
+      "lezione": "Lezione 023",
+      "number": 2,
+      "type": "multiple",
+      "question": "Nel controllo a controreazione, quali tra le seguenti, non è una prestazione da raggiungere necessariamente?",
+      "options": [
+        "minimizzazione dello scostamento fra l'andamento desiderato della variabile di comando e quello della variabile controllata",
+        "attenuazione dell'effetto dei disturbi",
+        "errore nullo nel raggiungimento del valore desiderato di ampiezza costante della variabile controllata nel funzionamento a regime permanente",
+        "minimizzare il numero di poli a denominatore del controllore"
+      ],
+      "answer": null
+    },
+    {
+      "id": 109,
+      "lezione": "Lezione 023",
+      "number": 3,
+      "type": "multiple",
+      "question": "Quali sono le prestazioni che possono essere ottenute applicando i diversi tipi di regolatori?",
+      "options": [
+        "Un regolatore continuo è in grado mantenere la variabile controllata ad un valore medio costante. Un regolatore a relè è in grado di attenuare sensibilmente le oscillazioni di",
+        "un regolatore a relè.",
+        "Un regolatore continuo ottiene prestazioni migliori rispetto ad un regolatore a relè solo se il sistema da controllare è sovradimensionato.",
+        "Un regolatore a relè è in grado mantenere la variabile controllata ad un valore medio costante. Un regolatore continuo è in grado di attenuare sensibilmente le oscillazioni di",
+        "un regolatore a relè.",
+        "Nessuna delle altre risposte è corretta."
+      ],
+      "answer": null
+    },
+    {
+      "id": 110,
+      "lezione": "Lezione 023",
+      "number": 4,
+      "type": "multiple",
+      "question": "Quale è la differenza funzionale fra un regolatore a relè e un regolatore di tipo continuo?",
+      "options": [
+        "Nessuna delle altre risposte è corretta.",
+        "Un regolatore a relè si accende e si spegne, quindi non controlla continuamente il processo, ma lo fa solo quando è acceso, quando è spento il sistema evolve senza alcun",
+        "controllo.",
+        "Un regolatore a relè funziona esclusivamente con sensori continui, mentre un regolatore continuo utilizza esclusivamente sensori a soglia.",
+        "Il regolatore a relè è in grado di impostare solo due valori di ingresso (ON/OFF), mentre il regolatore di tipo continuo può impostare un range di valori di ingresso."
+      ],
+      "answer": null
+    },
+    {
+      "id": 111,
+      "lezione": "Lezione 023",
+      "number": 5,
+      "type": "multiple",
+      "question": "Come vengono suddivisi i regolatori industriali sulla base del loro principio di funzionamento?",
+      "options": [
+        "In base al tipo di tecnologia di fabbricazione: elettronici, elettrici, meccanici, idraulici o pneumatici.",
+        "Nessuna delle altre risposte è corretta.",
+        "In base ai tipi di sensori: digitale, analogico o a protocollo.",
+        "In base al tipo di attuazione: ON/OFF (ad es. a relè) o di tipo continuo (ad es. PID)"
+      ],
+      "answer": null
+    },
+    {
+      "id": 112,
+      "lezione": "Lezione 023",
+      "number": 6,
+      "type": "multiple",
+      "question": "Quale è la funzione di un regolatore industriale?",
+      "options": [
+        "Nessuna delle altre risposte è corretta.",
+        "Migliorare le prestazioni della risposta a regime (attenuando l'errore) e il relativo transitorio (tempo di risposta, tempo di assestamento, tempo all'emivalore e eventuale",
+        "sovraelongazione).",
+        "Migliorare solo le prestazioni della risposta a regime (annullando l'errore).",
+        "Migliorare le prestazioni della risposta a regime (annullando l'errore) e il relativo transitorio (massimizzando il tempo di risposta, il tempo di assestamento, il tempo",
+        "all'emivalore e l'eventuale sovraelongazione)."
+      ],
+      "answer": null
+    },
+    {
+      "id": 113,
+      "lezione": "Lezione 023",
+      "number": 7,
+      "type": "multiple",
+      "question": "In quali termini si valutano le prestazioni dinamiche di un elemento controllato?",
+      "options": [
+        "Data una risposta al gradino, si valuta il transitorio analizzando i valori del tempo di risposta, del tempo di assestamento, del tempo all'emivalore e della eventuale",
+        "sovraelongazione.",
+        "Nessuna delle altre risposte è corretta.",
+        "Data una risposta ad una rampa, si valuta a regime, analizzando i valori del tempo di risposta, del tempo di assestamento, del tempo all'emivalore e della eventuale",
+        "sovraelongazione.",
+        "Data una risposta sinusoidale, si valuta il transitorio, analizzando i valori del tempo di risposta, del tempo di assestamento, del tempo all'emivalore e della eventuale",
+        "sovraelongazione."
+      ],
+      "answer": null
+    },
+    {
+      "id": 114,
+      "lezione": "Lezione 023",
+      "number": 8,
+      "type": "multiple",
+      "question": "In quali termini si valutano le prestazioni statiche di un elemento controllato?",
+      "options": [
+        "Si valuta, nel transitorio, il valore assoluto della variabile di ingresso, inteso come il discostamento tra il valore ottenuto e il valore desiderato.",
+        "Si valuta, a regime, il valore assoluto dell'errore inteso come il discostamento tra il valore ottenuto e il valore desiderato.",
+        "Si valuta, a regime, il valore assoluto della variabile di ingresso, inteso come il discostamento tra il valore ottenuto e il valore desiderato.",
+        "Nessuna delle altre risposte è corretta."
+      ],
+      "answer": null
+    },
+    {
+      "id": 115,
+      "lezione": "Lezione 023",
+      "number": 9,
+      "type": "multiple",
+      "question": "Che tipi di disturbi devono essere presi in considerazione?",
+      "options": [
+        "Nessuna delle altre risposte è corretta.",
+        "Disturbi in ingresso, in uscita o di stato.",
+        "Disturbi di comando, di controllo o di coordinamento.",
+        "Disturbi prevedibili, casuali e strutturali."
+      ],
+      "answer": null
+    },
+    {
+      "id": 116,
+      "lezione": "Lezione 023",
+      "number": 10,
+      "type": "multiple",
+      "question": "Quali sono le variabili di un elemento singolo?",
+      "options": [
+        "Variabili di ingresso (o di comando), variabili di uscita (o interne, o controllate) e disturbi.",
+        "Nessuna delle altre risposte è corretta.",
+        "Variabili di controllo (o di comando), variabili di coordinamento (o controllate) e variabili di disturbo.",
+        "Variabili permanenti, variabili prevedibili e variabili casuali."
+      ],
+      "answer": null
+    },
+    {
+      "id": 117,
+      "lezione": "Lezione 023",
+      "number": 11,
+      "type": "open",
+      "question": "Descrivere il processo di valutazione dell'effetto delle diverse classi di disturbi.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 118,
+      "lezione": "Lezione 023",
+      "number": 12,
+      "type": "multiple",
+      "question": "Disegnare e spiegare il funzionamento dei diagrammi di controllo a controreazione con azione derivativa sul riferimento o sulla misura della variabile",
+      "options": [
+        "controllata."
+      ],
+      "answer": null
+    },
+    {
+      "id": 119,
+      "lezione": "Lezione 023",
+      "number": 13,
+      "type": "open",
+      "question": "Rapportare i differenti tipi di bus con le classi di dispositivi connessi in rete.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 120,
+      "lezione": "Lezione 023",
+      "number": 14,
+      "type": "open",
+      "question": "Descrivere il processo di valutazione delle prestazioni statiche.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 121,
+      "lezione": "Lezione 023",
+      "number": 15,
+      "type": "open",
+      "question": "Descrivere il processo di valutazione delle prestazioni dinamiche.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 122,
+      "lezione": "Lezione 024",
+      "number": 1,
+      "type": "multiple",
+      "question": "Un diagramma strutturato secondo lo schema circuitale di un dispositivo di controllo a relè è tipico per quale linguaggio?",
+      "options": [
+        "Structurated Text",
+        "Ladder diagram",
+        "Functional Block Diagram",
+        "Instruction List"
+      ],
+      "answer": null
+    },
+    {
+      "id": 123,
+      "lezione": "Lezione 024",
+      "number": 2,
+      "type": "multiple",
+      "question": "Scrivere la funzione di trasferimento di un sistema semplificato nelle sole dinamiche dominante e secondaria. Spiegare inoltre qualitativamente come ricavare",
+      "options": [
+        "il valore dei parametri del modello."
+      ],
+      "answer": null
+    },
+    {
+      "id": 124,
+      "lezione": "Lezione 024",
+      "number": 3,
+      "type": "open",
+      "question": "Descrivere le prestazioni che si possono ottenere con un controllo a controreazione con relè.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 125,
+      "lezione": "Lezione 024",
+      "number": 4,
+      "type": "open",
+      "question": "Quali sono le differenze tra un controllo ON/OFF e uno di tipo continuo e quali sono i principali vantaggi e svantaggi dei due diversi approcci?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 126,
+      "lezione": "Lezione 024",
+      "number": 5,
+      "type": "multiple",
+      "question": "Tracciare lo schema di una modalità di controllo a catena chiusa con controllore ON/OFF e spiegare quali siano le condizioni tipiche di funzionamento di tale",
+      "options": [
+        "sistema controllato."
+      ],
+      "answer": null
+    },
+    {
+      "id": 127,
+      "lezione": "Lezione 024",
+      "number": 6,
+      "type": "multiple",
+      "question": "Scrivere la funzione di trasferimento di un sistema semplificato con un ritardo e la sola dinamica dominante. Spiegare inoltre qualitativamente come ricavare",
+      "options": [
+        "il valore dei parametri del modello."
+      ],
+      "answer": null
+    },
+    {
+      "id": 128,
+      "lezione": "Lezione 025",
+      "number": 1,
+      "type": "multiple",
+      "question": "Nella predisposizione dei parametri di un PID secondo criteri sistematici, il modello semplificato è dato da:",
+      "options": [
+        "Dalla funzione di trasferimento approssimata, con un grado del polinomio a denominatore fino al terzo grado.",
+        "Dalla sola dinamica principale",
+        "Dalla dinamica principale e dalla dinamica secondaria, ulteriormente semplificabile con un ritardo",
+        "Due poli complessi coniugati e uno zero"
+      ],
+      "answer": null
+    },
+    {
+      "id": 129,
+      "lezione": "Lezione 025",
+      "number": 2,
+      "type": "multiple",
+      "question": "Quale è il significato dell'azione proporzione, dell'azione integrale e dell'azione derivativa e quali sono i loro effetti?",
+      "options": [
+        "L'azione proporzionale agisce sulla derivata del segnale di errore. L'azione integrale agisce sul suo valore istantaneo del segnale di errore e l'azione derivativa agisce",
+        "sull'integrale nel tempo del segnale di errore. L'azione integrale genera instabilità dovuta alla presenza di rumore di misura e deve essere applicata con cautela.",
+        "Nessuna delle altre risposte è corretta.",
+        "L'azione proporzionale agisce in maniera proporzionale all'errore in ingresso al controllore. L'azione integrale permette di soddisfare la specifica sul valore dell'errore a",
+        "regime permanente, ma determina un rallentamento del transitorio rispetto a quello che aveva l'elemento in esame nel controllo a catena aperta. Un parziale miglioramento del",
+        "comportamento in transitorio è ottenuto con l'azione derivativa.",
+        "L'azione proporzionale agisce sull'integrale nel tempo del segnale di errore. L'azione integrale agisce agisce sul valore istantaneo del segnale di errore. L'azione derivativa",
+        "agisce sul valore della variabile controllata. La componente proporzionale genera instabilità dovuta alla presenza di rumore di misura e deve essere applicata con cautela."
+      ],
+      "answer": null
+    },
+    {
+      "id": 130,
+      "lezione": "Lezione 025",
+      "number": 3,
+      "type": "multiple",
+      "question": "Quali sono gli schemi funzionali secondo cui viene realizzato un regolatore industriale?",
+      "options": [
+        "Nessuna delle altre risposte è corretta.",
+        "Lo schema di un regolatore PID può essere di tipo serie o parallelo. Lo schema funzionale può anche presentare non linearità di tipo a soglia e attrattore.",
+        "Lo schema di un regolatore PID può essere di tipo elettronico o meccanico. Lo schema funzionale può anche presentare non linearità di tipo a soglia e a gradino.",
+        "Lo schema di un regolatore PID può essere di tipo gerarchico o lineare. Lo schema funzionale può anche presentare non linearità di tipo a gradino e isteresi."
+      ],
+      "answer": null
+    },
+    {
+      "id": 131,
+      "lezione": "Lezione 025",
+      "number": 4,
+      "type": "multiple",
+      "question": "Quali sono gli schemi funzionali secondo cui viene applicata l'azione derivativa?",
+      "options": [
+        "L'azione derivativa è approssimata attraverso un filtro del primo o del secondo ordine centrati sulla banda del segnale da derivare. Il primo presenta un polo ed uno zero, il",
+        "secondo presenta due poli e uno zero.",
+        "L'azione derivativa è realizzata in maniera esatta attraverso un filtro del primo o del secondo ordine centrati sulla banda del segnale da derivare. Il primo presenta due poli,",
+        "il secondo presenta due poli e uno zero.",
+        "L'azione derivativa è approssimata attraverso un filtro del secondo o del terzo ordine che coprono fino al doppio della banda del segnale da derivare. Il primo presenta due",
+        "elementi: un polo ed uno zero, il secondo presenta tre elementi: due poli e uno zero.",
+        "Nessuna delle altre risposte è corretta."
+      ],
+      "answer": null
+    },
+    {
+      "id": 132,
+      "lezione": "Lezione 025",
+      "number": 5,
+      "type": "multiple",
+      "question": "Cosa si intende per il tempo della azione derivativa di un PID?",
+      "options": [
+        "è dato dall'intervallo di tempo necessario affinché il contributo dell'azione derivativa sia eguale a quello dell'azione integrale quando la variabile di errore ha un andamento",
+        "del tipo a rampa",
+        "è dato dall'intervallo di tempo necessario affinché il contributo dell'azione derivativa sia eguale a quello dell'azione proporzionale quando la variabile di errore ha un",
+        "andamento del tipo a rampa",
+        "è data dall'intervallo di tempo necessario affinché il contributo dell'azione derivativa sia eguale a quello dell'azione integrale quando la variabile di errore ha un andamento",
+        "del tipo a gradino",
+        "è dato dall'intervallo di tempo necessario affinché il contributo dell'azione derivativa sia eguale a quello dell'azione proporzionale quando la variabile di errore ha un",
+        "andamento del tipo a gradino"
+      ],
+      "answer": null
+    },
+    {
+      "id": 133,
+      "lezione": "Lezione 025",
+      "number": 6,
+      "type": "open",
+      "question": "Qualitativamente, quali obiettivi ed effetti hanno i contributi proporzionale, integrale e derivativo del regolatore PID sul sistema controllato?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 134,
+      "lezione": "Lezione 025",
+      "number": 7,
+      "type": "open",
+      "question": "Spiegare come devono essere interpretati il tempo dell'azione integrale e il tempo dell'azione derivativa di un regolatore PID.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 135,
+      "lezione": "Lezione 025",
+      "number": 8,
+      "type": "open",
+      "question": "Descrivere lo schema parallelo e serie di un regolatore PID.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 136,
+      "lezione": "Lezione 025",
+      "number": 9,
+      "type": "open",
+      "question": "Quale è, qualitativamente, l'effetto della azione proporzionale, di quella integrale e di quella derivativa?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 137,
+      "lezione": "Lezione 026",
+      "number": 1,
+      "type": "multiple",
+      "question": "Cosa si intende per il tempo della azione integrale di un PID?",
+      "options": [
+        "è dato dall'intervallo di tempo necessario affinché il contributo dell'azione integrale sia uguale a quello dell'azione derivativa quando la variabile di errore ha un andamento",
+        "del tipo a gradino",
+        "è dato dall'intervallo di tempo necessario affinché il contributo dell'azione integrale sia uguale a quello dell'azione proporzionale quando la variabile di errore ha un",
+        "andamento del tipo a rampa",
+        "è dato dall'intervallo di tempo necessario affinché il contributo dell'azione integrale sia uguale a quello dell'azione proporzionale quando la variabile di errore ha un",
+        "andamento del tipo a gradino",
+        "è dato dall'intervallo di tempo necessario affinché il contributo dell'azione integrale sia uguale a quello dell'azione derivativa quando la variabile di errore ha un andamento",
+        "del tipo a rampa"
+      ],
+      "answer": null
+    },
+    {
+      "id": 138,
+      "lezione": "Lezione 026",
+      "number": 2,
+      "type": "open",
+      "question": "Usando il diagramma dei moduli di Bode, mostrare l'effetto delle differenti azioni di un regolatore PID.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 139,
+      "lezione": "Lezione 026",
+      "number": 3,
+      "type": "open",
+      "question": "Spiegare, anche con l'ausilio dei relativi diagrammi di Bode, come si progettano i filtri di stima della derivata del primo e del secondo ordine.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 140,
+      "lezione": "Lezione 027",
+      "number": 1,
+      "type": "multiple",
+      "question": "In fase di tuning di un PID, cosa succede all'aumentare del tempo della azione integrale?",
+      "options": [
+        "Aumenta il tempo della azione derivativa",
+        "Aumentano la rapidità di risposta e il margine di stabilità",
+        "Diminusice la rapidità di risposta",
+        "Diminuiscono la rapidità di risposta e il margine di stabilità"
+      ],
+      "answer": null
+    },
+    {
+      "id": 141,
+      "lezione": "Lezione 027",
+      "number": 2,
+      "type": "multiple",
+      "question": "In fase di tuning di un PID, cosa succede all'aumentare del tempo della azione derivativa?",
+      "options": [
+        "Diminusice la rapidità di risposta",
+        "Aumenta il tempo della azione integrale",
+        "Diminuisce il margine di stabilità",
+        "Aumentano la rapidità di risposta e il margine di stabilità"
+      ],
+      "answer": null
+    },
+    {
+      "id": 142,
+      "lezione": "Lezione 027",
+      "number": 3,
+      "type": "multiple",
+      "question": "In fase di tuning di un PID, cosa succede all'aumentare del guadagno proporzionale?",
+      "options": [
+        "Aumenta il tempo della azione integrale",
+        "Aumenta il margine di stabilità",
+        "Diminusice la rapidità di risposta",
+        "Aumenta la rapidità di risposta"
+      ],
+      "answer": null
+    },
+    {
+      "id": 143,
+      "lezione": "Lezione 028",
+      "number": 1,
+      "type": "multiple",
+      "question": "In fase di autotuning di un regolare PID quale, tra le seguenti, non è una perturbazione normalmente utilizzata?",
+      "options": [
+        "Sequenza di impulsi",
+        "Rampa lineare",
+        "Composizione di sinusoidi di ampiezza predefinita e di pulsazione nota sfasate reciprocamente in moda da mantenere l'escursione entro limiti predeterminati.",
+        "Gradino"
+      ],
+      "answer": null
+    },
+    {
+      "id": 144,
+      "lezione": "Lezione 028",
+      "number": 2,
+      "type": "open",
+      "question": "Come influenza, la scelta dei valori dei parametri del controllore, la rapidità di risposta e i margini di stabilità del sistema?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 145,
+      "lezione": "Lezione 028",
+      "number": 3,
+      "type": "open",
+      "question": "Tracciare il diagramma funzionale di un controllore con autotuning e spiegarne il funzionamento.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 146,
+      "lezione": "Lezione 028",
+      "number": 4,
+      "type": "open",
+      "question": "Spiegare in cosa consiste la predisposizione manuale dei parametri del regolatore PID e come si differenzia con la predispozione automatizzata (autotuning).",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 147,
+      "lezione": "Lezione 030",
+      "number": 1,
+      "type": "multiple",
+      "question": "Quale è il ciclo di elaborazione di un programma per PLC?",
+      "options": [
+        "Lettura ingressi, Attesa, Scrittura Uscite, Attesa, Elaborazione, Attesa",
+        "Lettura ingressi, Attesa, Elaborazione, Scrittura Uscite",
+        "Lettura ingressi, Elaborazione, Attesa, Scrittura Uscite",
+        "Lettura ingressi, Scrittura Uscite, Attesa, Elaborazione"
+      ],
+      "answer": null
+    },
+    {
+      "id": 148,
+      "lezione": "Lezione 030",
+      "number": 2,
+      "type": "multiple",
+      "question": "Quale è la funzione di una rete logica e di un controllore a logica programmabile (PLC)?",
+      "options": [
+        "La rete logica è un dispositivo di tipo digitale realizzato con circuiti elettronici in grado di svolgere funzioni di porte logiche. Il PLC è un computer industriale specializzato",
+        "in origine nella gestione dei processi industriali.",
+        "Nessuna delle altre risposte è corretta.",
+        "La rete logica è un dispositivo di elaborazione di tipo analogico realizzato con circuiti elettronici in grado di svolgere funzioni complesse. Il PLC è un computer industriale",
+        "specializzato in origine nella gestione dei processi industriali.",
+        "Il PLC è un dispositivo di elaborazione di tipo digitale realizzato con circuiti elettrici in grado di svolgere funzioni di porte logiche. La rete logica è un computer industriale",
+        "specializzato in origine nella gestione dei processi industriali."
+      ],
+      "answer": null
+    },
+    {
+      "id": 149,
+      "lezione": "Lezione 030",
+      "number": 3,
+      "type": "multiple",
+      "question": "Come è realizzata una rete logica e un PLC?",
+      "options": [
+        "La rete logica è un dispositivo di elaborazione di tipo digitale realizzato con circuiti elettronici. Il PLC è un computer industriale specializzato.",
+        "Nessuna delle altre risposte è corretta.",
+        "La rete logica è un dispositivo di tipo analogico realizzato con circuiti elettronici. Il PLC è un computer industriale specializzato.",
+        "Il PLC è un dispositivo di elaborazione di tipo digitale realizzato con circuiti elettronici. La rete logica è un computer industriale specializzato."
+      ],
+      "answer": null
+    },
+    {
+      "id": 150,
+      "lezione": "Lezione 030",
+      "number": 4,
+      "type": "multiple",
+      "question": "In quali applicazioni è preferibile utilizzare una rete logica?",
+      "options": [
+        "In quelle che richiedono un tepo di risposta molto basso e quindi non garantibile da un PLC che richiede un minimo tempo di elaborazione delle microistruzioni.",
+        "In tutte quelle che richiedono un aggiornamento continuo della azione di controllo.",
+        "Nessuna delle altre risposte è corretta.",
+        "In tutte quelle che richiedono una continua espansione delle funzionalità, degli ingressi e delle uscite."
+      ],
+      "answer": null
+    },
+    {
+      "id": 151,
+      "lezione": "Lezione 030",
+      "number": 5,
+      "type": "open",
+      "question": "Che caratteristiche deve avere un PLC?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 152,
+      "lezione": "Lezione 030",
+      "number": 6,
+      "type": "open",
+      "question": "Che cosa è un PLC e come viene impiegato nei sistemi di Automazione?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 153,
+      "lezione": "Lezione 031",
+      "number": 1,
+      "type": "multiple",
+      "question": "In quali classi sono suddivise le schede di ingresso di un PLC?",
+      "options": [
+        "Nessuna delle altre risposte è corretta.",
+        "Schede analogiche, digitali o con protocollo di comunicazione.",
+        "Schede grafiche, di rete, audio e USB.",
+        "Schede di comunicazione, speciali, di conteggio, PID e controllo assi."
+      ],
+      "answer": null
+    },
+    {
+      "id": 154,
+      "lezione": "Lezione 031",
+      "number": 2,
+      "type": "multiple",
+      "question": "Quali sono gli elementi che compongono un PLC?",
+      "options": [
+        "Rack, alimentazione, CPU, memorie, batteria tampone, real time clock, moduli di I/O, moduli dedicati, interfacce di comunicazione.",
+        "Resistenze, condensatori, diodi, induttanze, triodi, led, piste in rame.",
+        "Nessuna delle altre risposte è corretta.",
+        "Attuatori, sensori, dispositivo di elaborazione della azione di controllo e sistema da controllare."
+      ],
+      "answer": null
+    },
+    {
+      "id": 155,
+      "lezione": "Lezione 031",
+      "number": 3,
+      "type": "multiple",
+      "question": "In quali classi sono suddivise le schede di uscita di un PLC?",
+      "options": [
+        "Schede di comunicazione, speciali, di conteggio, PID e controllo assi.",
+        "Schede grafiche, di rete, audio e USB.",
+        "Nessuna delle altre risposte è corretta.",
+        "Schede analogiche, digitali o con protocollo di comunicazione."
+      ],
+      "answer": null
+    },
+    {
+      "id": 156,
+      "lezione": "Lezione 031",
+      "number": 4,
+      "type": "multiple",
+      "question": "Quali tipi di memorie utilizza un PLC?",
+      "options": [
+        "EEPROM di sola lettura, ospita il sistema operativo; RAM di lettura e scrittura, ospita il programma utente; ROM volatile di lettura e scrittura ospita lo stato del",
+        "programma e i valori delle variabili di ingresso e uscita.",
+        "Nessuna delle altre risposte è corretta.",
+        "ROM di sola lettura, ospita il sistema operativo; EEPROM di lettura e scrittura, ospita il programma utente; RAM volatile di lettura e scrittura ospita lo stato del",
+        "programma e i valori delle variabili di ingresso e uscita.",
+        "RAM di sola lettura, ospita il sistema operativo; SDRAM di lettura e scrittura, ospita il programma utente; DRAM volatile di lettura e scrittura ospita lo stato del",
+        "programma e i valori delle variabili di ingresso e uscita."
+      ],
+      "answer": null
+    },
+    {
+      "id": 157,
+      "lezione": "Lezione 031",
+      "number": 5,
+      "type": "open",
+      "question": "Descrivere in dettaglio il tipo di memoria che caratterizza un PLC e il ruolo da esse svolto nell'operatività dello stesso.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 158,
+      "lezione": "Lezione 031",
+      "number": 6,
+      "type": "open",
+      "question": "Descrivere le schede di espansione di un PLC.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 159,
+      "lezione": "Lezione 031",
+      "number": 7,
+      "type": "open",
+      "question": "Descrivere la struttura di un PLC.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 160,
+      "lezione": "Lezione 033",
+      "number": 1,
+      "type": "multiple",
+      "question": "Nei PLC, il linguggio IL è",
+      "options": [
+        "ottenuto come trasposizione dei diagrammi circuitali in cui le interconnessioni rappresentano i percorsi dei segnali che collegano i vari componenti. I blocchi rappresentano",
+        "le singole operazioni logiche: gli ingressi e le uscite il flusso dei dati.",
+        "un linguaggio di programmazione strutturato ad alto livello con un formalismo che si ispira al basic e al pascal. È adatto alla rappresentazione di procedure complesse che",
+        "non potrebbero essere descritte con i linguaggi grafici.",
+        "un linguaggio di programmazione di basso livello molto simile all'assembler. Le istruzioni sono costituite da un operatore e da un solo operando e fanno riferimento ad un",
+        "registro di memoria.",
+        "ottenuto applicando un formalismo grafico per la descrizione di operazioni logiche o sequenziali in termini di stati e transizioni."
+      ],
+      "answer": null
+    },
+    {
+      "id": 161,
+      "lezione": "Lezione 033",
+      "number": 2,
+      "type": "multiple",
+      "question": "Un programma strutturato in modo analogo al Pascal, è tipico per quale dei seguenti linguaggi?",
+      "options": [
+        "Functional Block Diagram",
+        "Structurated Text",
+        "Ladder diagram",
+        "Instruction List"
+      ],
+      "answer": null
+    },
+    {
+      "id": 162,
+      "lezione": "Lezione 033",
+      "number": 3,
+      "type": "multiple",
+      "question": "Nei PLC, il linguggio LD è",
+      "options": [
+        "ottenuto come trasposizione informatica degli schemi logici dei quadri a relè",
+        "ottenuto come trasposizione dei diagrammi circuitali in cui le interconnessioni rappresentano i percorsi dei segnali che collegano i vari componenti. I blocchi rappresentano",
+        "le singole operazioni logiche: gli ingressi e le uscite il flusso dei dati.",
+        "ottenuto applicando un formalismo grafico per la descrizione di operazioni logiche o sequenziali in termini di stati e transizioni.",
+        "un linguaggio di programmazione di basso livello molto simile all'assembler. Le istruzioni sono costituite da un operatore e da un solo operando e fanno riferimento ad un",
+        "registro di memoria."
+      ],
+      "answer": null
+    },
+    {
+      "id": 163,
+      "lezione": "Lezione 033",
+      "number": 4,
+      "type": "multiple",
+      "question": "Quale, tra i seguenti, è un programma strutturato in modo analogo ad un liguaggio assemblativo",
+      "options": [
+        "Functional Block Diagram",
+        "Structurated Text",
+        "Instruction List",
+        "Ladder diagram"
+      ],
+      "answer": null
+    },
+    {
+      "id": 164,
+      "lezione": "Lezione 033",
+      "number": 5,
+      "type": "multiple",
+      "question": "Un diagramma strutturato a blocchi come un diagramma circuitale di elemementi logici semplici (and, or) o più sofisticati (flip-flop) è tipico per quale",
+      "options": [
+        "linguaggio?",
+        "Functional Block Diagram",
+        "Structurated Text",
+        "Instruction List",
+        "Ladder diagram"
+      ],
+      "answer": null
+    },
+    {
+      "id": 165,
+      "lezione": "Lezione 033",
+      "number": 6,
+      "type": "multiple",
+      "question": "Nei PLC, il linguaggio ST è",
+      "options": [
+        "un linguaggio di programmazione strutturato ad alto livello con un formalismo che si ispira al basic e al pascal. È adatto alla rappresentazione di procedure complesse che",
+        "non potrebbero essere descritte con i linguaggi grafici.",
+        "ottenuto come trasposizione dei diagrammi circuitali in cui le interconnessioni rappresentano i percorsi dei segnali che collegano i vari componenti. I blocchi rappresentano",
+        "le singole operazioni logiche: gli ingressi e le uscite il flusso dei dati.",
+        "ottenuto applicando un formalismo grafico per la descrizione di operazioni logiche o sequenziali in termini di stati e transizioni.",
+        "ottenuto come trasposizione informatica degli schemi logici dei quadri a relè"
+      ],
+      "answer": null
+    },
+    {
+      "id": 166,
+      "lezione": "Lezione 033",
+      "number": 7,
+      "type": "multiple",
+      "question": "Nei PLC, il linguggio FBD è",
+      "options": [
+        "ottenuto come trasposizione informatica degli schemi logici dei quadri a relè",
+        "un linguaggio di programmazione strutturato ad alto livello con un formalismo che si ispira al basic e al pascal. È adatto alla rappresentazione di procedure complesse che",
+        "non potrebbero essere descritte con i linguaggi grafici.",
+        "un linguaggio di programmazione di basso livello molto simile all'assembler. Le istruzioni sono costituite da un operatore e da un solo operando e fanno riferimento ad un",
+        "registro di memoria.",
+        "ottenuto come trasposizione dei diagrammi circuitali in cui le interconnessioni rappresentano i percorsi dei segnali che collegano i vari componenti. I blocchi rappresentano",
+        "le singole operazioni logiche: gli ingressi e le uscite il flusso dei dati."
+      ],
+      "answer": null
+    },
+    {
+      "id": 167,
+      "lezione": "Lezione 033",
+      "number": 8,
+      "type": "multiple",
+      "question": "Nei PLC, il linguggio SFC è",
+      "options": [
+        "un linguaggio di programmazione strutturato ad alto livello con un formalismo che si ispira al basic e al pascal. È adatto alla rappresentazione di procedure complesse che",
+        "non potrebbero essere descritte con i linguaggi grafici.",
+        "ottenuto applicando un formalismo grafico per la descrizione di operazioni logiche o sequenziali in termini di stati e transizioni.",
+        "ottenuto come trasposizione dei diagrammi circuitali in cui le interconnessioni rappresentano i percorsi dei segnali che collegano i vari componenti. I blocchi rappresentano",
+        "le singole operazioni logiche: gli ingressi e le uscite il flusso dei dati.",
+        "ottenuto come trasposizione informatica degli schemi logici dei quadri a relè"
+      ],
+      "answer": null
+    },
+    {
+      "id": 168,
+      "lezione": "Lezione 033",
+      "number": 9,
+      "type": "multiple",
+      "question": "Quale, tra i seguenti, è un linguaggio di programmazione dei PLC non grafico?",
+      "options": [
+        "IL",
+        "LD",
+        "SFC",
+        "FBD"
+      ],
+      "answer": null
+    },
+    {
+      "id": 169,
+      "lezione": "Lezione 033",
+      "number": 10,
+      "type": "open",
+      "question": "Descrivere il processo di elaborazione di un programma del PLC.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 170,
+      "lezione": "Lezione 033",
+      "number": 11,
+      "type": "open",
+      "question": "Descrivere quali sono i linguaggi visuali, standard di programmazione dei PLC.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 171,
+      "lezione": "Lezione 033",
+      "number": 12,
+      "type": "open",
+      "question": "Descrivere quali sono i linguaggi testuali, standard di programmazione dei PLC.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 172,
+      "lezione": "Lezione 033",
+      "number": 13,
+      "type": "open",
+      "question": "Fare un esempio di un semplice programma in ladder e commentarlo.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 173,
+      "lezione": "Lezione 034",
+      "number": 1,
+      "type": "multiple",
+      "question": "Quali, tra le seguenti affermazioni, non descrive il GRAFCET?",
+      "options": [
+        "è un linguaggio standard di specifica da cui prende le mosse il sequential function chart di tipo top-down.",
+        "è un linguaggio che presenta una sintassi molto precisa per definire gli stati, le transizioni ed i collegamenti.",
+        "è una evoluzione industriale delle reti di petri.",
+        "è un linguaggio grafico per la programmazione dei regolatori PID."
+      ],
+      "answer": null
+    },
+    {
+      "id": 174,
+      "lezione": "Lezione 034",
+      "number": 2,
+      "type": "multiple",
+      "question": "Nel \"GRAFCET\", quali delle seguenti affermazioni inerenti gli stati è sbagliata?",
+      "options": [
+        "all'avvio del programma, ogni stato viene attivato per un ciclo di controllo",
+        "un algoritmo di controllo è attivo quando il sistema si trova in uno stato",
+        "ad ogni stato vanno associate le azioni da intraprendere quando l'elemento o il sistema da controllare è in quello stato",
+        "due stati vanno sempre separati da una transizione"
+      ],
+      "answer": null
+    },
+    {
+      "id": 175,
+      "lezione": "Lezione 035",
+      "number": 1,
+      "type": "multiple",
+      "question": "Nel \"GRAFCET\", quali delle seguenti affermazioni inerenti le transizioni è sbagliata?",
+      "options": [
+        "uno stato deve avere una transizione in ingresso ed una in uscita",
+        "due transizioni successive non separate da uno stato non sono possibili",
+        "ad ogni transizione va associata una sola condizione che ne determina l'attivazione (passaggio ad un nuovo stato)",
+        "una transizione connette due stati"
+      ],
+      "answer": null
+    },
+    {
+      "id": 176,
+      "lezione": "Lezione 035",
+      "number": 2,
+      "type": "multiple",
+      "question": "Nel \"GRAFCET\", quali delle seguenti affermazioni inerenti la abilitazione delle transizioni è sbagliata?",
+      "options": [
+        "una transizione diventa attiva quando è abilitata e la condizione associata è verificata.",
+        "una transizione abilitata determina il cambio di stato",
+        "una transizione attiva determina il cambio di stato.",
+        "una transizione si dice abilitata quando lo stato di partenza è attivo"
+      ],
+      "answer": null
+    },
+    {
+      "id": 177,
+      "lezione": "Lezione 035",
+      "number": 3,
+      "type": "multiple",
+      "question": "Nel \"GRAFCET\", quali delle seguenti affermazioni inerenti la inizializzaione è sbagliata?",
+      "options": [
+        "occorre definire gli stati attivi all'inizio del funzionamento",
+        "gli stati iniziali sono attivati da una transizione iniziale",
+        "gli stati iniziali possono essere più di uno",
+        "gli stati iniziali si indicano con due quadretti uno dentro l'altro"
+      ],
+      "answer": null
+    },
+    {
+      "id": 178,
+      "lezione": "Lezione 035",
+      "number": 4,
+      "type": "multiple",
+      "question": "Nel \"GRAFCET\", a cosa serve la struttura a semaforo?",
+      "options": [
+        "Nessuna delle altre risposte è corretta.",
+        "A determinare gli stati iniziali di risorse condivise",
+        "A decidere se una transizione è attiva oppure abilitata",
+        "A gestire l'accesso ad una risorsa in maniera mutuamente esclusiva"
+      ],
+      "answer": null
+    },
+    {
+      "id": 179,
+      "lezione": "Lezione 035",
+      "number": 5,
+      "type": "open",
+      "question": "Definire la sintassi e le regole di evoluzione del GRAFCET.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 180,
+      "lezione": "Lezione 037",
+      "number": 1,
+      "type": "multiple",
+      "question": "Un sensore",
+      "options": [
+        "è un dispositivo fisico in grado di tradurre grandezze appartenenti ad un sistema energetico in un segnale in un opportuno dominio fisico",
+        "è un dispositivo fisico in grado di trasformare un segnale in energia",
+        "nessuna delle altre risposte è corretta.",
+        "è un dispositivo fisico in grado di rilevare la presenza di una variabile o il raggiungimento di un valore prefissato"
+      ],
+      "answer": null
+    },
+    {
+      "id": 181,
+      "lezione": "Lezione 037",
+      "number": 2,
+      "type": "multiple",
+      "question": "Dato un sensore, la sensibilità è",
+      "options": [
+        "differenza fra il valore fornito dal sensore e il valore effettivamente misurate",
+        "la minima variazione della grandezza rilevata dal convertitore analogico/digitale",
+        "la minima variazione della grandezza rilevata dal sensore",
+        "rapporto fra la variazione rilevata dal sensore e la variazione della grandezza da misurare"
+      ],
+      "answer": null
+    },
+    {
+      "id": 182,
+      "lezione": "Lezione 037",
+      "number": 3,
+      "type": "multiple",
+      "question": "Come sono suddivisi i dispositivi e il software di controllo?",
+      "options": [
+        "In base al tipo di ingresso: on/off, analogico, digitale, digitalizzato, smart con uscite digitalizzate, intelligenti con uscite digitali.",
+        "Ad aria in pressione, a tensione continua, a tensione modulata o corrente continua.",
+        "Nessuna delle altre risposte è corretta.",
+        "I dispositivi di elaborazione possono essere centrali, distribuiti o locali."
+      ],
+      "answer": null
+    },
+    {
+      "id": 183,
+      "lezione": "Lezione 037",
+      "number": 4,
+      "type": "multiple",
+      "question": "Cosa è un trasduttore?",
+      "options": [
+        "Un trasduttore è un elemento in grado di misurare il valore del segnale di ingresso e trasmettere su una rete di telecomunicazione.",
+        "Un trasduttore è un elemento in grado di trasformare il segnale in ingresso da un dominio analogico ad un dominio digitale.",
+        "Nessuna delle altre risposte è corretta.",
+        "Un trasduttore è un elemento in grado di trasformare il segnale in ingresso da un dominio di partenza (ad es. meccanico) ad un dominio di arrivo (ad es. elettrico)."
+      ],
+      "answer": null
+    },
+    {
+      "id": 184,
+      "lezione": "Lezione 037",
+      "number": 5,
+      "type": "multiple",
+      "question": "Come viene classificata la strumentazione?",
+      "options": [
+        "Tester, oscilloscopi e saldatori.",
+        "Nessuna delle altre risposte è corretta.",
+        "Dispositivi di misura, attuatori, dispositivi di elaborazione della azione di controllo e sistemi informatici e di telecomunicazione.",
+        "Computer, bus di campo, alimentazioni e moduli di espansione."
+      ],
+      "answer": null
+    },
+    {
+      "id": 185,
+      "lezione": "Lezione 037",
+      "number": 6,
+      "type": "multiple",
+      "question": "Dato un sensore, la precisione è",
+      "options": [
+        "la minima variazione della grandezza rilevata dal convertitore analogico/digitale",
+        "la minima variazione della grandezza rilevata dal sensore",
+        "differenza fra il valore fornito dal sensore e il valore effettivamente misurate",
+        "rapporto fra la variazione rilevata dal sensore e la variazione della grandezza da misurare"
+      ],
+      "answer": null
+    },
+    {
+      "id": 186,
+      "lezione": "Lezione 037",
+      "number": 7,
+      "type": "multiple",
+      "question": "Dato un sensore, la sua risoluzione è",
+      "options": [
+        "rapporto fra la variazione rilevata dal sensore e la variazione della grandezza da misurare",
+        "la minima variazione della grandezza rilevata dal sensore",
+        "la minima variazione della grandezza rilevata dal convertitore analogico/digitale",
+        "differenza fra il valore fornito dal sensore e il valore effettivamente misurate"
+      ],
+      "answer": null
+    },
+    {
+      "id": 187,
+      "lezione": "Lezione 037",
+      "number": 8,
+      "type": "multiple",
+      "question": "Un trasduttore",
+      "options": [
+        "è un dispositivo fisico in grado di rilevare la presenza di una variabile o il raggiungimento di un valore prefissato",
+        "è un dispositivo fisico in grado di tradurre grandezze appartenenti ad un sistema energetico in un segnale in un opportuno dominio fisico",
+        "nessuna delle altre risposte è corretta.",
+        "è un dispositivo fisico in grado di trasformare un segnale in energia"
+      ],
+      "answer": null
+    },
+    {
+      "id": 188,
+      "lezione": "Lezione 037",
+      "number": 9,
+      "type": "multiple",
+      "question": "Dato un sensore, la risoluzione del convertitore è",
+      "options": [
+        "la minima variazione della grandezza rilevata dal sensore",
+        "la minima variazione della grandezza rilevata dal convertitore analogico/digitale",
+        "rapporto fra la variazione rilevata dal sensore e la variazione della grandezza da misurare",
+        "differenza fra il valore fornito dal sensore e il valore effettivamente misurate"
+      ],
+      "answer": null
+    },
+    {
+      "id": 189,
+      "lezione": "Lezione 037",
+      "number": 10,
+      "type": "open",
+      "question": "Quale è la differenza tra sensore, trasduttore e attuatore?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 190,
+      "lezione": "Lezione 037",
+      "number": 11,
+      "type": "open",
+      "question": "Quali sono i principali dispositivi di controllo per l'Automazione Industriale?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 191,
+      "lezione": "Lezione 037",
+      "number": 12,
+      "type": "open",
+      "question": "Descrivere i componenti hardware e software che compongono la strumentazione dei sistemi di automazione.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 192,
+      "lezione": "Lezione 038",
+      "number": 1,
+      "type": "multiple",
+      "question": "Come vengono suddivisi i dispositivi di misura?",
+      "options": [
+        "In base al tipo di ingresso: on/off, analogico, digitale, digitalizzato, smart con uscite digitalizzate, intelligenti con uscite digitali.",
+        "In base al tipo di uscita: on/off, analogico, digitale, digitalizzato, smart con uscite digitalizzate, intelligenti con uscite digitali.",
+        "Nessuna delle altre risposte è corretta.",
+        "In base alla tecnologia: idraulico, pneumatico, elettrico, meccanico."
+      ],
+      "answer": null
+    },
+    {
+      "id": 193,
+      "lezione": "Lezione 038",
+      "number": 2,
+      "type": "multiple",
+      "question": "Quale è la struttura di un dispositivo di misura?",
+      "options": [
+        "La grandezza da misurare va in input ad un sensore, quindi ad un dispositivo di amplificazione e quindi ad un dispositivo di adattamento del segnale per una eventuale",
+        "trasmissione.",
+        "La grandezza da misurare va in input ad un attuatore, quindi quindi ad un dispositivo di amplificazione, poi ad un sensore e quindi ad un dispositivo di adattamento del",
+        "segnale per una eventuale trasmissione.",
+        "La grandezza da misurare viene inviata da un sistema di trasmissione, viene quindi amplificata e data in ingresso dispositivo di adattamento del segnale ed ad un sensore.",
+        "Nessuna delle altre risposte è corretta."
+      ],
+      "answer": null
+    },
+    {
+      "id": 194,
+      "lezione": "Lezione 038",
+      "number": 3,
+      "type": "open",
+      "question": "Fare degli esempi di formati utilizzati per la trasmissione della grandezza misurata.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 195,
+      "lezione": "Lezione 038",
+      "number": 4,
+      "type": "open",
+      "question": "Quali sono i parametri che caratterizzano le prestazioni dei dispositivi di misura?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 196,
+      "lezione": "Lezione 039",
+      "number": 1,
+      "type": "multiple",
+      "question": "Quali sono i tipi di attuatori più diffusamente utilizzati?",
+      "options": [
+        "Attuatori propriamente detti (on/off, moto continuo, moto incrementale) e azionamenti (elettrici, idraulici, pneumatici)",
+        "Nessuna delle altre risposte è corretta.",
+        "ad aria in pressione, a tensione continua, a tensione modulata o corrente continua.",
+        "In base al tipo di uscita: on/off, analogico, digitale, digitalizzato, smart con uscite digitalizzate, intelligenti con uscite digitali."
+      ],
+      "answer": null
+    },
+    {
+      "id": 197,
+      "lezione": "Lezione 039",
+      "number": 2,
+      "type": "multiple",
+      "question": "Un attuatore",
+      "options": [
+        "è un dispositivo fisico in grado di tradurre grandezze appartenenti ad un sistema energetico in un segnale in un opportuno dominio fisico",
+        "è un dispositivo fisico in grado di trasformare un segnale in energia",
+        "nessuna delle altre risposte è corretta.",
+        "è un dispositivo fisico in grado di rilevare la presenza di una variabile o il raggiungimento di un valore prefissato"
+      ],
+      "answer": null
+    },
+    {
+      "id": 198,
+      "lezione": "Lezione 039",
+      "number": 3,
+      "type": "multiple",
+      "question": "Quali sono i tipi di attuatori più diffusamente utilizzati?",
+      "options": [
+        "Sensori, Dispositivi di elaborazione e Reti di telecomunicazione",
+        "Muscoli, martinetti idraulici, martelli pneumatici",
+        "Nessuna delle altre risposte è corretta.",
+        "Motori elettrici, attuatori idraulici, attuatori pneumatici."
+      ],
+      "answer": null
+    },
+    {
+      "id": 199,
+      "lezione": "Lezione 039",
+      "number": 4,
+      "type": "multiple",
+      "question": "Quali sono i parametri che contraddistinguono la qualità di un attuatore?",
+      "options": [
+        "Potenza, Calore, Energia, Temperatura, Umidità, Pressione, Vibrazioni, Intensità, Tensione, Resistenza, Viscosità.",
+        "Tempo di salita, Tempo all'emivalore, Sovraevolngazione percentuale, Costante di tempo, Tempo di assestamento, Sovraelongazione assoluta, Errore a regime, Durata del",
+        "transitorio.",
+        "Disponibilità di energia, Capacità di accumulo, Trasporto di energia, Forza movimento lineare, Coppia movimento rotativo, Sovraccarico, Movimento lineare, Movimento",
+        "rotatorio, Movimento oscillatorio, Consumo di energia in stato di riposo, Regolazione della forza, Regolazione della velocità, Costi di energia, Influenza della temperatura,",
+        "Trafilamenti, rischi di incidente",
+        "Nessuna delle altre risposte è corretta."
+      ],
+      "answer": null
+    },
+    {
+      "id": 200,
+      "lezione": "Lezione 039",
+      "number": 5,
+      "type": "multiple",
+      "question": "Che tipo di trasformazione di energia attua un motore elettrico, un motore idraulico e quale è il loro rendimento intrinseco?",
+      "options": [
+        "I motori elettrici da energia elettrica ad energia cinetica, i motori idraulici da energia fludica ad energia cinetica, con alto rendimenti i primi, e basso rendimento, i secondi.",
+        "I motori elettrici da energia elettrica ad energia cinetica, i motori idraulici da energia fludica ad energia cinetica, con basso rendimento i primi, e alto rendimento, i",
+        "secondi.",
+        "I motori elettrici da energia elettrica ad energia termica, i motori idraulici da energia fludica ad energia chimica, con alto rendimenti i primi, e basso rendimento, i secondi.",
+        "Nessuna delle altre risposte è corretta."
+      ],
+      "answer": null
+    },
+    {
+      "id": 201,
+      "lezione": "Lezione 039",
+      "number": 6,
+      "type": "open",
+      "question": "Fare una panoramica sulle diverse tipologie di attuatori.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 202,
+      "lezione": "Lezione 039",
+      "number": 7,
+      "type": "open",
+      "question": "Quali sono i principali vantaggi e svantaggi dei seguenti tipi di attuatori:motori elettrici,attuatori idraulici, attuatori pneumatici?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 203,
+      "lezione": "Lezione 039",
+      "number": 8,
+      "type": "open",
+      "question": "Descrivere gli schemi di funzionamento delle principali classi di attuatori presentati nel corso.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 204,
+      "lezione": "Lezione 040",
+      "number": 1,
+      "type": "multiple",
+      "question": "In cosa consiste la strumentazione smart?",
+      "options": [
+        "La strumentazione smart fornisce, oltre alla misura della variabile controllata, anche la misura di altre variabili significative per conoscere le condizioni operative",
+        "dell'apparto su cui è montata.",
+        "Nessuna delle altre risposte è corretta.",
+        "La strumentazione smart è esclusivamente digitale ed effettua una data-processing locale utile a fornire in uscita un dato ripulito da eventuali rumori di misura.",
+        "La strumentazione smart effettua un controllo locale in controreazione pilotabile da un PLC."
+      ],
+      "answer": null
+    },
+    {
+      "id": 205,
+      "lezione": "Lezione 040",
+      "number": 2,
+      "type": "open",
+      "question": "Quale è la differenza tra la strumentazione smart e la strumentazione «intelligente»?",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 206,
+      "lezione": "Lezione 040",
+      "number": 3,
+      "type": "open",
+      "question": "Definire il concetto di strumentazione smart e disegnare la struttura di un dispositivo di misura di tipo smart e discuterlo.",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 207,
+      "lezione": "Lezione 041",
+      "number": 1,
+      "type": "multiple",
+      "question": "Dato un processo DEDS ad anello aperto, allora",
+      "options": [
+        "il supervisoreè un DEDS che evolve in modo sincrono ed interagisce con il processo da controllare attraverso eventi",
+        "il supervisoreè un DEDS che evolve in modo sincrono ed interagisce con il processo da controllare attraversosegnali",
+        "il supervisoreè un DEDS che evolve in modo asincrono ed interagisce con il processo da controllare attraverso segnali",
+        "il supervisore è un DEDS che evolve in modo asincrono ed interagisce con il processo da controllare attraverso eventi"
+      ],
+      "answer": null
+    },
+    {
+      "id": 208,
+      "lezione": "Lezione 041",
+      "number": 2,
+      "type": "multiple",
+      "question": "Dato un processo DEDS ad anello aperto, allora",
+      "options": [
+        "il controllore è asincrono ed interagisce con il processo da controllare attraverso eventi",
+        "il controllore è sincrono ed interagisce con il processo da controllare attraverso eventi",
+        "il controllore è asincrono ed interagisce con il processo da controllare attraverso segnali",
+        "il controllore è sincrono ed interagisce con il processo da controllare attraverso segnali"
+      ],
+      "answer": null
+    },
+    {
+      "id": 209,
+      "lezione": "Lezione 042",
+      "number": 1,
+      "type": "multiple",
+      "question": "Qual è la principale vantaggio della rete di Petri rispetto agli automi?",
+      "options": [
+        "Non vi sono vantaggi",
+        "Il concetto di stato in una rete di Petri è centralizzato in un'unica entità",
+        "Il concetto di stato in una rete di Petri è distribuito tra le transizioni",
+        "Il concetto di stato in una rete di Petri è distribuito tra i posti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 210,
+      "lezione": "Lezione 042",
+      "number": 2,
+      "type": "multiple",
+      "question": "Nelle reti di Petri gli eventi sono associati",
+      "options": [
+        "Nessua delle precedenti è esatta",
+        "a transizioni dello stato",
+        "Le reti di Petri sono modelli basati su eventi",
+        "a delle entità dette posti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 211,
+      "lezione": "Lezione 042",
+      "number": 3,
+      "type": "multiple",
+      "question": "Quale fra le seguenti definizioni di rete di Petri è corretta?",
+      "options": [
+        "Una rete di Petri è un grafo di Petri a cui è associata una fuuzione di marcatura, che rappresenta lo stato attuale della rete",
+        "Una rete di Petri è un grafo di Petri a cui è associata una fuznione di marcatura, che rappresenta le uscite della rete",
+        "Una rete di Petri è un grafo di Petri a cui è associata una fuznione di marcatura, che rappresenta gli ingressi della rete",
+        "Una rete di Petri è un grafo di Petri a cui è associata una funzione di marcatura, che rappresenta la transizione di stato della rete"
+      ],
+      "answer": null
+    },
+    {
+      "id": 212,
+      "lezione": "Lezione 042",
+      "number": 4,
+      "type": "multiple",
+      "question": "Quando una rete di Petri possiede una struttura di conflitto?",
+      "options": [
+        "Due transizioni t1 e t2 danno origine a una struttara se hanno in comune più di un posto in ingresso che contiene un numero di gettoni non sufficienti a permettere lo scatto",
+        "di entrambe le transizioni.",
+        "Due transizioni t1 e t2 danno origine a una struttara se hanno in comune almeno un posto in ingresso che contiene un numero di gettoni non sufficienti a permettere lo",
+        "scatto di entrambe le transizioni.",
+        "Due transizioni t1 e t2 danno origine a una struttara se hanno in comune almeno un posto in ingresso che contiene un numero di gettoni sufficienti a permettere lo scatto di",
+        "entrambe le transizioni.",
+        "Due transizioni t1 e t2 danno origine a una struttara se non hanno in comune un posto in ingresso che contiene un numero di gettoni non sufficienti a permettere lo scatto di",
+        "entrambe le transizioni."
+      ],
+      "answer": null
+    },
+    {
+      "id": 213,
+      "lezione": "Lezione 042",
+      "number": 5,
+      "type": "multiple",
+      "question": "Nel modello di Petri, le dimensioni delle matrici di input e output sono",
+      "options": [
+        "entrambe quadrate ma aventi diverse dimensioni. La matrice degli input ha dimensione pari al numero delle transizioni, mentre la matrice degli output ha dimensione pari",
+        "al numero dei posti",
+        "entrambe quadrate ma aventi diverse dimensioni. La matrice degli input ha dimensione pari al numero dei posti, mentre la matrice degli output ha dimensione pari al",
+        "numero delle tranisizioni",
+        "uguali tra e loro. Il numero delle righe è pari al numero dei posti, mentre il numero delle colonne è pari al numero delle transizioni.",
+        "uguali tra e loro. Il numero delle righe è pari al numero delle transizioni, mentre il numero delle colonne è pari al numero dei posti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 214,
+      "lezione": "Lezione 042",
+      "number": 6,
+      "type": "multiple",
+      "question": "Come cambia la marcatura di una rete di Petri quando scatta una transizione?",
+      "options": [
+        "In tutti i posti in ingresso alla tranisizione si consumano un numero di token pari al peso dell'arco che collega il posto alla transizione, mentre in tutti i posti in uscita della",
+        "transizione si generano un numero di tocken pari al peso dell'arco che collega la transizione al posto",
+        "nessuno delle precedenti è corretta",
+        "In tutti i posti in ingresso alla tranisizione si generano un numero di token pari al peso dell'arco che collega il posto alla transizione, mentre in tutti i posti in uscita della",
+        "transizione si conusmano un numero di tocken pari al peso dell'arco che collega la transizione al posto",
+        "In tutti i posti in ingresso alla tranisizione si consumano un numero di token pari al peso dell'arco che collega il posto alla transizione, mentre in tutti i posti in uscita della",
+        "transizione si generano un numero di tocken pari al peso dell'arco che collegail posto alla transizione"
+      ],
+      "answer": null
+    },
+    {
+      "id": 215,
+      "lezione": "Lezione 043",
+      "number": 1,
+      "type": "multiple",
+      "question": "Che cosa rapprenta il vettore T-invariante in una rete di Petri?",
+      "options": [
+        "Un sequenza di transizioni, che una volta eseguita, lascia invariata la marcatura della rete di Petri, riflettendo un comportamento ciclico del sistema",
+        "Una configurazione di token nei posti tale da impedire l'esecuzione di ulteriori transizioni",
+        "Un sequenza di transizioni, che una volta eseguita, lascia cambia la marcatura iniziale della rete di Petri.",
+        "Un insieme di posti che contiene lo stesso numero di token dopo l'esecuzione di un insieme specifico di transizioni"
+      ],
+      "answer": null
+    },
+    {
+      "id": 216,
+      "lezione": "Lezione 043",
+      "number": 2,
+      "type": "multiple",
+      "question": "In una rete di Petri, l'albero di copertura contiene:",
+      "options": [
+        "i posti con marcatura sono limitati",
+        "un numero infinito di nodi",
+        "un solo nodo",
+        "un numero finito di nodi"
+      ],
+      "answer": null
+    },
+    {
+      "id": 217,
+      "lezione": "Lezione 043",
+      "number": 3,
+      "type": "multiple",
+      "question": "Come si chiama la strategia di sviluppo di un albero di raggiungibilità?",
+      "options": [
+        "Depth-first",
+        "Depth-tree",
+        "Depth-fish",
+        "Fifo"
+      ],
+      "answer": null
+    },
+    {
+      "id": 218,
+      "lezione": "Lezione 043",
+      "number": 4,
+      "type": "multiple",
+      "question": "L'albero di raggiungibilità non permette di studiare",
+      "options": [
+        "limitezza della rete",
+        "raggiungibilità della rete",
+        "vivezza della rete",
+        "Spazio degli stati di reti complesse"
+      ],
+      "answer": null
+    },
+    {
+      "id": 219,
+      "lezione": "Lezione 043",
+      "number": 5,
+      "type": "multiple",
+      "question": "Che cosa si intende con il termine albero di raggiungibilità?",
+      "options": [
+        "Uno strumento grafico che rappresenta visivamente tutte le sequenze di scatti, ma non le marcature raggiungibili",
+        "Uno strumento grafico che rappresenta visivamente tutte le marcature raggiungibili, ma non le sequenze di scatti",
+        "Uno strumento grafico che rappresenta visivamente tutte le marcature raggiungibili e le sequenze di scatti",
+        "Uno strumento grafico che rappresenta visivamente solo alcune marcature raggiungibili e le sequenze di scatti"
+      ],
+      "answer": null
+    },
+    {
+      "id": 220,
+      "lezione": "Lezione 043",
+      "number": 6,
+      "type": "open",
+      "question": "Indicare mediante opportuni esempi la differenza fra automi e reti di Petri",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 221,
+      "lezione": "Lezione 044",
+      "number": 1,
+      "type": "multiple",
+      "question": "Nell'approccio funzionale di una rete di Petri, quale aspetto del sistema viene principalment enfatizzato?",
+      "options": [
+        "La rappresentazione visiva del sistema e la sua struttura topologica",
+        "L'analisi del comportamento temporale e delle performance del sistema",
+        "La descrizione delle funzioni o delle operazioni eseguite dal sistema e delle loro relazioni di dipendenza",
+        "La quantità di risore consumate e prodotte dal sistema durante il suo funzionamento"
+      ],
+      "answer": null
+    },
+    {
+      "id": 222,
+      "lezione": "Lezione 044",
+      "number": 2,
+      "type": "open",
+      "question": "Illustare il concetto di marcatura base, definendo la proprietà di reversibilità di una rete di Petri",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 223,
+      "lezione": "Lezione 045",
+      "number": 1,
+      "type": "open",
+      "question": "Definire il problema di contollo per un sistema a eventi discreti, indicando cosa si intende per specifiche controllabili e osservabili",
+      "options": [],
+      "answer": null
+    },
+    {
+      "id": 224,
+      "lezione": "Lezione 046",
+      "number": 1,
+      "type": "multiple",
+      "question": "Quali fra i seguenti modelli di controllo può meglio rappresentare la media pesata?",
+      "options": [
+        "Nessuna delle precedenti",
+        "Un sistema controllato in retroazione positiva",
+        "Un sistema controllato in anello aperto",
+        "Un sistema controllato in controreazione"
+      ],
+      "answer": null
+    },
+    {
+      "id": 225,
+      "lezione": "Lezione 047",
+      "number": 1,
+      "type": "multiple",
+      "question": "Quale fra le seguenti assunzioni non deve essere considerata per usare una media adattativa?",
+      "options": [
+        "L'errore di misura deve avere media nulla",
+        "L'errore di misura e l'errre di staima sono correlati",
+        "L'errore di misura e l'errre di staima non sono correlati",
+        "L'errore di misura non introduce un errore costante"
+      ],
+      "answer": null
+    },
+    {
+      "id": 226,
+      "lezione": "Lezione 047",
+      "number": 2,
+      "type": "multiple",
+      "question": "Che cosa si intende per media adattativa?",
+      "options": [
+        "Un algoritmo di elaborazione di un segnale che modifica i propri parametri in tempo reale per ottimizzare la cancellazione del rumore in segnali variabili",
+        "Un algoritmo di elaborazione di un segnale per la cancellazione del rumore in segnali variabili. I propri parametri non possono variare in tempo reale.",
+        "Calcola il valore medio di un segnale variabile nel tempo",
+        "Un algoritmo di elaborazione di un segnale che modifica i propri parametri in tempo reale per ottimizzare la cancellazione del rumore in segnali costanti."
+      ],
+      "answer": null
+    },
+    {
+      "id": 227,
+      "lezione": "Lezione 048",
+      "number": 1,
+      "type": "multiple",
+      "question": "Quali fra queste non sono classi di cause guasti?",
+      "options": [
+        "Cause dovute a danni dolosi",
+        "cause accidentali",
+        "cause degenerative",
+        "cause dovute a condizioni anomale"
+      ],
+      "answer": null
+    },
+    {
+      "id": 228,
+      "lezione": "Lezione 048",
+      "number": 2,
+      "type": "multiple",
+      "question": "Le reti neti neurali sono applicate all'individuazione dei guasti?",
+      "options": [
+        "No, non vengono impiegati per l'individuazine dei guasti",
+        "Sì, sono un metodo basato sul modello del processo",
+        "Sì, sono un metodo basato sul controllo del trend",
+        "Sì, sono un metodo basato sul modello del segnale",
+        "Powered by TCPDF (www.tcpdf.org)"
+      ],
+      "answer": null
+    }
+  ]
+}
