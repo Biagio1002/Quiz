@@ -782,15 +782,12 @@
       "type": "multiple",
       "question": "Quali sono gli obiettivi da raggiungere a livello di gestione?",
       "options": [
-        "temporizzazione, sequenzializzazione e scelta delle strategie di intervento, verifica che sussistano le condizioni per il corretto funzionamento dei sistemi controllati a livello",
-        "di campo",
+        "temporizzazione, sequenzializzazione e scelta delle strategie di intervento, verifica che sussistano le condizioni per il corretto funzionamento dei sistemi controllati a livello di campo",
         "assegnazione dell'andamento desiderato della variabile di intervento, misura delle variabili controllate, della variabili interne e delle variabili esterne",
-        "verifica che il funzionamento dei sistemi controllati a livello di campo sia corretto, gestione delle condizioni di funzionamento in emergenza, assegnazione del valore alle",
-        "variabili di controllo, assegnazione del valore ai parametri degli algoritmi di controllo",
-        "determinazione della attivazione e disattivazione degli impianti, determinazione del valore da assegnare alle variabili di conduzione, valutazione della funzionalità e della",
-        "efficienza del sistema controllato complesso"
+        "verifica che il funzionamento dei sistemi controllati a livello di campo sia corretto, gestione delle condizioni di funzionamento in emergenza, assegnazione del valore alle variabili di controllo, assegnazione del valore ai parametri degli algoritmi di controllo",
+        "determinazione della attivazione e disattivazione degli impianti, determinazione del valore da assegnare alle variabili di conduzione, valutazione della funzionalità e della efficienza del sistema controllato complesso"
       ],
-      "answer": null
+      "answer": "determinazione della attivazione e disattivazione degli impianti, determinazione del valore da assegnare alle variabili di conduzione, valutazione della funzionalità e della efficienza del sistema controllato complesso"
     },
     {
       "id": 62,
@@ -804,7 +801,7 @@
         "coordinamento, conduzione e gestione.",
         "campo, gestione e conduzione"
       ],
-      "answer": null
+      "answer": "campo, conduzione e coordinamento"
     },
     {
       "id": 63,
@@ -818,7 +815,7 @@
         "coordinamento, conduzione e gestione.",
         "campo, coordinamento e gestione"
       ],
-      "answer": null
+      "answer": "coordinamento, conduzione e gestione."
     },
     {
       "id": 64,
@@ -832,7 +829,7 @@
         "PID",
         "PLC"
       ],
-      "answer": null
+      "answer": "Software finalizzati"
     },
     {
       "id": 65,
@@ -846,7 +843,7 @@
         "Individuazioni delle funzionalità richieste dal cliente con un linguaggio tenico e con informazioni generiche",
         "Decomposizione funzionale del progetto software"
       ],
-      "answer": null
+      "answer": "Individuazioni delle funzionalità richieste dal cliente con un linguaggio non tenico e con informazioni generiche"
     },
     {
       "id": 66,
@@ -860,7 +857,7 @@
         "top-down",
         "Può essere sia di tipo bottom-up"
       ],
-      "answer": null
+      "answer": "bottom-up"
     },
     {
       "id": 67,
@@ -874,7 +871,7 @@
         "Approccio top-down nella parte di sinistra, e approccio bootom-up nella parte di destra",
         "Approccio Bottom-up nella parte di sinistra, e approccio top-down nella parte di destra"
       ],
-      "answer": null
+      "answer": "Approccio top-down nella parte di sinistra, e approccio bootom-up nella parte di destra"
     },
     {
       "id": 68,
@@ -883,16 +880,12 @@
       "type": "multiple",
       "question": "Come è strutturato il ciclo di sviluppo per un sistema di automazione industraile?",
       "options": [
-        "Il ciclo di sviluppo consente di organizzare lo sviluppo software all'interno di un 'azienda. Esso ha una forma a V nelle cui etremità vi è la progettazione dettagliata e la",
-        "validazione del sistema SW.",
-        "Il ciclo di sviluppo consente di organizzare lo sviluppo software all'interno di un 'azienda. Esso ha una forma a V nelle cui etremità vi è la progettazione generale e la",
-        "validazione del sistema SW.",
-        "Il ciclo di sviluppo consente di organizzare lo sviluppo software all'interno di un 'azienda. Esso ha una forma a V nelle cui etremità vi sono le specifiche funzionali e la",
-        "validazione del sistema SW.",
-        "Il ciclo di sviluppo consente di organizzare lo sviluppo software all'interno di un 'azienda. Esso ha una forma a W nelle cui etremità vi sono le specifiche funzionali e la",
-        "validazione del sistema SW."
+        "Il ciclo di sviluppo consente di organizzare lo sviluppo software all'interno di un 'azienda. Esso ha una forma a V nelle cui etremità vi è la progettazione dettagliata e la validazione del sistema SW.",
+        "Il ciclo di sviluppo consente di organizzare lo sviluppo software all'interno di un 'azienda. Esso ha una forma a V nelle cui etremità vi è la progettazione generale e la validazione del sistema SW.",
+        "Il ciclo di sviluppo consente di organizzare lo sviluppo software all'interno di un 'azienda. Esso ha una forma a V nelle cui etremità vi sono le specifiche funzionali e la validazione del sistema SW.",
+        "Il ciclo di sviluppo consente di organizzare lo sviluppo software all'interno di un 'azienda. Esso ha una forma a W nelle cui etremità vi sono le specifiche funzionali e la validazione del sistema SW."
       ],
-      "answer": null
+      "answer": "Il ciclo di sviluppo consente di organizzare lo sviluppo software all'interno di un 'azienda. Esso ha una forma a V nelle cui etremità vi sono le specifiche funzionali e la validazione del sistema SW."
     },
     {
       "id": 69,
@@ -2946,5 +2939,4 @@
       "answer": null
     }
   ]
-
 }
