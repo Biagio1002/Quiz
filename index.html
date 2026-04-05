@@ -19,6 +19,12 @@
   <button class="subject-btn" data-file="quiz-automazioneIndustriale.json">
     Automazione Industriale
   </button>
+
+  <div id="mode-box" class="hidden">
+    <p>Seleziona modalità:</p>
+    <button id="mode-quiz-btn" class="mode-btn">🎯 Quiz</button>
+    <button id="mode-edit-btn" class="mode-btn mode-btn--edit">✏️ Modifica risposte mancanti</button>
+  </div>
 </div>
 
 
@@ -36,6 +42,7 @@
 
     <button id="next-btn" class="hidden">Prossima</button>
     <button id="stop-btn" class="hidden">Ferma Quiz</button>
+    <button id="export-btn" class="hidden">💾 Esporta JSON aggiornato</button>
   </div>
 
   <script src="app.js" defer></script>

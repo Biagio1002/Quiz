@@ -161,3 +161,49 @@ textarea {
     transform: translateY(0);
   }
 }
+
+/* Bottoni modalità */
+.mode-btn {
+  width: 100%;
+  max-width: 350px;
+  padding: 12px;
+  margin: 8px auto;
+  border-radius: 10px;
+  display: block;
+  background: #4caf50;
+  color: white;
+  font-size: 0.95rem;
+}
+
+.mode-btn--edit {
+  background: #ff9800;
+}
+
+.mode-btn:hover {
+  opacity: 0.9;
+}
+
+/* Meta lezione */
+.question-meta {
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 0.2rem;
+}
+
+/* Info modifica */
+.edit-info {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+/* Bottone export */
+#export-btn {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  background: #2196f3;
+  color: white;
+}
