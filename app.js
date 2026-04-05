@@ -110,9 +110,14 @@ function showQuizQuestion(q) {
     });
   } else {
     const textarea = document.createElement("textarea");
+    answersBox.appendChild(textarea);
+
+    const btnRow = document.createElement("div");
+    btnRow.style.cssText = "display:flex;gap:0.5rem;margin-top:0.5rem;";
+
     const showBtn = document.createElement("button");
     showBtn.textContent = "Mostra risposta";
-    showBtn.style.marginTop = "0.5rem";
+    showBtn.style.cssText = "flex:1;padding:0.6rem;border-radius:8px;background:#4caf50;color:white;font-size:0.9rem;";
     showBtn.onclick = () => {
       feedback.innerHTML = q.answer
         ? `Risposta modello:<br><em>${q.answer}</em>`
@@ -120,9 +125,24 @@ function showQuizQuestion(q) {
       currentIndex++;
       updateProgress();
       nextBtn.classList.remove("hidden");
+      showBtn.disabled = true;
+      skipBtn.disabled = true;
     };
-    answersBox.appendChild(textarea);
-    answersBox.appendChild(showBtn);
+
+    const skipBtn = document.createElement("button");
+    skipBtn.textContent = "Salta ⏭";
+    skipBtn.style.cssText = "flex:1;padding:0.6rem;border-radius:8px;background:#9e9e9e;color:white;font-size:0.9rem;";
+    skipBtn.onclick = () => {
+      currentIndex++;
+      updateProgress();
+      nextBtn.classList.remove("hidden");
+      showBtn.disabled = true;
+      skipBtn.disabled = true;
+    };
+
+    btnRow.appendChild(showBtn);
+    btnRow.appendChild(skipBtn);
+    answersBox.appendChild(btnRow);
   }
 }
 
@@ -139,6 +159,18 @@ function showEditQuestion(q) {
     btn.onclick = () => saveAnswer(btn, option, q);
     answersBox.appendChild(btn);
   });
+
+  const skipBtn = document.createElement("button");
+  skipBtn.textContent = "Salta ⏭";
+  skipBtn.style.cssText = "width:100%;padding:0.6rem;margin-top:0.8rem;border-radius:8px;background:#9e9e9e;color:white;font-size:0.9rem;";
+  skipBtn.onclick = () => {
+    if (answered) return;
+    answered = true;
+    currentIndex++;
+    updateProgress();
+    nextBtn.classList.remove("hidden");
+  };
+  answersBox.appendChild(skipBtn);
 }
 
 // --- Salva risposta in modalità modifica ---
@@ -227,6 +259,11 @@ function showFinal() {
       <p>Scarica il JSON aggiornato e sostituisci il file nel progetto.</p>
     `;
     exportBtn.classList.remove("hidden");
+    const restartBtn = document.createElement("button");
+    restartBtn.textContent = "Ricomincia";
+    restartBtn.style.cssText = "width:100%;padding:0.8rem;margin-top:0.5rem;font-size:1rem;border-radius:8px;background:#4caf50;color:white;";
+    restartBtn.onclick = () => location.reload();
+    answersBox.appendChild(restartBtn);
   } else {
     questionBox.innerHTML = `
       <h2>Quiz completato 🎉</h2>
