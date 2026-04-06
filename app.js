@@ -152,11 +152,21 @@ function showEditQuestion(q) {
   info.textContent = "Seleziona la risposta corretta:";
   answersBox.appendChild(info);
 
+  let selectedOption = null;
+
   q.options.forEach(option => {
     const btn = document.createElement("button");
     btn.textContent = option;
     btn.className = "option";
-    btn.onclick = () => saveAnswer(btn, option, q);
+    btn.onclick = () => {
+      // deseleziona tutti
+      document.querySelectorAll(".option").forEach(b => b.classList.remove("correct"));
+      // seleziona questo
+      btn.classList.add("correct");
+      selectedOption = option;
+      feedback.textContent = `✏️ Selezionata: "${option}" — clicca Avanti per confermare.`;
+      nextBtn.classList.remove("hidden");
+    };
     answersBox.appendChild(btn);
   });
 
@@ -166,11 +176,36 @@ function showEditQuestion(q) {
   skipBtn.onclick = () => {
     if (answered) return;
     answered = true;
+    selectedOption = null;
     currentIndex++;
     updateProgress();
     nextBtn.classList.remove("hidden");
+    // forza avanzamento immediato
+    if (currentIndex < questions.length) {
+      showQuestion();
+    } else {
+      showFinal();
+    }
   };
   answersBox.appendChild(skipBtn);
+
+  // override del nextBtn per questa domanda
+  nextBtn.onclick = () => {
+    if (answered) return;
+    answered = true;
+    if (selectedOption !== null) {
+      const original = allData.questions.find(item => item.id === q.id);
+      if (original) original.answer = selectedOption;
+      feedback.textContent = `✅ Risposta salvata: "${selectedOption}"`;
+    }
+    currentIndex++;
+    updateProgress();
+    if (currentIndex < questions.length) {
+      showQuestion();
+    } else {
+      showFinal();
+    }
+  };
 }
 
 // --- Salva risposta in modalità modifica ---

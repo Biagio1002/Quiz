@@ -424,7 +424,7 @@
         "Sono le variabili di controllo del sistema da controllare che devono essere monitorate, quando è sottoposto ad opportune azioni di intervento.",
         "Attività richieste dal committente affinché il sistema da controllare, per effetto delle azioni di intervento, possa raggiungere le finalità per le quali è stato progettato e realizzato."
       ],
-      "answer":    "Attività richieste dal committente affinché il sistema da controllare, per effetto delle azioni di intervento, possa raggiungere le finalità per le quali è stato progettato e realizzato."
+      "answer": "Attività richieste dal committente affinché il sistema da controllare, per effetto delle azioni di intervento, possa raggiungere le finalità per le quali è stato progettato e realizzato."
     },
     {
       "id": 33,
@@ -899,7 +899,7 @@
         "nessuna delle precedenti è corretta",
         "può essere fatta con il cliente"
       ],
-      "answer": null
+      "answer": "deve essere fatta con il cliente"
     },
     {
       "id": 70,
@@ -913,7 +913,7 @@
         "Sommatoria del tempo di computazione dei singoli task",
         "Nessauna delle precedenti"
       ],
-      "answer": null
+      "answer": "Somamtoria di tutte le funzioni di tempo di utilizzazione relativi al task"
     },
     {
       "id": 71,
@@ -927,7 +927,7 @@
         "Esegue task periodici sono negli istanti di tempo in cui l'unità di elaborazione è libera",
         "Esegue task aperiodici sono negli istanti di tempo in cui l'unità di elaborazione è libera"
       ],
-      "answer": null
+      "answer": "Esegue task aperiodici sono negli istanti di tempo in cui l'unità di elaborazione è libera"
     },
     {
       "id": 72,
@@ -941,7 +941,7 @@
         "esso si definisce guaranteed",
         "esso si definisce hard real time"
       ],
-      "answer": null
+      "answer": "esso si definisce guaranteed"
     },
     {
       "id": 73,
@@ -955,7 +955,7 @@
         "Gestione ordinata di diversi task simultanei al fine di processare solo quelli aventi maggiore priorità",
         "Processamento contemporaneo di più task mediante l'uso di processori multi-core"
       ],
-      "answer": null
+      "answer": "Gestione ordinata di diversi task simultanei al fine di processarli tutti rispettando le relative deadline"
     },
     {
       "id": 74,
@@ -978,7 +978,7 @@
         "essi possono essere schedulati tramite un algoritmo EDF ma non RMPO",
         "essi possono essere schedulati tramite un algoritmo RMPO ma non EDF"
       ],
-      "answer": null
+      "answer": "essi possono essere schedulati tramite un algoritmo EDF ma non RMPO"
     },
     {
       "id": 76,
@@ -992,7 +992,7 @@
         "Quando il fattore di utilizazzione è maggiore di 1",
         "Quando il fattore di utilizazzione è minore di 1"
       ],
-      "answer": null
+      "answer": "Quando il fattore di utilizazzione è maggiore di 1"
     },
     {
       "id": 77,
@@ -1006,7 +1006,7 @@
         "Nessuna delle precedenti è corretta",
         "Operazione di interruzione di un task per liberare l'unità di calcolo"
       ],
-      "answer": null
+      "answer": "Operazione che assegna l'unità di calcolo ad un task"
     },
     {
       "id": 78,
@@ -1020,7 +1020,7 @@
         "Tutte le azioni sono presenti",
         "Dispatching e Preempton"
       ],
-      "answer": null
+      "answer": "Preemption"
     },
     {
       "id": 79,
@@ -1043,7 +1043,7 @@
         "EDF",
         "Tutti i precedenti"
       ],
-      "answer": null
+      "answer": "DMPO"
     },
     {
       "id": 81,
@@ -1057,7 +1057,7 @@
         "Algoritmi statici per task periodici",
         "Algoritmi dinamici per task periodici"
       ],
-      "answer": null
+      "answer": "Algoritmi statici per task periodici"
     },
     {
       "id": 82,
@@ -1071,7 +1071,7 @@
         "nessuna delle precedenti",
         "non può essere schedulabile da nessun altro algoritmo statico"
       ],
-      "answer": null
+      "answer": "non può essere schedulabile da nessun altro algoritmo statico"
     },
     {
       "id": 83,
@@ -1085,7 +1085,7 @@
         "Assegnazione statica della priorità dei task",
         "Assegnazione sia statica che dinamica della priorità dei task"
       ],
-      "answer": null
+      "answer": "Assegnazione dinamica della priorità dei task la cui deadline è più vicina"
     },
     {
       "id": 84,
@@ -1108,7 +1108,7 @@
         "Una rete a livello di campo, interconnessa ad una rete a livello di cella, interconnessa ad una dorsale aziendale.",
         "Nessuna delle altre risposte è corretta."
       ],
-      "answer": null
+      "answer": "Una rete a livello di campo, interconnessa ad una rete a livello di cella, interconnessa ad una dorsale aziendale."
     },
     {
       "id": 86,
