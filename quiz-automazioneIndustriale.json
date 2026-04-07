@@ -1140,7 +1140,7 @@
         "A stella o ad albero.",
         "Nessuna delle altre risposte è corretta."
       ],
-      "answer": null
+      "answer": "Punto-punto o a bus."
     },
     {
       "id": 88,
@@ -1154,7 +1154,7 @@
         "della organizzazione del dialogo e sincronizzazione di programmi",
         "del corretto trasferimento di dati end-to-end indipendente dal tipo di rete"
       ],
-      "answer": null
+      "answer": "della definizione dei servizi per l'utente"
     },
     {
       "id": 89,
@@ -1168,7 +1168,7 @@
         "Trasporto",
         "Linea"
       ],
-      "answer": null
+      "answer": "Rete"
     },
     {
       "id": 90,
@@ -1196,7 +1196,7 @@
         "dell'instradamento logico dei messaggi end-to-end, scelta del percorso",
         "della trasmissione di pacchetti di bit su un canale di comunicazione"
       ],
-      "answer": null
+      "answer": "della corretta trasmissione di pacchetti di dati tra nodi adiacenti e controllo di accesso al mezzo"
     },
     {
       "id": 92,
@@ -1210,7 +1210,7 @@
         "la minima variazione della grandezza rilevata dal convertitore analogico/digitale",
         "dell'instradamento logico dei messaggi end-to-end, scelta del percorso"
       ],
-      "answer": null
+      "answer": "dell'instradamento logico dei messaggi end-to-end, scelta del percorso"
     },
     {
       "id": 93,
@@ -1224,7 +1224,7 @@
         "dell'instradamento logico dei messaggi end-to-end, scelta del percorso",
         "del corretto trasferimento di dati end-to-end indipendente dal tipo di rete"
       ],
-      "answer": null
+      "answer": "del corretto trasferimento di dati end-to-end indipendente dal tipo di rete"
     },
     {
       "id": 94,
@@ -1238,7 +1238,7 @@
         "della gestione della sintassi dell'informazione da trasferire",
         "della definizione dei servizi per l'utente"
       ],
-      "answer": null
+      "answer": "della organizzazione del dialogo e sincronizzazione di programmi"
     },
     {
       "id": 95,
@@ -1252,7 +1252,7 @@
         "della organizzazione del dialogo e sincronizzazione di programmi",
         "della definizione dei servizi per l'utente"
       ],
-      "answer": null
+      "answer": "della gestione della sintassi dell'informazione da trasferire"
     },
     {
       "id": 96,
@@ -1266,7 +1266,7 @@
         "Rete",
         "Linea"
       ],
-      "answer": null
+      "answer": "Trasporto"
     },
     {
       "id": 97,
@@ -1298,7 +1298,7 @@
         "Devicebus",
         "Actuatorbus"
       ],
-      "answer": null
+      "answer": "Devicebus"
     },
     {
       "id": 100,
@@ -1312,7 +1312,7 @@
         "Il bus di campo (o fieldbus) è un unico computer industriale per il controllo centralizzato di tipo real-time",
         "Nessuna delle altre risposte è corretta."
       ],
-      "answer": null
+      "answer": "Il bus di campo (o fieldbus) è una rete di computer industriali per il controllo distribuito di tipo real-time"
     },
     {
       "id": 101,
@@ -1326,7 +1326,7 @@
         "standardizzazione: il protocollo di comunicazione è standard e quindi non proprietario. Permette inoltre la connessione di dispositivi di fabbricazione diversa.",
         "risparmio sui costi di cablaggio e di manutenzione (fino al 40%)."
       ],
-      "answer": null
+      "answer": "riduzione della complessità degli elementi interconnessi dovuta alla inferiore capacità computazionale degli end point."
     },
     {
       "id": 102,
@@ -1385,7 +1385,7 @@
         "Un regolatore continuo di tipo PID è caratterizzato da 3 parametri liberi: costante proporzionale, la costante derivativa e la costante integrativa.",
         "Nessuna delle altre risposte è corretta."
       ],
-      "answer": null
+      "answer": "Un regolatore continuo di tipo PID è caratterizzato da 3 parametri liberi: costante proporzionale, la costante derivativa e la costante integrativa."
     },
     {
       "id": 108,
@@ -1399,7 +1399,7 @@
         "errore nullo nel raggiungimento del valore desiderato di ampiezza costante della variabile controllata nel funzionamento a regime permanente",
         "minimizzare il numero di poli a denominatore del controllore"
       ],
-      "answer": null
+      "answer": "minimizzare il numero di poli a denominatore del controllore"
     },
     {
       "id": 109,
@@ -1444,7 +1444,7 @@
         "In base ai tipi di sensori: digitale, analogico o a protocollo.",
         "In base al tipo di attuazione: ON/OFF (ad es. a relè) o di tipo continuo (ad es. PID)"
       ],
-      "answer": null
+      "answer": "In base al tipo di attuazione: ON/OFF (ad es. a relè) o di tipo continuo (ad es. PID)"
     },
     {
       "id": 112,
@@ -1491,7 +1491,7 @@
         "Si valuta, a regime, il valore assoluto della variabile di ingresso, inteso come il discostamento tra il valore ottenuto e il valore desiderato.",
         "Nessuna delle altre risposte è corretta."
       ],
-      "answer": null
+      "answer": "Si valuta, a regime, il valore assoluto dell'errore inteso come il discostamento tra il valore ottenuto e il valore desiderato."
     },
     {
       "id": 115,
@@ -1505,7 +1505,7 @@
         "Disturbi di comando, di controllo o di coordinamento.",
         "Disturbi prevedibili, casuali e strutturali."
       ],
-      "answer": null
+      "answer": "Disturbi prevedibili, casuali e strutturali."
     },
     {
       "id": 116,
@@ -1519,7 +1519,7 @@
         "Variabili di controllo (o di comando), variabili di coordinamento (o controllate) e variabili di disturbo.",
         "Variabili permanenti, variabili prevedibili e variabili casuali."
       ],
-      "answer": null
+      "answer": "Variabili di ingresso (o di comando), variabili di uscita (o interne, o controllate) e disturbi."
     },
     {
       "id": 117,
@@ -1580,7 +1580,7 @@
         "Functional Block Diagram",
         "Instruction List"
       ],
-      "answer": null
+      "answer": "Ladder diagram"
     },
     {
       "id": 123,
@@ -1645,7 +1645,7 @@
         "Dalla dinamica principale e dalla dinamica secondaria, ulteriormente semplificabile con un ritardo",
         "Due poli complessi coniugati e uno zero"
       ],
-      "answer": null
+      "answer": "Dalla dinamica principale e dalla dinamica secondaria, ulteriormente semplificabile con un ritardo"
     },
     {
       "id": 129,
@@ -1677,7 +1677,7 @@
         "Lo schema di un regolatore PID può essere di tipo elettronico o meccanico. Lo schema funzionale può anche presentare non linearità di tipo a soglia e a gradino.",
         "Lo schema di un regolatore PID può essere di tipo gerarchico o lineare. Lo schema funzionale può anche presentare non linearità di tipo a gradino e isteresi."
       ],
-      "answer": null
+      "answer": "Lo schema di un regolatore PID può essere di tipo serie o parallelo. Lo schema funzionale può anche presentare non linearità di tipo a soglia e attrattore."
     },
     {
       "id": 131,
@@ -1798,7 +1798,7 @@
         "Diminusice la rapidità di risposta",
         "Diminuiscono la rapidità di risposta e il margine di stabilità"
       ],
-      "answer": null
+      "answer": "Diminusice la rapidità di risposta"
     },
     {
       "id": 141,
@@ -1812,7 +1812,7 @@
         "Diminuisce il margine di stabilità",
         "Aumentano la rapidità di risposta e il margine di stabilità"
       ],
-      "answer": null
+      "answer": "Aumentano la rapidità di risposta e il margine di stabilità"
     },
     {
       "id": 142,
@@ -1826,7 +1826,7 @@
         "Diminusice la rapidità di risposta",
         "Aumenta la rapidità di risposta"
       ],
-      "answer": null
+      "answer": "Aumenta la rapidità di risposta"
     },
     {
       "id": 143,
@@ -1840,7 +1840,7 @@
         "Composizione di sinusoidi di ampiezza predefinita e di pulsazione nota sfasate reciprocamente in moda da mantenere l'escursione entro limiti predeterminati.",
         "Gradino"
       ],
-      "answer": null
+      "answer": "Rampa lineare"
     },
     {
       "id": 144,
@@ -1881,7 +1881,7 @@
         "Lettura ingressi, Elaborazione, Attesa, Scrittura Uscite",
         "Lettura ingressi, Scrittura Uscite, Attesa, Elaborazione"
       ],
-      "answer": null
+      "answer": "Lettura ingressi, Elaborazione, Attesa, Scrittura Uscite"
     },
     {
       "id": 148,
@@ -1912,7 +1912,7 @@
         "La rete logica è un dispositivo di tipo analogico realizzato con circuiti elettronici. Il PLC è un computer industriale specializzato.",
         "Il PLC è un dispositivo di elaborazione di tipo digitale realizzato con circuiti elettronici. La rete logica è un computer industriale specializzato."
       ],
-      "answer": null
+      "answer": "La rete logica è un dispositivo di elaborazione di tipo digitale realizzato con circuiti elettronici. Il PLC è un computer industriale specializzato."
     },
     {
       "id": 150,
@@ -1926,7 +1926,7 @@
         "Nessuna delle altre risposte è corretta.",
         "In tutte quelle che richiedono una continua espansione delle funzionalità, degli ingressi e delle uscite."
       ],
-      "answer": null
+      "answer": "In quelle che richiedono un tepo di risposta molto basso e quindi non garantibile da un PLC che richiede un minimo tempo di elaborazione delle microistruzioni."
     },
     {
       "id": 151,
@@ -1958,7 +1958,7 @@
         "Schede grafiche, di rete, audio e USB.",
         "Schede di comunicazione, speciali, di conteggio, PID e controllo assi."
       ],
-      "answer": null
+      "answer": "Schede analogiche, digitali o con protocollo di comunicazione."
     },
     {
       "id": 154,
@@ -1972,7 +1972,7 @@
         "Nessuna delle altre risposte è corretta.",
         "Attuatori, sensori, dispositivo di elaborazione della azione di controllo e sistema da controllare."
       ],
-      "answer": null
+      "answer": "Rack, alimentazione, CPU, memorie, batteria tampone, real time clock, moduli di I/O, moduli dedicati, interfacce di comunicazione."
     },
     {
       "id": 155,
@@ -1986,7 +1986,7 @@
         "Nessuna delle altre risposte è corretta.",
         "Schede analogiche, digitali o con protocollo di comunicazione."
       ],
-      "answer": null
+      "answer": "Schede analogiche, digitali o con protocollo di comunicazione."
     },
     {
       "id": 156,
@@ -2061,7 +2061,7 @@
         "Ladder diagram",
         "Instruction List"
       ],
-      "answer": null
+      "answer": "Structurated Text"
     },
     {
       "id": 162,
@@ -2091,7 +2091,7 @@
         "Instruction List",
         "Ladder diagram"
       ],
-      "answer": null
+      "answer": "Functional Block Diagram"
     },
     {
       "id": 164,
@@ -2106,7 +2106,7 @@
         "Instruction List",
         "Ladder diagram"
       ],
-      "answer": null
+      "answer": "Functional Block Diagram"
     },
     {
       "id": 165,
@@ -2169,7 +2169,7 @@
         "SFC",
         "FBD"
       ],
-      "answer": null
+      "answer": "IL"
     },
     {
       "id": 169,
@@ -2219,7 +2219,7 @@
         "è una evoluzione industriale delle reti di petri.",
         "è un linguaggio grafico per la programmazione dei regolatori PID."
       ],
-      "answer": null
+      "answer": "è un linguaggio grafico per la programmazione dei regolatori PID."
     },
     {
       "id": 174,
@@ -2233,7 +2233,7 @@
         "ad ogni stato vanno associate le azioni da intraprendere quando l'elemento o il sistema da controllare è in quello stato",
         "due stati vanno sempre separati da una transizione"
       ],
-      "answer": null
+      "answer": "all'avvio del programma, ogni stato viene attivato per un ciclo di controllo"
     },
     {
       "id": 175,
@@ -2247,7 +2247,7 @@
         "ad ogni transizione va associata una sola condizione che ne determina l'attivazione (passaggio ad un nuovo stato)",
         "una transizione connette due stati"
       ],
-      "answer": null
+      "answer": "uno stato deve avere una transizione in ingresso ed una in uscita"
     },
     {
       "id": 176,
@@ -2261,7 +2261,7 @@
         "una transizione attiva determina il cambio di stato.",
         "una transizione si dice abilitata quando lo stato di partenza è attivo"
       ],
-      "answer": null
+      "answer": "una transizione abilitata determina il cambio di stato"
     },
     {
       "id": 177,
@@ -2275,7 +2275,7 @@
         "gli stati iniziali possono essere più di uno",
         "gli stati iniziali si indicano con due quadretti uno dentro l'altro"
       ],
-      "answer": null
+      "answer": "gli stati iniziali sono attivati da una transizione iniziale"
     },
     {
       "id": 178,
@@ -2289,7 +2289,7 @@
         "A decidere se una transizione è attiva oppure abilitata",
         "A gestire l'accesso ad una risorsa in maniera mutuamente esclusiva"
       ],
-      "answer": null
+      "answer": "A gestire l'accesso ad una risorsa in maniera mutuamente esclusiva"
     },
     {
       "id": 179,
@@ -2326,7 +2326,7 @@
         "la minima variazione della grandezza rilevata dal sensore",
         "rapporto fra la variazione rilevata dal sensore e la variazione della grandezza da misurare"
       ],
-      "answer": null
+      "answer": "rapporto fra la variazione rilevata dal sensore e la variazione della grandezza da misurare"
     },
     {
       "id": 182,
@@ -2340,7 +2340,7 @@
         "Nessuna delle altre risposte è corretta.",
         "I dispositivi di elaborazione possono essere centrali, distribuiti o locali."
       ],
-      "answer": null
+      "answer": "I dispositivi di elaborazione possono essere centrali, distribuiti o locali."
     },
     {
       "id": 183,
@@ -2354,7 +2354,7 @@
         "Nessuna delle altre risposte è corretta.",
         "Un trasduttore è un elemento in grado di trasformare il segnale in ingresso da un dominio di partenza (ad es. meccanico) ad un dominio di arrivo (ad es. elettrico)."
       ],
-      "answer": null
+      "answer": "Un trasduttore è un elemento in grado di trasformare il segnale in ingresso da un dominio di partenza (ad es. meccanico) ad un dominio di arrivo (ad es. elettrico)."
     },
     {
       "id": 184,
@@ -2368,7 +2368,7 @@
         "Dispositivi di misura, attuatori, dispositivi di elaborazione della azione di controllo e sistemi informatici e di telecomunicazione.",
         "Computer, bus di campo, alimentazioni e moduli di espansione."
       ],
-      "answer": null
+      "answer": "Dispositivi di misura, attuatori, dispositivi di elaborazione della azione di controllo e sistemi informatici e di telecomunicazione."
     },
     {
       "id": 185,
@@ -2382,7 +2382,7 @@
         "differenza fra il valore fornito dal sensore e il valore effettivamente misurate",
         "rapporto fra la variazione rilevata dal sensore e la variazione della grandezza da misurare"
       ],
-      "answer": null
+      "answer": "differenza fra il valore fornito dal sensore e il valore effettivamente misurate"
     },
     {
       "id": 186,
@@ -2396,7 +2396,7 @@
         "la minima variazione della grandezza rilevata dal convertitore analogico/digitale",
         "differenza fra il valore fornito dal sensore e il valore effettivamente misurate"
       ],
-      "answer": null
+      "answer": "la minima variazione della grandezza rilevata dal sensore"
     },
     {
       "id": 187,
@@ -2410,7 +2410,7 @@
         "nessuna delle altre risposte è corretta.",
         "è un dispositivo fisico in grado di trasformare un segnale in energia"
       ],
-      "answer": null
+      "answer": "è un dispositivo fisico in grado di tradurre grandezze appartenenti ad un sistema energetico in un segnale in un opportuno dominio fisico"
     },
     {
       "id": 188,
@@ -2424,7 +2424,7 @@
         "rapporto fra la variazione rilevata dal sensore e la variazione della grandezza da misurare",
         "differenza fra il valore fornito dal sensore e il valore effettivamente misurate"
       ],
-      "answer": null
+      "answer": "la minima variazione della grandezza rilevata dal convertitore analogico/digitale"
     },
     {
       "id": 189,
@@ -2465,7 +2465,7 @@
         "Nessuna delle altre risposte è corretta.",
         "In base alla tecnologia: idraulico, pneumatico, elettrico, meccanico."
       ],
-      "answer": null
+      "answer": "In base al tipo di uscita: on/off, analogico, digitale, digitalizzato, smart con uscite digitalizzate, intelligenti con uscite digitali."
     },
     {
       "id": 193,
@@ -2513,7 +2513,7 @@
         "ad aria in pressione, a tensione continua, a tensione modulata o corrente continua.",
         "In base al tipo di uscita: on/off, analogico, digitale, digitalizzato, smart con uscite digitalizzate, intelligenti con uscite digitali."
       ],
-      "answer": null
+      "answer": "Attuatori propriamente detti (on/off, moto continuo, moto incrementale) e azionamenti (elettrici, idraulici, pneumatici)"
     },
     {
       "id": 197,
@@ -2527,7 +2527,7 @@
         "nessuna delle altre risposte è corretta.",
         "è un dispositivo fisico in grado di rilevare la presenza di una variabile o il raggiungimento di un valore prefissato"
       ],
-      "answer": null
+      "answer": "è un dispositivo fisico in grado di trasformare un segnale in energia"
     },
     {
       "id": 198,
@@ -2541,7 +2541,7 @@
         "Nessuna delle altre risposte è corretta.",
         "Motori elettrici, attuatori idraulici, attuatori pneumatici."
       ],
-      "answer": null
+      "answer": "Motori elettrici, attuatori idraulici, attuatori pneumatici."
     },
     {
       "id": 199,
@@ -2573,7 +2573,7 @@
         "I motori elettrici da energia elettrica ad energia termica, i motori idraulici da energia fludica ad energia chimica, con alto rendimenti i primi, e basso rendimento, i secondi.",
         "Nessuna delle altre risposte è corretta."
       ],
-      "answer": null
+      "answer": "I motori elettrici da energia elettrica ad energia cinetica, i motori idraulici da energia fludica ad energia cinetica, con alto rendimenti i primi, e basso rendimento, i secondi."
     },
     {
       "id": 201,
@@ -2647,7 +2647,7 @@
         "il supervisoreè un DEDS che evolve in modo asincrono ed interagisce con il processo da controllare attraverso segnali",
         "il supervisore è un DEDS che evolve in modo asincrono ed interagisce con il processo da controllare attraverso eventi"
       ],
-      "answer": null
+      "answer": "il supervisoreè un DEDS che evolve in modo sincrono ed interagisce con il processo da controllare attraverso eventi"
     },
     {
       "id": 208,
@@ -2675,7 +2675,7 @@
         "Il concetto di stato in una rete di Petri è distribuito tra le transizioni",
         "Il concetto di stato in una rete di Petri è distribuito tra i posti"
       ],
-      "answer": null
+      "answer": "Il concetto di stato in una rete di Petri è distribuito tra i posti"
     },
     {
       "id": 210,
@@ -2689,7 +2689,7 @@
         "Le reti di Petri sono modelli basati su eventi",
         "a delle entità dette posti"
       ],
-      "answer": null
+      "answer": "a transizioni dello stato"
     },
     {
       "id": 211,
@@ -2703,7 +2703,7 @@
         "Una rete di Petri è un grafo di Petri a cui è associata una fuznione di marcatura, che rappresenta gli ingressi della rete",
         "Una rete di Petri è un grafo di Petri a cui è associata una funzione di marcatura, che rappresenta la transizione di stato della rete"
       ],
-      "answer": null
+      "answer": "Una rete di Petri è un grafo di Petri a cui è associata una fuuzione di marcatura, che rappresenta lo stato attuale della rete"
     },
     {
       "id": 212,
@@ -2768,7 +2768,7 @@
         "Un sequenza di transizioni, che una volta eseguita, lascia cambia la marcatura iniziale della rete di Petri.",
         "Un insieme di posti che contiene lo stesso numero di token dopo l'esecuzione di un insieme specifico di transizioni"
       ],
-      "answer": null
+      "answer": "Un sequenza di transizioni, che una volta eseguita, lascia invariata la marcatura della rete di Petri, riflettendo un comportamento ciclico del sistema"
     },
     {
       "id": 216,
@@ -2782,7 +2782,7 @@
         "un solo nodo",
         "un numero finito di nodi"
       ],
-      "answer": null
+      "answer": "un numero finito di nodi"
     },
     {
       "id": 217,
@@ -2796,7 +2796,7 @@
         "Depth-fish",
         "Fifo"
       ],
-      "answer": null
+      "answer": "Depth-first"
     },
     {
       "id": 218,
@@ -2810,7 +2810,7 @@
         "vivezza della rete",
         "Spazio degli stati di reti complesse"
       ],
-      "answer": null
+      "answer": "Spazio degli stati di reti complesse"
     },
     {
       "id": 219,
@@ -2824,7 +2824,7 @@
         "Uno strumento grafico che rappresenta visivamente tutte le marcature raggiungibili e le sequenze di scatti",
         "Uno strumento grafico che rappresenta visivamente solo alcune marcature raggiungibili e le sequenze di scatti"
       ],
-      "answer": null
+      "answer": "Uno strumento grafico che rappresenta visivamente tutte le marcature raggiungibili e le sequenze di scatti"
     },
     {
       "id": 220,
@@ -2847,7 +2847,7 @@
         "La descrizione delle funzioni o delle operazioni eseguite dal sistema e delle loro relazioni di dipendenza",
         "La quantità di risore consumate e prodotte dal sistema durante il suo funzionamento"
       ],
-      "answer": null
+      "answer": "La descrizione delle funzioni o delle operazioni eseguite dal sistema e delle loro relazioni di dipendenza"
     },
     {
       "id": 222,
@@ -2879,7 +2879,7 @@
         "Un sistema controllato in anello aperto",
         "Un sistema controllato in controreazione"
       ],
-      "answer": null
+      "answer": "Un sistema controllato in controreazione"
     },
     {
       "id": 225,
@@ -2893,7 +2893,7 @@
         "L'errore di misura e l'errre di staima non sono correlati",
         "L'errore di misura non introduce un errore costante"
       ],
-      "answer": null
+      "answer": "L'errore di misura e l'errre di staima sono correlati"
     },
     {
       "id": 226,
@@ -2907,7 +2907,7 @@
         "Calcola il valore medio di un segnale variabile nel tempo",
         "Un algoritmo di elaborazione di un segnale che modifica i propri parametri in tempo reale per ottimizzare la cancellazione del rumore in segnali costanti."
       ],
-      "answer": null
+      "answer": "Un algoritmo di elaborazione di un segnale che modifica i propri parametri in tempo reale per ottimizzare la cancellazione del rumore in segnali variabili"
     },
     {
       "id": 227,
@@ -2921,7 +2921,7 @@
         "cause degenerative",
         "cause dovute a condizioni anomale"
       ],
-      "answer": null
+      "answer": "Cause dovute a danni dolosi"
     },
     {
       "id": 228,
